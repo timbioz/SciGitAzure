@@ -1,0 +1,122 @@
+2013-02-05 13:25:00,105 [172] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Не удается неявно преобразовать тип "Orchard.Themes.Models.ThemeEntry" в "Orchard.ContentManagement.ContentPart"
+   в CallSite.Target(Closure , CallSite , Object )
+   в System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   в CallSite.Target(Closure , CallSite , Object )
+   в Orchard.DesignerTools.Services.WidgetAlternatesFactory.<Displaying>b__5(ShapeDisplayingContext displayedContext)
+   в Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__5(Action`1 action) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:строка 78
+   в Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\InvokeExtensions.cs:строка 17
+2013-02-05 13:25:00,499 [172] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Не удается неявно преобразовать тип "Orchard.Themes.Models.ThemeEntry" в "Orchard.ContentManagement.ContentPart"
+   в CallSite.Target(Closure , CallSite , Object )
+   в Orchard.DesignerTools.Services.WidgetAlternatesFactory.<Displaying>b__5(ShapeDisplayingContext displayedContext)
+   в Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__5(Action`1 action) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:строка 78
+   в Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\InvokeExtensions.cs:строка 17
+2013-02-05 13:25:00,561 [172] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Не удается неявно преобразовать тип "Orchard.Themes.Models.ThemeEntry" в "Orchard.ContentManagement.ContentPart"
+   в CallSite.Target(Closure , CallSite , Object )
+   в Orchard.DesignerTools.Services.WidgetAlternatesFactory.<Displaying>b__5(ShapeDisplayingContext displayedContext)
+   в Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__5(Action`1 action) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:строка 78
+   в Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\InvokeExtensions.cs:строка 17
+2013-02-05 13:49:20,725 [118] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Не удается неявно преобразовать тип "Orchard.Themes.Models.ThemeEntry" в "Orchard.ContentManagement.ContentPart"
+   в CallSite.Target(Closure , CallSite , Object )
+   в System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   в CallSite.Target(Closure , CallSite , Object )
+   в Orchard.DesignerTools.Services.WidgetAlternatesFactory.<Displaying>b__5(ShapeDisplayingContext displayedContext)
+   в Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__5(Action`1 action) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:строка 78
+   в Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\InvokeExtensions.cs:строка 17
+2013-02-05 13:49:20,727 [118] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Не удается неявно преобразовать тип "Orchard.Themes.Models.ThemeEntry" в "Orchard.ContentManagement.ContentPart"
+   в CallSite.Target(Closure , CallSite , Object )
+   в Orchard.DesignerTools.Services.WidgetAlternatesFactory.<Displaying>b__5(ShapeDisplayingContext displayedContext)
+   в Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__5(Action`1 action) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:строка 78
+   в Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\InvokeExtensions.cs:строка 17
+2013-02-05 13:49:20,728 [118] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Не удается неявно преобразовать тип "Orchard.Themes.Models.ThemeEntry" в "Orchard.ContentManagement.ContentPart"
+   в CallSite.Target(Closure , CallSite , Object )
+   в Orchard.DesignerTools.Services.WidgetAlternatesFactory.<Displaying>b__5(ShapeDisplayingContext displayedContext)
+   в Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__5(Action`1 action) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:строка 78
+   в Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\InvokeExtensions.cs:строка 17
+2013-02-05 14:29:14,779 [110] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Не удается неявно преобразовать тип "Orchard.Themes.Models.ThemeEntry" в "Orchard.ContentManagement.ContentPart"
+   в CallSite.Target(Closure , CallSite , Object )
+   в System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   в CallSite.Target(Closure , CallSite , Object )
+   в Orchard.DesignerTools.Services.WidgetAlternatesFactory.<Displaying>b__5(ShapeDisplayingContext displayedContext)
+   в Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__5(Action`1 action) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:строка 78
+   в Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\InvokeExtensions.cs:строка 17
+2013-02-05 14:29:15,174 [110] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Не удается неявно преобразовать тип "Orchard.Themes.Models.ThemeEntry" в "Orchard.ContentManagement.ContentPart"
+   в CallSite.Target(Closure , CallSite , Object )
+   в Orchard.DesignerTools.Services.WidgetAlternatesFactory.<Displaying>b__5(ShapeDisplayingContext displayedContext)
+   в Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__5(Action`1 action) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:строка 78
+   в Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\InvokeExtensions.cs:строка 17
+2013-02-05 14:29:15,235 [110] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Не удается неявно преобразовать тип "Orchard.Themes.Models.ThemeEntry" в "Orchard.ContentManagement.ContentPart"
+   в CallSite.Target(Closure , CallSite , Object )
+   в Orchard.DesignerTools.Services.WidgetAlternatesFactory.<Displaying>b__5(ShapeDisplayingContext displayedContext)
+   в Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__5(Action`1 action) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:строка 78
+   в Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\InvokeExtensions.cs:строка 17
+2013-02-05 14:33:19,848 [27] Orchard.ContentManagement.Drivers.Coordinators.ContentPartDriverCoordinator - ArgumentNullException thrown from IContentPartDriver by Orchard.Search.Drivers.SearchSettingsPartDriver
+System.ArgumentNullException: Значение не может быть неопределенным.
+Имя параметра: source
+   в System.Linq.Enumerable.Where[TSource](IEnumerable`1 source, Func`2 predicate)
+   в Orchard.Search.Drivers.SearchSettingsPartDriver.<>c__DisplayClass9.<Editor>b__6()
+   в Orchard.ContentManagement.Drivers.ContentPartDriver`1.<>c__DisplayClassf.<ContentShape>b__e(BuildShapeContext ctx) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\ContentManagement\Drivers\ContentPartDriver.cs:строка 130
+   в Orchard.ContentManagement.Drivers.ContentPartDriver`1.<>c__DisplayClass15.<ContentShapeImplementation>b__14(BuildShapeContext ctx) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\ContentManagement\Drivers\ContentPartDriver.cs:строка 139
+   в Orchard.ContentManagement.Drivers.ContentShapeResult.ApplyImplementation(BuildShapeContext context, String displayType) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\ContentManagement\Drivers\ContentShapeResult.cs:строка 39
+   в Orchard.ContentManagement.Drivers.ContentShapeResult.Apply(BuildEditorContext context) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\ContentManagement\Drivers\ContentShapeResult.cs:строка 25
+   в Orchard.ContentManagement.Drivers.Coordinators.ContentPartDriverCoordinator.<>c__DisplayClass10.<UpdateEditor>b__f(IContentPartDriver driver) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\ContentManagement\Drivers\Coordinators\ContentPartDriverCoordinator.cs:строка 65
+   в Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\InvokeExtensions.cs:строка 17
+2013-02-05 14:33:22,602 [27] Orchard.ContentManagement.Drivers.Coordinators.ContentPartDriverCoordinator - ArgumentNullException thrown from IContentPartDriver by Orchard.Search.Drivers.SearchSettingsPartDriver
+System.ArgumentNullException: Значение не может быть неопределенным.
+Имя параметра: source
+   в System.Linq.Enumerable.Where[TSource](IEnumerable`1 source, Func`2 predicate)
+   в Orchard.Search.Drivers.SearchSettingsPartDriver.<>c__DisplayClass9.<Editor>b__6()
+   в Orchard.ContentManagement.Drivers.ContentPartDriver`1.<>c__DisplayClassf.<ContentShape>b__e(BuildShapeContext ctx) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\ContentManagement\Drivers\ContentPartDriver.cs:строка 130
+   в Orchard.ContentManagement.Drivers.ContentPartDriver`1.<>c__DisplayClass15.<ContentShapeImplementation>b__14(BuildShapeContext ctx) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\ContentManagement\Drivers\ContentPartDriver.cs:строка 139
+   в Orchard.ContentManagement.Drivers.ContentShapeResult.ApplyImplementation(BuildShapeContext context, String displayType) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\ContentManagement\Drivers\ContentShapeResult.cs:строка 39
+   в Orchard.ContentManagement.Drivers.ContentShapeResult.Apply(BuildEditorContext context) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\ContentManagement\Drivers\ContentShapeResult.cs:строка 25
+   в Orchard.ContentManagement.Drivers.Coordinators.ContentPartDriverCoordinator.<>c__DisplayClass10.<UpdateEditor>b__f(IContentPartDriver driver) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\ContentManagement\Drivers\Coordinators\ContentPartDriverCoordinator.cs:строка 65
+   в Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\InvokeExtensions.cs:строка 17
+2013-02-05 22:30:50,321 [12] NHibernate.Util.ADOExceptionReporter - A parameter is missing. [ Parameter ordinal = 1 ]
+2013-02-05 22:30:50,323 [12] NHibernate.Util.ADOExceptionReporter - A parameter is missing. [ Parameter ordinal = 1 ]
+2013-02-05 22:30:50,324 [12] Orchard.ContentManagement.DefaultContentManager - GenericADOException thrown from IContentHandler by Contrib.Taxonomies.Handlers.TermPartHandler
+NHibernate.Exceptions.GenericADOException: could not execute query
+[ select termconten0_.Id as Id172_, termconten0_.Field as Field172_, termconten0_.TermRecord_id as TermRecord3_172_, termconten0_.TermsPartRecord_id as TermsPar4_172_ from Contrib_Taxonomies_TermContentItem termconten0_ inner join Contrib_Taxonomies_TermsPartRecord termspartr1_ on termconten0_.TermsPartRecord_id=termspartr1_.Id where termspartr1_.Id=@p0 ]
+  Name:p1 - Value:Orchard.ContentManagement.Records.ContentItemRecord
+[SQL: select termconten0_.Id as Id172_, termconten0_.Field as Field172_, termconten0_.TermRecord_id as TermRecord3_172_, termconten0_.TermsPartRecord_id as TermsPar4_172_ from Contrib_Taxonomies_TermContentItem termconten0_ inner join Contrib_Taxonomies_TermsPartRecord termspartr1_ on termconten0_.TermsPartRecord_id=termspartr1_.Id where termspartr1_.Id=@p0] ---> System.Data.SqlServerCe.SqlCeException: A parameter is missing. [ Parameter ordinal = 1 ]
+   в System.Data.SqlServerCe.SqlCeDataReader.ProcessResults(Int32 hr)
+   в System.Data.SqlServerCe.SqlCeDataReader.IsEndOfRowset(Int32 hr)
+   в System.Data.SqlServerCe.SqlCeDataReader.Move(DIRECTION direction)
+   в System.Data.SqlServerCe.SqlCeDataReader.Read()
+   в NHibernate.Driver.NHybridDataReader.Read()
+   в NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   в NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   в NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- Конец трассировки внутреннего стека исключений ---
+   в NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   в NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   в NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   в NHibernate.Hql.Ast.ANTLR.Loader.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   в NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   в NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   в NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   в NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   в NHibernate.Impl.ExpressionQueryImpl.List()
+   в NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   в NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   в NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   в Remotion.Linq.QueryableBase`1.GetEnumerator()
+   в System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   в System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   в Orchard.Utility.Extensions.ReadOnlyCollectionExtensions.ToReadOnlyCollection[T](IEnumerable`1 enumerable) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\Utility\Extensions\ReadOnlyCollectionExtensions.cs:строка 8
+   в Orchard.Data.Repository`1.Orchard.Data.IRepository<T>.Fetch(Expression`1 predicate) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\Data\Repository.cs:строка 72
+   в Contrib.Taxonomies.Services.TaxonomyService.DeleteAssociatedTerms(ContentItem contentItem)
+   в Contrib.Taxonomies.Handlers.TermPartHandler.<>c__DisplayClass8.<.ctor>b__0(RemoveContentContext context, IContent tags)
+   в Orchard.ContentManagement.Handlers.ContentHandler.InlineStorageFilter`1.Removed(RemoveContentContext context, TPart instance) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:строка 168
+   в Orchard.ContentManagement.Handlers.StorageFilterBase`1.Orchard.ContentManagement.Handlers.IContentStorageFilter.Removed(RemoveContentContext context) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\ContentManagement\Handlers\StorageFilterBase.cs:строка 101
+   в Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.Removed(RemoveContentContext context) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:строка 298
+   в Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass48.<Remove>b__47(IContentHandler handler) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\ContentManagement\DefaultContentManager.cs:строка 409
+   в Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\InvokeExtensions.cs:строка 17

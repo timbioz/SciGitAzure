@@ -1,0 +1,86 @@
+﻿<div id="login-dialog" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <ul class="nav nav-tabs" id="logon-tabs">
+        <li class="active"><a href="#logon-tab" data-toggle="tab">Вход</a></li>
+        <li><a href="#register-tab" data-toggle="tab">Регистрация</a></li>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    </ul>
+
+    <div class="tab-content">
+        <div id="logon-tab" class="tab-pane active">
+            @using (Html.BeginFormAntiForgeryPost(Url.Action("LogOn", new { Controller = "Account", Area = "Orchard.Users", ReturnUrl = Request.QueryString["ReturnUrl"] })))
+            {
+                <fieldset class="login-form group">
+                    <ul>
+                        <li>
+                            <label for="username-email">@T("Имя пользователя:")</label>
+                            <div class="input-prepend">
+                                <span class="add-on"><i class="icon-user"></i></span>
+                                @Html.TextBox("userNameOrEmail", "", new { id = "username-email", autofocus = "autofocus" })
+                            </div>
+                            @Html.ValidationMessage("userNameOrEmail", new { @class = "text-error" })
+                        </li>
+                        <li>
+                            <label for="password">@T("Пароль:")</label>
+                            <div class="input-prepend">
+                                <span class="add-on"><i class="icon-lock"></i></span>
+                                @Html.Password("password")
+                            </div>
+                            @Html.ValidationMessage("password", new { @class = "text-error" })
+                        </li>
+                        <li>
+                            <label class="checkbox" for="remember-me">
+                                @Html.CheckBox("rememberMe", new { id = "remember-me" })@T("Запомнить")
+                            </label>
+                        </li>
+                    </ul>
+                    <button class="btn btn-inverse" type="submit">@T("Войти")</button>
+                </fieldset>
+            }
+        </div>
+        <div id="register-tab" class="tab-pane register-dialog">
+
+            @Html.ValidationSummary(T("Account creation was unsuccessful. Please correct the errors and try again.").ToString(), new { @class = "text-error" })
+            @using (Html.BeginFormAntiForgeryPost(Url.Action("Register", new { Controller = "Account", Area = "Orchard.Users", ReturnUrl = Request.QueryString["ReturnUrl"] })))
+            {
+                <fieldset>
+
+                    <div>
+                        <label for="username">@T("Имя пользователя")</label>
+                        <div class="input-prepend">
+                            <span class="add-on"><i class="icon-user"></i></span>
+                            @Html.TextBox("username")
+                        </div>
+                        @Html.ValidationMessage("username", new { @class = "text-error" })
+                    </div>
+                    <div>
+                        <label for="email">@T("Email")</label>
+                        <div class="input-prepend">
+                            <span class="add-on"><i class="icon-envelope"></i></span>
+                            @Html.TextBox("email")
+                        </div>
+                        @Html.ValidationMessage("email", new { @class = "text-error" })
+                    </div>
+                    <div>
+                        <label for="password">@T("Пароль:")</label>
+                        <div class="input-prepend">
+                            <span class="add-on"><i class="icon-lock"></i></span>
+                            @Html.Password("password")
+                        </div>
+                        @Html.ValidationMessage("password", new { @class = "text-error" })
+                    </div>
+                    <div>
+                        <label for="confirmPassword">@T("Подтвердите пароль:")</label>
+                        <div class="input-prepend">
+                            <span class="add-on"><i class="icon-lock"></i></span>
+                            @Html.Password("confirmPassword")
+                        </div>
+                        @Html.ValidationMessage("confirmPassword", new { @class = "text-error" })
+                    </div>
+                    <button class="btn btn-inverse" type="submit">@T("Регистрация")</button>
+                </fieldset>
+            }
+        </div>
+    </div>
+    <div class="modal-footer">
+    </div>
+</div>

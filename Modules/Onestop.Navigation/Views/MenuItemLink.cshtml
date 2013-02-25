@@ -1,0 +1,29 @@
+﻿@using Onestop.Navigation.Models
+@using Orchard.ContentManagement
+@{
+    var item = ((IContent)Model.Content).As<ExtendedMenuItemPart>();
+    
+    //This can happen if Model.Content is not of a MenuItem stereotype, eg. in Query Links
+    var displayText = item == null || item.DisplayText;
+    var displayHref = item == null || item.DisplayHref;
+    var inNewWindow = item != null && item.InNewWindow;
+}
+
+
+@if (displayText)
+{
+    if (displayHref)
+    {
+        <a href="@(Model.Href)" class="@string.Join(" ", Model.Classes)" @(inNewWindow ? "target=\"_blank\"" : "")>@Model.Text</a>
+    }
+    else
+    {
+        <div class="@string.Join(" ", Model.Classes)">@Model.Text</div>
+    }
+
+    if (item != null && item.SubTitle != null)
+    {
+        <div class="subtitle">@item.SubTitle</div>
+    }
+}
+

@@ -1,0 +1,38 @@
+﻿@using Orchard.ContentManagement
+@using Orchard.Utility.Extensions;
+@using Orchard.Media.Helpers;
+
+@{
+    var title = Model.ContentItem.TitlePart.Title;
+    var sTitle = Model.ContentItem.SubTitle.Fields[0].Value;
+    string name = Model.ContentField.DisplayName;
+    ContentItem contentItem = Model.ContentItem;
+    string url = Url.ItemDisplayUrl(contentItem);
+}
+
+@if (Html.IsPicture((string)Model.ContentField.Url))
+{
+    <a href="@url" title="Прочитать статью: @title">
+        <img title="Узнайте почему @sTitle" src="@Url.Content(Model.ContentField.Url)"@if (!String.IsNullOrWhiteSpace(Model.ContentField.Class))
+                                                                {
+                 <text> class="@Model.ContentField.Class"</text>
+                                                                }@if (!String.IsNullOrWhiteSpace(Model.ContentField.Style))
+              {
+                 <text> style="@Model.ContentField.Style"</text>
+              }@if (!String.IsNullOrWhiteSpace(Model.ContentField.AlternateText))
+              {
+                 <text> alt="@Model.ContentField.AlternateText"</text>
+              }@if (!String.IsNullOrWhiteSpace(Model.ContentField.Alignment))
+              {
+                 <text> align="@Model.ContentField.Alignment"</text>
+              }@if (Model.ContentField.Width > 0)
+              {
+                 <text> width="@Model.ContentField.Width"</text>
+              }@if (Model.ContentField.Height > 0)
+              {
+                 <text> height="@Model.ContentField.Height"</text>
+              }/></a>
+}
+    else if (!String.IsNullOrWhiteSpace(Model.ContentField.Url)) {
+        <a href="@Url.Content(Model.ContentField.Url)" class="value">@name</a>
+    }

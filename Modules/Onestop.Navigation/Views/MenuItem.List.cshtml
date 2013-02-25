@@ -1,0 +1,30 @@
+﻿@using Onestop.Navigation.Models
+@using Orchard.ContentManagement
+@{
+    var items = Model.MenuItems as IEnumerable<IContent>;
+    var parent = Model.Parent as ExtendedMenuItemPart;
+    var differentiator = Model.Differentiator as string;
+    var classes = Model.Classes != null ? string.Join(" ", (IEnumerable<string>)Model.Classes) : "";
+    var allowEdit = Model.AllowEdit != null && (bool)Model.AllowEdit;
+}
+
+        @if(items != null)
+        {
+            foreach (var item in items)
+            {
+                <li class="item @(classes) @(item.As<ExtendedMenuItemPart>().IsRemoved ? "no-nest" : "")" 
+                    id="item-@(item.Id)" 
+                    data-id="@item.Id" 
+                    data-parentid="@(parent != null ? parent.Id : 0)" 
+                    data-source="#list-@(differentiator)-@(parent != null ? parent.Id : 0)"
+                    data-position="@(item.As<ExtendedMenuItemPart>().Position)">
+                    @if(Model.ShowToggle != null && Model.ShowToggle)
+                    {
+                        <div class="toggle-expand toggle">&nbsp;</div>
+                    }
+                    @Display.MenuItem_Summary(Item: item, Children: null, AllowEdit: allowEdit)
+                    @* Sublist is empty - loaded via AJAX*@
+                    @Display.MenuItem_SummaryList(MenuItems: null, Differentiator: differentiator, Parent: item, Classes: Model.Classes, ShowToggle: Model.ShowToggle, UpdateAfterDrop: Model.UpdateAfterDrop, HasChanged: Model.HasChanged)
+                </li>
+            }
+        }

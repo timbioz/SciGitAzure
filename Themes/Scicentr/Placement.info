@@ -1,0 +1,85 @@
+<Placement>
+  <!-- Customize where the shapes are rendered -->
+
+  
+  
+  <!--Article Section Detail & Summary-->
+  <Match ContentType="Article">
+    <Match DisplayType="Detail">
+      <Place Parts_Title="Header:1"/>
+      <Place Fields_Common_Text-SubTitle="Header:2"/>
+      <Place Parts_Common_Metadata="Header:3; Alternate=Parts_Common_Metadata_Detail"/>
+      
+      <Place Fields_MediaPicker-PublicationImage="Image:1"/>
+      <Place Fields_Common_Text-PreviewText="Content:1; Alternate=Fields_Common_Text_Article_PreviewText_Detail"/>
+      <Place Parts_Common_Body="Content:2; Wrapper=Wrapper_Article_Body_Text"/>
+      <Place Fields_Link-sourceLink="Content:3"/>
+      <Place Fields_Contrib_TaxonomyField-Tags="Content:4"/>
+      <Place Parts_Stars="Content:7"/>
+      <Place Parts_ListOfComments="Comments:1"/>
+      <Place Parts_CommentForm="Comments:2"/>
+      <Place Fields_Contrib_TaxonomyField-PublicationRubric="-"/>
+      <Place Fields_Contrib_TaxonomyField-PublicationSection="-"/>
+      <Place Fields_Contrib_TaxonomyField-PublicationTheme="-"/>
+      <Place Fields_Boolean-PublicationSettingRecommended="-"/>
+      <Place Fields_Numeric-Priority="-"/>
+      <Place Fields_Common_Text-Keywords="-"/>
+      <Place Fields_Enumeration-SectionSlug="-"/>
+    </Match>
+    <Match DisplayType="Summary">
+      <Place Fields_MediaPicker-PublicationImage="Image:1"/>
+      <Place Parts_Common_Metadata_Summary="Meta:1"/>
+      <Place Parts_Comments_Count="Left:1"/>
+      <Place Fields_Common_Text-PreviewText="Content:2; Alternate=Fields_Common_Text_Article_PreviewText_Summary"/>
+      <Place Fields_Common_Text-SubTitle="-"/>
+      <Place Parts_UserView_Summary="-"/>
+      <Place Parts_Stars="-"/>
+      <Place Fields_Contrib_TaxonomyField-PublicationRubric="-"/>
+      <Place Fields_Contrib_TaxonomyField-PublicationSection="-"/>
+      <Place Fields_Contrib_TaxonomyField-PublicationTheme="-"/>
+      <Place Fields_Link-sourceLink="-"/>
+      <Place Fields_Contrib_TaxonomyField-Tags="-"/>
+      <Place Fields_Boolean-PublicationSettingRecommended="-"/>
+      <Place Fields_Enumeration-SectionSlug="-"/>
+      <Place Fields_Numeric-Priority="-"/>
+      <Place Fields_Common_Text-Keywords="-"/>
+      <Place Pager_CurrentPage="-"/>
+    </Match>
+    
+  </Match>
+
+  <Match DisplayType="ThinRecent">
+    <Place Fields_Contrib_TaxonomyField-PublicationRubric="Header:1; Alternate=ThinRecent_Rubric"/>
+    <Place Fields_MediaPicker-PublicationImage="Content:1; Alternate=ThinRecent_Image"/>
+    <Place Parts_Title_Summary="Content:2; Alternate=ThinRecent_Title"/>
+    <Place Parts_Stars="-"/>
+    <Place Fields_Common_Text="-"/>
+    <Place Parts_Common_Body_Summary="-"/>
+    <Place Fields_Boolean="-"/>
+    <Place Fields_Numeric="-"/>
+    <Place Fields_Enumeration="-"/>
+    <Place Fields_Link="-"/>
+  </Match>
+
+  <Match ContentType="Comment">
+    <Place Parts_Common_Metadata_Summary="-"/>
+  </Match>
+
+  <Match DisplayType="HomeTopRecent">
+    <Place Fields_MediaPicker="Image:1"/>
+    <Place Parts_Title_Summary="Header:1"/>
+    <Place Parts_Common_Metadata_Summary="Meta:1"/>
+    <Place Fields_Common_Text-PreviewText="Content:1; Alternate=Fields_Common_Text_Article_PreviewText_HomeTopRecent"/>
+    <Place Parts_Common_Body_Summary="-"/>
+    <Place Parts_Stars="-"/>
+    <Place Fields_Boolean-PublicationSettingRecommended="-"/>
+    <Place Fields_Enumeration-SectionSlug="-"/>
+    <Place Fields_Link-sourceLink="-"/>
+  </Match>
+  <Match Path="~/">
+    <Place Parts_Title="-"/>
+    <Place Fields_Contrib_TaxonomyField-PublicationTheme="Category:1; Alternate=Fields_Contrib_TaxonomyField_PublicationTheme_Homepage"/>
+    <Place Fields_Common_Text-SubTitle="Subtitle:1"/>
+  </Match>
+  
+</Placement>

@@ -1,0 +1,1398 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:og="http://ogp.me/ns#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<meta property="og:url" content="http://scicentr.ru/" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<meta property="og:site_name" content="Science Center" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+<link rel="shortcut icon" href="http://scicentr.ru/sites/default/files/favicon_0.ico" />
+<meta property="og:title" content="Science Center" />
+<link rel="shortlink" href="http://scicentr.ru/" />
+<link rel="alternate" title="Articles" href="http://scicentr.ru/articles/recent/feed.xml" />
+<link rel="alternate" title="Articles" href="http://scicentr.ru/articles/featured/feed.xml" />
+<link rel="alternate" title="recent blog roll" href="http://scicentr.ru/blog/recent.xml" />
+<link href="http://plus.google.com/117543575419686917899" rel="publisher" />
+<link rel="canonical" href="http://scicentr.ru/" />
+<meta property="og:type" content="website" />
+  <title>Science Center | Центр последних новостей науки и техники – ваш интернет-портал в будущее</title>
+  <link rel="stylesheet" href="http://scicentr.ru/sites/default/files/css/css_ogjvJnfni1_P_WxvXAHlUOgCs860b3ip9DNMapcIGeM.css" media="all" />
+<link rel="stylesheet" href="http://scicentr.ru/sites/default/files/css/css_zOQVCCE9EW-sHYimj3rnYTj43Ox58fN_U3wqwDlN724.css" media="all" />
+<link rel="stylesheet" href="http://scicentr.ru/sites/default/files/css/css_DkgL1H5Iv3bnYX2ilabVw-LHY9LfoOEHDPmUnVSamvw.css" media="all" />
+<link rel="stylesheet" href="http://scicentr.ru/sites/default/files/css/css_UEX67lTpnr3AZpomzpHwkXysWl5R-bfGoK-an3M-1Ck.css" media="all" />
+<link rel="stylesheet" href="http://scicentr.ru/sites/default/files/css/css_jQxtN21y-nsynipriu_NbhrQadnDI9UjVVhVh3URz48.css" media="all" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:700,700italic,italic,regular|PT+Sans+Caption:700,regular|PT+Sans+Narrow:700,regular&amp;subset=cyrillic,latin,latin-ext" media="all" />
+<link rel="stylesheet" href="http://scicentr.ru/sites/default/files/css/css_TL1SdTaqCXv1vzmxV0KO29mFfmDtsRz65FmqeLiVezU.css" media="all" />
+
+<!--[if (lt IE 9)&(!IEMobile)]>
+<link rel="stylesheet" href="http://scicentr.ru/sites/default/files/css/css_VN1VgXG0X96PzfQHnZq0apMWIdwFDxmv9Tq0YsezYCk.css" media="all" />
+<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<link rel="stylesheet" href="http://scicentr.ru/sites/default/files/css/css_IgRlhtFJocuLlyq2rKjQQgB_YPDM609t3JimN9dqQHE.css" media="all" />
+<!--<![endif]-->
+  <script src="http://scicentr.ru/sites/default/files/js/js_3jHghlMLrjr9xXAC0JufqSSch3oAbkZstSqYdc4uuck.js"></script>
+<script src="http://scicentr.ru/sites/default/files/js/js_7Ibehq4_kqH2Norot9awjNG2Tpmt2R7iB3DQ6QpLNfw.js"></script>
+<script src="http://scicentr.ru/sites/default/files/js/js_GdbyNDZF3CnZoRGHb6OFth6r5eGfHT-UUy7DJbb6tOk.js"></script>
+<script src="http://scicentr.ru/sites/all/modules/lightbox2/js/lightbox.js?1361799868"></script>
+<script src="http://scicentr.ru/sites/default/files/js/js_0xYL3XzWjwN69DdwkOzGZVlNyOoZ9usqthhO_CUNLDQ.js"></script>
+<script>
+var a2a_config=a2a_config||{},da2a={done:false,html_done:false,script_ready:false,script_load:function(){var a=document.createElement('script'),s=document.getElementsByTagName('script')[0];a.type='text/javascript';a.async=true;a.src='http://static.addtoany.com/menu/page.js';s.parentNode.insertBefore(a,s);da2a.script_load=function(){};},script_onready:function(){da2a.script_ready=true;if(da2a.html_done)da2a.init();},init:function(){for(var i=0,el,target,targets=da2a.targets,length=targets.length;i<length;i++){el=document.getElementById('da2a_'+(i+1));target=targets[i];a2a_config.linkname=target.title;a2a_config.linkurl=target.url;if(el)a2a.init('page',{target:el});da2a.done=true;}}};a2a_config.tracking_callback=['ready',da2a.script_onready];
+</script>
+<script src="http://scicentr.ru/sites/default/files/js/js_lgAAOlplEun7p_8Pb-8dM079wtvnfwLZ0hAK0mH7Dto.js"></script>
+<script>
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-35455755-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+</script>
+<script src="http://scicentr.ru/sites/default/files/js/js_GrhbVn5D8iIPyju5qFi6iNY-HRMq6s8KIc84wZ7Z39U.js"></script>
+<script src="http://scicentr.ru/sites/default/files/js/js_bc25y4cqVyk4KQwglqoJhpxtc7zDhKzuxOyNhYn-N5g.js"></script>
+<script src="http://scicentr.ru/sites/default/files/js/js_5PcLS4DRn7eDha1-FwHomxtR6fPpZF5yct5L7PdsGvE.js"></script>
+<script>
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"community","theme_token":"5js91wOSO7AF9uaWg-M-ZJDPXYTemWU210u3obJjfvc","css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"sites\/all\/modules\/collapsiblock\/collapsiblock.css":1,"sites\/all\/modules\/mollom\/mollom.css":1,"modules\/poll\/poll.css":1,"sites\/all\/modules\/simpleads\/simpleads.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/dropletz_helper\/modules\/dropletz_helper_plugins\/css\/tinymce_style.css":1,"sites\/all\/modules\/follow\/follow.css":1,"sites\/all\/modules\/lightbox2\/css\/lightbox.css":1,"sites\/all\/modules\/nice_menus\/nice_menus.css":1,"sites\/all\/modules\/nice_menus\/nice_menus_default.css":1,"sites\/all\/modules\/addtoany\/addtoany.css":1,"sites\/all\/themes\/community\/css\/sf-horizontal.css":1,"sites\/all\/modules\/quicktabs\/css\/quicktabs.css":1,"sites\/all\/themes\/community\/css\/style.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/all\/themes\/omega\/omega\/css\/formalize.css":1,"sites\/all\/themes\/community\/css\/skinr-styles.css":1,"sites\/all\/themes\/community\/css\/flex-slider.css":1,"sites\/all\/themes\/community\/css\/skins\/blue.css":1,"sites\/all\/themes\/community\/css\/patterns\/vichy.css":1,"http:\/\/fonts.googleapis.com\/css?family=PT+Sans:700,700italic,italic,regular|PT+Sans+Caption:700,regular|PT+Sans+Narrow:700,regular\u0026subset=cyrillic,latin,latin-ext":1,"sites\/all\/themes\/community\/css\/tipsy.min.css":1,"sites\/all\/themes\/community\/css\/responsive.css":1,"sites\/all\/themes\/community\/css\/global.css":1,"ie::normal::sites\/all\/themes\/community\/css\/community-alpha-default.css":1,"ie::normal::sites\/all\/themes\/community\/css\/community-alpha-default-normal.css":1,"ie::normal::sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"narrow::sites\/all\/themes\/community\/css\/community-alpha-default.css":1,"narrow::sites\/all\/themes\/community\/css\/community-alpha-default-narrow.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/narrow\/alpha-default-narrow-12.css":1,"normal::sites\/all\/themes\/community\/css\/community-alpha-default.css":1,"normal::sites\/all\/themes\/community\/css\/community-alpha-default-normal.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"wide::sites\/all\/themes\/community\/css\/community-alpha-default.css":1,"wide::sites\/all\/themes\/community\/css\/community-alpha-default-wide.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/wide\/alpha-default-wide-12.css":1},"js":{"0":1,"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/collapsiblock\/collapsiblock.js":1,"sites\/all\/modules\/simpleads\/simpleads.js":1,"misc\/progress.js":1,"public:\/\/languages\/ru_4NdhDqgn5Yg6nklR_Yyk5xKwE2xSTwvysuhLFz6dz1Q.js":1,"sites\/all\/modules\/lightbox2\/js\/lightbox.js":1,"sites\/all\/modules\/nice_menus\/superfish\/js\/superfish.js":1,"sites\/all\/modules\/nice_menus\/superfish\/js\/jquery.bgiframe.min.js":1,"sites\/all\/modules\/nice_menus\/superfish\/js\/jquery.hoverIntent.minified.js":1,"sites\/all\/modules\/nice_menus\/nice_menus.js":1,"1":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"2":1,"sites\/all\/modules\/quicktabs\/js\/quicktabs.js":1,"sites\/all\/themes\/community\/js\/community.js":1,"sites\/all\/themes\/community\/js\/mycustom.js":1,"sites\/all\/themes\/omega\/omega\/js\/jquery.formalize.js":1,"sites\/all\/themes\/omega\/omega\/js\/omega-mediaqueries.js":1,"sites\/all\/themes\/community\/js\/settings.flex-slider.js":1,"sites\/all\/libraries\/FlexSlider\/jquery.flexslider.js":1,"sites\/all\/libraries\/superfish\/js\/supersubs.min.js":1,"sites\/all\/themes\/community\/js\/lib.ui.totop.min.js":1,"sites\/all\/themes\/community\/js\/lib.fittext.min.js":1,"sites\/all\/themes\/community\/js\/lib.fitvids.min.js":1,"sites\/all\/themes\/community\/js\/lib.tipsy.min.js":1,"sites\/all\/themes\/community\/js\/lib.labelify.min.js":1,"sites\/all\/themes\/community\/js\/libs.js":1}},"collapsiblock":{"blocks":{"block-views-categories-block":"1","block-block-5":"1","block-views-anomalii-recent-front-block":"1","block-views-01082942be619edb029135840b94db8b":"1","block-views-istoriya-recent-front-block":"1","block-views-kosmos-recent-front-block":"1","block-views-kultura-recent-front-block":"1","block-views-medicina-recent-front-block":"1","block-views-planeta-recent-front-block":"1","block-views-tehnologiya-recent-front-block":"1","block-views-chelovek-recent-front-block":"1"},"default_state":"1","slide_type":"2","slide_speed":"200","block_title":":header:first","block":"section.block","block_content":"div.content"},"lightbox2":{"rtl":"0","file_path":"\/(\\w\\w\/)public:\/","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":true,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":false,"disable_resize":false,"disable_zoom":false,"force_show_nav":false,"show_caption":true,"loop_items":false,"node_link_text":"View Image Details","node_link_target":false,"image_count":"Image !current of !total","video_count":"Video !current of !total","page_count":"Page !current of !total","lite_press_x_close":"\u043d\u0430\u0436\u043c\u0438\u0442\u0435 \u003Ca href=\u0022#\u0022 onclick=\u0022hideLightbox(); return FALSE;\u0022\u003E\u003Ckbd\u003Ex\u003C\/kbd\u003E\u003C\/a\u003E \u0447\u0442\u043e\u0431\u044b \u0437\u0430\u043a\u0440\u044b\u0442\u044c","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":false},"nice_menus_options":{"delay":800,"speed":1},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"quicktabs":{"qt_sidebar_second_quicktabs":{"name":"sidebar_second_quicktabs","tabs":[{"bid":"views_delta_comments_recent-block","hide_title":1},{"bid":"views_delta_most_viewed-block","hide_title":1},{"bid":"views_delta_archive-block","hide_title":1}],"nice_menus_options":{"delay":800,"speed":1}}},"omega":{"layouts":{"primary":"normal","order":["narrow","normal","wide"],"queries":{"narrow":"all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)","wide":"all and (min-width: 1220px)"}}}});
+</script>
+</head>
+<body class="html front not-logged-in no-sidebars page-frontpage"  class="html front not-logged-in page-frontpage vichy">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Перейти к основному содержанию</a>
+  </div>
+    <div class="page clearfix" id="page">
+	<div id="page-inner" class="page-inner clearfix">
+					<header id="section-header" class="section section-header">
+  <div id="zone-user-wrapper" class="zone-wrapper zone-user-wrapper clearfix">  
+  <div id="zone-user" class="zone zone-user clearfix container-12">    
+    <div class="grid-6 region region-user-first" id="region-user-first">
+  <div class="region-inner region-user-first-inner clearfix">
+    <section class="block block-dropletz-helper alignleft no-block-title block-dh-block-date block-dropletz-helper-dh-block-date odd" id="block-dropletz-helper-dh-block-date">
+  <div class="block-inner clearfix">
+              <h2 class='block-title clearfix'><span class='clearfix'>current time</span></h2>
+            
+    <div class="content clearfix base-wrap">
+      <div id="current-time-block"><p class="rounded">ПН, 02/25/2013 - 14:42</p></div>    </div>
+  </div>
+</section><section class="block block-menu alignleft no-block-title sf-horizontal superfish superfish-vertical block-devel-cle block-menu-devel-cle even" id="block-menu-devel-cle">
+  <div class="block-inner clearfix">
+              <h2 class='block-title clearfix'><span class='clearfix'>userbar demo menu</span></h2>
+            
+    <div class="content clearfix base-wrap">
+      <ul class="menu"><li class="first leaf"><a href="/contact" title="">Контакты</a></li>
+<li class="leaf"><a href="/blog" title="">Блог</a></li>
+<li class="last leaf"><a href="/sitemap" title="Детальная карта страниц и разделов сайта">Карта сайта</a></li>
+</ul>    </div>
+  </div>
+</section>  </div>
+</div><div class="grid-6 region region-user-second" id="region-user-second">
+  <div class="region-inner region-user-second-inner clearfix">
+    <section class="block block-dropletz-helper no-block-title block-db-block-userbar-utils block-dropletz-helper-db-block-userbar-utils odd" id="block-dropletz-helper-db-block-userbar-utils">
+  <div class="block-inner clearfix">
+              <h2 class='block-title clearfix'><span class='clearfix'>website utilities</span></h2>
+            
+    <div class="content clearfix base-wrap">
+      <div class="site-utils follow-links-small"><div class="item-list"><ul><li class="first"><a href="/user/login" title="Вход">Вход</a><span class="sep">|</span></li><li><a href="/user/register" title="Присоединяйтесь и получайте привилегии!">Регистрация</a><span class="sep">|</span></li><li>Присоединяйтесь в:</li><li><a href="http://www.facebook.com/people/Sci-Centr/100004250561222" title="Станьте другом на Facebook" class="tooltip follow-link follow-link-facebook">facebook</a></li><li><a href="http://twitter.com/ScicentrRu" title="Присоединяйтесь в Twitter" class="tooltip follow-link follow-link-twitter">twitter</a></li><li class="last"><a href="/rss.xml" title="Подписыайтесь на наши новости" class="tooltip follow-link follow-link-this-site">this-site</a></li></ul></div></div>    </div>
+  </div>
+</section>  </div>
+</div>  </div>
+			<div class='zone-user-toggle clearfix zone container-12'><h4><a href='#'><span class ='icon toggle_btn'>&nbsp;</span></a></h4></div>
+	</div><div id="zone-branding-wrapper" class="zone-wrapper zone-branding-wrapper clearfix">  
+  <div id="zone-branding" class="zone zone-branding clearfix container-12">
+    <div class="grid-12 region region-branding" id="region-branding">
+  <div class="region-inner region-branding-inner clearfix">
+        <div class="branding-data clearfix first_column grid-6">
+            <div class="logo-img">
+        <a href="/" rel="home" title="Science Center" class="active"><img src="http://scicentr.ru/sites/default/files/logo3.gif" alt="Science Center" id="logo" /></a>      </div>
+                        <hgroup class="site-name-slogan element-invisible">        
+                                
+        <h1 class="site-name element-invisible"><a href="/" title="Главная" class="active">Science Center</a></h1>
+                                        <h6 class="site-slogan element-invisible">Центр последних новостей науки и техники – ваш интернет-портал в будущее</h6>
+              </hgroup>
+          </div>
+    		<div class="clearfix last_column grid-6">
+			<div class="block block-search block-form block-search-form odd block-without-title" id="block-search-form">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix base-wrap">
+      <form action="/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Форма поиска</h2>
+    <div class='grid-4 block-search last_column'><div class="form-item form-type-searchfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Поиск </label>
+ <input title="Введите ключевые слова для поиска." type="search" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text form-search" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Поиск" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-EBL7S_I3OX8WChcTM0TqmHhhz1POmAC-KD5REQt9VMI" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div>
+</div></form>    </div>
+  </div>
+</div>		</div>
+  </div>
+</div>  </div>
+</div><div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">  
+  <div id="zone-menu" class="zone zone-menu clearfix container-12">
+    <div class="grid-12 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner clearfix">
+        <nav class="navigation">
+			<div class="superfish"><ul class="main-menu clearfix"><li class="first leaf"><a href="/" title="Переход на главную страницу сайта" class="active">Главная</a></li>
+<li class="leaf"><a href="/rubrika/istoriya" title="">История</a></li>
+<li class="leaf"><a href="/rubrika/kosmos" title="">Космос</a></li>
+<li class="leaf"><a href="/rubrika/medicina" title="">Медицина</a></li>
+<li class="leaf"><a href="/rubrika/planeta" title="">Планета</a></li>
+<li class="leaf"><a href="/rubrika/tehnologiya" title="">Технология</a></li>
+<li class="leaf"><a href="/rubrika/chelovek" title="">Человек</a></li>
+<li class="last leaf"><a href="/rubrika/estestvoznanie" title="">Естествознание</a></li>
+</ul></div>	  </nav>
+          </div>
+</div>
+  </div>
+</div></header>				
+					<section id="section-content" class="section section-content">
+  <div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  
+  <div id="zone-content" class="zone zone-content clearfix container-12">    
+    <div class="grid-8 region region-content" id="region-content">
+	<div class="region-content-outter">
+	  
+	 
+	
+		<div class="region-inner region-content-inner clearfix">
+							<a id="main-content"></a>
+									<section class="block block-views block-front-slider-flexslider block-views-front-slider-flexslider odd" id="block-views-front-slider-flexslider">
+  <div class="block-inner clearfix">
+              <h2 class='block-title clearfix'><span class='clearfix'>Flex Slider</span></h2>
+            
+    <div class="content clearfix base-wrap">
+      <div class="view view-front-slider view-id-front_slider view-display-id-flexslider view-dom-id-9a9460d05a518a13cb4aef859f50f54b">                  <div class="view-content">      	
+<div id='slider' class="flexslider">
+	<ul class='slides'>
+	
+<li class="slide"><a href="/tehnologiya/polzovateli-twitter-poluchat-vozmozhnost-skachivat-arhiv-svoih-tvitov"><img src="http://scicentr.ru/sites/default/files/styles/front_slider/public/field/image/polzovateli-twitter-poluchat-vozmozhnost-skachivat-arxiv-tvitov-so-svoego-akkaunta.jpg" alt="Тестируется новая функция Twitter, которая позволит скачивать все свои сообщения в виде файла с архивом" /></a><div class="caption"><div class="caption-inner"><div class="header"><h2 class="item-title"><a href="/tehnologiya/polzovateli-twitter-poluchat-vozmozhnost-skachivat-arhiv-svoih-tvitov">Пользователи Twitter получат возможность скачивать архив своих твитов</a></h2><ul class="metadata clearfix"><li class="content-type"><span class="icon article">&nbsp;</span><span class="node-type-text">статья</span></li><li class="meta-sep">·</li><li class="post-date"><span class="icon created">&nbsp;</span>Дек 18, 2012</li><li class="meta-sep">·</li><li class="comment-count"><span class="icon comment">&nbsp;</span><a href="/tehnologiya/polzovateli-twitter-poluchat-vozmozhnost-skachivat-arhiv-svoih-tvitov#comments">0 комментариев</a></li></ul></div><p class="item-body clearfix"> Технические специалисты Twitter тестируют новую функцию, которая позволит пользователям скачивать файл с архивом всех твитов своей учетной записи. </p><a href="/tehnologiya/polzovateli-twitter-poluchat-vozmozhnost-skachivat-arhiv-svoih-tvitov" class="button_link small_button read-more">ЧИТАТЬ ДАЛЕЕ</a></div></div></li><li class="slide"><a href="/medicina/lezhachie-policeyskie-na-dorogah-mogut-pomoch-opredelit-vospalenie-appendiksa"><img src="http://scicentr.ru/sites/default/files/styles/front_slider/public/field/image/dokazana-svyaz-mezhdu-lezhachimi-policejskimi-i-appendicitom.jpg" alt="Ученые подтвердили давно подозреваемую связь между болями при проезде лежачих полицейских и воспалением аппендицита" /></a><div class="caption"><div class="caption-inner"><div class="header"><h2 class="item-title"><a href="/medicina/lezhachie-policeyskie-na-dorogah-mogut-pomoch-opredelit-vospalenie-appendiksa">Лежачие полицейские на дорогах могут помочь определить воспаление аппендикса</a></h2><ul class="metadata clearfix"><li class="content-type"><span class="icon article">&nbsp;</span><span class="node-type-text">статья</span></li><li class="meta-sep">·</li><li class="post-date"><span class="icon created">&nbsp;</span>Дек 18, 2012</li><li class="meta-sep">·</li><li class="comment-count"><span class="icon comment">&nbsp;</span><a href="/medicina/lezhachie-policeyskie-na-dorogah-mogut-pomoch-opredelit-vospalenie-appendiksa#comments">0 комментариев</a></li></ul></div><p class="item-body clearfix"> Если вы чувствуете, что движении по лежачим полицейским является для Вас дискомфортным – сообщите своему доктору. Это поможет врачам определить страдаете ли Вы от острого аппендицита или нет </p><a href="/medicina/lezhachie-policeyskie-na-dorogah-mogut-pomoch-opredelit-vospalenie-appendiksa" class="button_link small_button read-more">ЧИТАТЬ ДАЛЕЕ</a></div></div></li><li class="slide"><a href="/tehnologiya/haker-vzlomavshiy-pochtu-skarlett-yohansson-poluchil-10-let-tyurmy"><img src="http://scicentr.ru/sites/default/files/styles/front_slider/public/field/image/skarlett-joxansson-posadila-xakera-na-10-let.jpg" alt="Хакер, взломавший аккаунт Скарлетт Йоханссон был приговорен к 10 годам лишения свободы" /></a><div class="caption"><div class="caption-inner"><div class="header"><h2 class="item-title"><a href="/tehnologiya/haker-vzlomavshiy-pochtu-skarlett-yohansson-poluchil-10-let-tyurmy">Хакер взломавший почту Скарлетт Йоханссон получил 10 лет тюрьмы</a></h2><ul class="metadata clearfix"><li class="content-type"><span class="icon article">&nbsp;</span><span class="node-type-text">статья</span></li><li class="meta-sep">·</li><li class="post-date"><span class="icon created">&nbsp;</span>Дек 18, 2012</li><li class="meta-sep">·</li><li class="comment-count"><span class="icon comment">&nbsp;</span><a href="/tehnologiya/haker-vzlomavshiy-pochtu-skarlett-yohansson-poluchil-10-let-tyurmy#comments">0 комментариев</a></li></ul></div><p class="item-body clearfix"> Кибер-преступник из Флориды был приговорен к 10 годам тюремного заключения после признания его виновным в хакерской атаке на учетные записи электронной почты знаменитой актрисы Скарлетт Йоханссон и десятков других знаменитостей </p><a href="/tehnologiya/haker-vzlomavshiy-pochtu-skarlett-yohansson-poluchil-10-let-tyurmy" class="button_link small_button read-more">ЧИТАТЬ ДАЛЕЕ</a></div></div></li><li class="slide"><a href="/tehnologiya/skoro-roboty-nauchatsya-raspoznavat-sut-chelovecheskogo-vzglyada"><img src="http://scicentr.ru/sites/default/files/styles/front_slider/public/field/image/roboty-smogut-opredelit-smysl-chelovecheskogo-vzglyada.jpg" alt="Разработана технология с помощью которой роботы смогут точно анализировать смысл человеческих социальных сигналов" /></a><div class="caption"><div class="caption-inner"><div class="header"><h2 class="item-title"><a href="/tehnologiya/skoro-roboty-nauchatsya-raspoznavat-sut-chelovecheskogo-vzglyada">Скоро роботы научатся распознавать суть человеческого взгляда</a></h2><ul class="metadata clearfix"><li class="content-type"><span class="icon article">&nbsp;</span><span class="node-type-text">статья</span></li><li class="meta-sep">·</li><li class="post-date"><span class="icon created">&nbsp;</span>Дек 14, 2012</li><li class="meta-sep">·</li><li class="comment-count"><span class="icon comment">&nbsp;</span><a href="/tehnologiya/skoro-roboty-nauchatsya-raspoznavat-sut-chelovecheskogo-vzglyada#comments">0 комментариев</a></li></ul></div><p class="item-body clearfix"> Вероятно будущие прототипы роботов в своих головах будут носить специальные видеокамеры, которые смогут отслеживают, что в данный момент вы действительно смотрите на робота.</p><a href="/tehnologiya/skoro-roboty-nauchatsya-raspoznavat-sut-chelovecheskogo-vzglyada" class="button_link small_button read-more">ЧИТАТЬ ДАЛЕЕ</a></div></div></li><li class="slide"><a href="/kosmos/severnaya-koreya-provela-zapreshchennye-ispytaniya-po-zapusku-ballisticheskoy-rakety-v-kosmos"><img src="http://scicentr.ru/sites/default/files/styles/front_slider/public/field/image/nesankcionirovannyj-zapusk-severno-korejskoj-ballisticheskoj-rakety.jpg" alt="Северная Корея провела запрещенные ООН испытания по запуску ракетоносителя в космос" /></a><div class="caption"><div class="caption-inner"><div class="header"><h2 class="item-title"><a href="/kosmos/severnaya-koreya-provela-zapreshchennye-ispytaniya-po-zapusku-ballisticheskoy-rakety-v-kosmos">Северная Корея провела запрещенные испытания по запуску баллистической ракеты в космос</a></h2><ul class="metadata clearfix"><li class="content-type"><span class="icon article">&nbsp;</span><span class="node-type-text">статья</span></li><li class="meta-sep">·</li><li class="post-date"><span class="icon created">&nbsp;</span>Дек 12, 2012</li><li class="meta-sep">·</li><li class="comment-count"><span class="icon comment">&nbsp;</span><a href="/kosmos/severnaya-koreya-provela-zapreshchennye-ispytaniya-po-zapusku-ballisticheskoy-rakety-v-kosmos#comments">0 комментариев</a></li></ul></div><p class="item-body clearfix"> Согласно сообщениям СМИ, Северная Корея совершила запуск ракеты, чтобы доставить некий объект на орбиту Земли, что явилось явным нарушением резолюции ООН от 2009 года запрещающей этой стране любые испытания баллистических ракет </p><a href="/kosmos/severnaya-koreya-provela-zapreshchennye-ispytaniya-po-zapusku-ballisticheskoy-rakety-v-kosmos" class="button_link small_button read-more">ЧИТАТЬ ДАЛЕЕ</a></div></div></li><li class="slide"><a href="/medicina/chuvstvo-otvrashcheniya-sposobno-rasshirit-nashu-sposobnost-videt"><img src="http://scicentr.ru/sites/default/files/styles/front_slider/public/field/image/chuvstvo-otvrashheniya-sposobno-rasshirit-nashu-sposobnost-videt.jpg" alt="Естественное для человека чувство отвращения, может значительно улучшить способность человека различать светлые тона" /></a><div class="caption"><div class="caption-inner"><div class="header"><h2 class="item-title"><a href="/medicina/chuvstvo-otvrashcheniya-sposobno-rasshirit-nashu-sposobnost-videt">Чувство отвращения способно расширить нашу способность видеть</a></h2><ul class="metadata clearfix"><li class="content-type"><span class="icon article">&nbsp;</span><span class="node-type-text">статья</span></li><li class="meta-sep">·</li><li class="post-date"><span class="icon created">&nbsp;</span>Дек 10, 2012</li><li class="meta-sep">·</li><li class="comment-count"><span class="icon comment">&nbsp;</span><a href="/medicina/chuvstvo-otvrashcheniya-sposobno-rasshirit-nashu-sposobnost-videt#comments">0 комментариев</a></li></ul></div><p class="item-body clearfix"> Когда мы сталкиваемся с грязными вещами или иными загрязнениями то склонны испытывать определенные эмоции – такие как отвращение.</p><a href="/medicina/chuvstvo-otvrashcheniya-sposobno-rasshirit-nashu-sposobnost-videt" class="button_link small_button read-more">ЧИТАТЬ ДАЛЕЕ</a></div></div></li><li class="slide"><a href="/istoriya/pyat-samyh-gromkih-seks-skandalov-znamenityh-fizikov"><img src="http://scicentr.ru/sites/default/files/styles/front_slider/public/field/image/fakty-o-skandalnyh-ljubovnyh-svjazjah-znamenityh-fizikov.jpg" alt="Альберт Эйнштейн, в свое время, был замечен в многочисленных внебрачных любовных связях" /></a><div class="caption"><div class="caption-inner"><div class="header"><h2 class="item-title"><a href="/istoriya/pyat-samyh-gromkih-seks-skandalov-znamenityh-fizikov">Пять самых громких секс скандалов знаменитых физиков</a></h2><ul class="metadata clearfix"><li class="content-type"><span class="icon article">&nbsp;</span><span class="node-type-text">статья</span></li><li class="meta-sep">·</li><li class="post-date"><span class="icon created">&nbsp;</span>Ноя 28, 2012</li><li class="meta-sep">·</li><li class="comment-count"><span class="icon comment">&nbsp;</span><a href="/istoriya/pyat-samyh-gromkih-seks-skandalov-znamenityh-fizikov#comments">0 комментариев</a></li></ul></div><p class="item-body clearfix"> Физикам, как и всем людям, тоже необходима любовь. Ведь знаменитые на весь мир ученые – это обычные (ну или не совсем…) люди, поэтому и они подвержены житейским ошибкам и скандалам.</p><a href="/istoriya/pyat-samyh-gromkih-seks-skandalov-znamenityh-fizikov" class="button_link small_button read-more">ЧИТАТЬ ДАЛЕЕ</a></div></div></li><li class="slide"><a href="/tehnologiya/novinka-ot-android-42-udivitelnye-sfericheskie-panoramy"><img src="http://scicentr.ru/sites/default/files/styles/front_slider/public/field/image/novaja-fishka-android-4.2-foto-sfery.jpg" alt="Новая технология, представленная с выходом Android 4.2, помогает делать великолепные сферические панорамные фотоснимки" /></a><div class="caption"><div class="caption-inner"><div class="header"><h2 class="item-title"><a href="/tehnologiya/novinka-ot-android-42-udivitelnye-sfericheskie-panoramy">Новинка от Android 4.2: удивительные сферические панорамы</a></h2><ul class="metadata clearfix"><li class="content-type"><span class="icon article">&nbsp;</span><span class="node-type-text">статья</span></li><li class="meta-sep">·</li><li class="post-date"><span class="icon created">&nbsp;</span>Ноя 26, 2012</li><li class="meta-sep">·</li><li class="comment-count"><span class="icon comment">&nbsp;</span><a href="/tehnologiya/novinka-ot-android-42-udivitelnye-sfericheskie-panoramy#comments">0 комментариев</a></li></ul></div><p class="item-body clearfix"> Страшно даже представить, как технологии панорамных фотографий продвинулась за прошедшее столетие – от совмещения порезанных в ручную фотоснимков в домашнем альбоме до, изначально встроенных производителем прямо в телефон, мобильных фотокамер позволяющих снимать панорамы чу</p><a href="/tehnologiya/novinka-ot-android-42-udivitelnye-sfericheskie-panoramy" class="button_link small_button read-more">ЧИТАТЬ ДАЛЕЕ</a></div></div></li><li class="slide"><a href="/tehnologiya/korporaciya-samsung-zasvetila-novogo-predstavitelya-znamenitoy-lineyki-smartfonov-galaxy"><img src="http://scicentr.ru/sites/default/files/styles/front_slider/public/field/image/tekhnicheskii-prototip-novogo-galaxy-smartfona.jpg" alt="В сеть просочились слухи о подаче корпорацией Samsung запроса на регистрацию нового смартфона, который, предположительно, станет дополнительным телефоном линейки Galaxy" /></a><div class="caption"><div class="caption-inner"><div class="header"><h2 class="item-title"><a href="/tehnologiya/korporaciya-samsung-zasvetila-novogo-predstavitelya-znamenitoy-lineyki-smartfonov-galaxy">Корпорация Samsung засветила нового представителя знаменитой линейки смартфонов Galaxy</a></h2><ul class="metadata clearfix"><li class="content-type"><span class="icon article">&nbsp;</span><span class="node-type-text">статья</span></li><li class="meta-sep">·</li><li class="post-date"><span class="icon created">&nbsp;</span>Ноя 24, 2012</li><li class="meta-sep">·</li><li class="comment-count"><span class="icon comment">&nbsp;</span><a href="/tehnologiya/korporaciya-samsung-zasvetila-novogo-predstavitelya-znamenitoy-lineyki-smartfonov-galaxy#comments">0 комментариев</a></li></ul></div><p class="item-body clearfix"> Уже казалось, что после выхода обновленной линейки Galaxy смартфонов - Galaxy S III, Galaxy S III mini и Galaxy Note II, в ближайшем будущем мы не увидим ничего нового из «галактических» моделей Samsung.</p><a href="/tehnologiya/korporaciya-samsung-zasvetila-novogo-predstavitelya-znamenitoy-lineyki-smartfonov-galaxy" class="button_link small_button read-more">ЧИТАТЬ ДАЛЕЕ</a></div></div></li>
+	</ul>
+</div>
+
+
+
+    </div>            </div>    </div>
+  </div>
+</section><section class="block block-views grid-4 block-articles-list-featured block-views-articles-list-featured even" id="block-views-articles-list-featured">
+  <div class="block-inner clearfix">
+              <h2 class='block-title clearfix'><span class='clearfix'>рекомендуемое</span></h2>
+            
+    <div class="content clearfix base-wrap">
+      <div class="view view-articles-list view-id-articles_list view-display-id-featured view-dom-id-008eb1326ab5975cfe4bbd05faa8ced6">                <div class="attachment attachment-before">      <div class="view view-articles-list view-id-articles_list view-display-id-attachment_2">                  <div class="view-content">        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+    
+		
+
+  <div class="views-field views-field-field-image hover-fade clearfix">    <a href="http://scicentr.ru/sites/default/files/field/image/novyi-vid-plotoiadnogo-morskogo-zhivotnogo-gubka-arfa.jpg" rel="lightshow[field_image][Губка-арфа - обнаруженный недавно новый вид морской губки]" title="Губка-арфа - обнаруженный недавно новый вид морской губки" class="large-size img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/teaser_preview/public/field/image/novyi-vid-plotoiadnogo-morskogo-zhivotnogo-gubka-arfa.jpg" width="395" height="130" alt="Американские исследователи обнаружили совершенно новый вид плотоядной морской губки – губки-арфы" title="Губка-арфа - обнаруженный недавно новый вид морской губки" class="small-size" /></a><span class='icon content-type article '>article</span>  </div>	
+		
+  </div>
+    </div>            </div>    </div>        <div class="view-content">      <div class="item-list">    <ul>    							<li class="views-row views-row-1 views-row-odd views-row-first clearfix clearfix">
+		
+
+  <h3 class="views-field views-field-title">    <span class='tag'><a href="/rubrika/planeta">Планета</a></span>: <a class='title' href='http://scicentr.ru/planeta/v-glubinah-okeana-obnaruzhen-sovershenno-novyy-vid-plotoyadnogo-zhivotnogo' title='continue reading В глубинах океана обнаружен совершенно новый вид плотоядного животного'>В глубинах океана обнаружен совершенно новый вид плотоядного животного</a>  </h3>	
+		
+
+			<div class='metadata clearfix'>
+		
+
+  <span class="views-field views-field-created created">    <span class="field-content">Ноя 12, 2012</span>  </span>	
+			<span class="meta-sep">.</span>
+		
+
+		
+
+  <span class="views-field views-field-comment-count comment-count">    <a href="http://scicentr.ru/planeta/v-glubinah-okeana-obnaruzhen-sovershenno-novyy-vid-plotoyadnogo-zhivotnogo#comments" title="read comments on Планета: В глубинах океана обнаружен совершенно новый вид плотоядного животного">0 комментариев</a>  </span>	
+			</div>
+		
+</li>			    							<li class="views-row views-row-2 views-row-even clearfix clearfix">
+		
+
+  <h3 class="views-field views-field-title">    <span class='tag'><a href="/rubrika/tehnologiya">Технология</a></span>: <a class='title' href='http://scicentr.ru/tehnologiya/novyy-eksperiment-otkryl-udivitelnuyu-kvantovuyu-taynu-sveta' title='continue reading Новый эксперимент открыл удивительную квантовую тайну света'>Новый эксперимент открыл удивительную квантовую тайну света</a>  </h3>	
+		
+
+			<div class='metadata clearfix'>
+		
+
+  <span class="views-field views-field-created created">    <span class="field-content">Ноя 5, 2012</span>  </span>	
+			<span class="meta-sep">.</span>
+		
+
+		
+
+  <span class="views-field views-field-comment-count comment-count">    <a href="http://scicentr.ru/tehnologiya/novyy-eksperiment-otkryl-udivitelnuyu-kvantovuyu-taynu-sveta#comments" title="read comments on Технология: Новый эксперимент открыл удивительную квантовую тайну света">0 комментариев</a>  </span>	
+			</div>
+		
+</li>			    							<li class="views-row views-row-3 views-row-odd views-row-last clearfix clearfix">
+		
+
+  <h3 class="views-field views-field-title">    <span class='tag'><a href="/rubrika/tehnologiya">Технология</a></span>: <a class='title' href='http://scicentr.ru/tehnologiya/novye-mikrochipy-na-osnove-novyh-nanotehnologiy-smogut-zamenit-tysyachu-kremnievyh' title='continue reading Новые микрочипы на основе новых нанотехнологий смогут заменить тысячу кремниевых аналогов '>Новые микрочипы на основе новых нанотехнологий смогут заменить тысячу кремниевых аналогов </a>  </h3>	
+		
+
+			<div class='metadata clearfix'>
+		
+
+  <span class="views-field views-field-created created">    <span class="field-content">Окт 29, 2012</span>  </span>	
+			<span class="meta-sep">.</span>
+		
+
+		
+
+  <span class="views-field views-field-comment-count comment-count">    <a href="http://scicentr.ru/tehnologiya/novye-mikrochipy-na-osnove-novyh-nanotehnologiy-smogut-zamenit-tysyachu-kremnievyh#comments" title="read comments on Технология: Новые микрочипы на основе новых нанотехнологий смогут заменить тысячу кремниевых аналогов ">0 комментариев</a>  </span>	
+			</div>
+		
+</li>			      </ul></div>    </div>            
+<div class="more-link">
+  <a href="/articles/featured">
+    ещё  </a>
+</div>
+          <div class="feed-icon">      <div class="feed"><a href="http://scicentr.ru/articles/featured/feed.xml" class="tooltip feed-icon hover_fade" title="Подписаться на Articles"><span class="no-bg">follow via RSS</span><span class ='icon rss'>&nbsp;</span></a></div>    </div>  </div>    </div>
+  </div>
+</section><section class="block block-views grid-4 block-articles-list-recent block-views-articles-list-recent odd" id="block-views-articles-list-recent">
+  <div class="block-inner clearfix">
+              <h2 class='block-title clearfix'><span class='clearfix'>последние публикации</span></h2>
+            
+    <div class="content clearfix base-wrap">
+      <div class="view view-articles-list view-id-articles_list view-display-id-recent view-dom-id-1c5eafa058bced34f4bbb22494f4f3ff">                <div class="attachment attachment-before">      <div class="view view-articles-list view-id-articles_list view-display-id-attachment_1">                  <div class="view-content">        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+    
+		
+
+  <div class="views-field views-field-field-image hover-fade clearfix">    <a href="http://scicentr.ru/sites/default/files/field/image/polzovateli-twitter-poluchat-vozmozhnost-skachivat-arxiv-tvitov-so-svoego-akkaunta.jpg" rel="lightshow[field_image][Пользователи Twitter получат возможность скачивать архив твитов со своего аккаунта]" title="Пользователи Twitter получат возможность скачивать архив твитов со своего аккаунта" class="large-size img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/teaser_preview/public/field/image/polzovateli-twitter-poluchat-vozmozhnost-skachivat-arxiv-tvitov-so-svoego-akkaunta.jpg" width="395" height="130" alt="Тестируется новая функция Twitter, которая позволит скачивать все свои сообщения в виде файла с архивом" title="Пользователи Twitter получат возможность скачивать архив твитов со своего аккаунта" class="small-size" /></a><span class='icon content-type article'>article</span>  </div>	
+		
+  </div>
+    </div>            </div>    </div>        <div class="view-content">      <div class="item-list">    <ul>    							<li class="views-row views-row-1 views-row-odd views-row-first clearfix">
+		
+
+  <h3 class="views-field views-field-title">    <span class='tag'><a href="/rubrika/tehnologiya">Технология</a></span>: <a class='title' href='http://scicentr.ru/tehnologiya/polzovateli-twitter-poluchat-vozmozhnost-skachivat-arhiv-svoih-tvitov' title='continue reading Пользователи Twitter получат возможность скачивать архив своих твитов'>Пользователи Twitter получат возможность скачивать архив своих твитов</a>  </h3>	
+		
+
+			<div class='metadata clearfix'>
+		
+
+  <span class="views-field views-field-created created">    Дек 18, 2012  </span>	
+			<span class="meta-sep">.</span>
+		
+
+		
+
+  <span class="views-field views-field-comment-count comment-count">    <a href="http://scicentr.ru/tehnologiya/polzovateli-twitter-poluchat-vozmozhnost-skachivat-arhiv-svoih-tvitov#comments" title="read comments on Технология: Пользователи Twitter получат возможность скачивать архив своих твитов">0 комментариев</a>  </span>	
+			</div>
+		
+</li>			    							<li class="views-row views-row-2 views-row-even clearfix">
+		
+
+  <h3 class="views-field views-field-title">    <span class='tag'><a href="/rubrika/medicina">Медицина</a></span>: <a class='title' href='http://scicentr.ru/medicina/lezhachie-policeyskie-na-dorogah-mogut-pomoch-opredelit-vospalenie-appendiksa' title='continue reading Лежачие полицейские на дорогах могут помочь определить воспаление аппендикса'>Лежачие полицейские на дорогах могут помочь определить воспаление аппендикса</a>  </h3>	
+		
+
+			<div class='metadata clearfix'>
+		
+
+  <span class="views-field views-field-created created">    Дек 18, 2012  </span>	
+			<span class="meta-sep">.</span>
+		
+
+		
+
+  <span class="views-field views-field-comment-count comment-count">    <a href="http://scicentr.ru/medicina/lezhachie-policeyskie-na-dorogah-mogut-pomoch-opredelit-vospalenie-appendiksa#comments" title="read comments on Медицина: Лежачие полицейские на дорогах могут помочь определить воспаление аппендикса">0 комментариев</a>  </span>	
+			</div>
+		
+</li>			    							<li class="views-row views-row-3 views-row-odd clearfix">
+		
+
+  <h3 class="views-field views-field-title">    <span class='tag'><a href="/rubrika/tehnologiya">Технология</a></span>: <a class='title' href='http://scicentr.ru/tehnologiya/haker-vzlomavshiy-pochtu-skarlett-yohansson-poluchil-10-let-tyurmy' title='continue reading Хакер взломавший почту Скарлетт Йоханссон получил 10 лет тюрьмы'>Хакер взломавший почту Скарлетт Йоханссон получил 10 лет тюрьмы</a>  </h3>	
+		
+
+			<div class='metadata clearfix'>
+		
+
+  <span class="views-field views-field-created created">    Дек 18, 2012  </span>	
+			<span class="meta-sep">.</span>
+		
+
+		
+
+  <span class="views-field views-field-comment-count comment-count">    <a href="http://scicentr.ru/tehnologiya/haker-vzlomavshiy-pochtu-skarlett-yohansson-poluchil-10-let-tyurmy#comments" title="read comments on Технология: Хакер взломавший почту Скарлетт Йоханссон получил 10 лет тюрьмы">0 комментариев</a>  </span>	
+			</div>
+		
+</li>			    							<li class="views-row views-row-4 views-row-even views-row-last clearfix">
+		
+
+  <h3 class="views-field views-field-title">    <span class='tag'><a href="/rubrika/tehnologiya">Технология</a></span>: <a class='title' href='http://scicentr.ru/tehnologiya/skoro-roboty-nauchatsya-raspoznavat-sut-chelovecheskogo-vzglyada' title='continue reading Скоро роботы научатся распознавать суть человеческого взгляда'>Скоро роботы научатся распознавать суть человеческого взгляда</a>  </h3>	
+		
+
+			<div class='metadata clearfix'>
+		
+
+  <span class="views-field views-field-created created">    Дек 14, 2012  </span>	
+			<span class="meta-sep">.</span>
+		
+
+		
+
+  <span class="views-field views-field-comment-count comment-count">    <a href="http://scicentr.ru/tehnologiya/skoro-roboty-nauchatsya-raspoznavat-sut-chelovecheskogo-vzglyada#comments" title="read comments on Технология: Скоро роботы научатся распознавать суть человеческого взгляда">0 комментариев</a>  </span>	
+			</div>
+		
+</li>			      </ul></div>    </div>            
+<div class="more-link">
+  <a href="/articles/recent">
+    ещё  </a>
+</div>
+          <div class="feed-icon">      <div class="feed"><a href="http://scicentr.ru/articles/recent/feed.xml" class="tooltip feed-icon hover_fade" title="Подписаться на Articles"><span class="no-bg">follow via RSS</span><span class ='icon rss'>&nbsp;</span></a></div>    </div>  </div>    </div>
+  </div>
+</section><div class="block block-dropletz-helper block-dh-recent-node-in-terms block-dropletz-helper-dh-recent-node-in-terms even block-without-title" id="block-dropletz-helper-dh-recent-node-in-terms">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix base-wrap">
+      <div class="item-list"></div>    </div>
+  </div>
+</div><section class="block block-views my-recent-node-in-terms block-istoriya-recent-front-block block-views-istoriya-recent-front-block odd" id="block-views-istoriya-recent-front-block">
+  <div class="block-inner clearfix">
+              <h2 class='block-title clearfix'><span class='clearfix'><span>История</span><span class="icon multi-arrow">&nbsp;</span></span></h2>
+            
+    <div class="content clearfix base-wrap">
+      <div class="view view-istoriya-recent-front view-id-istoriya_recent_front view-display-id-block recent-featured-article view-dom-id-29f148b54a7ea310a40e89cdb6f9545b">                  <div class="view-content">        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+          <div class="recent-featured-article clearfix">    
+  <div class="views-field views-field-field-image grid-4 clearfix hover-fade">        <a class="medium-size img-wrapper" href="http://scicentr.ru/istoriya/pyat-samyh-gromkih-seks-skandalov-znamenityh-fizikov">
+<a href="/istoriya/pyat-samyh-gromkih-seks-skandalov-znamenityh-fizikov" class="large-size img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/node_in_terms/public/field/image/fakty-o-skandalnyh-ljubovnyh-svjazjah-znamenityh-fizikov.jpg" width="395" height="210" alt="Альберт Эйнштейн, в свое время, был замечен в многочисленных внебрачных любовных связях" title="Факты о скандальных любовных связях знаменитых физиков" class="medium-size" /></a>
+</a>
+<span class="icon content-type article"> &nbsp;</span>  </div>  
+          <div class="content-group-2 content grid-4 clearfix">    
+          <h3 class="item-title"><a href="/istoriya/pyat-samyh-gromkih-seks-skandalov-znamenityh-fizikov">Пять самых громких секс скандалов знаменитых физиков</a></h3>    
+          <div class="metadata">    
+          <span class="field-content created">СР, 11/28/2012 - 19:20</span>    
+          <span class="meta-sep">·</span>    
+          <span class="field-content comment-count"><a href="http://scicentr.ru/istoriya/pyat-samyh-gromkih-seks-skandalov-znamenityh-fizikov#comments">0 Комментариев</a></span>    
+          </div>    
+          <p class="field-content"> Физикам, как и всем людям, тоже необходима любовь. Ведь знаменитые на весь мир ученые – это обычные (ну или не совсем…) люди, поэтому и они подвержены житейским ошибкам и скандалам. Взгляните хотя бы на признанного профессора физики, который недавно был осужден за предполагаемую аферу, связанную с наркотиками и сексуальной бикини фотомоделью </p>    
+          <div class="more-link">
+<a title="Прочесть статью полностью" href="http://scicentr.ru/istoriya/pyat-samyh-gromkih-seks-skandalov-znamenityh-fizikov">Читать далее...</a>
+</div>    
+          </div></div>    
+          <div class="term-rss">
+<a class="clearfix tooltip" href="istoriya-rss.xml" original-title="Подписаться на свежие новости раздела История">
+<span class="icon rss"> </span>
+</a>
+</div>    </div>
+    </div>          <div class="attachment clearfix attachment-after">      <div class="view view-istoriya-recent-front view-id-istoriya_recent_front view-display-id-attachment_1 my-related-nodes">                  <div class="view-content">        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-field-image hover-fade alignleft">        <a class="large-size img-wrapper" href="http://scicentr.ru/istoriya/rossiyanin-nameren-unichtozhit-dom-v-kotorom-rodilsya-adolf-gitler">
+<a href="/istoriya/rossiyanin-nameren-unichtozhit-dom-v-kotorom-rodilsya-adolf-gitler" class="large-size img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/node_in_terms_related/public/field/image/dom-v-kotorom-rodilsia-gitler.jpg" width="95" height="65" alt="Известный российский политик намерен выкупить дом Гитлера для его полного уничтожения" title="Дом в котором родился Адольф Гитлер хотят разрушить" class="small-size" /></a>
+</a>
+<span class="icon content-type article"> &nbsp;</span>  </div>  
+          <h3 class="field-content item-title"><a href="/istoriya/rossiyanin-nameren-unichtozhit-dom-v-kotorom-rodilsya-adolf-gitler">Россиянин намерен уничтожить дом в котором родился Адольф Гитлер</a></h3>    
+          <div class="metadata">    
+          <span class="created">Ноя 8, 2012</span>    
+          <span class="meta-sep">·</span>    
+          <span class="field-content comment-count"><a href="http://scicentr.ru/istoriya/rossiyanin-nameren-unichtozhit-dom-v-kotorom-rodilsya-adolf-gitler#comments">0 Комментариев</a></span>    
+          </div>    </div>
+    </div>            </div><div class="view view-istoriya-recent-front view-id-istoriya_recent_front view-display-id-attachment_2 my-related-nodes-2">                        </div>    </div>        </div>    </div>
+  </div>
+</section><section class="block block-views my-recent-node-in-terms block-kosmos-recent-front-block block-views-kosmos-recent-front-block even" id="block-views-kosmos-recent-front-block">
+  <div class="block-inner clearfix">
+              <h2 class='block-title clearfix'><span class='clearfix'><span>Космос</span><span class="icon multi-arrow">&nbsp;</span></span></h2>
+            
+    <div class="content clearfix base-wrap">
+      <div class="view view-kosmos-recent-front view-id-kosmos_recent_front view-display-id-block recent-featured-article view-dom-id-a98b4fc025a6411328f9fdac84d28225">                  <div class="view-content">        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+          <div class="recent-featured-article clearfix">    
+  <div class="views-field views-field-field-image grid-4 clearfix hover-fade">        <a class="medium-size img-wrapper" href="http://scicentr.ru/kosmos/severnaya-koreya-provela-zapreshchennye-ispytaniya-po-zapusku-ballisticheskoy-rakety-v-kosmos">
+<a href="/kosmos/severnaya-koreya-provela-zapreshchennye-ispytaniya-po-zapusku-ballisticheskoy-rakety-v-kosmos" class="large-size img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/node_in_terms/public/field/image/nesankcionirovannyj-zapusk-severno-korejskoj-ballisticheskoj-rakety.jpg" width="395" height="210" alt="Северная Корея провела запрещенные ООН испытания по запуску ракетоносителя в космос" title="Несанкционированный запуск северно-корейской баллистической ракеты" class="medium-size" /></a>
+</a>
+<span class="icon content-type article"> &nbsp;</span>  </div>  
+          <div class="content-group-2 content grid-4 clearfix">    
+          <h3 class="item-title"><a href="/kosmos/severnaya-koreya-provela-zapreshchennye-ispytaniya-po-zapusku-ballisticheskoy-rakety-v-kosmos">Северная Корея провела запрещенные испытания по запуску баллистической ракеты в космос</a></h3>    
+          <div class="metadata">    
+          <span class="field-content created">СР, 12/12/2012 - 15:26</span>    
+          <span class="meta-sep">·</span>    
+          <span class="field-content comment-count"><a href="http://scicentr.ru/kosmos/severnaya-koreya-provela-zapreshchennye-ispytaniya-po-zapusku-ballisticheskoy-rakety-v-kosmos#comments">0 Комментариев</a></span>    
+          </div>    
+          <p class="field-content"> Согласно сообщениям СМИ, Северная Корея совершила запуск ракеты, чтобы доставить некий объект на орбиту Земли, что явилось явным нарушением резолюции ООН от 2009 года запрещающей этой стране любые испытания баллистических ракет </p>    
+          <div class="more-link">
+<a title="Прочесть статью полностью" href="http://scicentr.ru/kosmos/severnaya-koreya-provela-zapreshchennye-ispytaniya-po-zapusku-ballisticheskoy-rakety-v-kosmos">Читать далее...</a>
+</div>    
+          </div></div>    
+          <div class="term-rss">
+<a class="clearfix tooltip" href="kosmos-rss.xml" original-title="Подписаться на свежие новости раздела Космос">
+<span class="icon rss"> </span>
+</a>
+</div>    </div>
+    </div>          <div class="attachment clearfix attachment-after">      <div class="view view-kosmos-recent-front view-id-kosmos_recent_front view-display-id-attachment_1 my-related-nodes">                  <div class="view-content">        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-field-image hover-fade alignleft">        <a class="large-size img-wrapper" href="http://scicentr.ru/kosmos/v-2013-godu-kitay-zapustit-sleduyushchiy-kosmicheskiy-korabl">
+<a href="/kosmos/v-2013-godu-kitay-zapustit-sleduyushchiy-kosmicheskiy-korabl" class="large-size img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/node_in_terms_related/public/field/image/kitai-gotovit-zapusk-sleduiushchego-kosmicheskogo-korablia.jpg" width="95" height="65" alt="Китайское правительство официально подтвердило подготовку запуска своего следующего пилотируемого космического аппарата в 2013 году" title="Китай готовит запуск очередного пилотируемого космического корабля" class="small-size" /></a>
+</a>
+<span class="icon content-type article"> &nbsp;</span>  </div>  
+          <h3 class="field-content item-title"><a href="/kosmos/v-2013-godu-kitay-zapustit-sleduyushchiy-kosmicheskiy-korabl">В 2013 году Китай запустит следующий космический корабль</a></h3>    
+          <div class="metadata">    
+          <span class="created">Ноя 10, 2012</span>    
+          <span class="meta-sep">·</span>    
+          <span class="field-content comment-count"><a href="http://scicentr.ru/kosmos/v-2013-godu-kitay-zapustit-sleduyushchiy-kosmicheskiy-korabl#comments">0 Комментариев</a></span>    
+          </div>    </div>
+  <div class="views-row views-row-2 views-row-even views-row-last">
+      
+  <div class="views-field views-field-field-image hover-fade alignleft">        <a class="large-size img-wrapper" href="http://scicentr.ru/kosmos/novyy-servis-nasa-pomozhet-uvidet-mks-pryamo-nad-vashim-domom">
+<a href="/kosmos/novyy-servis-nasa-pomozhet-uvidet-mks-pryamo-nad-vashim-domom" class="large-size img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/node_in_terms_related/public/field/image/novyi-servis-nasa-dlia-nabliudeniia-za-mks.jpg" width="95" height="65" alt="Новый сервис разработанный сотрудниками НАСА, поможет узнать точное местоположение Международной космической станции, чтобы увидеть ее прямо над вашим домом" title="Новый сервис НАСА - Spot the Station" class="small-size" /></a>
+</a>
+<span class="icon content-type article"> &nbsp;</span>  </div>  
+          <h3 class="field-content item-title"><a href="/kosmos/novyy-servis-nasa-pomozhet-uvidet-mks-pryamo-nad-vashim-domom">Новый сервис NASA поможет увидеть МКС прямо над вашим домом</a></h3>    
+          <div class="metadata">    
+          <span class="created">Ноя 6, 2012</span>    
+          <span class="meta-sep">·</span>    
+          <span class="field-content comment-count"><a href="http://scicentr.ru/kosmos/novyy-servis-nasa-pomozhet-uvidet-mks-pryamo-nad-vashim-domom#comments">0 Комментариев</a></span>    
+          </div>    </div>
+    </div>            </div><div class="view view-kosmos-recent-front view-id-kosmos_recent_front view-display-id-attachment_2 my-related-nodes-2">                  <div class="view-content">        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-field-image hover-fade alignleft">        <a class="large-size img-wrapper" href="http://scicentr.ru/kosmos/redchayshiy-shtorm-na-saturne-byl-gorazdo-moshchnee-chem-predpolagalos">
+<a href="/kosmos/redchayshiy-shtorm-na-saturne-byl-gorazdo-moshchnee-chem-predpolagalos" class="large-size img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/node_in_terms_related/public/field/image/ogromniy-shtorm-na-saturne.jpg" width="95" height="65" alt="Редчайший шторм на Сатурне" title="Ученые НАСА определили, что огромный шторм на Сатурне был гораздо мощнее" class="small-size" /></a>
+</a>
+<span class="icon content-type article"> &nbsp;</span>  </div>  
+          <h3 class="field-content item-title"><a href="/kosmos/redchayshiy-shtorm-na-saturne-byl-gorazdo-moshchnee-chem-predpolagalos">Редчайший шторм на Сатурне был гораздо мощнее, чем предполагалось </a></h3>    
+          <div class="metadata">    
+          <span class="created">Окт 25, 2012</span>    
+          <span class="meta-sep">·</span>    
+          <span class="field-content comment-count"><a href="http://scicentr.ru/kosmos/redchayshiy-shtorm-na-saturne-byl-gorazdo-moshchnee-chem-predpolagalos#comments">0 Комментариев</a></span>    
+          </div>    </div>
+  <div class="views-row views-row-2 views-row-even views-row-last">
+      
+  <div class="views-field views-field-field-image hover-fade alignleft">        <a class="large-size img-wrapper" href="http://scicentr.ru/kosmos/sekret-tehnologiy-pomogshih-obnaruzhit-novuyu-planetu-v-sozvezdii-alfa-centavry">
+<a href="/kosmos/sekret-tehnologiy-pomogshih-obnaruzhit-novuyu-planetu-v-sozvezdii-alfa-centavry" class="large-size img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/node_in_terms_related/public/field/image/obnarujena-novaya-planeta-alpha-centavra.jpg" width="95" height="65" alt="Обнаруженная землеподобная планета в системе Альфа Центавры" title="Новую землеподобную планету в системе Альфа Центавра обнаружил спутник, построенный 10 лет назад" class="small-size" /></a>
+</a>
+<span class="icon content-type article"> &nbsp;</span>  </div>  
+          <h3 class="field-content item-title"><a href="/kosmos/sekret-tehnologiy-pomogshih-obnaruzhit-novuyu-planetu-v-sozvezdii-alfa-centavry">Секрет технологий помогших обнаружить новую планету в созвездии Альфа Центавры</a></h3>    
+          <div class="metadata">    
+          <span class="created">Окт 20, 2012</span>    
+          <span class="meta-sep">·</span>    
+          <span class="field-content comment-count"><a href="http://scicentr.ru/kosmos/sekret-tehnologiy-pomogshih-obnaruzhit-novuyu-planetu-v-sozvezdii-alfa-centavry#comments">0 Комментариев</a></span>    
+          </div>    </div>
+    </div>            </div>    </div>        </div>    </div>
+  </div>
+</section><section class="block block-views my-recent-node-in-terms block-medicina-recent-front-block block-views-medicina-recent-front-block odd" id="block-views-medicina-recent-front-block">
+  <div class="block-inner clearfix">
+              <h2 class='block-title clearfix'><span class='clearfix'><span>Медицина</span><span class="icon multi-arrow">&nbsp;</span></span></h2>
+            
+    <div class="content clearfix base-wrap">
+      <div class="view view-medicina-recent-front view-id-medicina_recent_front view-display-id-block recent-featured-article view-dom-id-0e7c0e275db860595342285ee5ed16b3">                  <div class="view-content">        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+          <div class="recent-featured-article clearfix">    
+  <div class="views-field views-field-field-image grid-4 clearfix hover-fade">        <a class="medium-size img-wrapper" href="http://scicentr.ru/medicina/lezhachie-policeyskie-na-dorogah-mogut-pomoch-opredelit-vospalenie-appendiksa">
+<a href="/medicina/lezhachie-policeyskie-na-dorogah-mogut-pomoch-opredelit-vospalenie-appendiksa" class="large-size img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/node_in_terms/public/field/image/dokazana-svyaz-mezhdu-lezhachimi-policejskimi-i-appendicitom.jpg" width="395" height="210" alt="Ученые подтвердили давно подозреваемую связь между болями при проезде лежачих полицейских и воспалением аппендицита" title="Доказана связь между лежачими полицейскими и аппендицитом" class="medium-size" /></a>
+</a>
+<span class="icon content-type article"> &nbsp;</span>  </div>  
+          <div class="content-group-2 content grid-4 clearfix">    
+          <h3 class="item-title"><a href="/medicina/lezhachie-policeyskie-na-dorogah-mogut-pomoch-opredelit-vospalenie-appendiksa">Лежачие полицейские на дорогах могут помочь определить воспаление аппендикса</a></h3>    
+          <div class="metadata">    
+          <span class="field-content created">ВТ, 12/18/2012 - 18:07</span>    
+          <span class="meta-sep">·</span>    
+          <span class="field-content comment-count"><a href="http://scicentr.ru/medicina/lezhachie-policeyskie-na-dorogah-mogut-pomoch-opredelit-vospalenie-appendiksa#comments">0 Комментариев</a></span>    
+          </div>    
+          <p class="field-content"> Если вы чувствуете, что движении по лежачим полицейским является для Вас дискомфортным – сообщите своему доктору. Это поможет врачам определить страдаете ли Вы от острого аппендицита или нет </p>    
+          <div class="more-link">
+<a title="Прочесть статью полностью" href="http://scicentr.ru/medicina/lezhachie-policeyskie-na-dorogah-mogut-pomoch-opredelit-vospalenie-appendiksa">Читать далее...</a>
+</div>    
+          </div></div>    
+          <div class="term-rss">
+<a class="clearfix tooltip" href="medicina-rss.xml" original-title="Подписаться на свежие новости раздела Медицина">
+<span class="icon rss"> </span>
+</a>
+</div>    </div>
+    </div>          <div class="attachment clearfix attachment-after">      <div class="view view-medicina-recent-front view-id-medicina_recent_front view-display-id-attachment_1 my-related-nodes">                  <div class="view-content">        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-field-image hover-fade alignleft">        <a class="large-size img-wrapper" href="http://scicentr.ru/medicina/chuvstvo-otvrashcheniya-sposobno-rasshirit-nashu-sposobnost-videt">
+<a href="/medicina/chuvstvo-otvrashcheniya-sposobno-rasshirit-nashu-sposobnost-videt" class="large-size img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/node_in_terms_related/public/field/image/chuvstvo-otvrashheniya-sposobno-rasshirit-nashu-sposobnost-videt.jpg" width="95" height="65" alt="Естественное для человека чувство отвращения, может значительно улучшить способность человека различать светлые тона" title="Отвращение влияет на способность человека видеть более отчетливо" class="small-size" /></a>
+</a>
+<span class="icon content-type article"> &nbsp;</span>  </div>  
+          <h3 class="field-content item-title"><a href="/medicina/chuvstvo-otvrashcheniya-sposobno-rasshirit-nashu-sposobnost-videt">Чувство отвращения способно расширить нашу способность видеть</a></h3>    
+          <div class="metadata">    
+          <span class="created">Дек 10, 2012</span>    
+          <span class="meta-sep">·</span>    
+          <span class="field-content comment-count"><a href="http://scicentr.ru/medicina/chuvstvo-otvrashcheniya-sposobno-rasshirit-nashu-sposobnost-videt#comments">0 Комментариев</a></span>    
+          </div>    </div>
+  <div class="views-row views-row-2 views-row-even views-row-last">
+      
+  <div class="views-field views-field-field-image hover-fade alignleft">        <a class="large-size img-wrapper" href="http://scicentr.ru/medicina/zabolevanie-prostudoy-vo-vremya-beremennosti-mozhet-povlech-razvitie-autizma-u-rebenka">
+<a href="/medicina/zabolevanie-prostudoy-vo-vremya-beremennosti-mozhet-povlech-razvitie-autizma-u-rebenka" class="large-size img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/node_in_terms_related/public/field/image/sviaz-zabolevaniia-grippom-vo-vremia-beremennosti-i-razvitiem-autizma-u-detei.jpg" width="95" height="65" alt="Исследователи обнаружили связь перенесения простуды или заболевания гриппом во время беременности и развитием аутизма у детей" title="Связь заболевания гриппом во время беременности и развитием аутизма у детей" class="small-size" /></a>
+</a>
+<span class="icon content-type article"> &nbsp;</span>  </div>  
+          <h3 class="field-content item-title"><a href="/medicina/zabolevanie-prostudoy-vo-vremya-beremennosti-mozhet-povlech-razvitie-autizma-u-rebenka"> Заболевание простудой во время беременности может повлечь развитие аутизма у ребенка</a></h3>    
+          <div class="metadata">    
+          <span class="created">Ноя 13, 2012</span>    
+          <span class="meta-sep">·</span>    
+          <span class="field-content comment-count"><a href="http://scicentr.ru/medicina/zabolevanie-prostudoy-vo-vremya-beremennosti-mozhet-povlech-razvitie-autizma-u-rebenka#comments">0 Комментариев</a></span>    
+          </div>    </div>
+    </div>            </div><div class="view view-medicina-recent-front view-id-medicina_recent_front view-display-id-attachment_2 my-related-nodes-2">                  <div class="view-content">        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-field-image hover-fade alignleft">        <a class="large-size img-wrapper" href="http://scicentr.ru/medicina/depressiya-i-stress-mogut-negativno-povliyat-na-ispolzovanie-kontracepcii">
+<a href="/medicina/depressiya-i-stress-mogut-negativno-povliyat-na-ispolzovanie-kontracepcii" class="large-size img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/node_in_terms_related/public/stress_depressiia-vliiaet-na-kontratceptciiu.jpg" width="95" height="65" alt="Влияние стресса на контрацепцию" title="Исследование показало, что депрессия и стресс могут негативно повлиять на использование контрацептивов" class="small-size" /></a>
+</a>
+<span class="icon content-type article"> &nbsp;</span>  </div>  
+          <h3 class="field-content item-title"><a href="/medicina/depressiya-i-stress-mogut-negativno-povliyat-na-ispolzovanie-kontracepcii">Депрессия и стресс могут негативно повлиять на использование контрацепции</a></h3>    
+          <div class="metadata">    
+          <span class="created">Окт 30, 2012</span>    
+          <span class="meta-sep">·</span>    
+          <span class="field-content comment-count"><a href="http://scicentr.ru/medicina/depressiya-i-stress-mogut-negativno-povliyat-na-ispolzovanie-kontracepcii#comments">0 Комментариев</a></span>    
+          </div>    </div>
+  <div class="views-row views-row-2 views-row-even views-row-last">
+      
+  <div class="views-field views-field-field-image hover-fade alignleft">        <a class="large-size img-wrapper" href="http://scicentr.ru/medicina/uchenye-razrabatyvayut-lekarstva-unichtozhayushchie-vashi-strahi-poka-vy-spite">
+<a href="/medicina/uchenye-razrabatyvayut-lekarstva-unichtozhayushchie-vashi-strahi-poka-vy-spite" class="large-size img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/node_in_terms_related/public/field/image/sleeping-laboratory-rat.jpg" width="95" height="65" alt="Лечение страхов у подопытных крыс" title="Тестирование препарата для лечения страхов и плохих воспоминаний на крысах" class="small-size" /></a>
+</a>
+<span class="icon content-type article"> &nbsp;</span>  </div>  
+          <h3 class="field-content item-title"><a href="/medicina/uchenye-razrabatyvayut-lekarstva-unichtozhayushchie-vashi-strahi-poka-vy-spite">Ученые разрабатывают лекарства, уничтожающие ваши страхи пока вы спите</a></h3>    
+          <div class="metadata">    
+          <span class="created">Окт 18, 2012</span>    
+          <span class="meta-sep">·</span>    
+          <span class="field-content comment-count"><a href="http://scicentr.ru/medicina/uchenye-razrabatyvayut-lekarstva-unichtozhayushchie-vashi-strahi-poka-vy-spite#comments">0 Комментариев</a></span>    
+          </div>    </div>
+    </div>            </div>    </div>        </div>    </div>
+  </div>
+</section><section class="block block-views my-recent-node-in-terms block-planeta-recent-front-block block-views-planeta-recent-front-block even" id="block-views-planeta-recent-front-block">
+  <div class="block-inner clearfix">
+              <h2 class='block-title clearfix'><span class='clearfix'><span>Планета</span><span class="icon multi-arrow">&nbsp;</span></span></h2>
+            
+    <div class="content clearfix base-wrap">
+      <div class="view view-planeta-recent-front view-id-planeta_recent_front view-display-id-block recent-featured-article view-dom-id-7132e4cb74b614687b799bfac9a5b7a2">                  <div class="view-content">        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+          <div class="recent-featured-article clearfix">    
+  <div class="views-field views-field-field-image grid-4 clearfix hover-fade">        <a class="medium-size img-wrapper" href="http://scicentr.ru/planeta/v-glubinah-okeana-obnaruzhen-sovershenno-novyy-vid-plotoyadnogo-zhivotnogo">
+<a href="/planeta/v-glubinah-okeana-obnaruzhen-sovershenno-novyy-vid-plotoyadnogo-zhivotnogo" class="large-size img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/node_in_terms/public/field/image/novyi-vid-plotoiadnogo-morskogo-zhivotnogo-gubka-arfa.jpg" width="395" height="210" alt="Американские исследователи обнаружили совершенно новый вид плотоядной морской губки – губки-арфы" title="Губка-арфа - обнаруженный недавно новый вид морской губки" class="medium-size" /></a>
+</a>
+<span class="icon content-type article"> &nbsp;</span>  </div>  
+          <div class="content-group-2 content grid-4 clearfix">    
+          <h3 class="item-title"><a href="/planeta/v-glubinah-okeana-obnaruzhen-sovershenno-novyy-vid-plotoyadnogo-zhivotnogo">В глубинах океана обнаружен совершенно новый вид плотоядного животного</a></h3>    
+          <div class="metadata">    
+          <span class="field-content created">ПН, 11/12/2012 - 20:28</span>    
+          <span class="meta-sep">·</span>    
+          <span class="field-content comment-count"><a href="http://scicentr.ru/planeta/v-glubinah-okeana-obnaruzhen-sovershenno-novyy-vid-plotoyadnogo-zhivotnogo#comments">0 Комментариев</a></span>    
+          </div>    
+          <p class="field-content"> В глубоких океанских водах около калифорнийского залива Монтерей было обнаружено новое плотоядное животное, своим видом напоминающее изысканный свечной канделябр </p>    
+          <div class="more-link">
+<a title="Прочесть статью полностью" href="http://scicentr.ru/planeta/v-glubinah-okeana-obnaruzhen-sovershenno-novyy-vid-plotoyadnogo-zhivotnogo">Читать далее...</a>
+</div>    
+          </div></div>    
+          <div class="term-rss">
+<a class="clearfix tooltip" href="planeta-rss.xml" original-title="Подписаться на свежие новости раздела Планета">
+<span class="icon rss"> </span>
+</a>
+</div>    </div>
+    </div>          <div class="attachment clearfix attachment-after">      <div class="view view-planeta-recent-front view-id-planeta_recent_front view-display-id-attachment_1 my-related-nodes">                  <div class="view-content">        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-field-image hover-fade alignleft">        <a class="large-size img-wrapper" href="http://scicentr.ru/fotografii/uchenyy-otkryl-devyat-novyh-raznovidnostey-tarantula">
+<a href="/fotografii/uchenyy-otkryl-devyat-novyh-raznovidnostey-tarantula" class="large-size img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/node_in_terms_related/public/9-novih-vidov-tarantula.jpg" width="95" height="65" alt="Известный исследователь открыл девять новых видов тарантула" title="Открыты девять новых видов тарантула" class="small-size" /></a>
+</a>
+<span class="icon content-type photos"> &nbsp;</span>  </div>  
+          <h3 class="field-content item-title"><a href="/fotografii/uchenyy-otkryl-devyat-novyh-raznovidnostey-tarantula">Ученый открыл девять новых разновидностей тарантула</a></h3>    
+          <div class="metadata">    
+          <span class="created">Ноя 1, 2012</span>    
+          <span class="meta-sep">·</span>    
+          <span class="field-content comment-count"><a href="http://scicentr.ru/fotografii/uchenyy-otkryl-devyat-novyh-raznovidnostey-tarantula#comments">0 Комментариев</a></span>    
+          </div>    </div>
+  <div class="views-row views-row-2 views-row-even views-row-last">
+      
+  <div class="views-field views-field-field-image hover-fade alignleft">        <a class="large-size img-wrapper" href="http://scicentr.ru/planeta/hotite-uznat-chto-sdelalo-nas-lyudmi-kulinariya-utverzhdayut-issledovateli">
+<a href="/planeta/hotite-uznat-chto-sdelalo-nas-lyudmi-kulinariya-utverzhdayut-issledovateli" class="large-size img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/node_in_terms_related/public/chto-sdelalo-nas-ludmi.jpg" width="95" height="65" alt="Ученые сделали предположение о главной причине происхождения человека" title="Исследователи считают, что из обезьяны в человека нас превратило приготовление пищи" class="small-size" /></a>
+</a>
+<span class="icon content-type article"> &nbsp;</span>  </div>  
+          <h3 class="field-content item-title"><a href="/planeta/hotite-uznat-chto-sdelalo-nas-lyudmi-kulinariya-utverzhdayut-issledovateli">Хотите узнать, что сделало нас людьми? Кулинария – утверждают исследователи</a></h3>    
+          <div class="metadata">    
+          <span class="created">Окт 29, 2012</span>    
+          <span class="meta-sep">·</span>    
+          <span class="field-content comment-count"><a href="http://scicentr.ru/planeta/hotite-uznat-chto-sdelalo-nas-lyudmi-kulinariya-utverzhdayut-issledovateli#comments">0 Комментариев</a></span>    
+          </div>    </div>
+    </div>            </div><div class="view view-planeta-recent-front view-id-planeta_recent_front view-display-id-attachment_2 my-related-nodes-2">                  <div class="view-content">        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-field-image hover-fade alignleft">        <a class="large-size img-wrapper" href="http://scicentr.ru/planeta/naydennyy-shest-let-nazad-morskoy-monstr-poluchil-oficialnoe-imya">
+<a href="/planeta/naydennyy-shest-let-nazad-morskoy-monstr-poluchil-oficialnoe-imya" class="large-size img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/node_in_terms_related/public/field/image/morskoy-monstr-poluchil-nazvanie.jpg" width="95" height="65" alt="Доисторический морской монстр получил название" title="Исследователи дали официальное имя найденному доисторическому морскому динозавру" class="small-size" /></a>
+</a>
+<span class="icon content-type article"> &nbsp;</span>  </div>  
+          <h3 class="field-content item-title"><a href="/planeta/naydennyy-shest-let-nazad-morskoy-monstr-poluchil-oficialnoe-imya">Найденный шесть лет назад морской монстр получил официальное имя</a></h3>    
+          <div class="metadata">    
+          <span class="created">Окт 19, 2012</span>    
+          <span class="meta-sep">·</span>    
+          <span class="field-content comment-count"><a href="http://scicentr.ru/planeta/naydennyy-shest-let-nazad-morskoy-monstr-poluchil-oficialnoe-imya#comments">0 Комментариев</a></span>    
+          </div>    </div>
+  <div class="views-row views-row-2 views-row-even views-row-last">
+      
+  <div class="views-field views-field-field-image hover-fade alignleft">        <a class="large-size img-wrapper" href="http://scicentr.ru/planeta/tehniku-ispolzovaniya-morskih-gubok-delfiny-peredayut-tolko-po-materinskoy-linii">
+<a href="/planeta/tehniku-ispolzovaniya-morskih-gubok-delfiny-peredayut-tolko-po-materinskoy-linii" class="large-size img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/node_in_terms_related/public/field/image/dolphin-morscie-gubi.jpg" width="95" height="65" alt="Использование дельфинами морских губок" title="Использование дельфинами морских губок" class="small-size" /></a>
+</a>
+<span class="icon content-type article"> &nbsp;</span>  </div>  
+          <h3 class="field-content item-title"><a href="/planeta/tehniku-ispolzovaniya-morskih-gubok-delfiny-peredayut-tolko-po-materinskoy-linii">Технику использования морских губок дельфины передают только по материнской линии</a></h3>    
+          <div class="metadata">    
+          <span class="created">Окт 17, 2012</span>    
+          <span class="meta-sep">·</span>    
+          <span class="field-content comment-count"><a href="http://scicentr.ru/planeta/tehniku-ispolzovaniya-morskih-gubok-delfiny-peredayut-tolko-po-materinskoy-linii#comments">0 Комментариев</a></span>    
+          </div>    </div>
+    </div>            </div>    </div>        </div>    </div>
+  </div>
+</section><section class="block block-views my-recent-node-in-terms block-tehnologiya-recent-front-block block-views-tehnologiya-recent-front-block odd" id="block-views-tehnologiya-recent-front-block">
+  <div class="block-inner clearfix">
+              <h2 class='block-title clearfix'><span class='clearfix'><span>Технология</span><span class="icon multi-arrow">&nbsp;</span></span></h2>
+            
+    <div class="content clearfix base-wrap">
+      <div class="view view-tehnologiya-recent-front view-id-tehnologiya_recent_front view-display-id-block recent-featured-article view-dom-id-b7da21b3db94ff0fd37415b7f54ccb09">                  <div class="view-content">        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+          <div class="recent-featured-article clearfix">    
+  <div class="views-field views-field-field-image grid-4 clearfix hover-fade">        <a class="medium-size img-wrapper" href="http://scicentr.ru/tehnologiya/polzovateli-twitter-poluchat-vozmozhnost-skachivat-arhiv-svoih-tvitov">
+<a href="/tehnologiya/polzovateli-twitter-poluchat-vozmozhnost-skachivat-arhiv-svoih-tvitov" class="large-size img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/node_in_terms/public/field/image/polzovateli-twitter-poluchat-vozmozhnost-skachivat-arxiv-tvitov-so-svoego-akkaunta.jpg" width="395" height="210" alt="Тестируется новая функция Twitter, которая позволит скачивать все свои сообщения в виде файла с архивом" title="Пользователи Twitter получат возможность скачивать архив твитов со своего аккаунта" class="medium-size" /></a>
+</a>
+<span class="icon content-type article"> &nbsp;</span>  </div>  
+          <div class="content-group-2 content grid-4 clearfix">    
+          <h3 class="item-title"><a href="/tehnologiya/polzovateli-twitter-poluchat-vozmozhnost-skachivat-arhiv-svoih-tvitov">Пользователи Twitter получат возможность скачивать архив своих твитов</a></h3>    
+          <div class="metadata">    
+          <span class="field-content created">ВТ, 12/18/2012 - 18:39</span>    
+          <span class="meta-sep">·</span>    
+          <span class="field-content comment-count"><a href="http://scicentr.ru/tehnologiya/polzovateli-twitter-poluchat-vozmozhnost-skachivat-arhiv-svoih-tvitov#comments">0 Комментариев</a></span>    
+          </div>    
+          <p class="field-content"> Технические специалисты Twitter тестируют новую функцию, которая позволит пользователям скачивать файл с архивом всех твитов своей учетной записи. </p>    
+          <div class="more-link">
+<a title="Прочесть статью полностью" href="http://scicentr.ru/tehnologiya/polzovateli-twitter-poluchat-vozmozhnost-skachivat-arhiv-svoih-tvitov">Читать далее...</a>
+</div>    
+          </div></div>    
+          <div class="term-rss">
+<a class="clearfix tooltip" href="tehnologiya-rss.xml" original-title="Подписаться на свежие новости раздела Технология">
+<span class="icon rss"> </span>
+</a>
+</div>    </div>
+    </div>          <div class="attachment clearfix attachment-after">      <div class="view view-tehnologiya-recent-front view-id-tehnologiya_recent_front view-display-id-attachment_1 my-related-nodes">                  <div class="view-content">        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-field-image hover-fade alignleft">        <a class="large-size img-wrapper" href="http://scicentr.ru/tehnologiya/haker-vzlomavshiy-pochtu-skarlett-yohansson-poluchil-10-let-tyurmy">
+<a href="/tehnologiya/haker-vzlomavshiy-pochtu-skarlett-yohansson-poluchil-10-let-tyurmy" class="large-size img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/node_in_terms_related/public/field/image/skarlett-joxansson-posadila-xakera-na-10-let.jpg" width="95" height="65" alt="Хакер, взломавший аккаунт Скарлетт Йоханссон был приговорен к 10 годам лишения свободы" title="Скарлетт Йоханссон посадила хакера на 10 лет" class="small-size" /></a>
+</a>
+<span class="icon content-type article"> &nbsp;</span>  </div>  
+          <h3 class="field-content item-title"><a href="/tehnologiya/haker-vzlomavshiy-pochtu-skarlett-yohansson-poluchil-10-let-tyurmy">Хакер взломавший почту Скарлетт Йоханссон получил 10 лет тюрьмы</a></h3>    
+          <div class="metadata">    
+          <span class="created">Дек 18, 2012</span>    
+          <span class="meta-sep">·</span>    
+          <span class="field-content comment-count"><a href="http://scicentr.ru/tehnologiya/haker-vzlomavshiy-pochtu-skarlett-yohansson-poluchil-10-let-tyurmy#comments">0 Комментариев</a></span>    
+          </div>    </div>
+  <div class="views-row views-row-2 views-row-even views-row-last">
+      
+  <div class="views-field views-field-field-image hover-fade alignleft">        <a class="large-size img-wrapper" href="http://scicentr.ru/tehnologiya/skoro-roboty-nauchatsya-raspoznavat-sut-chelovecheskogo-vzglyada">
+<a href="/tehnologiya/skoro-roboty-nauchatsya-raspoznavat-sut-chelovecheskogo-vzglyada" class="large-size img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/node_in_terms_related/public/field/image/roboty-smogut-opredelit-smysl-chelovecheskogo-vzglyada.jpg" width="95" height="65" alt="Разработана технология с помощью которой роботы смогут точно анализировать смысл человеческих социальных сигналов" title="Роботы смогут определить смысл человеческого взгляда" class="small-size" /></a>
+</a>
+<span class="icon content-type article"> &nbsp;</span>  </div>  
+          <h3 class="field-content item-title"><a href="/tehnologiya/skoro-roboty-nauchatsya-raspoznavat-sut-chelovecheskogo-vzglyada">Скоро роботы научатся распознавать суть человеческого взгляда</a></h3>    
+          <div class="metadata">    
+          <span class="created">Дек 14, 2012</span>    
+          <span class="meta-sep">·</span>    
+          <span class="field-content comment-count"><a href="http://scicentr.ru/tehnologiya/skoro-roboty-nauchatsya-raspoznavat-sut-chelovecheskogo-vzglyada#comments">0 Комментариев</a></span>    
+          </div>    </div>
+    </div>            </div><div class="view view-tehnologiya-recent-front view-id-tehnologiya_recent_front view-display-id-attachment_2 my-related-nodes-2">                  <div class="view-content">        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-field-image hover-fade alignleft">        <a class="large-size img-wrapper" href="http://scicentr.ru/tehnologiya/novinka-ot-android-42-udivitelnye-sfericheskie-panoramy">
+<a href="/tehnologiya/novinka-ot-android-42-udivitelnye-sfericheskie-panoramy" class="large-size img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/node_in_terms_related/public/field/image/novaja-fishka-android-4.2-foto-sfery.jpg" width="95" height="65" alt="Новая технология, представленная с выходом Android 4.2, помогает делать великолепные сферические панорамные фотоснимки" title="Новая фишка Android 4.2: фото сферы" class="small-size" /></a>
+</a>
+<span class="icon content-type article"> &nbsp;</span>  </div>  
+          <h3 class="field-content item-title"><a href="/tehnologiya/novinka-ot-android-42-udivitelnye-sfericheskie-panoramy">Новинка от Android 4.2: удивительные сферические панорамы</a></h3>    
+          <div class="metadata">    
+          <span class="created">Ноя 26, 2012</span>    
+          <span class="meta-sep">·</span>    
+          <span class="field-content comment-count"><a href="http://scicentr.ru/tehnologiya/novinka-ot-android-42-udivitelnye-sfericheskie-panoramy#comments">0 Комментариев</a></span>    
+          </div>    </div>
+  <div class="views-row views-row-2 views-row-even views-row-last">
+      
+  <div class="views-field views-field-field-image hover-fade alignleft">        <a class="large-size img-wrapper" href="http://scicentr.ru/tehnologiya/korporaciya-samsung-zasvetila-novogo-predstavitelya-znamenitoy-lineyki-smartfonov-galaxy">
+<a href="/tehnologiya/korporaciya-samsung-zasvetila-novogo-predstavitelya-znamenitoy-lineyki-smartfonov-galaxy" class="large-size img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/node_in_terms_related/public/field/image/tekhnicheskii-prototip-novogo-galaxy-smartfona.jpg" width="95" height="65" alt="В сеть просочились слухи о подаче корпорацией Samsung запроса на регистрацию нового смартфона, который, предположительно, станет дополнительным телефоном линейки Galaxy" title="Схематическое изображение нового представителя флагманской линейки смартфонов Samsung Galaxy" class="small-size" /></a>
+</a>
+<span class="icon content-type article"> &nbsp;</span>  </div>  
+          <h3 class="field-content item-title"><a href="/tehnologiya/korporaciya-samsung-zasvetila-novogo-predstavitelya-znamenitoy-lineyki-smartfonov-galaxy">Корпорация Samsung засветила нового представителя знаменитой линейки смартфонов Galaxy</a></h3>    
+          <div class="metadata">    
+          <span class="created">Ноя 24, 2012</span>    
+          <span class="meta-sep">·</span>    
+          <span class="field-content comment-count"><a href="http://scicentr.ru/tehnologiya/korporaciya-samsung-zasvetila-novogo-predstavitelya-znamenitoy-lineyki-smartfonov-galaxy#comments">0 Комментариев</a></span>    
+          </div>    </div>
+    </div>            </div>    </div>        </div>    </div>
+  </div>
+</section><section class="block block-views my-recent-node-in-terms block-chelovek-recent-front-block block-views-chelovek-recent-front-block even" id="block-views-chelovek-recent-front-block">
+  <div class="block-inner clearfix">
+              <h2 class='block-title clearfix'><span class='clearfix'><span>Человек</span><span class="icon multi-arrow">&nbsp;</span></span></h2>
+            
+    <div class="content clearfix base-wrap">
+      <div class="view view-chelovek-recent-front view-id-chelovek_recent_front view-display-id-block recent-featured-article view-dom-id-43e8cd12ac4665799699eba3ebb61cf9">                  <div class="view-content">        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+          <div class="recent-featured-article clearfix">    
+  <div class="views-field views-field-field-image grid-4 clearfix hover-fade">        <a class="medium-size img-wrapper" href="http://scicentr.ru/chelovek/reshenie-tayny-stareniya-gen-dolgovechnosti-delaet-bessmertnoy-gidru-lyudey-zastavlyaet">
+<a href="/chelovek/reshenie-tayny-stareniya-gen-dolgovechnosti-delaet-bessmertnoy-gidru-lyudey-zastavlyaet" class="large-size img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/node_in_terms/public/field/image/uchenye-obnaruzhili-gen-stareniia-cheloveka.jpg" width="395" height="210" alt="При исследовании клеток Гидры ученые обнаружили особый ген, который отвечает за старение организма человека" title="Ученые обнаружили ген бессмертия" class="medium-size" /></a>
+</a>
+<span class="icon content-type article"> &nbsp;</span>  </div>  
+          <div class="content-group-2 content grid-4 clearfix">    
+          <h3 class="item-title"><a href="/chelovek/reshenie-tayny-stareniya-gen-dolgovechnosti-delaet-bessmertnoy-gidru-lyudey-zastavlyaet">Решение тайны старения: ген долговечности делает бессмертной Гидру, а людей заставляет стареть</a></h3>    
+          <div class="metadata">    
+          <span class="field-content created">ВТ, 11/13/2012 - 20:48</span>    
+          <span class="meta-sep">·</span>    
+          <span class="field-content comment-count"><a href="http://scicentr.ru/chelovek/reshenie-tayny-stareniya-gen-dolgovechnosti-delaet-bessmertnoy-gidru-lyudey-zastavlyaet#comments">0 Комментариев</a></span>    
+          </div>    
+          <p class="field-content"> Почему мы становимся старше? Когда мы умираем и почему? Возможна ли жизнь без старения? В течение многих столетий наука была очарована этими вопросами. Недавно ученые из Киля (Германия) проводили исследование направленное на изучения бессмертия Гидр и неожиданно обнаружили связь со старением у людей </p>    
+          <div class="more-link">
+<a title="Прочесть статью полностью" href="http://scicentr.ru/chelovek/reshenie-tayny-stareniya-gen-dolgovechnosti-delaet-bessmertnoy-gidru-lyudey-zastavlyaet">Читать далее...</a>
+</div>    
+          </div></div>    
+          <div class="term-rss">
+<a class="clearfix tooltip" href="chelovek-rss.xml" original-title="Подписаться на свежие новости раздела Человек">
+<span class="icon rss"> </span>
+</a>
+</div>    </div>
+    </div>          <div class="attachment clearfix attachment-after">      <div class="view view-chelovek-recent-front view-id-chelovek_recent_front view-display-id-attachment_1 my-related-nodes">                  <div class="view-content">        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-field-image hover-fade alignleft">        <a class="large-size img-wrapper" href="http://scicentr.ru/chelovek/novaya-tehnika-molekulyarnogo-issledovaniya-pomozhet-raskryt-pochti-vse-vidy-kletochnyh">
+<a href="/chelovek/novaya-tehnika-molekulyarnogo-issledovaniya-pomozhet-raskryt-pochti-vse-vidy-kletochnyh" class="large-size img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/node_in_terms_related/public/field/image/noviy-metod-issledovania-saharnih-kletok_0.jpg" width="95" height="65" alt="Ученые разработали революционный метод по исследованию сахарных клеток" title="Новый метод исследования сахарных клеток" class="small-size" /></a>
+</a>
+<span class="icon content-type article"> &nbsp;</span>  </div>  
+          <h3 class="field-content item-title"><a href="/chelovek/novaya-tehnika-molekulyarnogo-issledovaniya-pomozhet-raskryt-pochti-vse-vidy-kletochnyh">Новая техника молекулярного исследования поможет раскрыть почти все виды клеточных функций</a></h3>    
+          <div class="metadata">    
+          <span class="created">Ноя 1, 2012</span>    
+          <span class="meta-sep">·</span>    
+          <span class="field-content comment-count"><a href="http://scicentr.ru/chelovek/novaya-tehnika-molekulyarnogo-issledovaniya-pomozhet-raskryt-pochti-vse-vidy-kletochnyh#comments">0 Комментариев</a></span>    
+          </div>    </div>
+  <div class="views-row views-row-2 views-row-even views-row-last">
+      
+  <div class="views-field views-field-field-image hover-fade alignleft">        <a class="large-size img-wrapper" href="http://scicentr.ru/chelovek/chelovecheskiy-strah-mozhet-iskazhat-prostranstvennoe-vospriyatie">
+<a href="/chelovek/chelovecheskiy-strah-mozhet-iskazhat-prostranstvennoe-vospriyatie" class="medium-size img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/node_in_terms_related/public/field/image/ponimanie-mehanizmov-fobii.jpg" width="95" height="65" alt="Понимание основных механизмов фобий" title="Понимание механизма пространственного восприятия человека, для лечения фобий" class="small-size" /></a>
+</a>
+<span class="icon content-type article"> &nbsp;</span>  </div>  
+          <h3 class="field-content item-title"><a href="/chelovek/chelovecheskiy-strah-mozhet-iskazhat-prostranstvennoe-vospriyatie">Человеческий страх может искажать пространственное восприятие</a></h3>    
+          <div class="metadata">    
+          <span class="created">Окт 22, 2012</span>    
+          <span class="meta-sep">·</span>    
+          <span class="field-content comment-count"><a href="http://scicentr.ru/chelovek/chelovecheskiy-strah-mozhet-iskazhat-prostranstvennoe-vospriyatie#comments">0 Комментариев</a></span>    
+          </div>    </div>
+    </div>            </div><div class="view view-chelovek-recent-front view-id-chelovek_recent_front view-display-id-attachment_2 my-related-nodes-2">                        </div>    </div>        </div>    </div>
+  </div>
+</section>					</div>
+	</div>
+</div><aside class="grid-4 region region-sidebar-second" id="region-sidebar-second">
+  <div class="region-inner region-sidebar-second-inner clearfix">
+    <section class="block block-simpleads block-ad-groups-23 block-simpleads-ad-groups-23 odd" id="block-simpleads-ad-groups-23">
+  <div class="block-inner clearfix">
+              <h2 class='block-title clearfix'><span class='clearfix'>Advertisement</span></h2>
+            
+    <div class="content clearfix base-wrap">
+      <div class="header">
+  <div class="ad-link"></div>
+</div>
+<div class="adslist">
+  <script type="text/javascript">
+    _simpelads_load('.simpleads-23', 23, 1);
+  </script>
+    <div class="simpleads-23"></div>
+
+    
+</div>
+    </div>
+  </div>
+</section><section class="block block-dropletz-helper block-dh-block-newsletter block-dropletz-helper-dh-block-newsletter even" id="block-dropletz-helper-dh-block-newsletter">
+  <div class="block-inner clearfix">
+              <h2 class='block-title clearfix'><span class='clearfix'>Подписка на SciCentr.ru</span></h2>
+            
+    <div class="content clearfix base-wrap">
+      <div class="clearfix">
+      <p>Select the newsletter(s) to which you want to subscribe or unsubscribe.</p>
+  
+  <form action="/tehnologiya/novinka-ot-android-42-udivitelnye-sfericheskie-panoramy" method="post" id="simplenews-subscriptions-multi-block-form" accept-charset="UTF-8"><div><div id="edit-newsletters" class="form-checkboxes"></div><input type="hidden" name="form_build_id" value="form-80kG_EViD-nfsWhykXS4l9SbqWe2SFPbFqtFfLWlPaY" />
+<input type="hidden" name="form_id" value="simplenews_subscriptions_multi_block_form" />
+<div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail--2">Электронная почта <span class="form-required" title="Обязательно для заполнения.">*</span></label>
+ <input type="text" id="edit-mail--2" name="mail" value="" size="20" maxlength="128" class="form-text required" />
+</div>
+<input type="submit" id="edit-subscribe" name="op" value="Подписаться" class="form-submit" /><input type="submit" id="edit-unsubscribe" name="op" value="Отписаться" class="form-submit" /></div></form></div><div class="follow-links clearfix"><div class="item-list"><ul><li class="first"><a href="/rss.xml" class="tooltip follow-link follow-link-this-site clear-block follow-link-site" title="Подписыайтесь на наши новости"><span class="title">Подписыайтесь на наши новости</span><span class ='icon this-site'>&nbsp;</span></a>
+</li><li><a href="http://www.facebook.com/people/Sci-Centr/100004250561222" class="tooltip follow-link follow-link-facebook clear-block follow-link-site" title="Станьте другом на Facebook"><span class="title">Станьте другом на Facebook</span><span class ='icon facebook'>&nbsp;</span></a>
+</li><li class="last"><a href="http://twitter.com/ScicentrRu" class="tooltip follow-link follow-link-twitter clear-block follow-link-site" title="Присоединяйтесь в Twitter"><span class="title">Присоединяйтесь в Twitter</span><span class ='icon twitter'>&nbsp;</span></a>
+</li></ul></div></div>    </div>
+  </div>
+</section><section class="block block-quicktabs block-sidebar-second-quicktabs block-quicktabs-sidebar-second-quicktabs odd" id="block-quicktabs-sidebar-second-quicktabs">
+  <div class="block-inner clearfix">
+              <h2 class='block-title clearfix'><span class='clearfix'>sidebar second quicktabs</span></h2>
+            
+    <div class="content clearfix base-wrap">
+      <div  id="quicktabs-sidebar_second_quicktabs" class="quicktabs-wrapper quicktabs-style-nostyle"><div class="item-list"><ul class="quicktabs-tabs quicktabs-style-nostyle"><li class="active first"><a href="/tehnologiya/novinka-ot-android-42-udivitelnye-sfericheskie-panoramy?qt-sidebar_second_quicktabs=0#qt-sidebar_second_quicktabs" id="quicktabs-tab-sidebar_second_quicktabs-0">свежие комментарии</a></li><li><a href="/tehnologiya/novinka-ot-android-42-udivitelnye-sfericheskie-panoramy?qt-sidebar_second_quicktabs=1#qt-sidebar_second_quicktabs" id="quicktabs-tab-sidebar_second_quicktabs-1">популярные</a></li><li class="last"><a href="/tehnologiya/novinka-ot-android-42-udivitelnye-sfericheskie-panoramy?qt-sidebar_second_quicktabs=2#qt-sidebar_second_quicktabs" id="quicktabs-tab-sidebar_second_quicktabs-2">Архив</a></li></ul></div><div id="quicktabs-container-sidebar_second_quicktabs" class="quicktabs_main quicktabs-style-nostyle"><div  id="quicktabs-tabpage-sidebar_second_quicktabs-0" class="quicktabs-tabpage "><div class="block block-views block-comments-recent-block block-views-comments-recent-block odd block-without-title" id="block-views-comments-recent-block">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix base-wrap">
+      <div class="view view-comments-recent view-id-comments_recent view-display-id-block view-dom-id-c93457cb2a8159f77749fb416c85a28c">                  <div class="view-content">      <div class="item-list">    <ul class="no-padding">    							<li class="views-row views-row-1 views-row-odd views-row-first clearfix">
+		
+  <div class="views-field views-field-picture hover-fade alignleft">      </div>	
+	
+		
+
+		
+  <h3 class="views-field views-field-subject item-title">    <a href="/comment/427#comment-427">статьи</a>  </h3>	
+	
+		
+
+			<div class='metadata clearfix'>
+		
+  <span class="views-field views-field-timestamp created">    Фев 25, 2013  </span>	
+	
+			<span class="meta-sep">·</span>
+		
+
+		
+      <span class="username">jobconsulting (не проверено)</span>  	
+	
+			</div>
+		
+</li>			    							<li class="views-row views-row-2 views-row-even clearfix">
+		
+  <div class="views-field views-field-picture hover-fade alignleft">      </div>	
+	
+		
+
+		
+  <h3 class="views-field views-field-subject item-title">    <a href="/comment/426#comment-426">работа статьи</a>  </h3>	
+	
+		
+
+			<div class='metadata clearfix'>
+		
+  <span class="views-field views-field-timestamp created">    Фев 25, 2013  </span>	
+	
+			<span class="meta-sep">·</span>
+		
+
+		
+      <span class="username">jobconsulting (не проверено)</span>  	
+	
+			</div>
+		
+</li>			    							<li class="views-row views-row-3 views-row-odd clearfix">
+		
+  <div class="views-field views-field-picture hover-fade alignleft">      </div>	
+	
+		
+
+		
+  <h3 class="views-field views-field-subject item-title">    <a href="/comment/425#comment-425">легальные порошки наложенным - купить в магазине Legalka.us</a>  </h3>	
+	
+		
+
+			<div class='metadata clearfix'>
+		
+  <span class="views-field views-field-timestamp created">    Фев 25, 2013  </span>	
+	
+			<span class="meta-sep">·</span>
+		
+
+		
+      <span class="username">PadeUsecews (не проверено)</span>  	
+	
+			</div>
+		
+</li>			    							<li class="views-row views-row-4 views-row-even clearfix">
+		
+  <div class="views-field views-field-picture hover-fade alignleft">      </div>	
+	
+		
+
+		
+  <h3 class="views-field views-field-subject item-title">    <a href="/comment/424#comment-424">легальные порошки наложенным - купить в магазине Legalka.us</a>  </h3>	
+	
+		
+
+			<div class='metadata clearfix'>
+		
+  <span class="views-field views-field-timestamp created">    Фев 25, 2013  </span>	
+	
+			<span class="meta-sep">·</span>
+		
+
+		
+      <span class="username">PadeUsecews (не проверено)</span>  	
+	
+			</div>
+		
+</li>			    							<li class="views-row views-row-5 views-row-odd views-row-last clearfix">
+		
+  <div class="views-field views-field-picture hover-fade alignleft">      </div>	
+	
+		
+
+		
+  <h3 class="views-field views-field-subject item-title">    <a href="/comment/423#comment-423">легальные порошки наложенным - купить в магазине Legalka.us</a>  </h3>	
+	
+		
+
+			<div class='metadata clearfix'>
+		
+  <span class="views-field views-field-timestamp created">    Фев 25, 2013  </span>	
+	
+			<span class="meta-sep">·</span>
+		
+
+		
+      <span class="username">PadeUsecews (не проверено)</span>  	
+	
+			</div>
+		
+</li>			      </ul></div>    </div>            
+<div class="more-link">
+  <a href="/comments/recent">
+    ещё  </a>
+</div>
+      </div>    </div>
+  </div>
+</div></div><div  id="quicktabs-tabpage-sidebar_second_quicktabs-1" class="quicktabs-tabpage quicktabs-hide"><div class="block block-views block-most-viewed-block block-views-most-viewed-block even block-without-title" id="block-views-most-viewed-block">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix base-wrap">
+      <div class="view view-most-viewed view-id-most_viewed view-display-id-block view-dom-id-b5a61aa845c44c90a749b728b3530f98">                  <div class="view-content">      <div class="item-list">    <ul class="no-padding">    							<li class="views-row views-row-1 views-row-odd views-row-first clearfix">
+			
+		<div class="views-field views-field-field-image link-content hover-fade alignleft">			<div class="field-content"><a href="/medicina/uluchshenie-fizicheskogo-i-umstvennogo-razvitiya-rebenka-s-pomoshchyu-obustroystva-detskoy" class="large-size img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/quicktabs_thumb/public/field/image/natural-childrens-playground.jpg" width="65" height="65" alt="Улучшение физического развития ребенка с помощью обустройства детской площадки" title="Отказ от устаревших детских качелей улучшит развитие вашего малыша" class="small-size" /></a></div>		</div>		
+		
+	
+			
+
+			
+		<h3 class="views-field views-field-title">			<a href="/medicina/uluchshenie-fizicheskogo-i-umstvennogo-razvitiya-rebenka-s-pomoshchyu-obustroystva-detskoy">Улучшение физического и умственного развития ребен...</a>		</h3>		
+		
+	
+			
+
+			<div class='metadata clearfix'>
+			
+		<span class="views-field views-field-created created">			Окт 15, 2012		</span>		
+		
+	
+			<span class="meta-sep">·</span>
+			
+
+			
+		<span class="views-field views-field-comment-count comment-count">			<a href="http://scicentr.ru/medicina/uluchshenie-fizicheskogo-i-umstvennogo-razvitiya-rebenka-s-pomoshchyu-obustroystva-detskoy#comments">3 комментария</a>		</span>		
+		
+	
+			</div>
+			
+</li>			    							<li class="views-row views-row-2 views-row-even clearfix">
+			
+		<div class="views-field views-field-field-image link-content hover-fade alignleft">			<div class="field-content"><a href="/medicina/razrabotan-sovershenno-novyy-tip-kontaktnyh-linz-dlya-borby-s-blizorukostyu" class="large-size img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/quicktabs_thumb/public/field/image/new_contact_lenses.jpg" width="65" height="65" alt="Разработаны контактные линзы для лечения близорукости" title="Контактные линзы для лечения близорукости" class="small-size" /></a></div>		</div>		
+		
+	
+			
+
+			
+		<h3 class="views-field views-field-title">			<a href="/medicina/razrabotan-sovershenno-novyy-tip-kontaktnyh-linz-dlya-borby-s-blizorukostyu">Разработан совершенно новый тип контактных линз дл...</a>		</h3>		
+		
+	
+			
+
+			<div class='metadata clearfix'>
+			
+		<span class="views-field views-field-created created">			Окт 10, 2012		</span>		
+		
+	
+			<span class="meta-sep">·</span>
+			
+
+			
+		<span class="views-field views-field-comment-count comment-count">			<a href="http://scicentr.ru/medicina/razrabotan-sovershenno-novyy-tip-kontaktnyh-linz-dlya-borby-s-blizorukostyu#comments">3 комментария</a>		</span>		
+		
+	
+			</div>
+			
+</li>			    							<li class="views-row views-row-3 views-row-odd clearfix">
+			
+		<div class="views-field views-field-field-image link-content hover-fade alignleft">			<div class="field-content"><a href="/tehnologiya/novinka-ot-android-42-udivitelnye-sfericheskie-panoramy" class="large-size img-wrapper active"><img src="http://scicentr.ru/sites/default/files/styles/quicktabs_thumb/public/field/image/novaja-fishka-android-4.2-foto-sfery.jpg" width="65" height="65" alt="Новая технология, представленная с выходом Android 4.2, помогает делать великолепные сферические панорамные фотоснимки" title="Новая фишка Android 4.2: фото сферы" class="small-size" /></a></div>		</div>		
+		
+	
+			
+
+			
+		<h3 class="views-field views-field-title">			<a href="/tehnologiya/novinka-ot-android-42-udivitelnye-sfericheskie-panoramy" class="active">Новинка от Android 4.2: удивительные сферические п...</a>		</h3>		
+		
+	
+			
+
+			<div class='metadata clearfix'>
+			
+		<span class="views-field views-field-created created">			Ноя 26, 2012		</span>		
+		
+	
+			<span class="meta-sep">·</span>
+			
+
+			
+		<span class="views-field views-field-comment-count comment-count">			<a href="http://scicentr.ru/tehnologiya/novinka-ot-android-42-udivitelnye-sfericheskie-panoramy#comments">0 комментариев</a>		</span>		
+		
+	
+			</div>
+			
+</li>			    							<li class="views-row views-row-4 views-row-even clearfix">
+			
+		<div class="views-field views-field-field-image link-content hover-fade alignleft">			<div class="field-content"><a href="/medicina/depressiya-i-stress-mogut-negativno-povliyat-na-ispolzovanie-kontracepcii" class="large-size img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/quicktabs_thumb/public/stress_depressiia-vliiaet-na-kontratceptciiu.jpg" width="65" height="65" alt="Влияние стресса на контрацепцию" title="Исследование показало, что депрессия и стресс могут негативно повлиять на использование контрацептивов" class="small-size" /></a></div>		</div>		
+		
+	
+			
+
+			
+		<h3 class="views-field views-field-title">			<a href="/medicina/depressiya-i-stress-mogut-negativno-povliyat-na-ispolzovanie-kontracepcii">Депрессия и стресс могут негативно повлиять на исп...</a>		</h3>		
+		
+	
+			
+
+			<div class='metadata clearfix'>
+			
+		<span class="views-field views-field-created created">			Окт 30, 2012		</span>		
+		
+	
+			<span class="meta-sep">·</span>
+			
+
+			
+		<span class="views-field views-field-comment-count comment-count">			<a href="http://scicentr.ru/medicina/depressiya-i-stress-mogut-negativno-povliyat-na-ispolzovanie-kontracepcii#comments">0 комментариев</a>		</span>		
+		
+	
+			</div>
+			
+</li>			    							<li class="views-row views-row-5 views-row-odd views-row-last clearfix">
+			
+		<div class="views-field views-field-field-image link-content hover-fade alignleft">			<div class="field-content"><a href="/istoriya/rossiyanin-nameren-unichtozhit-dom-v-kotorom-rodilsya-adolf-gitler" class="large-size img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/quicktabs_thumb/public/field/image/dom-v-kotorom-rodilsia-gitler.jpg" width="65" height="65" alt="Известный российский политик намерен выкупить дом Гитлера для его полного уничтожения" title="Дом в котором родился Адольф Гитлер хотят разрушить" class="small-size" /></a></div>		</div>		
+		
+	
+			
+
+			
+		<h3 class="views-field views-field-title">			<a href="/istoriya/rossiyanin-nameren-unichtozhit-dom-v-kotorom-rodilsya-adolf-gitler">Россиянин намерен уничтожить дом в котором родился...</a>		</h3>		
+		
+	
+			
+
+			<div class='metadata clearfix'>
+			
+		<span class="views-field views-field-created created">			Ноя 8, 2012		</span>		
+		
+	
+			<span class="meta-sep">·</span>
+			
+
+			
+		<span class="views-field views-field-comment-count comment-count">			<a href="http://scicentr.ru/istoriya/rossiyanin-nameren-unichtozhit-dom-v-kotorom-rodilsya-adolf-gitler#comments">0 комментариев</a>		</span>		
+		
+	
+			</div>
+			
+</li>			      </ul></div>    </div>            </div>    </div>
+  </div>
+</div></div><div  id="quicktabs-tabpage-sidebar_second_quicktabs-2" class="quicktabs-tabpage quicktabs-hide"><div class="block block-views block-archive-block block-views-archive-block odd block-without-title" id="block-views-archive-block">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix base-wrap">
+      <div class="view view-archive view-id-archive view-display-id-block view-dom-id-926bb1e81c349636cda98780b22469e1">                  <div class="view-content">      <div class="item-list">
+  <ul class="views-summary">
+      <li><a href="/archive/201204">апреля 2012</a>
+              (1)
+          </li>
+      <li><a href="/archive/201210">октября 2012</a>
+              (15)
+          </li>
+      <li><a href="/archive/201211">ноября 2012</a>
+              (17)
+          </li>
+      <li><a href="/archive/201212">декабря 2012</a>
+              (6)
+          </li>
+    </ul>
+</div>
+    </div>            </div>    </div>
+  </div>
+</div></div></div></div>    </div>
+  </div>
+</section><section class="block block-views block-categories-block block-views-categories-block even" id="block-views-categories-block">
+  <div class="block-inner clearfix">
+              <h2 class='block-title clearfix'><span class='clearfix'>рубрики</span></h2>
+            
+    <div class="content clearfix base-wrap">
+      <div class="view view-categories view-id-categories view-display-id-block view-dom-id-e5cb4bad420ee0f4c3c4bf57e824f550">                  <div class="view-content">      <div class="item-list">    <ul>    							<li class="views-row views-row-1 views-row-odd views-row-first clearfix">  
+          <a href="/rubrika/istoriya"><span class="icon tag">&nbsp;</span>История<span>(2)</span></a>  </li>			    							<li class="views-row views-row-2 views-row-even clearfix">  
+          <a href="/rubrika/planeta"><span class="icon tag">&nbsp;</span>Планета<span>(5)</span></a>  </li>			    							<li class="views-row views-row-3 views-row-odd clearfix">  
+          <a href="/rubrika/tehnologiya"><span class="icon tag">&nbsp;</span>Технология<span>(15)</span></a>  </li>			    							<li class="views-row views-row-4 views-row-even clearfix">  
+          <a href="/rubrika/kosmos"><span class="icon tag">&nbsp;</span>Космос<span>(6)</span></a>  </li>			    							<li class="views-row views-row-5 views-row-odd clearfix">  
+          <a href="/rubrika/medicina"><span class="icon tag">&nbsp;</span>Медицина<span>(7)</span></a>  </li>			    							<li class="views-row views-row-6 views-row-even clearfix">  
+          <a href="/rubrika/chelovek"><span class="icon tag">&nbsp;</span>Человек<span>(3)</span></a>  </li>			    							<li class="views-row views-row-7 views-row-odd clearfix">  
+          <a href="/rubrika/anomalii"><span class="icon tag">&nbsp;</span>Аномалии<span>(0)</span></a>  </li>			    							<li class="views-row views-row-8 views-row-even clearfix">  
+          <a href="/rubrika/kultura"><span class="icon tag">&nbsp;</span>Культура<span>(0)</span></a>  </li>			    							<li class="views-row views-row-9 views-row-odd clearfix">  
+          <a href="/rubrika/estestvoznanie"><span class="icon tag">&nbsp;</span>Естествознание<span>(0)</span></a>  </li>			    							<li class="views-row views-row-10 views-row-even views-row-last clearfix">  
+          <a href="/old/kosmos"><span class="icon tag">&nbsp;</span>Космос<span>(0)</span></a>  </li>			      </ul></div>    </div>            </div>    </div>
+  </div>
+</section><section class="block block-views block-tags-block block-views-tags-block odd" id="block-views-tags-block">
+  <div class="block-inner clearfix">
+              <h2 class='block-title clearfix'><span class='clearfix'>теги</span></h2>
+            
+    <div class="content clearfix base-wrap">
+      <div class="view view-tags view-id-tags view-display-id-block view-dom-id-c1de54f15e00610278207aff59ffd20a">                  <div class="view-content">        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+          <span class="field-content"><a href="/tegi/twitter" title="see all blog entries in twitter">twitter <span>(1)</span></a></span>    </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+          <span class="field-content"><a href="/tegi/internet" title="see all blog entries in интернет">интернет <span>(2)</span></a></span>    </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+          <span class="field-content"><a href="/tegi/medicina" title="see all blog entries in медицина">медицина <span>(6)</span></a></span>    </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+          <span class="field-content"><a href="/tegi/bolezni" title="see all blog entries in болезни">болезни <span>(2)</span></a></span>    </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+          <span class="field-content"><a href="/tegi/issledovaniya" title="see all blog entries in исследования">исследования <span>(11)</span></a></span>    </div>
+    </div>            </div>    </div>
+  </div>
+</section><section class="block block-views block-photo-in-news-block block-views-photo-in-news-block even" id="block-views-photo-in-news-block">
+  <div class="block-inner clearfix">
+              <h2 class='block-title clearfix'><span class='clearfix'>последние новости в картинках</span></h2>
+            
+    <div class="content clearfix base-wrap">
+      <div class="view view-photo-in-news view-id-photo_in_news view-display-id-block view-dom-id-2ff88e663c1e444bc28901386cae6408">                  <div class="view-content">      <div class="item-list">    <ul>    							<li class="views-row views-row-1 views-row-odd views-row-first clearfix">  
+  <div class="views-field views-field-field-image link-content hover-fade">        <a href="http://scicentr.ru/tehnologiya/polzovateli-twitter-poluchat-vozmozhnost-skachivat-arhiv-svoih-tvitov" title="Пользователи Twitter получат возможность скачивать архив своих твитов" class="tooltip"><div class="img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/quicktabs_thumb/public/field/image/polzovateli-twitter-poluchat-vozmozhnost-skachivat-arxiv-tvitov-so-svoego-akkaunta.jpg" width="65" height="65" alt="Тестируется новая функция Twitter, которая позволит скачивать все свои сообщения в виде файла с архивом" title="Пользователи Twitter получат возможность скачивать архив твитов со своего аккаунта" class="small-size" /></div></a>  </div></li>			    							<li class="views-row views-row-2 views-row-even clearfix">  
+  <div class="views-field views-field-field-image link-content hover-fade">        <a href="http://scicentr.ru/medicina/lezhachie-policeyskie-na-dorogah-mogut-pomoch-opredelit-vospalenie-appendiksa" title="Лежачие полицейские на дорогах могут помочь определить воспаление аппендикса" class="tooltip"><div class="img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/quicktabs_thumb/public/field/image/dokazana-svyaz-mezhdu-lezhachimi-policejskimi-i-appendicitom.jpg" width="65" height="65" alt="Ученые подтвердили давно подозреваемую связь между болями при проезде лежачих полицейских и воспалением аппендицита" title="Доказана связь между лежачими полицейскими и аппендицитом" class="small-size" /></div></a>  </div></li>			    							<li class="views-row views-row-3 views-row-odd clearfix">  
+  <div class="views-field views-field-field-image link-content hover-fade">        <a href="http://scicentr.ru/tehnologiya/haker-vzlomavshiy-pochtu-skarlett-yohansson-poluchil-10-let-tyurmy" title="Хакер взломавший почту Скарлетт Йоханссон получил 10 лет тюрьмы" class="tooltip"><div class="img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/quicktabs_thumb/public/field/image/skarlett-joxansson-posadila-xakera-na-10-let.jpg" width="65" height="65" alt="Хакер, взломавший аккаунт Скарлетт Йоханссон был приговорен к 10 годам лишения свободы" title="Скарлетт Йоханссон посадила хакера на 10 лет" class="small-size" /></div></a>  </div></li>			    							<li class="views-row views-row-4 views-row-even clearfix">  
+  <div class="views-field views-field-field-image link-content hover-fade">        <a href="http://scicentr.ru/tehnologiya/skoro-roboty-nauchatsya-raspoznavat-sut-chelovecheskogo-vzglyada" title="Скоро роботы научатся распознавать суть человеческого взгляда" class="tooltip"><div class="img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/quicktabs_thumb/public/field/image/roboty-smogut-opredelit-smysl-chelovecheskogo-vzglyada.jpg" width="65" height="65" alt="Разработана технология с помощью которой роботы смогут точно анализировать смысл человеческих социальных сигналов" title="Роботы смогут определить смысл человеческого взгляда" class="small-size" /></div></a>  </div></li>			    							<li class="views-row views-row-5 views-row-odd clearfix">  
+  <div class="views-field views-field-field-image link-content hover-fade">        <a href="http://scicentr.ru/kosmos/severnaya-koreya-provela-zapreshchennye-ispytaniya-po-zapusku-ballisticheskoy-rakety-v-kosmos" title="Северная Корея провела запрещенные испытания по запуску баллистической ракеты в космос" class="tooltip"><div class="img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/quicktabs_thumb/public/field/image/nesankcionirovannyj-zapusk-severno-korejskoj-ballisticheskoj-rakety.jpg" width="65" height="65" alt="Северная Корея провела запрещенные ООН испытания по запуску ракетоносителя в космос" title="Несанкционированный запуск северно-корейской баллистической ракеты" class="small-size" /></div></a>  </div></li>			    							<li class="views-row views-row-6 views-row-even clearfix">  
+  <div class="views-field views-field-field-image link-content hover-fade">        <a href="http://scicentr.ru/medicina/chuvstvo-otvrashcheniya-sposobno-rasshirit-nashu-sposobnost-videt" title="Чувство отвращения способно расширить нашу способность видеть" class="tooltip"><div class="img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/quicktabs_thumb/public/field/image/chuvstvo-otvrashheniya-sposobno-rasshirit-nashu-sposobnost-videt.jpg" width="65" height="65" alt="Естественное для человека чувство отвращения, может значительно улучшить способность человека различать светлые тона" title="Отвращение влияет на способность человека видеть более отчетливо" class="small-size" /></div></a>  </div></li>			    							<li class="views-row views-row-7 views-row-odd clearfix">  
+  <div class="views-field views-field-field-image link-content hover-fade">        <a href="http://scicentr.ru/istoriya/pyat-samyh-gromkih-seks-skandalov-znamenityh-fizikov" title="Пять самых громких секс скандалов знаменитых физиков" class="tooltip"><div class="img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/quicktabs_thumb/public/field/image/fakty-o-skandalnyh-ljubovnyh-svjazjah-znamenityh-fizikov.jpg" width="65" height="65" alt="Альберт Эйнштейн, в свое время, был замечен в многочисленных внебрачных любовных связях" title="Факты о скандальных любовных связях знаменитых физиков" class="small-size" /></div></a>  </div></li>			    							<li class="views-row views-row-8 views-row-even clearfix">  
+  <div class="views-field views-field-field-image link-content hover-fade">        <a href="http://scicentr.ru/tehnologiya/novinka-ot-android-42-udivitelnye-sfericheskie-panoramy" title="Новинка от Android 4.2: удивительные сферические панорамы" class="tooltip"><div class="img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/quicktabs_thumb/public/field/image/novaja-fishka-android-4.2-foto-sfery.jpg" width="65" height="65" alt="Новая технология, представленная с выходом Android 4.2, помогает делать великолепные сферические панорамные фотоснимки" title="Новая фишка Android 4.2: фото сферы" class="small-size" /></div></a>  </div></li>			    							<li class="views-row views-row-9 views-row-odd clearfix">  
+  <div class="views-field views-field-field-image link-content hover-fade">        <a href="http://scicentr.ru/tehnologiya/korporaciya-samsung-zasvetila-novogo-predstavitelya-znamenitoy-lineyki-smartfonov-galaxy" title="Корпорация Samsung засветила нового представителя знаменитой линейки смартфонов Galaxy" class="tooltip"><div class="img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/quicktabs_thumb/public/field/image/tekhnicheskii-prototip-novogo-galaxy-smartfona.jpg" width="65" height="65" alt="В сеть просочились слухи о подаче корпорацией Samsung запроса на регистрацию нового смартфона, который, предположительно, станет дополнительным телефоном линейки Galaxy" title="Схематическое изображение нового представителя флагманской линейки смартфонов Samsung Galaxy" class="small-size" /></div></a>  </div></li>			    							<li class="views-row views-row-10 views-row-even clearfix">  
+  <div class="views-field views-field-field-image link-content hover-fade">        <a href="http://scicentr.ru/tehnologiya/istoriya-domashnego-kompyutera-nachinalas-s-ogromnogo-kuhonnogo-kompyutera" title="История домашнего компьютера начиналась с огромного кухонного компьютера" class="tooltip"><div class="img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/quicktabs_thumb/public/field/image/pervyi-domashnii-kuhonnyi-kompiuter.jpeg" width="65" height="65" alt="История домашнего компьютера начиналась с кухонного компьютера Honeywell" title="Первый домашний кухонный компьютер" class="small-size" /></div></a>  </div></li>			    							<li class="views-row views-row-11 views-row-odd clearfix">  
+  <div class="views-field views-field-field-image link-content hover-fade">        <a href="http://scicentr.ru/tehnologiya/osobennosti-passivnoy-sistemy-ohlazhdeniya-ispolzuemoy-v-novyh-data-centrah-facebook" title="Особенности пассивной системы охлаждения, используемой в новых дата центрах Facebook" class="tooltip"><div class="img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/quicktabs_thumb/public/field/image/passivnaja-sistema-ohlazhdenija-data-centrov-facebook.jpg" width="65" height="65" alt="Инженеры корпорации Facebook оснащаю свои новые Дата Центры экономичной системой охлаждения от окружающего воздуха" title="Революционная пассивная система охлаждения для Дата Центров Facebook" class="small-size" /></div></a>  </div></li>			    							<li class="views-row views-row-12 views-row-even views-row-last clearfix">  
+  <div class="views-field views-field-field-image link-content hover-fade">        <a href="http://scicentr.ru/tehnologiya/novaya-tehnologiya-dlya-reklamy-igrovye-pissuary-v-obshchestvennyh-tualetah" title="Новая технология для рекламы – игровые писсуары в общественных туалетах" class="tooltip"><div class="img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/quicktabs_thumb/public/field/image/novyj-vid-reklamy-igrovoj-pissuar.jpg" width="65" height="65" alt="Британская компания запустила новый интересный проект для рекламы, позволяющий играть в игры прямо возле писсуара, во время справления малой нужды" title="Новый занятный стартап, позволяющий играть в игры в общественном туалете" class="small-size" /></div></a>  </div></li>			      </ul></div>    </div>            </div>    </div>
+  </div>
+</section><div class="block block-google-plusone block-google-plusone-badge-block block-google-plusone-google-plusone-badge-block odd block-without-title" id="block-google-plusone-google-plusone-badge-block">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix base-wrap">
+      <div class="g-plus" data-href="http://plus.google.com/117543575419686917899" data-size="badge"></div>    </div>
+  </div>
+</div>  </div>
+</aside>  </div>
+</div></section>		  
+		
+					<footer id="section-footer" class="section section-footer">
+  <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
+  <div id="zone-footer" class="zone zone-footer clearfix container-12">
+    <div class="grid-12 region region-footer-first" id="region-footer-first">
+  <div class="region-inner region-footer-first-inner clearfix">
+    <div class="block block-dropletz-helper grid-2 alignleft block-dh-footer-sublogo block-dropletz-helper-dh-footer-sublogo odd block-without-title" id="block-dropletz-helper-dh-footer-sublogo">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix base-wrap">
+      <div id="footer-sublogo"><div class="logo-img"><a href="/"><img src="http://scicentr.ru/sites/default/files/styles/sublogo/public/logo3.gif" width="138" height="34" alt="Центр последних новостей науки и техники – ваш интернет-портал в будущее" title="Центр последних новостей науки и техники – ваш интернет-портал в будущее" class="small-size" /></a></div><h6 class="site-slogan">Центр последних новостей науки и техники – ваш интернет-портал в будущее</h6></div>    </div>
+  </div>
+</div><section class="block block-dropletz-helper alignleft no-block-title block-db-block-footer-utils block-dropletz-helper-db-block-footer-utils even" id="block-dropletz-helper-db-block-footer-utils">
+  <div class="block-inner clearfix">
+              <h2 class='block-title clearfix'><span class='clearfix'>website utilities</span></h2>
+            
+    <div class="content clearfix base-wrap">
+      <div class="site-utils follow-links-small"><div class="item-list"><ul><li class="first"><a href="/user/login" title="Вход">Вход</a><span class="sep">|</span></li><li><a href="/user/register" title="Присоединяйтесь и получайте привилегии!">Регистрация</a><span class="sep">|</span></li><li>Присоединяйтесь в:</li><li><a href="http://www.facebook.com/people/Sci-Centr/100004250561222" title="Станьте другом на Facebook" class="tooltip follow-link follow-link-facebook">facebook</a></li><li><a href="http://twitter.com/ScicentrRu" title="Присоединяйтесь в Twitter" class="tooltip follow-link follow-link-twitter">twitter</a></li><li class="last"><a href="/rss.xml" title="Подписыайтесь на наши новости" class="tooltip follow-link follow-link-this-site">this-site</a></li></ul></div></div>    </div>
+  </div>
+</section><section class="block block-dropletz-helper no-block-title alignright block-dh-block-footer-search block-dropletz-helper-dh-block-footer-search odd" id="block-dropletz-helper-dh-block-footer-search">
+  <div class="block-inner clearfix">
+              <h2 class='block-title clearfix'><span class='clearfix'>Search Science Center</span></h2>
+            
+    <div class="content clearfix base-wrap">
+      <form action="/tehnologiya/novinka-ot-android-42-udivitelnye-sfericheskie-panoramy" method="post" id="search-block-form--2" accept-charset="UTF-8"><div><div class="container-inline">
+    <div class='grid-4 block-search last_column'><div class="form-item form-type-searchfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--4">Поиск </label>
+ <input title="Введите ключевые слова для поиска." type="search" id="edit-search-block-form--4" name="search_block_form" value="" size="15" maxlength="128" class="form-text form-search" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--3"><input type="submit" id="edit-submit--3" name="op" value="Поиск" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-z4h34QXgk2O1PCLepTsPZEcd6kCrFXQcIRcm9tiyfGE" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div>
+</div></form>    </div>
+  </div>
+</section>  </div>
+</div><div class="grid-2 region region-footer-main-first" id="region-footer-main-first">
+  <div class="region-inner region-footer-main-first-inner clearfix">
+    &nbsp;  </div>
+</div><div class="grid-8 region region-footer-main-second" id="region-footer-main-second">
+  <div class="region-inner region-footer-main-second-inner clearfix">
+    <section class="block block-views inline-views block-most-viewed-footer-block block-views-most-viewed-footer-block odd" id="block-views-most-viewed-footer-block">
+  <div class="block-inner clearfix">
+              <h2 class='block-title clearfix'><span class='clearfix'>популярные публикации</span></h2>
+            
+    <div class="content clearfix base-wrap">
+      <div class="view view-most-viewed-footer view-id-most_viewed_footer view-display-id-block view-dom-id-bc308ec941d7b4e36e13c51dcfebcaa0">                  <div class="view-content">      <div class="item-list">    <ul class="no-padding">    							<li class="views-row views-row-1 views-row-odd views-row-first grid-2 clearfix">
+			
+		<div class="views-field views-field-field-image link-content hover-fade alignleft">			<div class="field-content"><a href="/medicina/uluchshenie-fizicheskogo-i-umstvennogo-razvitiya-rebenka-s-pomoshchyu-obustroystva-detskoy" class="large-size img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/quicktabs_teaser/public/field/image/natural-childrens-playground.jpg" width="174" height="80" alt="Улучшение физического развития ребенка с помощью обустройства детской площадки" title="Отказ от устаревших детских качелей улучшит развитие вашего малыша" class="small-size" /></a><span class='icon content-type article'>article</span></div>		</div>		
+		
+	
+			
+
+			
+		<h3 class="views-field views-field-title">			<a href="/medicina/uluchshenie-fizicheskogo-i-umstvennogo-razvitiya-rebenka-s-pomoshchyu-obustroystva-detskoy">Улучшение физического и умственного развития ребен...</a>		</h3>		
+		
+	
+			
+
+			<div class='metadata clearfix'>
+			
+		<span class="views-field views-field-created created">			Окт 15, 2012		</span>		
+		
+	
+			<span class="meta-sep">·</span>
+			
+
+			
+		<span class="views-field views-field-comment-count comment-count">			<a href="http://scicentr.ru/medicina/uluchshenie-fizicheskogo-i-umstvennogo-razvitiya-rebenka-s-pomoshchyu-obustroystva-detskoy#comments">3 комментария</a>		</span>		
+		
+	
+			</div>
+			
+</li>			    							<li class="views-row views-row-2 views-row-even grid-2 clearfix">
+			
+		<div class="views-field views-field-field-image link-content hover-fade alignleft">			<div class="field-content"><a href="/medicina/razrabotan-sovershenno-novyy-tip-kontaktnyh-linz-dlya-borby-s-blizorukostyu" class="large-size img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/quicktabs_teaser/public/field/image/new_contact_lenses.jpg" width="174" height="80" alt="Разработаны контактные линзы для лечения близорукости" title="Контактные линзы для лечения близорукости" class="small-size" /></a><span class='icon content-type article'>article</span></div>		</div>		
+		
+	
+			
+
+			
+		<h3 class="views-field views-field-title">			<a href="/medicina/razrabotan-sovershenno-novyy-tip-kontaktnyh-linz-dlya-borby-s-blizorukostyu">Разработан совершенно новый тип контактных линз дл...</a>		</h3>		
+		
+	
+			
+
+			<div class='metadata clearfix'>
+			
+		<span class="views-field views-field-created created">			Окт 10, 2012		</span>		
+		
+	
+			<span class="meta-sep">·</span>
+			
+
+			
+		<span class="views-field views-field-comment-count comment-count">			<a href="http://scicentr.ru/medicina/razrabotan-sovershenno-novyy-tip-kontaktnyh-linz-dlya-borby-s-blizorukostyu#comments">3 комментария</a>		</span>		
+		
+	
+			</div>
+			
+</li>			    							<li class="views-row views-row-3 views-row-odd grid-2 clearfix">
+			
+		<div class="views-field views-field-field-image link-content hover-fade alignleft">			<div class="field-content"><a href="/tehnologiya/novinka-ot-android-42-udivitelnye-sfericheskie-panoramy" class="large-size img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/quicktabs_teaser/public/field/image/novaja-fishka-android-4.2-foto-sfery.jpg" width="174" height="80" alt="Новая технология, представленная с выходом Android 4.2, помогает делать великолепные сферические панорамные фотоснимки" title="Новая фишка Android 4.2: фото сферы" class="small-size" /></a><span class='icon content-type article'>article</span></div>		</div>		
+		
+	
+			
+
+			
+		<h3 class="views-field views-field-title">			<a href="/tehnologiya/novinka-ot-android-42-udivitelnye-sfericheskie-panoramy">Новинка от Android 4.2: удивительные сферические п...</a>		</h3>		
+		
+	
+			
+
+			<div class='metadata clearfix'>
+			
+		<span class="views-field views-field-created created">			Ноя 26, 2012		</span>		
+		
+	
+			<span class="meta-sep">·</span>
+			
+
+			
+		<span class="views-field views-field-comment-count comment-count">			<a href="http://scicentr.ru/tehnologiya/novinka-ot-android-42-udivitelnye-sfericheskie-panoramy#comments">0 комментариев</a>		</span>		
+		
+	
+			</div>
+			
+</li>			    							<li class="views-row views-row-4 views-row-even views-row-last grid-2 clearfix">
+			
+		<div class="views-field views-field-field-image link-content hover-fade alignleft">			<div class="field-content"><a href="/medicina/depressiya-i-stress-mogut-negativno-povliyat-na-ispolzovanie-kontracepcii" class="large-size img-wrapper"><img src="http://scicentr.ru/sites/default/files/styles/quicktabs_teaser/public/stress_depressiia-vliiaet-na-kontratceptciiu.jpg" width="174" height="80" alt="Влияние стресса на контрацепцию" title="Исследование показало, что депрессия и стресс могут негативно повлиять на использование контрацептивов" class="small-size" /></a><span class='icon content-type article'>article</span></div>		</div>		
+		
+	
+			
+
+			
+		<h3 class="views-field views-field-title">			<a href="/medicina/depressiya-i-stress-mogut-negativno-povliyat-na-ispolzovanie-kontracepcii">Депрессия и стресс могут негативно повлиять на исп...</a>		</h3>		
+		
+	
+			
+
+			<div class='metadata clearfix'>
+			
+		<span class="views-field views-field-created created">			Окт 30, 2012		</span>		
+		
+	
+			<span class="meta-sep">·</span>
+			
+
+			
+		<span class="views-field views-field-comment-count comment-count">			<a href="http://scicentr.ru/medicina/depressiya-i-stress-mogut-negativno-povliyat-na-ispolzovanie-kontracepcii#comments">0 комментариев</a>		</span>		
+		
+	
+			</div>
+			
+</li>			      </ul></div>    </div>            </div>    </div>
+  </div>
+</section>  </div>
+</div><div class="grid-12 region region-footer-second" id="region-footer-second">
+  <div class="region-inner region-footer-second-inner clearfix">
+    <div class="block block-block block-4 block-block-4 odd block-without-title" id="block-block-4">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix base-wrap">
+      <!-- begin of Top100 code -->
+
+<script id="top100Counter" type="text/javascript" src="http://counter.rambler.ru/top100.jcn?2790971"></script>
+<noscript>
+<a href="http://top100.rambler.ru/navi/2790971/">
+<img src="http://counter.rambler.ru/top100.cnt?2790971" alt="Rambler's Top100" border="0" />
+</a>
+
+</noscript>
+<!-- end of Top100 code -->
+    </div>
+  </div>
+</div><div class="block block-block block-5 block-block-5 even block-without-title" id="block-block-5">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix base-wrap">
+      <div class="counter-bottom inline">
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.11;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+</div>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-bottom-bar-wrapper" class="zone-wrapper zone-bottom-bar-wrapper clearfix">  
+  <div id="zone-bottom-bar" class="zone zone-bottom-bar clearfix container-12">
+    <div class="grid-6 region region-bottom-bar-first" id="region-bottom-bar-first">
+  <div class="region-inner region-bottom-bar-first-inner clearfix">
+    <section class="block block-menu no-block-title inline-list block-devel-vadosw block-menu-devel-vadosw odd" id="block-menu-devel-vadosw">
+  <div class="block-inner clearfix">
+              <h2 class='block-title clearfix'><span class='clearfix'>Bottom Bar demo menu</span></h2>
+            
+    <div class="content clearfix base-wrap">
+      <ul class="menu"><li class="first last leaf"><a href="/" title="" class="active">Главная</a></li>
+</ul>    </div>
+  </div>
+</section>  </div>
+</div><div class="grid-6 region region-bottom-bar-second" id="region-bottom-bar-second">
+  <div class="region-inner region-bottom-bar-second-inner clearfix">
+    <div class="block block-block alignright block-2 block-block-2 odd block-without-title" id="block-block-2">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix base-wrap">
+       <p>Все права защищены <strong>©</strong> 2012&nbsp; &nbsp;<a title="Science Center" href="scicentr.ru">Scicentr.ru</a></p>     </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div></footer>			</div>
+</div>  <div class="region region-page-bottom" id="region-page-bottom">
+  <div class="region-inner region-page-bottom-inner clearfix">
+    <script>(function() {var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;po.src = 'https://apis.google.com/js/plusone.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);})();</script>  </div>
+</div><script>
+da2a.targets=[
+{title:'Science Center | Центр последних новостей науки и техники – ваш интернет-портал в будущее',url:'http://scicentr.ru/tehnologiya/polzovateli-twitter-poluchat-vozmozhnost-skachivat-arhiv-svoih-tvitov'},
+{title:'Science Center | Центр последних новостей науки и техники – ваш интернет-портал в будущее',url:'http://scicentr.ru/medicina/lezhachie-policeyskie-na-dorogah-mogut-pomoch-opredelit-vospalenie-appendiksa'},
+{title:'Science Center | Центр последних новостей науки и техники – ваш интернет-портал в будущее',url:'http://scicentr.ru/tehnologiya/haker-vzlomavshiy-pochtu-skarlett-yohansson-poluchil-10-let-tyurmy'},
+{title:'Science Center | Центр последних новостей науки и техники – ваш интернет-портал в будущее',url:'http://scicentr.ru/tehnologiya/skoro-roboty-nauchatsya-raspoznavat-sut-chelovecheskogo-vzglyada'},
+{title:'Science Center | Центр последних новостей науки и техники – ваш интернет-портал в будущее',url:'http://scicentr.ru/kosmos/severnaya-koreya-provela-zapreshchennye-ispytaniya-po-zapusku-ballisticheskoy-rakety-v-kosmos'},
+{title:'Science Center | Центр последних новостей науки и техники – ваш интернет-портал в будущее',url:'http://scicentr.ru/medicina/chuvstvo-otvrashcheniya-sposobno-rasshirit-nashu-sposobnost-videt'},
+{title:'Science Center | Центр последних новостей науки и техники – ваш интернет-портал в будущее',url:'http://scicentr.ru/istoriya/pyat-samyh-gromkih-seks-skandalov-znamenityh-fizikov'},
+{title:'Science Center | Центр последних новостей науки и техники – ваш интернет-портал в будущее',url:'http://scicentr.ru/tehnologiya/novinka-ot-android-42-udivitelnye-sfericheskie-panoramy'},
+{title:'Science Center | Центр последних новостей науки и техники – ваш интернет-портал в будущее',url:'http://scicentr.ru/tehnologiya/korporaciya-samsung-zasvetila-novogo-predstavitelya-znamenitoy-lineyki-smartfonov-galaxy'},
+{title:'Science Center | Центр последних новостей науки и техники – ваш интернет-портал в будущее',url:'http://scicentr.ru/tehnologiya/istoriya-domashnego-kompyutera-nachinalas-s-ogromnogo-kuhonnogo-kompyutera'}];
+da2a.html_done=true;if(da2a.script_ready&&!da2a.done)da2a.init();da2a.script_load();
+</script>
+</body>
+</html>

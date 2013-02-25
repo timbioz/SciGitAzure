@@ -1,0 +1,36 @@
+﻿@model Orchard.Comments.Models.CommentPart
+@if (WorkContext.CurrentUser == null)
+{
+    <fieldset class="comment-guest who">
+        <legend id="add-comment">@T("Оставьте комментарий")</legend>
+        <ol>
+            <li class="field-name">
+                @Html.LabelFor(m => m.Author, T("Имя"))
+                @Html.TextBoxFor(m => m.Author)
+            </li>
+            <li class="field-email">
+                @Html.LabelFor(m => m.Email, T("Email"))
+                @Html.TextBoxFor(m => m.Email)
+            </li>
+        </ol>
+    </fieldset>
+}
+else
+{
+    @Html.Hidden("Name", WorkContext.CurrentUser.UserName ?? "")
+    @Html.Hidden("Email", WorkContext.CurrentUser.Email ?? "")
+}
+
+<fieldset class="comment-field what">
+    <ol>
+        <li>
+            @Html.LabelFor(m => m.CommentText, T("Комментарий"))
+            @Html.TextAreaFor(m => m.CommentText)
+        </li>
+        <li>
+            @Html.HiddenFor(m => m.CommentedOn)
+            @Html.HiddenFor(m => m.RepliedOn)
+
+        </li>
+    </ol>
+</fieldset>

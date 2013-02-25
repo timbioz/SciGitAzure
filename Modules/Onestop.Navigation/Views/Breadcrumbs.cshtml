@@ -1,0 +1,30 @@
+﻿@using Onestop.Navigation.Breadcrumbs.Services
+@{
+    var items = Model.Breadcrumbs as Breadcrumbs;
+    var count = items.Segments.Count();
+    var i = 0;
+    Model.Classes.Add("breadcrumb");
+    var tag = Tag(Model, "ul");
+}
+
+@tag.StartElement
+@foreach (var item in items.Segments)
+{
+    i++;
+    <li class="@((i == 1) ? "first" : "") @((i == count) ? "last active" : "")">
+        @if (string.IsNullOrWhiteSpace(item.Url))
+        {
+            @item.DisplayText
+        }
+        else
+        {
+            <a href="@item.Url">@item.DisplayText</a>
+        }
+        @if (i != count)
+        {
+            <span class="divider">@Model.Separator</span>
+        }
+    </li>
+
+}
+@tag.EndElement

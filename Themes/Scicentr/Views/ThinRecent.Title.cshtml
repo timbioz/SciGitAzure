@@ -1,0 +1,11 @@
+﻿@using Orchard.ContentManagement
+
+@{
+    var title = Model.ContentItem.TitlePart.Title;
+    var sTitle = Model.ContentItem.SubTitle.Fields[0].Value;
+    ContentItem contentItem = Model.ContentItem;
+    string url = Url.ItemDisplayUrl(contentItem);
+}
+
+<h3><a title="Узнать подробнее о: @sTitle" href="@url">@title</a></h3>
+<hr/>

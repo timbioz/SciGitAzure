@@ -1,0 +1,275 @@
+# Orchard resource strings - ru-RU
+# Copyright (c) 2010 Outercurve Foundation
+# All rights reserved
+# This file is distributed under the BSD license
+
+#: ~/Modules/Piedone.Facebook.Suite/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Module.txt"
+msgid "Facebook Suite"
+msgstr "Facebook сюита"
+
+#: ~/Modules/Piedone.Facebook.Suite/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Module.txt"
+msgid "Piedone"
+msgstr "Piedone"
+
+#: ~/Modules/Piedone.Facebook.Suite/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Module.txt"
+msgid "http://facebooksuite.codeplex.com/"
+msgstr "http://facebooksuite.codeplex.com/"
+
+#: ~/Modules/Piedone.Facebook.Suite/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Module.txt"
+msgid "Provides a variety of Facebook-related features. Uses the Facebook C# SDK (http://csharpsdk.org/)."
+msgstr "Обеспечивает различные возможности Facebook. Использует Facebook C# SDK (http://csharpsdk.org/)."
+
+#: ~/Modules/Piedone.Facebook.Suite/Module.txt
+#| msgid "Piedone.Facebook.Suite.Name"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Module.txt"
+msgid "Facebook Suite Base"
+msgstr "Базовая сюита Facebook"
+
+#: ~/Modules/Piedone.Facebook.Suite/Module.txt
+#| msgid "Piedone.Facebook.Suite.Description"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Module.txt"
+msgid "Provides a page to set Facebook App settings"
+msgstr "Обеспечивает страницу для набора установок Facebook App"
+
+#: ~/Modules/Piedone.Facebook.Suite/Module.txt
+#| msgid "Piedone.Facebook.Suite.Category"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Module.txt"
+msgid "Facebook Suite"
+msgstr "Facebook сюита"
+
+#: ~/Modules/Piedone.Facebook.Suite/Module.txt
+#| msgid "Piedone.Facebook.Suite.CommentsBox.Name"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Module.txt"
+msgid "Facebook Comments Box"
+msgstr "Поле коментариев Facebook"
+
+#: ~/Modules/Piedone.Facebook.Suite/Module.txt
+#| msgid "Piedone.Facebook.Suite.CommentsBox.Description"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Module.txt"
+msgid "Adds the ability to add the Facebook Comments Box social plugin as a widget to zones or content types"
+msgstr "Добавляет возможность использовать плагин поля коментариев Facebook в качестве виджета в зонах или типах содержимого"
+
+#: ~/Modules/Piedone.Facebook.Suite/Module.txt
+#| msgid "Piedone.Facebook.Suite.CommentsBox.Category"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Module.txt"
+msgid "Facebook Suite"
+msgstr "Facebook сюита"
+
+#: ~/Modules/Piedone.Facebook.Suite/Module.txt
+#| msgid "Piedone.Facebook.Suite.LikeButton.Name"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Module.txt"
+msgid "Facebook Like Button"
+msgstr "Кнопка Like Facebook"
+
+#: ~/Modules/Piedone.Facebook.Suite/Module.txt
+#| msgid "Piedone.Facebook.Suite.LikeButton.Description"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Module.txt"
+msgid "Adds the ability to add the Facebook Like button social plugin as a widget to zones or content types"
+msgstr "Добавляет возможность использовать плагин кнопки Facebook Like в качестве виджета в зонах или типах содержимого"
+
+#: ~/Modules/Piedone.Facebook.Suite/Module.txt
+#| msgid "Piedone.Facebook.Suite.LikeButton.Category"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Module.txt"
+msgid "Facebook Suite"
+msgstr "Facebook сюита"
+
+#: ~/Modules/Piedone.Facebook.Suite/Module.txt
+#| msgid "Piedone.Facebook.Suite.Facepile.Name"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Module.txt"
+msgid "Facebook Facepile"
+msgstr "Facebook Facepile"
+
+#: ~/Modules/Piedone.Facebook.Suite/Module.txt
+#| msgid "Piedone.Facebook.Suite.Facepile.Description"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Module.txt"
+msgid "Adds the ability to add the Facebook Facepile social plugin as a widget to zones or content types"
+msgstr "Добавляет возможность использования плагина Facebook Facepile в качестве виджета в зонах или типах содержимого"
+
+#: ~/Modules/Piedone.Facebook.Suite/Module.txt
+#| msgid "Piedone.Facebook.Suite.Facepile.Category"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Module.txt"
+msgid "Facebook Suite"
+msgstr "Facebook сюита"
+
+#: ~/Modules/Piedone.Facebook.Suite/Module.txt
+#| msgid "Piedone.Facebook.Suite.LikeBox.Name"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Module.txt"
+msgid "Facebook Like Box"
+msgstr "Поле Facebook Like"
+
+#: ~/Modules/Piedone.Facebook.Suite/Module.txt
+#| msgid "Piedone.Facebook.Suite.LikeBox.Description"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Module.txt"
+msgid "Adds the ability to add the Facebook Like Box social plugin as a widget to zones or content types"
+msgstr "Добавляет возможность использования плагина поля Facebook Like в качестве виджета в зонах и типах содержимого"
+
+#: ~/Modules/Piedone.Facebook.Suite/Module.txt
+#| msgid "Piedone.Facebook.Suite.LikeBox.Category"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Module.txt"
+msgid "Facebook Suite"
+msgstr "Facebook сюита"
+
+#: Piedone.Facebook.Suite.Handlers.FacebookSuiteSettingsPartHandler
+#| msgid "Facebook Suite"
+msgctxt "Piedone.Facebook.Suite.Handlers.FacebookSuiteSettingsPartHandler"
+msgid "Facebook Suite"
+msgstr "Facebook сюита"
+
+#: ~/Modules/Piedone.Facebook.Suite/Views/ColorSchemeSelector.cshtml
+#| msgid "Color scheme"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Views/ColorSchemeSelector.cshtml"
+msgid "Color scheme"
+msgstr "Цветовая схема"
+
+#: ~/Modules/Piedone.Facebook.Suite/Views/HeightEditor.cshtml
+#| msgid "Height"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Views/HeightEditor.cshtml"
+msgid "Height"
+msgstr "Высота"
+
+#: ~/Modules/Piedone.Facebook.Suite/Views/WidthEditor.cshtml
+#| msgid "Width"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Views/WidthEditor.cshtml"
+msgid "Width"
+msgstr "Ширина"
+
+#: ~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts.FacebookSuiteSettings.SiteSettings.cshtml
+#| msgid "Facebook Suite Settings"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts.FacebookSuiteSettings.SiteSettings.cshtml"
+msgid "Facebook Suite Settings"
+msgstr "Установки сюиты Facebook"
+
+#: ~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts.FacebookSuiteSettings.SiteSettings.cshtml
+#| msgid "Facebook App Settings"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts.FacebookSuiteSettings.SiteSettings.cshtml"
+msgid "Facebook App Settings"
+msgstr "Установки Facebook App"
+
+#: ~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts.FacebookSuiteSettings.SiteSettings.cshtml
+#| msgid "If set, Facebook Suite features will behave as part of the app."
+msgctxt "~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts.FacebookSuiteSettings.SiteSettings.cshtml"
+msgid "If set, Facebook Suite features will behave as part of the app."
+msgstr "Если установлено, возможности комплекта Facebook будут доступны в качестве части приложения."
+
+#: ~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts.FacebookSuiteSettings.SiteSettings.cshtml
+#| msgid "App ID"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts.FacebookSuiteSettings.SiteSettings.cshtml"
+msgid "App ID"
+msgstr "Идентификатор App"
+
+#: ~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts.FacebookSuiteSettings.SiteSettings.cshtml
+#| msgid "App Secret"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts.FacebookSuiteSettings.SiteSettings.cshtml"
+msgid "App Secret"
+msgstr "Секретное App"
+
+#: ~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts/FacebookCommentsBox.cshtml
+#| msgid "Facebook Comments Box Widget Settings"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts/FacebookCommentsBox.cshtml"
+msgid "Facebook Comments Box Widget Settings"
+msgstr "Установки виджета поля коментариев Facebook"
+
+#: ~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts/FacebookCommentsBox.cshtml
+#| msgid "Number of posts"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts/FacebookCommentsBox.cshtml"
+msgid "Number of posts"
+msgstr "Количество постов"
+
+#: ~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts/FacebookFacepile.cshtml
+#| msgid "Facebook Facepile Widget Settings"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts/FacebookFacepile.cshtml"
+msgid "Facebook Facepile Widget Settings"
+msgstr "Установки виджета Facebook Facepile"
+
+#: ~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts/FacebookFacepile.cshtml
+#| msgid "Max rows"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts/FacebookFacepile.cshtml"
+msgid "Max rows"
+msgstr "Максимум строк"
+
+#: ~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts/FacebookFacepile.cshtml
+#| msgid "Size"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts/FacebookFacepile.cshtml"
+msgid "Size"
+msgstr "Размер"
+
+#: ~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts/FacebookLikeBox.cshtml
+#| msgid "Facebook Like Box Widget Settings"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts/FacebookLikeBox.cshtml"
+msgid "Facebook Like Box Widget Settings"
+msgstr "Установки виджета поля Facebook Like"
+
+#: ~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts/FacebookLikeBox.cshtml
+#| msgid "Page url"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts/FacebookLikeBox.cshtml"
+msgid "Page url"
+msgstr "Адрес страницы"
+
+#: ~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts/FacebookLikeBox.cshtml
+#| msgid "Show faces"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts/FacebookLikeBox.cshtml"
+msgid "Show faces"
+msgstr "Показать лица"
+
+#: ~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts/FacebookLikeBox.cshtml
+#| msgid "Border color"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts/FacebookLikeBox.cshtml"
+msgid "Border color"
+msgstr "Цвет бордюра"
+
+#: ~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts/FacebookLikeBox.cshtml
+#| msgid "Show stream"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts/FacebookLikeBox.cshtml"
+msgid "Show stream"
+msgstr "Показать поток"
+
+#: ~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts/FacebookLikeBox.cshtml
+#| msgid "Show header"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts/FacebookLikeBox.cshtml"
+msgid "Show header"
+msgstr "Показать заголовок"
+
+#: ~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts/FacebookLikeButton.cshtml
+#| msgid "Facebook Like Button Widget Settings"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts/FacebookLikeButton.cshtml"
+msgid "Facebook Like Button Widget Settings"
+msgstr "Установки виджета кнопки Facebook Like"
+
+#: ~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts/FacebookLikeButton.cshtml
+#| msgid "Enable send button"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts/FacebookLikeButton.cshtml"
+msgid "Enable send button"
+msgstr "Включить кнопку отправки"
+
+#: ~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts/FacebookLikeButton.cshtml
+#| msgid "Layout style"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts/FacebookLikeButton.cshtml"
+msgid "Layout style"
+msgstr "Стиль разметки"
+
+#: ~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts/FacebookLikeButton.cshtml
+#| msgid "Show faces"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts/FacebookLikeButton.cshtml"
+msgid "Show faces"
+msgstr "Показать лица"
+
+#: ~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts/FacebookLikeButton.cshtml
+#| msgid "Verb to display"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts/FacebookLikeButton.cshtml"
+msgid "Verb to display"
+msgstr "Глагол для отображения"
+
+#: ~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts/FacebookLikeButton.cshtml
+#| msgid "Font"
+msgctxt "~/Modules/Piedone.Facebook.Suite/Views/EditorTemplates/Parts/FacebookLikeButton.cshtml"
+msgid "Font"
+msgstr "Шрифт"
+

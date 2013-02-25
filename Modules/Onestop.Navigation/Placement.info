@@ -1,0 +1,26 @@
+<Placement>
+  <Place Parts_Menu_Widget_Edit="Content:2"/>
+  <Place Parts_Menu_Widget="Content:2"/>
+  <Place Parts_Menu_BreadcrumbsWidget_Edit="Content:before"/>
+  <Place Parts_Menu_BreadcrumbsWidget="Content:before"/>
+  <Place Parts_Menu_Breadcrumbable_Edit="Content:before"/>
+  <Place Parts_Menu_BreadcrumbsSiteSettings_Edit="Content:before"/>
+  
+  <Place Parts_Taxonomies_Term_OrderLink="Content:2"/>  
+  
+  <Match ContentType="MenuItem">
+    <Place Parts_Menu_ExtendedMenuItem_Edit="Content:after"/>
+    <Place Parts_Menu_ImageMenuItem_Edit="Content:before"/>
+
+    <Place Button_SaveAndAdd="Sidebar:24"/>
+    <Place Button_Save="Sidebar:23"/>
+    <Place Button_ManageMenu="Sidebar:25"/>
+
+    <Place Content_PublishButton="-"/>
+    <Place Content_PreviewButton="-"/>
+    <Place Parts_Contents_Publish_SummaryAdmin="-"/>
+  </Match>
+  <Match ContentType="ImageMenuItem">
+    <Place Parts_Menu_ImageMenuItem_Edit="Content:before"/>
+  </Match>
+</Placement>

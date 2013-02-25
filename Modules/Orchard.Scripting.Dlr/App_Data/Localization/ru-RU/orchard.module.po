@@ -1,0 +1,47 @@
+# Orchard resource strings - ru-RU
+# Copyright (c) 2010 Outercurve Foundation
+# All rights reserved
+# This file is distributed under the BSD license
+
+#: ~/Modules/Orchard.Scripting.Dlr/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.Scripting.Dlr/Module.txt"
+msgid "DLR Scripting"
+msgstr "DLR сценарии"
+
+#: ~/Modules/Orchard.Scripting.Dlr/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Orchard.Scripting.Dlr/Module.txt"
+msgid "The Orchard Team"
+msgstr "Команда Orchard"
+
+#: ~/Modules/Orchard.Scripting.Dlr/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Orchard.Scripting.Dlr/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Modules/Orchard.Scripting.Dlr/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Orchard.Scripting.Dlr/Module.txt"
+msgid "The DLR scripting module enables the possibility to execute scripts using the DLR."
+msgstr "Модуль сценариев DLR позволяет выполнять сценарии с использованием DLR."
+
+#: ~/Modules/Orchard.Scripting.Dlr/Module.txt
+#| msgid "Orchard.Scripting.Dlr.Name"
+msgctxt "~/Modules/Orchard.Scripting.Dlr/Module.txt"
+msgid "DLR Scripting"
+msgstr "DLR сценарии"
+
+#: ~/Modules/Orchard.Scripting.Dlr/Module.txt
+#| msgid "Orchard.Scripting.Dlr.Description"
+msgctxt "~/Modules/Orchard.Scripting.Dlr/Module.txt"
+msgid "DLR scripting support."
+msgstr "Поддержка DLR сценариев"
+
+#: ~/Modules/Orchard.Scripting.Dlr/Module.txt
+#| msgid "Orchard.Scripting.Dlr.Category"
+msgctxt "~/Modules/Orchard.Scripting.Dlr/Module.txt"
+msgid "Scripting"
+msgstr "Сценарий"
+

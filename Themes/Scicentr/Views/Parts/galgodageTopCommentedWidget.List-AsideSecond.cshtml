@@ -1,0 +1,26 @@
+﻿@using System.Globalization
+@using Orchard.ContentManagement;
+@{
+    IEnumerable<object> contentItems = Model.ContentItems;
+}
+
+<div class="dark-block-wrapper">
+    <h4>Наиболее Обсуждаемые</h4>
+</div>
+
+<ul class="most-commented">
+    @foreach (dynamic items in contentItems)
+    {
+        ContentItem item = items.ContentItem;
+        string title = items.ContentItem.TitlePart.Title;
+        string url = Url.ItemDisplayUrl(item);
+        int cCount = items.ContentItem.CommentsPart.Comments.Count;
+        
+        <li>
+            <a title="Перейти к новости: @title" href="@url">@title</a>
+            <a href="@url#comm" title="Прочитать все комментарии к статье">  <i class="icon-comment"></i> @cCount</a>
+        </li>
+        
+    }
+</ul>
+<div class="most-commented-bottom"></div>

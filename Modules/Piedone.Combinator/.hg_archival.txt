@@ -1,0 +1,5 @@
+repo: d62260f40cd18f66fc2d02974ccad0ac428f2666
+node: 7e2ff3e47f2107ca0fc7faa7f7cf01aee5ae1d07
+branch: image-sprites
+latesttag: 2.0a7
+latesttagdistance: 10

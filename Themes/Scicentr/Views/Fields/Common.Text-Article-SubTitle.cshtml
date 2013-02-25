@@ -1,0 +1,5 @@
+﻿@using Orchard.Utility.Extensions;
+
+@if (HasText(Model.Value)) {
+    <h2 class="sub-title">@(new MvcHtmlString(Html.Encode((HtmlString) Model.Value).ReplaceNewLinesWith("<br />")))</h2>
+}

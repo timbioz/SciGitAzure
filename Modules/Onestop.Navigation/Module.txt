@@ -1,0 +1,34 @@
+Name: Onestop Navigation
+AntiForgery: enabled
+Author: Piotr Szmyd / Onestop Internet
+Website: http://onestopnavigation.codeplex.com
+Version: 2.1
+OrchardVersion: 1.6
+Description: Allows advanced navigation creation and management.
+FeatureDescription: Allows advanced navigation creation and management.
+Category: Navigation
+Dependencies: Orchard.jQuery, Orchard.Widgets, Navigation, Settings, Contrib.Taxonomies, Orchard.MediaPicker, Orchard.ContentPicker
+Features:
+    Onestop.Navigation.Breadcrumbs:
+        Name: Onestop Navigation - Breadcrumbs
+        Description: Create and manage breadcrumbs navigation.
+        Category: Navigation
+        Dependencies: Onestop.Navigation, Orchard.Alias, Onestop.Patterns
+    Onestop.Navigation.AdminMenu:
+        Name: Onestop Navigation - Admin Menu
+        Description: Create and organize arbitrary admin menu items for quicker access to the most important content in your site.
+        Category: Navigation
+	Onestop.Navigation.CsvImport:
+		Name: Onestop Navigation - Import from CSV
+		Description: Import menu items from CSV file
+		Category: Navigation
+		Dependencies: Onestop.Navigation
+    Onestop.Navigation.TaxonomyOrder:
+        Name: Onestop Navigation - Taxonomy Order
+        Description: Reorder taxonomy terms using drag & drop.
+        Category: Navigation
+        Dependencies: Contrib.Taxonomies
+    Onestop.Patterns:
+        Name: Onestop Patterns
+        Description: Adds a pattern-matching utilities based on a simple expression language similar to Orchard tokens.
+        Category: Utility

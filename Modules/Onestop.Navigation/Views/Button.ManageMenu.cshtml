@@ -1,0 +1,5 @@
+﻿@using Orchard.ContentManagement
+@using Orchard.ContentManagement.Aspects
+<fieldset class="save-add-button">
+    @Html.ActionLink(T("Manage '{0}' menu", ((IContent)Model.Menu).As<ITitleAspect>().Title).Text, "Index", "MenuAdmin", new { menuId = (int)Model.Menu.Id, Area = "Onestop.Navigation" }, new { @class = "button primaryAction" })
+</fieldset>

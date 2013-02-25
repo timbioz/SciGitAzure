@@ -1,0 +1,110 @@
+﻿@using Onestop.Navigation.ViewModels
+@using Onestop.Navigation.Security
+@using Orchard.ContentManagement
+@using Orchard.ContentManagement.Aspects
+@model ItemEditorViewModel
+@{ 
+    Layout.Title = T("Editing {0} in {1}", Model.Part.ContentItem.TypeDefinition.DisplayName, Model.Part.Menu.As<ITitleAspect>().Title).ToString();
+
+    Style.Require("MenuAdmin");
+    Script.Require("MenuAdminScripts");
+}
+<div>
+    <a id="basic-options">
+        <h3>↓ @T("Basic options")</h3>
+    </a>
+    <div data-toggle="basic-options" data-defaultstate="visible" class="well well-small">
+        <fieldset>
+            <div>
+                @Html.CheckBoxFor(m => m.Part.DisplayText)
+                <label class="forcheckbox" for="@Html.FieldIdFor(m => m.Part.DisplayText)">@T("Should display item text?")</label>
+            </div>
+            <div>
+                @Html.CheckBoxFor(m => m.Part.DisplayHref)
+                <label class="forcheckbox" for="@Html.FieldIdFor(m => m.Part.DisplayHref)">@T("Should display item as link?")</label>
+            </div>
+            <div>
+                @Html.CheckBoxFor(m => m.Part.InNewWindow)
+                <label class="forcheckbox" for="@Html.FieldIdFor(m => m.Part.InNewWindow)">@T("Should open link in new window?")</label>
+            </div>
+        </fieldset>
+    </div>
+</div>
+@if (Authorizer.Authorize(Permissions.EditAdvancedMenuItemOptions, Model.Part.ContentItem, null))
+{
+
+    <div>
+        <a id="advanced-options">
+            <h3>↓ @T("Advanced options")</h3>
+        </a>
+        <div data-toggle="advanced-options" data-defaultstate="hidden" class="well well-small">
+            <fieldset>
+                @Html.LabelFor(m => m.Part.SubTitle, T("Secondary title (subtitle)"))
+                @Html.TextBoxFor(m => m.Part.SubTitle, new { @class = "text large" })
+                @Html.ValidationMessageFor(m => m.Part.SubTitle, "*")
+                <span class="hint">
+                    @T("Optional secondary title to display.")
+                </span>
+            </fieldset>
+            <fieldset>
+                @Html.LabelFor(m => m.Part.Classes, T("Additional CSS classes"))
+                @Html.EditorFor(m => m.Part.Classes)
+                @Html.ValidationMessageFor(m => m.Part.Classes, "*")
+                <span class="hint">
+                    @T("Optional additional CSS classes to apply to this item.")
+                </span>
+            </fieldset>
+            <fieldset>
+                @Html.LabelFor(m => m.Part.CssId, T("CSS ID"))
+                @Html.EditorFor(m => m.Part.CssId)
+                @Html.ValidationMessageFor(m => m.Part.CssId, "*")
+                <span class="hint">
+                    @T("Optional additional CSS ID to apply to this item.")
+                </span>
+            </fieldset>
+            <fieldset>
+                @Html.LabelFor(m => m.Part.GroupName, T("Group name"))
+                @Html.EditorFor(m => m.Part.GroupName)
+                @Html.ValidationMessageFor(m => m.Part.GroupName, "*")
+                <span class="hint">
+                    @T("Optional group name for grouping items together. Case insensitive. Items in a group have an additional shape alternate - MenuItem-group-[GroupName].cshtml")
+                </span>
+            </fieldset>
+            <fieldset>
+                @Html.LabelFor(m => m.Part.TechnicalName, T("Technical name"))
+                @Html.EditorFor(m => m.Part.TechnicalName)
+                @Html.ValidationMessageFor(m => m.Part.TechnicalName)
+                <span class="hint">
+                    @T("Optional technical name for referencing this item by name. Case insensitive. Used for named menu item alternates - MenuItem-named-[TechnicalName].cshtml.")
+                </span>
+            </fieldset>
+            <fieldset>
+                @Html.LabelFor(m => m.Part.Permission, T("Requires permission"))
+                <select id="@Html.FieldIdFor(m => m.Part.Permission)" name="@Html.FieldNameFor(m => m.Part.Permission)">
+                    @Html.SelectOption(null, Model.Part.Permission == null , "<None>") 
+                    @foreach (var key in Model.Permissions.Keys.OrderBy(k => k))
+                    {
+                        <optgroup label="@(key)">
+                            @foreach (var permission in Model.Permissions[key])
+                            {
+                                @Html.SelectOption(permission.Name, Model.Part.Permission == permission.Name, permission.Description)
+                            }
+                        </optgroup>
+                    }
+                </select>
+                @Html.ValidationMessageFor(m => m.Part.Permission, "*")
+                <span class="hint">@T("Choose a permission required to show this menu item (and all items below)")</span>
+
+
+            </fieldset>
+        </div>
+    </div>
+}
+
+@Html.Hidden("Type", Model.Part.ContentItem.ContentType)
+@Html.Hidden("MenuId", Model.Part.Menu.Id)
+
+@if (Model.VersionId > 0)
+{
+    @Html.Hidden("VersionId", Model.VersionId)
+}

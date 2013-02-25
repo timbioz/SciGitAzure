@@ -1,0 +1,389 @@
+# Orchard resource strings - ru-RU
+# Copyright (c) 2010 Outercurve Foundation
+# All rights reserved
+# This file is distributed under the BSD license
+
+#: Orchard.Experimental.Commands.ProfilingCommands
+#| msgid "Finished adding profiling data"
+msgctxt "Orchard.Experimental.Commands.ProfilingCommands"
+msgid "Finished adding profiling data"
+msgstr "Завершение добавления профильных данных"
+
+#: Orchard.Experimental.Commands.ProfilingCommands
+#| msgid "Creating user failed. The authentication provider returned an error. Aborting..."
+msgctxt "Orchard.Experimental.Commands.ProfilingCommands"
+msgid "Creating user failed. The authentication provider returned an error. Aborting..."
+msgstr "Создание пользователя прервано. Ошибка провайдера аутентификации. Прервано..."
+
+#: Orchard.Experimental.Commands.ProfilingCommands
+#| msgid "Adding users completed successfully"
+msgctxt "Orchard.Experimental.Commands.ProfilingCommands"
+msgid "Adding users completed successfully"
+msgstr "Добавление пользователей успешно завершено"
+
+#: ~/Modules/Orchard.Experimental/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Orchard.Experimental/Module.txt"
+msgid "The Orchard Team"
+msgstr "Команда Orchard"
+
+#: ~/Modules/Orchard.Experimental/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Orchard.Experimental/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Modules/Orchard.Experimental/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Orchard.Experimental/Module.txt"
+msgid "An assortment of debugging tools."
+msgstr "Различные утилиты отладки."
+
+#: ~/Modules/Orchard.Experimental/Module.txt
+#| msgid "Orchard.Experimental.Name"
+msgctxt "~/Modules/Orchard.Experimental/Module.txt"
+msgid "Experimental"
+msgstr "Экспериментальный"
+
+#: ~/Modules/Orchard.Experimental/Module.txt
+#| msgid "Orchard.Experimental.Description"
+msgctxt "~/Modules/Orchard.Experimental/Module.txt"
+msgid "An assortment of debugging tools."
+msgstr "Различные утилиты отладки."
+
+#: ~/Modules/Orchard.Experimental/Module.txt
+#| msgid "Orchard.Experimental.Category"
+msgctxt "~/Modules/Orchard.Experimental/Module.txt"
+msgid "Developer"
+msgstr "Разработчик"
+
+#: ~/Modules/Orchard.Experimental/Module.txt
+#| msgid "Profiling.Name"
+msgctxt "~/Modules/Orchard.Experimental/Module.txt"
+msgid "Profiling"
+msgstr "Профилирование"
+
+#: ~/Modules/Orchard.Experimental/Module.txt
+#| msgid "Profiling.Description"
+msgctxt "~/Modules/Orchard.Experimental/Module.txt"
+msgid "Tools to help profile Orchard."
+msgstr "Средства помощи профилирования Orchard."
+
+#: ~/Modules/Orchard.Experimental/Module.txt
+#| msgid "Profiling.Category"
+msgctxt "~/Modules/Orchard.Experimental/Module.txt"
+msgid "Developer"
+msgstr "Разработчик"
+
+#: ~/Modules/Orchard.Experimental/Module.txt
+#| msgid "Orchard.Experimental.WebCommandLine.Name"
+msgctxt "~/Modules/Orchard.Experimental/Module.txt"
+msgid "Web Command Line"
+msgstr "Веб командная строка"
+
+#: ~/Modules/Orchard.Experimental/Module.txt
+#| msgid "Orchard.Experimental.WebCommandLine.Description"
+msgctxt "~/Modules/Orchard.Experimental/Module.txt"
+msgid "Enables site administrators to execute Orchard.exe commands via web interface"
+msgstr "Позволяет администраторам сайта выполнять команды orchard.exe через веб-интерфейс"
+
+#: ~/Modules/Orchard.Experimental/Module.txt
+#| msgid "Orchard.Experimental.WebCommandLine.Category"
+msgctxt "~/Modules/Orchard.Experimental/Module.txt"
+msgid "Developer"
+msgstr "Разработчик"
+
+#: ~/Modules/Orchard.Experimental/Module.txt
+#| msgid "Orchard.Experimental.TestingLists.Name"
+msgctxt "~/Modules/Orchard.Experimental/Module.txt"
+msgid "Testing Lists"
+msgstr "Списки тестирования"
+
+#: ~/Modules/Orchard.Experimental/Module.txt
+#| msgid "Orchard.Experimental.TestingLists.Description"
+msgctxt "~/Modules/Orchard.Experimental/Module.txt"
+msgid "Adds some content definitions to help test lists"
+msgstr "Добавляет несколько определений контента в помощь тестирования списков"
+
+#: ~/Modules/Orchard.Experimental/Module.txt
+#| msgid "Orchard.Experimental.TestingLists.Category"
+msgctxt "~/Modules/Orchard.Experimental/Module.txt"
+msgid "Developer"
+msgstr "Разработчик"
+
+#: Orchard.Experimental.AdminMenu
+#| msgid "Configuration"
+msgctxt "Orchard.Experimental.AdminMenu"
+msgid "Configuration"
+msgstr "Конфигурация"
+
+#: Orchard.Experimental.AdminMenu
+#| msgid "Experimental"
+msgctxt "Orchard.Experimental.AdminMenu"
+msgid "Experimental"
+msgstr "Экспериментальный"
+
+#: Orchard.Experimental.Commands.ProfilingCommands
+#| msgid "The authentication provider returned an error"
+msgctxt "Orchard.Experimental.Commands.ProfilingCommands"
+msgid "The authentication provider returned an error"
+msgstr "Провайдер авторизации вернул ошибку"
+
+#: Orchard.Experimental.Controllers.CommandsController
+#| msgid "Error executing command: {0}"
+msgctxt "Orchard.Experimental.Controllers.CommandsController"
+msgid "Error executing command: {0}"
+msgstr "Ошибка при выполнении команды: {0}"
+
+#: Orchard.Experimental.Controllers.HomeController
+#| msgid "Simulated error goes here."
+msgctxt "Orchard.Experimental.Controllers.HomeController"
+msgid "Simulated error goes here."
+msgstr "Симулированные ошибки."
+
+#: Orchard.Experimental.Controllers.HomeController
+#| msgid "Notifier works without BaseViewModel"
+msgctxt "Orchard.Experimental.Controllers.HomeController"
+msgid "Notifier works without BaseViewModel"
+msgstr "Оповещатель работает без BaseViewModel"
+
+#: Orchard.Experimental.Controllers.HomeController
+#| msgid "Site Name"
+msgctxt "Orchard.Experimental.Controllers.HomeController"
+msgid "Site Name"
+msgstr "Название сайта"
+
+#: Orchard.Experimental.Controllers.HomeController
+#| msgid "some default/pre-pop value..."
+msgctxt "Orchard.Experimental.Controllers.HomeController"
+msgid "some default/pre-pop value..."
+msgstr "некоторые значения по умолчанию..."
+
+#: Orchard.Experimental.Controllers.HomeController
+#| msgid "Admin Username"
+msgctxt "Orchard.Experimental.Controllers.HomeController"
+msgid "Admin Username"
+msgstr "Имя администратора"
+
+#: Orchard.Experimental.Controllers.HomeController
+#| msgid "Admin Password"
+msgctxt "Orchard.Experimental.Controllers.HomeController"
+msgid "Admin Password"
+msgstr "Пароль администратора"
+
+#: Orchard.Experimental.Controllers.HomeController
+#| msgid "Finish Setup"
+msgctxt "Orchard.Experimental.Controllers.HomeController"
+msgid "Finish Setup"
+msgstr "Завершение установки"
+
+#: Orchard.Experimental.Controllers.HomeController
+#| msgid "This is a test"
+msgctxt "Orchard.Experimental.Controllers.HomeController"
+msgid "This is a test"
+msgstr "Это тест"
+
+#: ~/Modules/Orchard.Experimental/Views/Commands/Execute.cshtml
+#| msgid "Command line"
+msgctxt "~/Modules/Orchard.Experimental/Views/Commands/Execute.cshtml"
+msgid "Command line"
+msgstr "Командная строка"
+
+#: ~/Modules/Orchard.Experimental/Views/Content/Details.cshtml
+#| msgid "{0} Content Type"
+msgctxt "~/Modules/Orchard.Experimental/Views/Content/Details.cshtml"
+msgid "{0} Content Type"
+msgstr "Тип контента {0}"
+
+#: ~/Modules/Orchard.Experimental/Views/Content/Details.cshtml
+#| msgid "Content"
+msgctxt "~/Modules/Orchard.Experimental/Views/Content/Details.cshtml"
+msgid "Content"
+msgstr "Контент"
+
+#: ~/Modules/Orchard.Experimental/Views/Content/Details.cshtml
+#| msgid "Content Item"
+msgctxt "~/Modules/Orchard.Experimental/Views/Content/Details.cshtml"
+msgid "Content Item"
+msgstr "Элемент контента"
+
+#: ~/Modules/Orchard.Experimental/Views/Content/Details.cshtml
+#| msgid "Id:"
+msgctxt "~/Modules/Orchard.Experimental/Views/Content/Details.cshtml"
+msgid "Id:"
+msgstr "ИД:"
+
+#: ~/Modules/Orchard.Experimental/Views/Content/Details.cshtml
+#| msgid "Version:"
+msgctxt "~/Modules/Orchard.Experimental/Views/Content/Details.cshtml"
+msgid "Version:"
+msgstr "Версия:"
+
+#: ~/Modules/Orchard.Experimental/Views/Content/Details.cshtml
+#| msgid "ContentType:"
+msgctxt "~/Modules/Orchard.Experimental/Views/Content/Details.cshtml"
+msgid "ContentType:"
+msgstr "Тип контента:"
+
+#: ~/Modules/Orchard.Experimental/Views/Content/Details.cshtml
+#| msgid "DisplayText:"
+msgctxt "~/Modules/Orchard.Experimental/Views/Content/Details.cshtml"
+msgid "DisplayText:"
+msgstr "Показываемый текст:"
+
+#: ~/Modules/Orchard.Experimental/Views/Content/Details.cshtml
+#| msgid "Links:"
+msgctxt "~/Modules/Orchard.Experimental/Views/Content/Details.cshtml"
+msgid "Links:"
+msgstr "Ссылки:"
+
+#: ~/Modules/Orchard.Experimental/Views/Content/Details.cshtml
+#| msgid "view"
+msgctxt "~/Modules/Orchard.Experimental/Views/Content/Details.cshtml"
+msgid "view"
+msgstr "Просмотреть"
+
+#: ~/Modules/Orchard.Experimental/Views/Content/Details.cshtml
+#| msgid "edit"
+msgctxt "~/Modules/Orchard.Experimental/Views/Content/Details.cshtml"
+msgid "edit"
+msgstr "править"
+
+#: ~/Modules/Orchard.Experimental/Views/Content/Details.cshtml
+#| msgid "Content Item Parts"
+msgctxt "~/Modules/Orchard.Experimental/Views/Content/Details.cshtml"
+msgid "Content Item Parts"
+msgstr "Части элементов контента"
+
+#: ~/Modules/Orchard.Experimental/Views/Content/Details.cshtml
+#| msgid "{0} #{1} v{2}"
+msgctxt "~/Modules/Orchard.Experimental/Views/Content/Details.cshtml"
+msgid "{0} #{1} v{2}"
+msgstr "{0} #{1} v{2}"
+
+#: ~/Modules/Orchard.Experimental/Views/Content/Index.cshtml
+#| msgid "Content"
+msgctxt "~/Modules/Orchard.Experimental/Views/Content/Index.cshtml"
+msgid "Content"
+msgstr "Контент"
+
+#: ~/Modules/Orchard.Experimental/Views/Content/Index.cshtml
+#| msgid "Content Types"
+msgctxt "~/Modules/Orchard.Experimental/Views/Content/Index.cshtml"
+msgid "Content Types"
+msgstr "Типы контента"
+
+#: ~/Modules/Orchard.Experimental/Views/Content/Index.cshtml
+#| msgid "Content Items"
+msgctxt "~/Modules/Orchard.Experimental/Views/Content/Index.cshtml"
+msgid "Content Items"
+msgstr "Элементы контента"
+
+#: ~/Modules/Orchard.Experimental/Views/Content/Index.cshtml
+#| msgid "{0}: {1}"
+msgctxt "~/Modules/Orchard.Experimental/Views/Content/Index.cshtml"
+msgid "{0}: {1}"
+msgstr "{0}: {1}"
+
+#: ~/Modules/Orchard.Experimental/Views/Content/Index.cshtml
+#| msgid "view"
+msgctxt "~/Modules/Orchard.Experimental/Views/Content/Index.cshtml"
+msgid "view"
+msgstr "Просмотреть"
+
+#: ~/Modules/Orchard.Experimental/Views/Content/Index.cshtml
+#| msgid "edit"
+msgctxt "~/Modules/Orchard.Experimental/Views/Content/Index.cshtml"
+msgid "edit"
+msgstr "Правка"
+
+#: ~/Modules/Orchard.Experimental/Views/DefinitionTemplates/ExperimentalSettings.cshtml
+#| msgid "Show debug links"
+msgctxt "~/Modules/Orchard.Experimental/Views/DefinitionTemplates/ExperimentalSettings.cshtml"
+msgid "Show debug links"
+msgstr "Просмотреть отладочные ссылки"
+
+#: ~/Modules/Orchard.Experimental/Views/EditorTemplates/Parts/Experimental.ShowDebugLink.cshtml
+#| msgid "{0} #{1} v{2}"
+msgctxt "~/Modules/Orchard.Experimental/Views/EditorTemplates/Parts/Experimental.ShowDebugLink.cshtml"
+msgid "{0} #{1} v{2}"
+msgstr "{0} #{1} v{2}"
+
+#: ~/Modules/Orchard.Experimental/Views/Home/Index.cshtml
+#| msgid "Experimental"
+msgctxt "~/Modules/Orchard.Experimental/Views/Home/Index.cshtml"
+msgid "Experimental"
+msgstr "Экспериментальный"
+
+#: ~/Modules/Orchard.Experimental/Views/Home/Index.cshtml
+#| msgid "Contents"
+msgctxt "~/Modules/Orchard.Experimental/Views/Home/Index.cshtml"
+msgid "Contents"
+msgstr "Контенты"
+
+#: ~/Modules/Orchard.Experimental/Views/Home/Index.cshtml
+#| msgid "Metadata"
+msgctxt "~/Modules/Orchard.Experimental/Views/Home/Index.cshtml"
+msgid "Metadata"
+msgstr "Метаданные"
+
+#: ~/Modules/Orchard.Experimental/Views/Home/Index.cshtml
+#| msgid "Test Unauthorized Request"
+msgctxt "~/Modules/Orchard.Experimental/Views/Home/Index.cshtml"
+msgid "Test Unauthorized Request"
+msgstr "Тестирование неавторизованного запроса"
+
+#: ~/Modules/Orchard.Experimental/Views/Metadata/Index.cshtml
+#| msgid "Merge Changes"
+msgctxt "~/Modules/Orchard.Experimental/Views/Metadata/Index.cshtml"
+msgid "Merge Changes"
+msgstr "Слияние изменений"
+
+#: ~/Modules/Orchard.Experimental/Views/Parts/Experimental.ShowDebugLink.cshtml
+#| msgid "{0} #{1} v{2}"
+msgctxt "~/Modules/Orchard.Experimental/Views/Parts/Experimental.ShowDebugLink.cshtml"
+msgid "{0} #{1} v{2}"
+msgstr "{0} #{1} v{2}"
+
+#: ~/Modules/Orchard.Experimental/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.Experimental/Module.txt"
+msgid "Experimental"
+msgstr "Эксперементальный"
+
+#: ~/Modules/Orchard.Experimental/Views/EditorTemplates/Parts/Experimental.ShowDebugLink.cshtml
+#| msgid "Experimental: editing {0}"
+msgctxt "~/Modules/Orchard.Experimental/Views/EditorTemplates/Parts/Experimental.ShowDebugLink.cshtml"
+msgid "Experimental: editing {0}"
+msgstr "Эксперементальный: редактировать {0}"
+
+#: ~/Modules/Orchard.Experimental/Module.txt
+#| msgid "Orchard.Experimental.LockLogging.Name"
+msgctxt "~/Modules/Orchard.Experimental/Module.txt"
+msgid "Lock Logging"
+msgstr "Заблокировать журналирование"
+
+#: ~/Modules/Orchard.Experimental/Module.txt
+#| msgid "Orchard.Experimental.LockLogging.Description"
+msgctxt "~/Modules/Orchard.Experimental/Module.txt"
+msgid "Logs extra diagnostic information for Sql CE if a deadlock timeout occurs"
+msgstr "Собирает дополнительную информацию для диагностики возникновения блокировок SQL CE"
+
+#: ~/Modules/Orchard.Experimental/Module.txt
+#| msgid "Orchard.Experimental.LockLogging.Category"
+msgctxt "~/Modules/Orchard.Experimental/Module.txt"
+msgid "Developer"
+msgstr "Разработчик"
+
+#: Orchard.Experimental.AdminMenu
+#| msgid "Debug"
+msgctxt "Orchard.Experimental.AdminMenu"
+msgid "Debug"
+msgstr "Отладка"
+
+#: Orchard.Experimental.Controllers.CommandsController
+#| msgid "Not authorized to use the web console"
+msgctxt "Orchard.Experimental.Controllers.CommandsController"
+msgid "Not authorized to use the web console"
+msgstr "Не допущен к применению веб-консоли"
+

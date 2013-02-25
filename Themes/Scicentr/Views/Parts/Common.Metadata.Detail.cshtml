@@ -1,0 +1,14 @@
+﻿<div class="article-metadata">
+    <span><i class="icon-user"></i> @Model.ContentPart.Owner.UserName</span>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;<i class="icon-calendar"></i> @Display.DateTime(DateTimeUtc: Model.ContentItem.CommonPart.CreatedUtc, CustomFormat: T("dddd dd MMMM yyyy - HH:mm"))</span>
+    @if (Model.ContentItem.CommentsPart.Comments != null)
+    {
+        <a href="#comm"><span>&nbsp;&nbsp;&nbsp;&nbsp;<i class="icon-comment"></i> @Model.ContentItem.CommentsPart.Comments.Count</span></a>
+    }
+ 
+
+    @if (Model.ContentItem.UserViewPart != null)
+    {
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;<i class="icon-eye-open"></i> @Model.ContentItem.UserViewPart.TotalViews</span>
+    }
+</div>

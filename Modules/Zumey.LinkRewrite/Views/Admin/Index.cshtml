@@ -1,0 +1,26 @@
+﻿@model Zumey.LinkRewrite.ViewModels.LinkRewriteViewModel
+@{
+    Layout.Title = @T("Link Rewrite Rules");
+}
+
+@using (Html.BeginFormAntiForgeryPost())
+{
+    @Html.ValidationSummary()
+
+<fieldset>
+    <div>
+        @Html.EditorFor(m => m.Settings.Enabled)
+        <label for="@Html.FieldIdFor(m => m.Settings.Enabled)" class="forcheckbox">@T("Enable Link Rewrite Rules")</label>
+        @Html.ValidationMessage("Enabled", "*")
+    </div>
+    <div data-controllerid="@Html.FieldIdFor(m => m.Settings.Enabled)">
+        <div>
+            <label for="@Html.FieldIdFor(m => m.Settings.Rules)">@T("Link Rewrite Rules")</label>
+            @Html.TextAreaFor(m => m.Settings.Rules, new { @class = "textMedium", rows = "5" })
+            @Html.ValidationMessage("Rules", "*")
+            <span class="hint">@T("Use regular expression matching rule, followed by '=>' and the replacement string, e.g.: ^https://host.blob.core.windows.net/media/Default=>http://cdn.mycustomdomain.com/media/Default. One rule per line."))</span>
+        </div>
+    </div>
+    <button class="primaryAction" name="submit" value="@T("Save")" type="submit">@T("Save")</button>
+</fieldset>
+}

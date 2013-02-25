@@ -1,0 +1,8 @@
+﻿<Placement>
+    <Place Parts_Stars="Meta:10"
+           Parts_Stars_SummaryAdmin="-"/>
+    <Match DisplayType="SummaryAdmin">
+        <Place Parts_Stars="-"
+               Parts_Stars_SummaryAdmin="Content:5"/>
+    </Match>
+</Placement>

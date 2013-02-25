@@ -1,0 +1,55 @@
+﻿@model dynamic
+@{
+    Style.Include("datetime.css");
+    Style.Include("onestop-menu-admin.css");
+
+    Script.Require("jQuery").AtFoot();
+    Script.Require("jQueryUI_Core").AtFoot();
+    Script.Require("jQueryUI_Widget").AtFoot();
+    Style.Require("jQueryUI_Orchard").AtFoot();
+    Script.Include("hint.js").AtFoot();
+
+    var dateFieldId = @ViewData.TemplateInfo.GetFullHtmlFieldId("ScheduledDate");
+    var timeFieldId = @ViewData.TemplateInfo.GetFullHtmlFieldId("ScheduledTime");
+}
+
+<fieldset class="publish-later-datetime">
+    <label class="control-label" for="@dateFieldId">@T("Date")</label>
+    <label class="forpicker" for="@dateFieldId">@T("Date")</label>
+    <span class="date">@Html.TextBox("ScheduledDate", (string)Model.ScheduledDate, new { id = dateFieldId })</span>
+    <label class="control-label" for="@timeFieldId">@T("Time")</label>
+    <label class="forpicker" for="@timeFieldId">@T("Time")</label>
+    <span class="time">@Html.TextBox("ScheduledTime", (string)Model.ScheduledTime, new { id = timeFieldId })</span>
+</fieldset>
+
+@using (Script.Foot())
+{
+
+@* generates the localization script *@
+    @Display(New.DatePickerLocalization())
+    @Display(New.TimePickerLocalization())
+
+    <script type="text/javascript">
+        //<![CDATA[
+        $(function () {
+            var clearHint = function ($this) { if ($this.val() == $this.data("hint")) { $this.removeClass("hinted").val("") } };
+            var resetHint = function ($this) { setTimeout(function () { if (!$this.val()) { $this.addClass("hinted").val($this.data("hint")) } }, 300) };
+
+            $("label.forpicker").each(function () {
+                var $this = $(this);
+                var pickerInput = $("#" + $this.attr("for"));
+                if (!pickerInput.val()) {
+                    pickerInput.data("hint", $this.text());
+                    pickerInput.addClass("hinted")
+                        .val(pickerInput.data("hint"))
+                        .focus(function () { clearHint($(this)); })
+                        .blur(function () { resetHint($(this)); });
+                    $this.closest("form").submit(function () { clearHint(pickerInput); pickerInput = 0; });
+                }
+            });
+            $('#@timeFieldId').timepicker();
+            $('#@dateFieldId').datepicker({ showAnim: "" });
+        })
+        //]]>
+    </script>
+}

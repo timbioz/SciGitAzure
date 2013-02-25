@@ -1,0 +1,193 @@
+﻿@using Onestop.Navigation.Models
+@using Onestop.Navigation.ViewModels
+@using Orchard.ContentManagement
+@using Orchard.ContentManagement.Aspects
+@using Orchard.Core.Common.Models
+@using Onestop.Navigation.Security
+@using Orchard.Core.Navigation.Models
+@using Orchard.Utility.Extensions
+@model MenuAdminPreviewViewModel
+@{
+    Layout.Title = T("Previewing historical version '{1}' of '{0}' menu", Model.Menu.As<ITitleAspect>().Title, Model.VersionNumber).ToString();
+    Script.Require("MenuAdminScripts_Preview");
+    Style.Require("MenuAdmin");
+
+    var publishedFirstLevelItems = Model.Items.Select(i => i.As<ExtendedMenuItemPart>()).Where(item => !Model.Items.Select(i => i.As<ExtendedMenuItemPart>()).Any(i => item.Position.StartsWith(i.Position + "."))).ToList();
+}
+
+@using (Html.BeginFormAntiForgeryPost()) {
+<div class="row-fluid">
+    <div class="sticky">
+        <ul class="nav nav-pills">
+            <li class="dropdown"><a class="btn-small dropdown-toggle" data-toggle="dropdown"
+                                    href="#"><i class="icon-plus"></i><span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    @foreach (var descriptor in Model.MenuItemDescriptors)
+                    {
+                        <li>
+                            <a href="@Url.Action("CreateItem", "MenuAdmin", new { type = descriptor.Type, menuId = Model.Menu.Id, Area = "Onestop.Navigation" })">
+                            @T("{0}", descriptor.DisplayName).Text
+                            <div class="hint">@descriptor.Description</div>
+                            </a>
+                        </li>
+                    }
+                </ul>
+            </li>
+            @if (Authorizer.Authorize(Permissions.EditAdvancedMenuItemOptions) || Authorizer.Authorize(Permissions.EditMenu))
+            {
+                <li class="dropdown"><a class="btn-small" data-toggle="modal" href="#revertModal"><i
+                    class="icon-ok-sign"></i>&nbsp;<b>Revert to this version...</b></a> </li>
+            }
+            <li class="dropdown pull-right"><a class="btn-small dropdown-toggle" data-toggle="dropdown"
+                                               href="#"><i class="icon-cog"></i><span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li>
+                        @Html.ActionLink(T("Create new menu").Text,"Create", "Admin", new { area = "Contents", id = "Menu", returnUrl = Url.Action("RedirectToLatestMenu")  }, new { })
+                    </li>
+                    <li>
+                        @Html.ActionLink(T("Edit menu").Text, "Edit", "Admin", new { area = "Contents", id = Model.Menu.Id, returnUrl = Request.RawUrl }, new { })
+                    </li>
+                    <li><a href="@Url.ItemRemoveUrl(Model.Menu, new { Request.RawUrl })" itemprop="RemoveUrl UnsafeUrl">
+                        @T("Delete menu")
+                    </a></li>
+                </ul>
+            </li>
+            <li class="dropdown"><a class="btn-small dropdown-toggle" data-toggle="dropdown"
+                                               href="#"><i class="icon-eye-open"></i>&nbsp;View version...<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li>
+                        @Html.ActionLink(T("Current").Text, "Index", "MenuAdmin", new { menuId = Model.Menu.Id, mode = Onestop.Navigation.Models.DisplayMode.Current, area = "Onestop.Navigation" }, new { })
+                    </li>
+                    <li>
+                        @Html.ActionLink(T("Draft").Text, "Index", "MenuAdmin", new { menuId = Model.Menu.Id, mode = Onestop.Navigation.Models.DisplayMode.Draft, area = "Onestop.Navigation" }, new { })
+                    </li>
+                    @foreach (var task in Model.MenuVersions)
+                    {
+                        <li>
+                            @Html.ActionLink(
+                                T("Preview version {0} scheduled for {1}",
+                                  task.ContentItem.Version,
+                                  (IHtmlString)Display.DateTime(DateTimeUtc: task.ScheduledUtc)).Text,
+                                "Preview",
+                                "MenuAdmin",
+                                new { menuId = Model.Menu.Id, area = "Onestop.Navigation", versionNumber = task.ContentItem.Version },
+                                new { })
+                        </li>
+                    }
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div>
+    </div>
+</div>
+<table id="itemsheader" class="items">
+</table>
+<fieldset>
+    <legend>↓ @T("Menu items in this version")
+        (<button class="link" id="expand-all" onclick="return false;">@T("Expand all")</button>)
+        @if (Model.Items.Any(i => i.As<ExtendedMenuItemPart>().IsRemoved))
+        {
+            <img src="@Href("~/Modules/Onestop.Navigation/Content/Images/dot_red.png")" rel="tooltip" title="@T("Removed - item is pending for removal")"/>
+            @T("Contains Removed Items")
+            @:(<button class="link" id="expand-changed" onclick="return false;">@T("Expand all")</button>) 
+        } </legend>
+    <div id="history-items">
+        @DisplayLevelWithChildren(null, publishedFirstLevelItems, Model.Items.Select(i => i.As<ExtendedMenuItemPart>()).ToList(), "no-nest", true)
+    </div>
+</fieldset>
+}
+
+@helper DisplayLevelWithChildren(ExtendedMenuItemPart parent, IList<ExtendedMenuItemPart> items, IList<ExtendedMenuItemPart> allItems, string additionalClasses, bool displayToggle)
+    {
+    <ol class="itemlist @(parent == null ? "sortable" : "") @(additionalClasses)">
+        @*Items should be nested and displayed by recurrence or a flat list with filtering *@
+        @foreach (var item in items)
+        {
+            var childItems = allItems
+                .Where(child => child.Position.StartsWith(item.Position + ".")
+                    && child.Position.Count(c => c == '.') == item.Position.Count(c => c == '.') + 1)
+                .ToList();
+                
+            <li class="item @(additionalClasses) @(item.IsRemoved ? "no-nest" : "")" id="item-@(item.ContentItem.VersionRecord.Id)" data-id="@item.ContentItem.VersionRecord.Id">
+                @if (displayToggle)
+                { 
+                    <div class="toggle toggle-preview @(childItems.Any() ? "toggle-expand" : "")">
+                        &nbsp;</div>
+                }
+                <div class="wrapper @(item.IsRemoved ? "removed changed" : "")">
+                    <div class="header item-(@item.ContentItem.ContentType.ToSafeName())">
+                        <span class="description">@Html.ItemAdminLink(item)&nbsp;<i>(@item.ContentItem.TypeDefinition.DisplayName)</i></span>
+                        @*Version: @(item.MenuVersion != null ? item.MenuVersion.ContentItem.Version: -1)*@
+                        @if (!string.IsNullOrWhiteSpace(item.SubTitle))
+                        {
+                            <h6>
+                                <i>@item.SubTitle</i></h6>
+                        }
+                    </div>
+                    <span class="position">
+                        @if (!item.IsDraft)
+                        {
+                            @item.Position
+                        }
+                        else
+                        {
+                            <div class="enter-position">
+                                Click to edit
+                            </div>
+                        }
+                    </span>
+                    <span class="url">
+                        @if (item.Is<ContentMenuItemPart>()){
+                            @Html.ItemDisplayLink(item.As<ContentMenuItemPart>().Content)
+                        }
+                        else if(item.Is<MenuItemPart>()){
+                            @T(item.Url)
+                        }
+                        else{
+                            <i>Not applicable</i>
+                        }
+                    </span>
+                    <span class="status">
+                        @if (item.IsRemoved)
+                        {
+                            <img src="@Href("~/Modules/Onestop.Navigation/Content/Images/dot_red.png")" rel="tooltip" title="@T("Removed - item is pending for removal")"/> 
+                        }
+                        @T("Modified: ") <i>@(item.As<CommonPart>().ModifiedUtc.HasValue ? (IHtmlString)Display.DateTimeRelative(dateTimeUtc: item.As<CommonPart>().ModifiedUtc) : T("never"))</i>
+                        @if (item.Is<IVersionAspect>() && item.As<IVersionAspect>().Author != null)
+                        {
+                            @T("by <i>{0}</i>", item.As<IVersionAspect>().Author.UserName)
+                        }
+                    </span>
+                    <span class="actions">
+                    </span>
+                </div>
+                @DisplayLevelWithChildren(item, childItems, allItems, additionalClasses, displayToggle)
+            </li>
+        }
+    </ol>
+}
+
+@if (Authorizer.Authorize(Permissions.EditAdvancedMenuItemOptions) || Authorizer.Authorize(Permissions.EditMenu))
+{
+    <div class="modal fade" id="revertModal">
+        <div class="modal-header">
+            <button class="close" data-dismiss="modal">
+                ×</button>
+            <h3>Decide when the menu should be reverted to this version</h3>
+        </div>
+        <div class="modal-body">
+            @using (Html.BeginFormAntiForgeryPost(Url.Action("RevertToVersion", "MenuAdmin", new { menuId = Model.Menu.Id, returnUrl = WorkContext.HttpContext.Request.RawUrl }), FormMethod.Post, new { @class = "well" }))
+            {
+                @Html.HiddenFor(m => m.VersionNumber)
+                <button type="submit" class="btn btn-primary" name="submit.Publish" value="submit.Publish">@T("Revert now")</button>
+            }
+            @using (Html.BeginFormAntiForgeryPost(Url.Action("RevertToVersion", "MenuAdmin", new { menuId = Model.Menu.Id, returnUrl = WorkContext.HttpContext.Request.RawUrl }), FormMethod.Post, new { @class = "well" }))
+            {
+                @Display.DateTimePicker(ScheduledDate: Model.ScheduledDate, ScheduledTime: Model.ScheduledTime)
+                @Html.HiddenFor(m => m.VersionNumber)
+                <button type="submit" class="btn btn-primary" name="submit.SchedulePublish" value="submit.SchedulePublish">@T("Schedule the revert operation")</button>
+            }
+        </div>
+    </div>
+}

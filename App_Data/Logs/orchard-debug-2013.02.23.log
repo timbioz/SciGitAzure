@@ -1,0 +1,93 @@
+2013-02-23 00:02:23,892 [5] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-23 00:28:49,012 [90] Orchard.Exceptions.DefaultExceptionPolicy - An unexpected exception was caught
+System.InvalidCastException: Unable to cast object of type 'Newtonsoft.Json.Linq.JValue' to type 'System.IConvertible'.
+   at CallSite.Target(Closure , CallSite , Type , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at Contrib.Taxonomies.Projections.TermsFilter.DisplayFilter(Object context)
+   at Orchard.Projections.Controllers.AdminController.Edit(Int32 id)
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<InvokeActionMethodWithFilters>b__10()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+2013-02-23 00:29:35,293 [77] Orchard.Exceptions.DefaultExceptionPolicy - An unexpected exception was caught
+System.InvalidCastException: Unable to cast object of type 'Newtonsoft.Json.Linq.JValue' to type 'System.IConvertible'.
+   at CallSite.Target(Closure , CallSite , Type , Object )
+   at Contrib.Taxonomies.Projections.TermsFilter.DisplayFilter(Object context)
+   at Orchard.Projections.Controllers.AdminController.Edit(Int32 id)
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<InvokeActionMethodWithFilters>b__10()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+2013-02-23 00:29:41,870 [38] Orchard.Exceptions.DefaultExceptionPolicy - An unexpected exception was caught
+System.InvalidCastException: Unable to cast object of type 'Newtonsoft.Json.Linq.JValue' to type 'System.IConvertible'.
+   at CallSite.Target(Closure , CallSite , Type , Object )
+   at Contrib.Taxonomies.Projections.TermsFilter.DisplayFilter(Object context)
+   at Orchard.Projections.Controllers.AdminController.Edit(Int32 id)
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<InvokeActionMethodWithFilters>b__10()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+2013-02-23 00:30:20,880 [88] Orchard.Exceptions.DefaultExceptionPolicy - An unexpected exception was caught
+System.InvalidCastException: Unable to cast object of type 'Newtonsoft.Json.Linq.JValue' to type 'System.IConvertible'.
+   at CallSite.Target(Closure , CallSite , Type , Object )
+   at Contrib.Taxonomies.Projections.TermsFilter.DisplayFilter(Object context)
+   at Orchard.Projections.Controllers.AdminController.Edit(Int32 id)
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<InvokeActionMethodWithFilters>b__10()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+2013-02-23 00:40:47,386 [56] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Navigation"
+2013-02-23 00:40:47,999 [39] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Zumey.LinkRewrite"
+2013-02-23 00:40:48,689 [77] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-23 00:42:54,609 [48] Orchard.Exceptions.DefaultExceptionPolicy - An unexpected exception was caught
+System.InvalidCastException: Unable to cast object of type 'Newtonsoft.Json.Linq.JValue' to type 'System.IConvertible'.
+   at CallSite.Target(Closure , CallSite , Type , Object )
+   at Contrib.Taxonomies.Projections.TermsFilter.DisplayFilter(Object context)
+   at Orchard.Projections.Controllers.AdminController.Edit(Int32 id)
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<InvokeActionMethodWithFilters>b__10()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+2013-02-23 00:43:00,158 [83] Orchard.Exceptions.DefaultExceptionPolicy - An unexpected exception was caught
+System.InvalidCastException: Unable to cast object of type 'Newtonsoft.Json.Linq.JValue' to type 'System.IConvertible'.
+   at CallSite.Target(Closure , CallSite , Type , Object )
+   at Contrib.Taxonomies.Projections.TermsFilter.DisplayFilter(Object context)
+   at Orchard.Projections.Controllers.AdminController.Edit(Int32 id)
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<InvokeActionMethodWithFilters>b__10()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+2013-02-23 00:43:13,943 [20] Orchard.Exceptions.DefaultExceptionPolicy - An unexpected exception was caught
+System.InvalidCastException: Unable to cast object of type 'Newtonsoft.Json.Linq.JValue' to type 'System.IConvertible'.
+   at CallSite.Target(Closure , CallSite , Type , Object )
+   at Contrib.Taxonomies.Projections.TermsFilter.DisplayFilter(Object context)
+   at Orchard.Projections.Controllers.AdminController.Edit(Int32 id)
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<InvokeActionMethodWithFilters>b__10()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+2013-02-23 19:54:35,802 [5] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-23 19:55:38,388 [8] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Zumey.LinkRewrite"
+2013-02-23 19:55:39,770 [17] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Navigation"
+2013-02-23 19:55:40,366 [14] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"

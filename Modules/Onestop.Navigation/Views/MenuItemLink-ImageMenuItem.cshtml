@@ -1,0 +1,26 @@
+﻿@using Onestop.Navigation.Models
+@{
+    ExtendedMenuItemPart item = Model.Content.ExtendedMenuItemPart;
+    ImageMenuItemPart image = Model.Content.ImageMenuItemPart;
+    bool showLink = item.DisplayHref;
+}
+@if (showLink) {
+    <a href="@Model.Href" @(item.InNewWindow ? "target=\"_blank\"" : "")>
+        @Html.Image(Url.Content(image.Source), image.AlternateText,
+            new {
+                width = image.Width.HasValue ? image.Width + "px" : "",
+                height = image.Height.HasValue ? image.Height + "px" : "",
+                @class = string.Join(" ", Model.Classes, image.Class),
+                style = image.Style ?? ""
+            })
+    </a>
+}
+else {
+    @Html.Image(Url.Content(image.Source), image.AlternateText,
+            new {
+                width = image.Width.HasValue ? image.Width + "px" : "",
+                height = image.Height.HasValue ? image.Height + "px" : "",
+                @class = string.Join(" ", Model.Classes, image.Class),
+                style = image.Style ?? ""
+            })
+}

@@ -1,0 +1,39 @@
+﻿@*@using Contrib.Taxonomies.Models
+@{
+    var items = Model.ContentItems;
+}
+<ul id="recent-right">
+    @foreach (dynamic item in items)
+    {
+        <li>
+            <div class="title-theme-wrapper">
+                @foreach (var term in (IEnumerable<TermPart>)item.SectionsPart.PublicationRubric.Terms)
+                {
+                    string[] split = term.Name.Split(new Char[] { ' ' });
+                    int index = 1;
+                    <h2>
+                    <a class="rtitle-rubric" href="@term.Slug" title="Перейти к рубрике @term.Name">
+                        @foreach (string s in split)
+                        {
+                            <span class="word-@index">@s</span>
+                            index++;
+                        }
+                    </a>
+                        </h2>
+                }
+            </div>
+            <a title="Перейти к новости: @item.TitlePart.Title" href="@item.AutoroutePart.DisplayAlias">
+                <img src="@Href(item.MainImagePart.PublicationImage.Url)" title="Просмотреть: @item.SubTitle.Fields[0].Value" alt="@item.MainImagePart.PublicationImage.AlternateText"/>
+            </a>
+            <h3><a title="Перейти к новости: @item.TitlePart.Title" href="@item.AutoroutePart.DisplayAlias">@item.TitlePart.Title</a></h3>
+        </li>
+        <hr/>
+        
+    }
+</ul>*@
+
+<p>dwdjiwdjiwdjidjwi
+    owdow,dwod,w,d
+    wod,owd,wod,owd,
+    wdowdkwdj9wjd9w
+</p>

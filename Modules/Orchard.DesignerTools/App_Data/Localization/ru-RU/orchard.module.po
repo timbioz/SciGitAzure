@@ -1,0 +1,149 @@
+# Orchard resource strings - ru-RU
+# Copyright (c) 2010 Outercurve Foundation
+# All rights reserved
+# This file is distributed under the BSD license
+
+#: ~/Modules/Orchard.DesignerTools/Module.txt
+#| msgid "WidgetAlternates.Name"
+msgctxt "~/Modules/Orchard.DesignerTools/Module.txt"
+msgid "Widget Alternates"
+msgstr "Виджет альтернативы"
+
+#: ~/Modules/Orchard.DesignerTools/Module.txt
+#| msgid "WidgetAlternates.Category"
+msgctxt "~/Modules/Orchard.DesignerTools/Module.txt"
+msgid "Designer"
+msgstr "Дизайнер"
+
+#: ~/Modules/Orchard.DesignerTools/Module.txt
+#| msgid "WidgetAlternates.Description"
+msgctxt "~/Modules/Orchard.DesignerTools/Module.txt"
+msgid "Adds shape alternates for content types stereotyped as widgets, allowing to customize shapes by widget and zone"
+msgstr "Добавляет фигуру альтернатив для типов содержимого в качестве виджета, позволяя настраивать фигуры через виджет и зону"
+
+#: ~/Modules/Orchard.DesignerTools/Views/ShapeTracingTemplates.cshtml
+#| msgid "Alternate ({0})"
+msgctxt "~/Modules/Orchard.DesignerTools/Views/ShapeTracingTemplates.cshtml"
+msgid "Alternate ({0})"
+msgstr "Альтернатива ({0})"
+
+#: ~/Modules/Orchard.DesignerTools/Views/ShapeTracingTemplates.cshtml
+#| msgid "Wrappers ({0})"
+msgctxt "~/Modules/Orchard.DesignerTools/Views/ShapeTracingTemplates.cshtml"
+msgid "Wrappers ({0})"
+msgstr "Оболочки ({0})"
+
+#: ~/Modules/Orchard.DesignerTools/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.DesignerTools/Module.txt"
+msgid "Designer Tools"
+msgstr "Инструменты дизайнера"
+
+#: ~/Modules/Orchard.DesignerTools/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Orchard.DesignerTools/Module.txt"
+msgid "The Orchard Team"
+msgstr "Команда Orchard"
+
+#: ~/Modules/Orchard.DesignerTools/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Orchard.DesignerTools/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Modules/Orchard.DesignerTools/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Orchard.DesignerTools/Module.txt"
+msgid "Contains designer tools to ease the Themes development process"
+msgstr "Содержит инструменты дизайнера облегчающие процесс разработки тем. "
+
+#: ~/Modules/Orchard.DesignerTools/Module.txt
+#| msgid "UrlAlternates.Name"
+msgctxt "~/Modules/Orchard.DesignerTools/Module.txt"
+msgid "Url Alternates"
+msgstr "Альтернативы по URL"
+
+#: ~/Modules/Orchard.DesignerTools/Module.txt
+#| msgid "UrlAlternates.Category"
+msgctxt "~/Modules/Orchard.DesignerTools/Module.txt"
+msgid "Designer"
+msgstr "Дизайнер"
+
+#: ~/Modules/Orchard.DesignerTools/Module.txt
+#| msgid "UrlAlternates.Description"
+msgctxt "~/Modules/Orchard.DesignerTools/Module.txt"
+msgid "Adds shape alternates for specific urls"
+msgstr "Добавляет альтернативные фигуры по заданному URL"
+
+#: Orchard.DesignerTools.Controllers.AlternateController
+#| msgid "Not authorized to create templates"
+msgctxt "Orchard.DesignerTools.Controllers.AlternateController"
+msgid "Not authorized to create templates"
+msgstr "Не допущен к созданию шаблонов"
+
+#: ~/Modules/Orchard.DesignerTools/Views/ShapeTracingMeta.cshtml
+#| msgid "n/a"
+msgctxt "~/Modules/Orchard.DesignerTools/Views/ShapeTracingMeta.cshtml"
+msgid "n/a"
+msgstr "н/п"
+
+#: ~/Modules/Orchard.DesignerTools/Views/ShapeTracingMeta.cshtml
+#| msgid "Content not available as coming from source code."
+msgctxt "~/Modules/Orchard.DesignerTools/Views/ShapeTracingMeta.cshtml"
+msgid "Content not available as coming from source code."
+msgstr "Содержимое не доступно из исходного кода."
+
+#: ~/Modules/Orchard.DesignerTools/Views/ShapeTracingTemplates.cshtml
+#| msgid "Shape"
+msgctxt "~/Modules/Orchard.DesignerTools/Views/ShapeTracingTemplates.cshtml"
+msgid "Shape"
+msgstr "Фигура"
+
+#: ~/Modules/Orchard.DesignerTools/Views/ShapeTracingTemplates.cshtml
+#| msgid "Model"
+msgctxt "~/Modules/Orchard.DesignerTools/Views/ShapeTracingTemplates.cshtml"
+msgid "Model"
+msgstr "Модель"
+
+#: ~/Modules/Orchard.DesignerTools/Views/ShapeTracingTemplates.cshtml
+#| msgid "Placement"
+msgctxt "~/Modules/Orchard.DesignerTools/Views/ShapeTracingTemplates.cshtml"
+msgid "Placement"
+msgstr "Расположение"
+
+#: ~/Modules/Orchard.DesignerTools/Views/ShapeTracingTemplates.cshtml
+#| msgid "Template"
+msgctxt "~/Modules/Orchard.DesignerTools/Views/ShapeTracingTemplates.cshtml"
+msgid "Template"
+msgstr "Шаблон"
+
+#: ~/Modules/Orchard.DesignerTools/Views/ShapeTracingTemplates.cshtml
+#| msgid "HTML"
+msgctxt "~/Modules/Orchard.DesignerTools/Views/ShapeTracingTemplates.cshtml"
+msgid "HTML"
+msgstr "HTML"
+
+#: ~/Modules/Orchard.DesignerTools/Views/ShapeTracingTemplates.cshtml
+#| msgid "Active Template"
+msgctxt "~/Modules/Orchard.DesignerTools/Views/ShapeTracingTemplates.cshtml"
+msgid "Active Template"
+msgstr "Активный шаблон"
+
+#: ~/Modules/Orchard.DesignerTools/Views/ShapeTracingTemplates.cshtml
+#| msgid "Original Template"
+msgctxt "~/Modules/Orchard.DesignerTools/Views/ShapeTracingTemplates.cshtml"
+msgid "Original Template"
+msgstr "Оригинальный шаблон"
+
+#: ~/Modules/Orchard.DesignerTools/Views/ShapeTracingTemplates.cshtml
+#| msgid "Display Type"
+msgctxt "~/Modules/Orchard.DesignerTools/Views/ShapeTracingTemplates.cshtml"
+msgid "Display Type"
+msgstr "Отображаемый тип"
+
+#: ~/Modules/Orchard.DesignerTools/Views/ShapeTracingTemplates.cshtml
+#| msgid "Create"
+msgctxt "~/Modules/Orchard.DesignerTools/Views/ShapeTracingTemplates.cshtml"
+msgid "Create"
+msgstr "Создать"
+

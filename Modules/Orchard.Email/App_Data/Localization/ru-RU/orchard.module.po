@@ -1,0 +1,299 @@
+# Orchard resource strings - ru-RU
+# Copyright (c) 2010 Outercurve Foundation
+# All rights reserved
+# This file is distributed under the BSD license
+
+#: Orchard.Email.Handlers.SmtpSettingsPartHandler
+#| msgid "Email"
+msgctxt "Orchard.Email.Handlers.SmtpSettingsPartHandler"
+msgid "Email"
+msgstr "Электропочта"
+
+#: ~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml
+#| msgid "Email"
+msgctxt "~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml"
+msgid "Email"
+msgstr "Электропочта"
+
+#: ~/Modules/Orchard.Email/Module.txt
+#| msgid "Orchard.Email.Rules.Name"
+msgctxt "~/Modules/Orchard.Email/Module.txt"
+msgid "Email Rules"
+msgstr "Правила Email"
+
+#: ~/Modules/Orchard.Email/Module.txt
+#| msgid "Orchard.Email.Rules.Description"
+msgctxt "~/Modules/Orchard.Email/Module.txt"
+msgid "Rules for the Email modules"
+msgstr "Правила для модуля Email"
+
+#: ~/Modules/Orchard.Email/Module.txt
+#| msgid "Orchard.Email.Rules.Category"
+msgctxt "~/Modules/Orchard.Email/Module.txt"
+msgid "Rules"
+msgstr "Правила"
+
+#: Orchard.Email.Rules.MailActions
+#| msgid "Send an e-mail"
+msgctxt "Orchard.Email.Rules.MailActions"
+msgid "Send an e-mail"
+msgstr "Отправить e-mail"
+
+#: Orchard.Email.Rules.MailActions
+#| msgid "Messaging"
+msgctxt "Orchard.Email.Rules.MailActions"
+msgid "Messaging"
+msgstr "Сообщения"
+
+#: Orchard.Email.Rules.MailActions
+#| msgid "Messages"
+msgctxt "Orchard.Email.Rules.MailActions"
+msgid "Messages"
+msgstr "Сообщения"
+
+#: Orchard.Email.Rules.MailActions
+#| msgid "Send e-mail"
+msgctxt "Orchard.Email.Rules.MailActions"
+msgid "Send e-mail"
+msgstr "Отправить e-mail"
+
+#: Orchard.Email.Rules.MailActions
+#| msgid "Sends an e-mail to a specific user."
+msgctxt "Orchard.Email.Rules.MailActions"
+msgid "Sends an e-mail to a specific user."
+msgstr "Отправляет сообщение указанному пользователю."
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "Send to"
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "Send to"
+msgstr "Кому"
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "Select who should be the recipient of this e-mail."
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "Select who should be the recipient of this e-mail."
+msgstr "Выберите того, кто будет получателем этого письма"
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "Owner"
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "Owner"
+msgstr "Владелец"
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "Author"
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "Author"
+msgstr "Автор"
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "Site Admin"
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "Site Admin"
+msgstr "Администратор сайта"
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "Subject"
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "Subject"
+msgstr "Тема"
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "The subject of the e-mail."
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "The subject of the e-mail."
+msgstr "Тема сообщения."
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "Body"
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "Body"
+msgstr "Тело"
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "The body of the e-mail."
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "The body of the e-mail."
+msgstr "Тело сообщения"
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "You must select at least one recipient"
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "You must select at least one recipient"
+msgstr "Вы должны выбрать хотя-бы одного получателя"
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "You must provide a Subject"
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "You must provide a Subject"
+msgstr "Вы должны указать Тему"
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "You must provide a Body"
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "You must provide a Body"
+msgstr "Вы должны указать тело сообщения"
+
+#: Orchard.Email.Services.MissingSettingsBanner
+#| msgid "The <a href=\"{0}\">SMTP settings</a> needs to be configured."
+msgctxt "Orchard.Email.Services.MissingSettingsBanner"
+msgid "The <a href=\"{0}\">SMTP settings</a> needs to be configured."
+msgstr "Необходимо настроить <a href=\"{0}\">параметры SMTP</a>"
+
+#: ~/Modules/Orchard.Email/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.Email/Module.txt"
+msgid "Email Messaging"
+msgstr "Сообщения электропочты"
+
+#: ~/Modules/Orchard.Email/Module.txt
+#| msgid "Orchard.Email Description"
+msgctxt "~/Modules/Orchard.Email/Module.txt"
+msgid "Email Messaging services."
+msgstr "Служба сообщений Email."
+
+#: ~/Modules/Orchard.Email/Module.txt
+#| msgid "Orchard.Email Category"
+msgctxt "~/Modules/Orchard.Email/Module.txt"
+msgid "Messaging"
+msgstr "Сообщения"
+
+#: Orchard.Email.Services.MissingSettingsBanner:
+#| msgid "The default channel service needs to be configured."
+msgctxt "Orchard.Email.Services.MissingSettingsBanner:"
+msgid "The default channel service needs to be configured."
+msgstr "Канал сообщений по-умолчанию должен быть настроен."
+
+#: ~/Modules/Orchard.Email/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Orchard.Email/Module.txt"
+msgid "The Orchard Team"
+msgstr "Команда Orchard"
+
+#: ~/Modules/Orchard.Email/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Orchard.Email/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Modules/Orchard.Email/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Orchard.Email/Module.txt"
+msgid "The Email Messaging module adds Email sending functionalities."
+msgstr "Модуль электронной почты добавляет функционал отправки электропочты."
+
+#: ~/Modules/Orchard.Email/Module.txt
+#| msgid "Orchard.Email.Name"
+msgctxt "~/Modules/Orchard.Email/Module.txt"
+msgid "Email"
+msgstr "Email"
+
+#: ~/Modules/Orchard.Email/Module.txt
+#| msgid "Orchard.Email.Description"
+msgctxt "~/Modules/Orchard.Email/Module.txt"
+msgid "Email Messaging services."
+msgstr "Служба сообщений Email."
+
+#: ~/Modules/Orchard.Email/Module.txt
+#| msgid "Orchard.Email.Category"
+msgctxt "~/Modules/Orchard.Email/Module.txt"
+msgid "Messaging"
+msgstr "Сообщения"
+
+#: Orchard.Email.Services.MissingSettingsBanner:
+#| msgid "The SMTP settings needs to be configured."
+msgctxt "Orchard.Email.Services.MissingSettingsBanner:"
+msgid "The SMTP settings needs to be configured."
+msgstr "Должны быть заданы настройки SMTP."
+
+#: ~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml
+#| msgid "SMTP"
+msgctxt "~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml"
+msgid "SMTP"
+msgstr "SMTP"
+
+#: ~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml
+#| msgid "Sender email address"
+msgctxt "~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml"
+msgid "Sender email address"
+msgstr "Адрес отправителя"
+
+#: ~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml
+#| msgid "Host name"
+msgctxt "~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml"
+msgid "Host name"
+msgstr "Хост"
+
+#: ~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml
+#| msgid "Port number"
+msgctxt "~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml"
+msgid "Port number"
+msgstr "Порт"
+
+#: ~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml
+#| msgid "Enable SSL communications"
+msgctxt "~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml"
+msgid "Enable SSL communications"
+msgstr "Включить SSL"
+
+#: ~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml
+#| msgid "Require credentials"
+msgctxt "~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml"
+msgid "Require credentials"
+msgstr "Требуются учетные данные"
+
+#: ~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml
+#| msgid "User name"
+msgctxt "~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml"
+msgid "User name"
+msgstr "Имя пользователя"
+
+#: ~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml
+#| msgid "Password"
+msgctxt "~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml"
+msgid "Password"
+msgstr "Пароль"
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "The owner of the content item in context, such as a blog post's author."
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "The owner of the content item in context, such as a blog post's author."
+msgstr "Автор в контексте пункта содержимого, например автор записи в блоге."
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "The current user when this action executes."
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "The current user when this action executes."
+msgstr "Текущий пользователь в момент выполнения события."
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "The site administrator."
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "The site administrator."
+msgstr "Администратор сайта."
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "Other:"
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "Other:"
+msgstr "Другое:"
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "E-mail"
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "E-mail"
+msgstr "E-Mail"
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "Specify a comma-separated list of e-mail recipients."
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "Specify a comma-separated list of e-mail recipients."
+msgstr "Укажите список получателей, разделенный запятой"
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "You must provide an e-mail address"
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "You must provide an e-mail address"
+msgstr "Вы должны указать адрес E-Mail"
+

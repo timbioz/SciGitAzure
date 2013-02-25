@@ -1,0 +1,5 @@
+﻿@using Orchard.Core.Common.Models
+@{
+    BodyPart body = Model.Content.BodyPart;
+}
+<span class="raw @(string.Join(" ", Model.Classes))">@Html.Raw(body.Text)</span>

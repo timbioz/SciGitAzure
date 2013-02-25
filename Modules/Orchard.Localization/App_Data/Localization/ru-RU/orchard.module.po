@@ -1,0 +1,143 @@
+# Orchard resource strings - ru-RU
+# Copyright (c) 2010 Outercurve Foundation
+# All rights reserved
+# This file is distributed under the BSD license
+
+#: ~/Modules/Orchard.Localization/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Orchard.Localization/Module.txt"
+msgid "The Orchard Team"
+msgstr "Команда Orchard"
+
+#: ~/Modules/Orchard.Localization/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Orchard.Localization/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Modules/Orchard.Localization/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Orchard.Localization/Module.txt"
+msgid "The localization module enables the localization of content items."
+msgstr "Модуль локализации позволяет переводить элементы контента."
+
+#: ~/Modules/Orchard.Localization/Module.txt
+#| msgid "Orchard.Localization.Name"
+msgctxt "~/Modules/Orchard.Localization/Module.txt"
+msgid "Localization"
+msgstr "Локализация"
+
+#: ~/Modules/Orchard.Localization/Module.txt
+#| msgid "Orchard.Localization.Description"
+msgctxt "~/Modules/Orchard.Localization/Module.txt"
+msgid "Localize content items."
+msgstr "Локализация элементов содержимого."
+
+#: ~/Modules/Orchard.Localization/Module.txt
+#| msgid "Orchard.Localization.Category"
+msgctxt "~/Modules/Orchard.Localization/Module.txt"
+msgid "Content"
+msgstr "Содержимое"
+
+#: Orchard.Localization.Controllers.AdminController
+#| msgid "Edited content item translation."
+msgctxt "Orchard.Localization.Controllers.AdminController"
+msgid "Edited content item translation."
+msgstr "Править перевод элемента контента."
+
+#: Orchard.Localization.Controllers.AdminController
+#| msgid "Created content item translation."
+msgctxt "Orchard.Localization.Controllers.AdminController"
+msgid "Created content item translation."
+msgstr "Создать перевод элемента контента."
+
+#: ~/Modules/Orchard.Localization/Views/CultureSelection.cshtml
+#| msgid "Content Localization"
+msgctxt "~/Modules/Orchard.Localization/Views/CultureSelection.cshtml"
+msgid "Content Localization"
+msgstr "Локализация контента"
+
+#: ~/Modules/Orchard.Localization/Views/Admin/Translate.cshtml
+#| msgid "Translate Content"
+msgctxt "~/Modules/Orchard.Localization/Views/Admin/Translate.cshtml"
+msgid "Translate Content"
+msgstr "Перевести контент"
+
+#: ~/Modules/Orchard.Localization/Views/EditorTemplates/Parts/Localization.ContentTranslations.Edit.cshtml
+#| msgid "Content Localization"
+msgctxt "~/Modules/Orchard.Localization/Views/EditorTemplates/Parts/Localization.ContentTranslations.Edit.cshtml"
+msgid "Content Localization"
+msgstr "Локализация контента"
+
+#: ~/Modules/Orchard.Localization/Views/EditorTemplates/Parts/Localization.ContentTranslations.Edit.cshtml
+#| msgid "This is the <em>{0}</em> variation of {1}."
+msgctxt "~/Modules/Orchard.Localization/Views/EditorTemplates/Parts/Localization.ContentTranslations.Edit.cshtml"
+msgid "This is the <em>{0}</em> variation of {1}."
+msgstr "<em>{0}</em> это вариант {1}."
+
+#: ~/Modules/Orchard.Localization/Views/EditorTemplates/Parts/Localization.ContentTranslations.Edit.cshtml
+#| msgid "Other translations:"
+msgctxt "~/Modules/Orchard.Localization/Views/EditorTemplates/Parts/Localization.ContentTranslations.Edit.cshtml"
+msgid "Other translations:"
+msgstr "Другие переводы:"
+
+#: ~/Modules/Orchard.Localization/Views/Parts/Localization.ContentTranslations.cshtml
+#| msgid "Translations:"
+msgctxt "~/Modules/Orchard.Localization/Views/Parts/Localization.ContentTranslations.cshtml"
+msgid "Translations:"
+msgstr "Переводы:"
+
+#: ~/Modules/Orchard.Localization/Views/Parts/Localization.ContentTranslations.Summary.cshtml
+#| msgid "Translations:"
+msgctxt "~/Modules/Orchard.Localization/Views/Parts/Localization.ContentTranslations.Summary.cshtml"
+msgid "Translations:"
+msgstr "Переводы:"
+
+#: ~/Modules/Orchard.Localization/Views/Parts/Localization.ContentTranslations.SummaryAdmin.cshtml
+#| msgid "Translations:"
+msgctxt "~/Modules/Orchard.Localization/Views/Parts/Localization.ContentTranslations.SummaryAdmin.cshtml"
+msgid "Translations:"
+msgstr "Переводы:"
+
+#: ~/Modules/Orchard.Localization/Views/Parts/Localization.ContentTranslations.SummaryAdmin.cshtml
+#| msgid "+ New translation"
+msgctxt "~/Modules/Orchard.Localization/Views/Parts/Localization.ContentTranslations.SummaryAdmin.cshtml"
+msgid "+ New translation"
+msgstr "+ Новый перевод"
+
+#: ~/Modules/Orchard.Localization/Views/CultureSelection.cshtml
+#| msgid "This is the <em>{0}</em> variation of {1}"
+msgctxt "~/Modules/Orchard.Localization/Views/CultureSelection.cshtml"
+msgid "This is the <em>{0}</em> variation of {1}"
+msgstr "Это <em>{0}</em> версия {1}"
+
+#: ~/Modules/Orchard.Localization/Views/EditorTemplates/Parts/Localization.ContentTranslations.Edit.cshtml
+#| msgid "+ New translation"
+msgctxt "~/Modules/Orchard.Localization/Views/EditorTemplates/Parts/Localization.ContentTranslations.Edit.cshtml"
+msgid "+ New translation"
+msgstr "+ Новый перевод"
+
+#: ~/Modules/Orchard.Localization/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.Localization/Module.txt"
+msgid "Localization"
+msgstr "Локализация"
+
+#: Orchard.Localization.Projections.CurrentCultureFilter
+#| msgid "Localization"
+msgctxt "Orchard.Localization.Projections.CurrentCultureFilter"
+msgid "Localization"
+msgstr "Локализация"
+
+#: Orchard.Localization.Projections.CurrentCultureFilter
+#| msgid "For current culture"
+msgctxt "Orchard.Localization.Projections.CurrentCultureFilter"
+msgid "For current culture"
+msgstr "Для текущей культуры"
+
+#: Orchard.Localization.Projections.CurrentCultureFilter
+#| msgid "Localized content items for current culture"
+msgctxt "Orchard.Localization.Projections.CurrentCultureFilter"
+msgid "Localized content items for current culture"
+msgstr "Локализованные элементы содержимого для текущей культуры"
+

@@ -1,0 +1,23 @@
+﻿@model Onestop.Navigation.Breadcrumbs.ViewModels.BreadcrumbsSettingsViewModel
+@{
+    Script.Require("MenuAdminScripts");
+    Style.Require("MenuAdmin");
+}
+<fieldset>
+    <legend>@T("Breadcrumbs settings")</legend>
+    <div>
+        @Display(Model.Preview)
+    </div>
+    <div>
+        <div>
+            @Html.LabelFor(m => m.DefaultProvider, T("Default breadcrumb provider"))
+            <select id="@Html.FieldIdFor(m => m.DefaultProvider)" name="@Html.FieldNameFor(m => m.DefaultProvider)" onchange="$('#@(Html.FieldIdFor(m => m.UseDefault))').attr('checked', false);">
+                @foreach (var p in Model.Providers)
+                {
+                    @Html.SelectOption(Model.DefaultProvider, p.Name, p.DisplayText)
+                }
+            </select>&nbsp;or&nbsp;@Html.EditorFor(m => m.UseDefault)<label class="forcheckbox" for="@Html.FieldIdFor(m => m.UseDefault)">@T("Use default site setting <i>({0})</i>.", Model.SiteDefaultProvider.DisplayText)</label>
+            <span class="hint">@T("Select the default data provider. It will be used to construct breadcrumbs for this item.")</span>
+        </div>
+    </div>
+</fieldset>

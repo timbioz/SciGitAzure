@@ -1,0 +1,43 @@
+﻿@using Orchard.Utility.Extensions;
+@{
+    if (Model.Title != null) {
+        Layout.Title = Model.Title;
+    }
+
+    var contentTypeClassName = ((string)Model.ContentItem.ContentType).HtmlClassify();
+}
+<article class="type-summary post post-page content-item @contentTypeClassName">
+    <header>
+        @Display(Model.Header)
+    </header>
+    @if (Model.Meta != null) {
+        <div class="post-meta">
+            @Display(Model.Meta)
+        </div>
+    }
+    @if (Model.Image != null) {
+        <div class="article-main-image">
+            @Display(Model.Image)
+        </div>
+    }
+    @if (Model.Content != null)
+    {
+        <div class="article-content-summary">
+                @if (Model.Left != null) {
+                    <div class="grid_3 alpha summary-content-left">
+                        @Display(Model.Left)
+                    </div>
+                }          
+            <div class="summary-content-center">
+                @Display(Model.Content)
+            </div>           
+        </div>
+        <div class="clear"></div>
+    }
+    
+    @if (Model.Footer != null) {
+        <footer>
+            @Display(Model.Footer)
+        </footer>
+    }
+</article>

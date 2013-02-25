@@ -1,0 +1,185 @@
+# Orchard resource strings - ru-RU
+# Copyright (c) 2010 Outercurve Foundation
+# All rights reserved
+# This file is distributed under the BSD license
+
+#: ~/Modules/OrchardHUN.Shoutbox/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/OrchardHUN.Shoutbox/Module.txt"
+msgid "Shoutbox"
+msgstr "Чат"
+
+#: ~/Modules/OrchardHUN.Shoutbox/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/OrchardHUN.Shoutbox/Module.txt"
+msgid "The Orchard Hungary Team"
+msgstr "Венгерская команда Orchard"
+
+#: ~/Modules/OrchardHUN.Shoutbox/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/OrchardHUN.Shoutbox/Module.txt"
+msgid "http://orchardshoutbox.codeplex.com"
+msgstr "http://orchardshoutbox.codeplex.com"
+
+#: ~/Modules/OrchardHUN.Shoutbox/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/OrchardHUN.Shoutbox/Module.txt"
+msgid "A lightweight shoutbox module"
+msgstr "Легковесный модуль чата"
+
+#: ~/Modules/OrchardHUN.Shoutbox/Module.txt
+#| msgid "OrchardHUN.Shoutbox.Name"
+msgctxt "~/Modules/OrchardHUN.Shoutbox/Module.txt"
+msgid "Shoutbox"
+msgstr "Чат"
+
+#: ~/Modules/OrchardHUN.Shoutbox/Module.txt
+#| msgid "OrchardHUN.Shoutbox.Description"
+msgctxt "~/Modules/OrchardHUN.Shoutbox/Module.txt"
+msgid "A lightweight shoutbox module"
+msgstr "Легковесный модуль чата"
+
+#: ~/Modules/OrchardHUN.Shoutbox/Module.txt
+#| msgid "OrchardHUN.Shoutbox.Category"
+msgctxt "~/Modules/OrchardHUN.Shoutbox/Module.txt"
+msgid "Community"
+msgstr "Сообщество"
+
+#: OrchardHUN.Shoutbox.Permissions
+#| msgid "Write Shoutbox messages."
+msgctxt "OrchardHUN.Shoutbox.Permissions"
+msgid "Write Shoutbox messages."
+msgstr "Пишите сообщения чата."
+
+#: OrchardHUN.Shoutbox.Projections.ShoutboxFilter
+#| msgid "Shoutbox"
+msgctxt "OrchardHUN.Shoutbox.Projections.ShoutboxFilter"
+msgid "Shoutbox"
+msgstr "Чат"
+
+#: OrchardHUN.Shoutbox.Projections.ShoutboxFilter
+#| msgid "Shoutbox Messages"
+msgctxt "OrchardHUN.Shoutbox.Projections.ShoutboxFilter"
+msgid "Shoutbox Messages"
+msgstr "Сообщения чата"
+
+#: OrchardHUN.Shoutbox.Projections.ShoutboxFilter
+#| msgid "Messages from a Shoutbox widget"
+msgctxt "OrchardHUN.Shoutbox.Projections.ShoutboxFilter"
+msgid "Messages from a Shoutbox widget"
+msgstr "Сообщения из виджета чата"
+
+#: OrchardHUN.Shoutbox.Projections.ShoutboxFilter
+#| msgid "Any Shoutbox message"
+msgctxt "OrchardHUN.Shoutbox.Projections.ShoutboxFilter"
+msgid "Any Shoutbox message"
+msgstr "Любое сообщение чата"
+
+#: OrchardHUN.Shoutbox.Projections.ShoutboxFilter
+#| msgid "Messages from the Shoutbox \"{0}\""
+msgctxt "OrchardHUN.Shoutbox.Projections.ShoutboxFilter"
+msgid "Messages from the Shoutbox \"{0}\""
+msgstr "Сообщения из чата \"{0}\""
+
+#: OrchardHUN.Shoutbox.Projections.ShoutboxFilter
+#| msgid "Shoutbox Widget"
+msgctxt "OrchardHUN.Shoutbox.Projections.ShoutboxFilter"
+msgid "Shoutbox Widget"
+msgstr "Виджет чата"
+
+#: OrchardHUN.Shoutbox.Projections.ShoutboxFilter
+#| msgid "Select a Shoutbox widget."
+msgctxt "OrchardHUN.Shoutbox.Projections.ShoutboxFilter"
+msgid "Select a Shoutbox widget."
+msgstr "Выберите виджет чата."
+
+#: OrchardHUN.Shoutbox.Projections.ShoutboxFilter
+#| msgid "Any content item"
+msgctxt "OrchardHUN.Shoutbox.Projections.ShoutboxFilter"
+msgid "Any content item"
+msgstr "Любой элемент содержимого"
+
+#: OrchardHUN.Shoutbox.Projections.ShoutboxFilter
+#| msgid "Content with type {0}"
+msgctxt "OrchardHUN.Shoutbox.Projections.ShoutboxFilter"
+msgid "Content with type {0}"
+msgstr "Содержимое типа {0}"
+
+#: ~/Modules/OrchardHUN.Shoutbox/Views/Parts.Common.Metadata.Summary-ShoutboxMessage.cshtml
+#| msgid "edit"
+msgctxt "~/Modules/OrchardHUN.Shoutbox/Views/Parts.Common.Metadata.Summary-ShoutboxMessage.cshtml"
+msgid "edit"
+msgstr "редактировать"
+
+#: ~/Modules/OrchardHUN.Shoutbox/Views/Parts.Common.Metadata.Summary-ShoutboxMessage.cshtml
+#| msgid "remove"
+msgctxt "~/Modules/OrchardHUN.Shoutbox/Views/Parts.Common.Metadata.Summary-ShoutboxMessage.cshtml"
+msgid "remove"
+msgstr "удалить"
+
+#: ~/Modules/OrchardHUN.Shoutbox/Views/Parts.Common.Metadata.Summary-ShoutboxMessage.cshtml
+#| msgid "Are you sure you want to remove this message?"
+msgctxt "~/Modules/OrchardHUN.Shoutbox/Views/Parts.Common.Metadata.Summary-ShoutboxMessage.cshtml"
+msgid "Are you sure you want to remove this message?"
+msgstr "Вы уверены, что хотите удалить это сообщение?"
+
+#: ~/Modules/OrchardHUN.Shoutbox/Views/Parts.ShoutboxPart.Form.cshtml
+#| msgid "Write message here"
+msgctxt "~/Modules/OrchardHUN.Shoutbox/Views/Parts.ShoutboxPart.Form.cshtml"
+msgid "Write message here"
+msgstr "Написать сообщение здесь"
+
+#: ~/Modules/OrchardHUN.Shoutbox/Views/Parts.ShoutboxPart.Form.cshtml
+#| msgid "Send"
+msgctxt "~/Modules/OrchardHUN.Shoutbox/Views/Parts.ShoutboxPart.Form.cshtml"
+msgid "Send"
+msgstr "Отправить"
+
+#: ~/Modules/OrchardHUN.Shoutbox/Views/Parts.ShoutboxPart.Form.cshtml
+#| msgid "{0} to post messages."
+msgctxt "~/Modules/OrchardHUN.Shoutbox/Views/Parts.ShoutboxPart.Form.cshtml"
+msgid "{0} to post messages."
+msgstr "{0} для почты сообщений"
+
+#: ~/Modules/OrchardHUN.Shoutbox/Views/Parts.ShoutboxPart.Form.cshtml
+#| msgid "Sign in"
+msgctxt "~/Modules/OrchardHUN.Shoutbox/Views/Parts.ShoutboxPart.Form.cshtml"
+msgid "Sign in"
+msgstr "Войти"
+
+#: ~/Modules/OrchardHUN.Shoutbox/Views/Parts.ShoutboxPart.Form.cshtml
+#| msgid "You're not allowed to post messages."
+msgctxt "~/Modules/OrchardHUN.Shoutbox/Views/Parts.ShoutboxPart.Form.cshtml"
+msgid "You're not allowed to post messages."
+msgstr "Вы не допущены к почте сообщений."
+
+#: ~/Modules/OrchardHUN.Shoutbox/Views/Parts.ShoutboxPart.ProjectionLink.cshtml
+#| msgid "All messages"
+msgctxt "~/Modules/OrchardHUN.Shoutbox/Views/Parts.ShoutboxPart.ProjectionLink.cshtml"
+msgid "All messages"
+msgstr "Все сообщения"
+
+#: ~/Modules/OrchardHUN.Shoutbox/Views/EditorTemplates/Parts.ShoutboxPart.cshtml
+#| msgid "Shoutbox settings"
+msgctxt "~/Modules/OrchardHUN.Shoutbox/Views/EditorTemplates/Parts.ShoutboxPart.cshtml"
+msgid "Shoutbox settings"
+msgstr "Установки чата"
+
+#: ~/Modules/OrchardHUN.Shoutbox/Views/EditorTemplates/Parts.ShoutboxPart.cshtml
+#| msgid "Maximal number of messages shown"
+msgctxt "~/Modules/OrchardHUN.Shoutbox/Views/EditorTemplates/Parts.ShoutboxPart.cshtml"
+msgid "Maximal number of messages shown"
+msgstr "Максимальное количество показываемых сообщений"
+
+#: ~/Modules/OrchardHUN.Shoutbox/Views/EditorTemplates/Parts.ShoutboxPart.cshtml
+#| msgid "Numerical Id of the projection to list all messages"
+msgctxt "~/Modules/OrchardHUN.Shoutbox/Views/EditorTemplates/Parts.ShoutboxPart.cshtml"
+msgid "Numerical Id of the projection to list all messages"
+msgstr "Числовой идентификатор, проецируемый в список всех сообщений"
+
+#: ~/Modules/OrchardHUN.Shoutbox/Views/EditorTemplates/Parts.ShoutboxPart.cshtml
+#| msgid "Provide an Id here for an automatic link to the projection page that you set up to list all messages. The numerical Id of the projection is required (this is the number after \"Edit/\" in the url when editing it."
+msgctxt "~/Modules/OrchardHUN.Shoutbox/Views/EditorTemplates/Parts.ShoutboxPart.cshtml"
+msgid "Provide an Id here for an automatic link to the projection page that you set up to list all messages. The numerical Id of the projection is required (this is the number after \"Edit/\" in the url when editing it."
+msgstr "Обеспечьте идентификатор для автоматической привязки к проецируемой странице, содержащей список всех сообщений. Числовой идентификатор проецирования обязательный (это число после \"Редактировать/\" в адресе, при редактировании сообщения."
+

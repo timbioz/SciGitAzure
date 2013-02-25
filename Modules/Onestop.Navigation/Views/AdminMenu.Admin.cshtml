@@ -1,0 +1,39 @@
+﻿@using Onestop.Navigation.Models
+@using Orchard.UI.Navigation
+@{
+    Layout.Title = T("Custom Admin Menu Management").Text;
+    var customItems = (IEnumerable<AdminMenuItemRecord>)Model.CustomItems;
+    using (Script.Head()) {
+        <style>
+            .indent {margin-left: 20px;}
+            .disabled {color: #ababab;}
+        </style>
+    }
+}
+@helper DrawItem(MenuItem item, MenuItem parent, IEnumerable<AdminMenuItemRecord> customItems) {
+    var customItem = customItems.FirstOrDefault(r => r.Url == item.Url);
+    if (customItem != null) {
+        <span data-id="@customItem.Id">@(item.Position). @item.Text</span>
+        <span>[@Html.ActionLink(T("Edit").Text, "Edit", "AdminNavigationAdmin", new { id = customItem.Id, area = "Onestop.Navigation" }, null)]</span>
+    }
+    else {
+        <span class="disabled">@(item.Position). @item.Text</span>
+    }
+}
+<div class="manage sticky sticky-1">
+    @Html.ActionLink(T("Create new menu item").Text, "Create", "AdminNavigationAdmin", new { Area = "Onestop.Navigation" }, new { @class = "button primaryAction" })
+</div>
+<ul>
+@foreach (MenuItem menuItem in Model.Menu) {
+    <li>
+        @DrawItem(menuItem, null, customItems)
+        @if (menuItem.Items.Count() > 0) {
+            <ul class="indent">
+            @foreach (var subItem in menuItem.Items) {
+                <li>@DrawItem(subItem, menuItem, customItems)</li>
+            }
+            </ul>
+        }
+    </li>
+}
+</ul>

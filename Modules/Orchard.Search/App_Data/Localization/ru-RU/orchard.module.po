@@ -1,0 +1,233 @@
+# Orchard resource strings - ru-RU
+# Copyright (c) 2010 Outercurve Foundation
+# All rights reserved
+# This file is distributed under the BSD license
+
+#: ~/Modules/Orchard.Search/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.Search/Module.txt"
+msgid "Search"
+msgstr "Поиск"
+
+#: Orchard.Search.Handlers.SearchSettingsPartHandler
+#| msgid "Search"
+msgctxt "Orchard.Search.Handlers.SearchSettingsPartHandler"
+msgid "Search"
+msgstr "Поиск"
+
+#: ~/Modules/Orchard.Search/Module.txt
+#| msgid "Orchard.Search.Content.Name"
+msgctxt "~/Modules/Orchard.Search/Module.txt"
+msgid "Admin Content Search"
+msgstr "Администрирование поиска содержимого"
+
+#: ~/Modules/Orchard.Search/Module.txt
+#| msgid "Orchard.Search.Content.Description"
+msgctxt "~/Modules/Orchard.Search/Module.txt"
+msgid "Provides a Content Search tab in Admin."
+msgstr "Обеспечивает таб поиск содержимого в администрировании."
+
+#: ~/Modules/Orchard.Search/Module.txt
+#| msgid "Orchard.Search.Content.Category"
+msgctxt "~/Modules/Orchard.Search/Module.txt"
+msgid "Search"
+msgstr "Поиск"
+
+#: ~/Modules/Orchard.Search/Module.txt
+#| msgid "Orchard.Search.ContentPicker.Name"
+msgctxt "~/Modules/Orchard.Search/Module.txt"
+msgid "Content Picker Search"
+msgstr "Указка поиска содержимого"
+
+#: ~/Modules/Orchard.Search/Module.txt
+#| msgid "Orchard.Search.ContentPicker.Description"
+msgctxt "~/Modules/Orchard.Search/Module.txt"
+msgid "Provides a search tab in Content Picker."
+msgstr "Обеспечивает таб поиска в указке содержимого."
+
+#: ~/Modules/Orchard.Search/Module.txt
+#| msgid "Orchard.Search.ContentPicker.Category"
+msgctxt "~/Modules/Orchard.Search/Module.txt"
+msgid "Search"
+msgstr "Поиск"
+
+#: Orchard.Search.ContentAdminMenu
+#| msgid "Content"
+msgctxt "Orchard.Search.ContentAdminMenu"
+msgid "Content"
+msgstr "Содержимое"
+
+#: Orchard.Search.ContentAdminMenu
+#| msgid "Search"
+msgctxt "Orchard.Search.ContentAdminMenu"
+msgid "Search"
+msgstr "Поиск"
+
+#: Orchard.Search.ContentPickerNavigationProvider
+#| msgid "Content Picker"
+msgctxt "Orchard.Search.ContentPickerNavigationProvider"
+msgid "Content Picker"
+msgstr "Указка содержимого"
+
+#: Orchard.Search.ContentPickerNavigationProvider
+#| msgid "Search Content"
+msgctxt "Orchard.Search.ContentPickerNavigationProvider"
+msgid "Search Content"
+msgstr "Поиск содержимого"
+
+#: Orchard.Search.Controllers.AdminController
+#| msgid "Invalid search query: {0}"
+msgctxt "Orchard.Search.Controllers.AdminController"
+msgid "Invalid search query: {0}"
+msgstr "Неправильный запрос поиска: {0}"
+
+#: Orchard.Search.Controllers.ContentPickerController
+#| msgid "Invalid search query: {0}"
+msgctxt "Orchard.Search.Controllers.ContentPickerController"
+msgid "Invalid search query: {0}"
+msgstr "Неправильный запрос поиска: {0}"
+
+#: ~/Modules/Orchard.Search/Views/SearchContentTab.cshtml
+#| msgid "Search Content"
+msgctxt "~/Modules/Orchard.Search/Views/SearchContentTab.cshtml"
+msgid "Search Content"
+msgstr "Поиск содержимого"
+
+#: ~/Modules/Orchard.Search/Views/SearchContentTab.cshtml
+#| msgid "Search"
+msgctxt "~/Modules/Orchard.Search/Views/SearchContentTab.cshtml"
+msgid "Search"
+msgstr "Поиск"
+
+#: ~/Modules/Orchard.Search/Views/Admin/Index.cshtml
+#| msgid "Search Content"
+msgctxt "~/Modules/Orchard.Search/Views/Admin/Index.cshtml"
+msgid "Search Content"
+msgstr "Поиск содержимого"
+
+#: ~/Modules/Orchard.Search/Views/Admin/Index.cshtml
+#| msgid "Search"
+msgctxt "~/Modules/Orchard.Search/Views/Admin/Index.cshtml"
+msgid "Search"
+msgstr "Поиск"
+
+#: ~/Modules/Orchard.Search/Views/Admin/Index.cshtml
+#| msgid "There are no results"
+msgctxt "~/Modules/Orchard.Search/Views/Admin/Index.cshtml"
+msgid "There are no results"
+msgstr "Нет результатов"
+
+#: ~/Modules/Orchard.Search/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Orchard.Search/Module.txt"
+msgid "The Orchard Team"
+msgstr "Команда Orchard"
+
+#: ~/Modules/Orchard.Search/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Orchard.Search/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Modules/Orchard.Search/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Orchard.Search/Module.txt"
+msgid "The search module enables the management of the search index and provides the front-end searching user interface."
+msgstr "Модуль поиска дает возможность управления поисковыми индексами и предоставляет публичный поисковый интерфейс пользователя."
+
+#: ~/Modules/Orchard.Search/Module.txt
+#| msgid "Orchard.Search.Name"
+msgctxt "~/Modules/Orchard.Search/Module.txt"
+msgid "Search"
+msgstr "Поиск"
+
+#: ~/Modules/Orchard.Search/Module.txt
+#| msgid "Orchard.Search.Description"
+msgctxt "~/Modules/Orchard.Search/Module.txt"
+msgid "Standard interface to Orchard's built-in search."
+msgstr "Стандартный интерфейс встроенного поиска Orchard."
+
+#: ~/Modules/Orchard.Search/Module.txt
+#| msgid "Orchard.Search.Category"
+msgctxt "~/Modules/Orchard.Search/Module.txt"
+msgid "Search"
+msgstr "Поиск"
+
+#: Orchard.Search.Controllers.SearchController
+#| msgid "Invalid search query: {0}"
+msgctxt "Orchard.Search.Controllers.SearchController"
+msgid "Invalid search query: {0}"
+msgstr "Недопустимый поисковый запрос: {0}"
+
+#: ~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml
+#| msgid "Search"
+msgctxt "~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml"
+msgid "Search"
+msgstr "Поиск"
+
+#: ~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml
+#| msgid "There are currently no fields to search from. Please update you index, and check some indexable content exists."
+msgctxt "~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml"
+msgid "There are currently no fields to search from. Please update you index, and check some indexable content exists."
+msgstr "На данный момент нет полей для поиска. Пожалуйста обновите индекс, и убедитесь что существует некоторый индексируемый контент."
+
+#: ~/Modules/Orchard.Search/Views/Parts/Search.SearchForm.cshtml
+#| msgid "Search"
+msgctxt "~/Modules/Orchard.Search/Views/Parts/Search.SearchForm.cshtml"
+msgid "Search"
+msgstr "Поиск"
+
+#: ~/Modules/Orchard.Search/Views/Search/Index.cshtml
+#| msgid "Search"
+msgctxt "~/Modules/Orchard.Search/Views/Search/Index.cshtml"
+msgid "Search"
+msgstr "Поиск"
+
+#: ~/Modules/Orchard.Search/Views/Search/Index.cshtml
+#| msgid "There is <em>one</em> result"
+msgctxt "~/Modules/Orchard.Search/Views/Search/Index.cshtml"
+msgid "There is <em>one</em> result"
+msgstr "Это <em>единственный</em> результат"
+
+#: ~/Modules/Orchard.Search/Views/Search/Index.cshtml
+#| msgid "<em>zero</em> results"
+msgctxt "~/Modules/Orchard.Search/Views/Search/Index.cshtml"
+msgid "<em>zero</em> results"
+msgstr "<em>ноль</em> результатов"
+
+#: ~/Modules/Orchard.Search/Views/Search/Index.cshtml
+#| msgid "<em>{1} - {2}</em> of <em>{0}</em> results"
+msgctxt "~/Modules/Orchard.Search/Views/Search/Index.cshtml"
+msgid "<em>{1} - {2}</em> of <em>{0}</em> results"
+msgstr "<em>{1} - {2}</em> из <em>{0}</em> результатов"
+
+#: ~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml
+#| msgid "Searched fields"
+msgctxt "~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml"
+msgid "Searched fields"
+msgstr "Искомые поля"
+
+#: ~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml
+#| msgid "Check any property which should be used for search queries."
+msgctxt "~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml"
+msgid "Check any property which should be used for search queries."
+msgstr "Проверьте свойства, которые должны использоваться для поискового запроса."
+
+#: ~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml
+#| msgid "Localization"
+msgctxt "~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml"
+msgid "Localization"
+msgstr "Локализация"
+
+#: ~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml
+#| msgid "Narrow search to current culture only"
+msgctxt "~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml"
+msgid "Narrow search to current culture only"
+msgstr "Ускоренный поиск только в текущей культуре"
+
+#: ~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml
+#| msgid "Is checked, search results will only include content items localized in the current culture of the request."
+msgctxt "~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml"
+msgid "Is checked, search results will only include content items localized in the current culture of the request."
+msgstr "Если отмечено, результаты поиска включают только элементы содержимого, локализованные в той же культуре, что и запрос."
+

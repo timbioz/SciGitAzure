@@ -1,0 +1,440 @@
+2013-02-19 07:17:14,668 [11] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-19 07:35:36,411 [36] NHibernate.Util.ADOExceptionReporter - System.Data.SqlServerCe.SqlCeException (0x80004005): A parameter is missing. [ Parameter ordinal = 1 ]
+   at System.Data.SqlServerCe.SqlCeDataReader.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.IsEndOfRowset(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.Move(DIRECTION direction)
+   at System.Data.SqlServerCe.SqlCeDataReader.Read()
+   at NHibernate.Driver.NHybridDataReader.Read()
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2013-02-19 07:35:36,414 [36] NHibernate.Util.ADOExceptionReporter - A parameter is missing. [ Parameter ordinal = 1 ]
+2013-02-19 07:35:36,415 [36] NHibernate.Util.ADOExceptionReporter - System.Data.SqlServerCe.SqlCeException (0x80004005): A parameter is missing. [ Parameter ordinal = 1 ]
+   at System.Data.SqlServerCe.SqlCeDataReader.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.IsEndOfRowset(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.Move(DIRECTION direction)
+   at System.Data.SqlServerCe.SqlCeDataReader.Read()
+   at NHibernate.Driver.NHybridDataReader.Read()
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2013-02-19 07:35:36,415 [36] NHibernate.Util.ADOExceptionReporter - A parameter is missing. [ Parameter ordinal = 1 ]
+2013-02-19 07:35:36,417 [36] Orchard.ContentManagement.DefaultContentManager - GenericADOException thrown from IContentHandler by Contrib.Taxonomies.Handlers.TermPartHandler
+NHibernate.Exceptions.GenericADOException: could not execute query
+[ select termconten0_.Id as Id4_, termconten0_.Field as Field4_, termconten0_.TermRecord_id as TermRecord3_4_, termconten0_.TermsPartRecord_id as TermsPar4_4_ from Contrib_Taxonomies_TermContentItem termconten0_ inner join Contrib_Taxonomies_TermsPartRecord termspartr1_ on termconten0_.TermsPartRecord_id=termspartr1_.Id where termspartr1_.Id=@p0 ]
+  Name:p1 - Value:Orchard.ContentManagement.Records.ContentItemRecord
+[SQL: select termconten0_.Id as Id4_, termconten0_.Field as Field4_, termconten0_.TermRecord_id as TermRecord3_4_, termconten0_.TermsPartRecord_id as TermsPar4_4_ from Contrib_Taxonomies_TermContentItem termconten0_ inner join Contrib_Taxonomies_TermsPartRecord termspartr1_ on termconten0_.TermsPartRecord_id=termspartr1_.Id where termspartr1_.Id=@p0] ---> System.Data.SqlServerCe.SqlCeException: A parameter is missing. [ Parameter ordinal = 1 ]
+   at System.Data.SqlServerCe.SqlCeDataReader.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.IsEndOfRowset(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.Move(DIRECTION direction)
+   at System.Data.SqlServerCe.SqlCeDataReader.Read()
+   at NHibernate.Driver.NHybridDataReader.Read()
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Hql.Ast.ANTLR.Loader.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.ExpressionQueryImpl.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Orchard.Utility.Extensions.ReadOnlyCollectionExtensions.ToReadOnlyCollection[T](IEnumerable`1 enumerable) in f:\AzureWeb\NewSciCentr\src\Orchard\Utility\Extensions\ReadOnlyCollectionExtensions.cs:line 8
+   at Orchard.Data.Repository`1.Orchard.Data.IRepository<T>.Fetch(Expression`1 predicate) in f:\AzureWeb\NewSciCentr\src\Orchard\Data\Repository.cs:line 72
+   at Contrib.Taxonomies.Services.TaxonomyService.DeleteAssociatedTerms(ContentItem contentItem)
+   at Contrib.Taxonomies.Handlers.TermPartHandler.<>c__DisplayClass8.<.ctor>b__0(RemoveContentContext context, IContent tags)
+   at Orchard.ContentManagement.Handlers.ContentHandler.InlineStorageFilter`1.Removed(RemoveContentContext context, TPart instance) in f:\AzureWeb\NewSciCentr\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 168
+   at Orchard.ContentManagement.Handlers.StorageFilterBase`1.Orchard.ContentManagement.Handlers.IContentStorageFilter.Removed(RemoveContentContext context) in f:\AzureWeb\NewSciCentr\src\Orchard\ContentManagement\Handlers\StorageFilterBase.cs:line 100
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.Removed(RemoveContentContext context) in f:\AzureWeb\NewSciCentr\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 298
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass48.<Remove>b__47(IContentHandler handler) in f:\AzureWeb\NewSciCentr\src\Orchard\ContentManagement\DefaultContentManager.cs:line 409
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\NewSciCentr\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-19 07:35:39,391 [9] NHibernate.Util.ADOExceptionReporter - System.Data.SqlServerCe.SqlCeException (0x80004005): A parameter is missing. [ Parameter ordinal = 1 ]
+   at System.Data.SqlServerCe.SqlCeDataReader.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.IsEndOfRowset(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.Move(DIRECTION direction)
+   at System.Data.SqlServerCe.SqlCeDataReader.Read()
+   at NHibernate.Driver.NHybridDataReader.Read()
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2013-02-19 07:35:39,392 [9] NHibernate.Util.ADOExceptionReporter - A parameter is missing. [ Parameter ordinal = 1 ]
+2013-02-19 07:35:39,392 [9] NHibernate.Util.ADOExceptionReporter - System.Data.SqlServerCe.SqlCeException (0x80004005): A parameter is missing. [ Parameter ordinal = 1 ]
+   at System.Data.SqlServerCe.SqlCeDataReader.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.IsEndOfRowset(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.Move(DIRECTION direction)
+   at System.Data.SqlServerCe.SqlCeDataReader.Read()
+   at NHibernate.Driver.NHybridDataReader.Read()
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2013-02-19 07:35:39,393 [9] NHibernate.Util.ADOExceptionReporter - A parameter is missing. [ Parameter ordinal = 1 ]
+2013-02-19 07:35:39,393 [9] Orchard.ContentManagement.DefaultContentManager - GenericADOException thrown from IContentHandler by Contrib.Taxonomies.Handlers.TermPartHandler
+NHibernate.Exceptions.GenericADOException: could not execute query
+[ select termconten0_.Id as Id4_, termconten0_.Field as Field4_, termconten0_.TermRecord_id as TermRecord3_4_, termconten0_.TermsPartRecord_id as TermsPar4_4_ from Contrib_Taxonomies_TermContentItem termconten0_ inner join Contrib_Taxonomies_TermsPartRecord termspartr1_ on termconten0_.TermsPartRecord_id=termspartr1_.Id where termspartr1_.Id=@p0 ]
+  Name:p1 - Value:Orchard.ContentManagement.Records.ContentItemRecord
+[SQL: select termconten0_.Id as Id4_, termconten0_.Field as Field4_, termconten0_.TermRecord_id as TermRecord3_4_, termconten0_.TermsPartRecord_id as TermsPar4_4_ from Contrib_Taxonomies_TermContentItem termconten0_ inner join Contrib_Taxonomies_TermsPartRecord termspartr1_ on termconten0_.TermsPartRecord_id=termspartr1_.Id where termspartr1_.Id=@p0] ---> System.Data.SqlServerCe.SqlCeException: A parameter is missing. [ Parameter ordinal = 1 ]
+   at System.Data.SqlServerCe.SqlCeDataReader.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.IsEndOfRowset(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.Move(DIRECTION direction)
+   at System.Data.SqlServerCe.SqlCeDataReader.Read()
+   at NHibernate.Driver.NHybridDataReader.Read()
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Hql.Ast.ANTLR.Loader.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.ExpressionQueryImpl.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Orchard.Utility.Extensions.ReadOnlyCollectionExtensions.ToReadOnlyCollection[T](IEnumerable`1 enumerable) in f:\AzureWeb\NewSciCentr\src\Orchard\Utility\Extensions\ReadOnlyCollectionExtensions.cs:line 8
+   at Orchard.Data.Repository`1.Orchard.Data.IRepository<T>.Fetch(Expression`1 predicate) in f:\AzureWeb\NewSciCentr\src\Orchard\Data\Repository.cs:line 72
+   at Contrib.Taxonomies.Services.TaxonomyService.DeleteAssociatedTerms(ContentItem contentItem)
+   at Contrib.Taxonomies.Handlers.TermPartHandler.<>c__DisplayClass8.<.ctor>b__0(RemoveContentContext context, IContent tags)
+   at Orchard.ContentManagement.Handlers.ContentHandler.InlineStorageFilter`1.Removed(RemoveContentContext context, TPart instance) in f:\AzureWeb\NewSciCentr\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 168
+   at Orchard.ContentManagement.Handlers.StorageFilterBase`1.Orchard.ContentManagement.Handlers.IContentStorageFilter.Removed(RemoveContentContext context) in f:\AzureWeb\NewSciCentr\src\Orchard\ContentManagement\Handlers\StorageFilterBase.cs:line 100
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.Removed(RemoveContentContext context) in f:\AzureWeb\NewSciCentr\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 298
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass48.<Remove>b__47(IContentHandler handler) in f:\AzureWeb\NewSciCentr\src\Orchard\ContentManagement\DefaultContentManager.cs:line 409
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\NewSciCentr\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-19 07:42:34,981 [59] NHibernate.Util.ADOExceptionReporter - System.Data.SqlServerCe.SqlCeException (0x80004005): A parameter is missing. [ Parameter ordinal = 1 ]
+   at System.Data.SqlServerCe.SqlCeDataReader.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.IsEndOfRowset(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.Move(DIRECTION direction)
+   at System.Data.SqlServerCe.SqlCeDataReader.Read()
+   at NHibernate.Driver.NHybridDataReader.Read()
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2013-02-19 07:42:34,981 [59] NHibernate.Util.ADOExceptionReporter - A parameter is missing. [ Parameter ordinal = 1 ]
+2013-02-19 07:42:34,982 [59] NHibernate.Util.ADOExceptionReporter - System.Data.SqlServerCe.SqlCeException (0x80004005): A parameter is missing. [ Parameter ordinal = 1 ]
+   at System.Data.SqlServerCe.SqlCeDataReader.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.IsEndOfRowset(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.Move(DIRECTION direction)
+   at System.Data.SqlServerCe.SqlCeDataReader.Read()
+   at NHibernate.Driver.NHybridDataReader.Read()
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2013-02-19 07:42:34,982 [59] NHibernate.Util.ADOExceptionReporter - A parameter is missing. [ Parameter ordinal = 1 ]
+2013-02-19 07:42:34,983 [59] Orchard.ContentManagement.DefaultContentManager - GenericADOException thrown from IContentHandler by Contrib.Taxonomies.Handlers.TermPartHandler
+NHibernate.Exceptions.GenericADOException: could not execute query
+[ select termconten0_.Id as Id4_, termconten0_.Field as Field4_, termconten0_.TermRecord_id as TermRecord3_4_, termconten0_.TermsPartRecord_id as TermsPar4_4_ from Contrib_Taxonomies_TermContentItem termconten0_ inner join Contrib_Taxonomies_TermsPartRecord termspartr1_ on termconten0_.TermsPartRecord_id=termspartr1_.Id where termspartr1_.Id=@p0 ]
+  Name:p1 - Value:Orchard.ContentManagement.Records.ContentItemRecord
+[SQL: select termconten0_.Id as Id4_, termconten0_.Field as Field4_, termconten0_.TermRecord_id as TermRecord3_4_, termconten0_.TermsPartRecord_id as TermsPar4_4_ from Contrib_Taxonomies_TermContentItem termconten0_ inner join Contrib_Taxonomies_TermsPartRecord termspartr1_ on termconten0_.TermsPartRecord_id=termspartr1_.Id where termspartr1_.Id=@p0] ---> System.Data.SqlServerCe.SqlCeException: A parameter is missing. [ Parameter ordinal = 1 ]
+   at System.Data.SqlServerCe.SqlCeDataReader.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.IsEndOfRowset(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.Move(DIRECTION direction)
+   at System.Data.SqlServerCe.SqlCeDataReader.Read()
+   at NHibernate.Driver.NHybridDataReader.Read()
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Hql.Ast.ANTLR.Loader.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.ExpressionQueryImpl.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Orchard.Utility.Extensions.ReadOnlyCollectionExtensions.ToReadOnlyCollection[T](IEnumerable`1 enumerable) in f:\AzureWeb\NewSciCentr\src\Orchard\Utility\Extensions\ReadOnlyCollectionExtensions.cs:line 8
+   at Orchard.Data.Repository`1.Orchard.Data.IRepository<T>.Fetch(Expression`1 predicate) in f:\AzureWeb\NewSciCentr\src\Orchard\Data\Repository.cs:line 72
+   at Contrib.Taxonomies.Services.TaxonomyService.DeleteAssociatedTerms(ContentItem contentItem)
+   at Contrib.Taxonomies.Handlers.TermPartHandler.<>c__DisplayClass8.<.ctor>b__0(RemoveContentContext context, IContent tags)
+   at Orchard.ContentManagement.Handlers.ContentHandler.InlineStorageFilter`1.Removed(RemoveContentContext context, TPart instance) in f:\AzureWeb\NewSciCentr\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 168
+   at Orchard.ContentManagement.Handlers.StorageFilterBase`1.Orchard.ContentManagement.Handlers.IContentStorageFilter.Removed(RemoveContentContext context) in f:\AzureWeb\NewSciCentr\src\Orchard\ContentManagement\Handlers\StorageFilterBase.cs:line 100
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.Removed(RemoveContentContext context) in f:\AzureWeb\NewSciCentr\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 298
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass48.<Remove>b__47(IContentHandler handler) in f:\AzureWeb\NewSciCentr\src\Orchard\ContentManagement\DefaultContentManager.cs:line 409
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\NewSciCentr\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-19 08:53:51,943 [11] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-19 09:33:40,441 [198] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-19 10:03:45,334 [9] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-19 10:10:41,947 [62] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-19 12:05:38,816 [6] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-19 12:33:50,497 [39] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-19 12:43:13,580 [37] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-19 13:05:32,874 [7] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-19 13:05:35,112 [5] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-19 13:15:47,634 [13] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-19 13:15:47,638 [104] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-19 13:29:04,768 [74] NHibernate.Util.ADOExceptionReporter - System.Data.SqlServerCe.SqlCeException (0x80004005): A parameter is missing. [ Parameter ordinal = 1 ]
+   at System.Data.SqlServerCe.SqlCeDataReader.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.IsEndOfRowset(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.Move(DIRECTION direction)
+   at System.Data.SqlServerCe.SqlCeDataReader.Read()
+   at NHibernate.Driver.NHybridDataReader.Read()
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2013-02-19 13:29:04,770 [74] NHibernate.Util.ADOExceptionReporter - A parameter is missing. [ Parameter ordinal = 1 ]
+2013-02-19 13:29:04,771 [74] NHibernate.Util.ADOExceptionReporter - System.Data.SqlServerCe.SqlCeException (0x80004005): A parameter is missing. [ Parameter ordinal = 1 ]
+   at System.Data.SqlServerCe.SqlCeDataReader.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.IsEndOfRowset(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.Move(DIRECTION direction)
+   at System.Data.SqlServerCe.SqlCeDataReader.Read()
+   at NHibernate.Driver.NHybridDataReader.Read()
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2013-02-19 13:29:04,771 [74] NHibernate.Util.ADOExceptionReporter - A parameter is missing. [ Parameter ordinal = 1 ]
+2013-02-19 13:29:04,773 [74] Orchard.ContentManagement.DefaultContentManager - GenericADOException thrown from IContentHandler by Contrib.Taxonomies.Handlers.TermPartHandler
+NHibernate.Exceptions.GenericADOException: could not execute query
+[ select termconten0_.Id as Id4_, termconten0_.Field as Field4_, termconten0_.TermRecord_id as TermRecord3_4_, termconten0_.TermsPartRecord_id as TermsPar4_4_ from Contrib_Taxonomies_TermContentItem termconten0_ inner join Contrib_Taxonomies_TermsPartRecord termspartr1_ on termconten0_.TermsPartRecord_id=termspartr1_.Id where termspartr1_.Id=@p0 ]
+  Name:p1 - Value:Orchard.ContentManagement.Records.ContentItemRecord
+[SQL: select termconten0_.Id as Id4_, termconten0_.Field as Field4_, termconten0_.TermRecord_id as TermRecord3_4_, termconten0_.TermsPartRecord_id as TermsPar4_4_ from Contrib_Taxonomies_TermContentItem termconten0_ inner join Contrib_Taxonomies_TermsPartRecord termspartr1_ on termconten0_.TermsPartRecord_id=termspartr1_.Id where termspartr1_.Id=@p0] ---> System.Data.SqlServerCe.SqlCeException: A parameter is missing. [ Parameter ordinal = 1 ]
+   at System.Data.SqlServerCe.SqlCeDataReader.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.IsEndOfRowset(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.Move(DIRECTION direction)
+   at System.Data.SqlServerCe.SqlCeDataReader.Read()
+   at NHibernate.Driver.NHybridDataReader.Read()
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Hql.Ast.ANTLR.Loader.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.ExpressionQueryImpl.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Orchard.Utility.Extensions.ReadOnlyCollectionExtensions.ToReadOnlyCollection[T](IEnumerable`1 enumerable) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\Utility\Extensions\ReadOnlyCollectionExtensions.cs:line 8
+   at Orchard.Data.Repository`1.Orchard.Data.IRepository<T>.Fetch(Expression`1 predicate) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\Data\Repository.cs:line 72
+   at Contrib.Taxonomies.Services.TaxonomyService.DeleteAssociatedTerms(ContentItem contentItem)
+   at Contrib.Taxonomies.Handlers.TermPartHandler.<>c__DisplayClass8.<.ctor>b__0(RemoveContentContext context, IContent tags)
+   at Orchard.ContentManagement.Handlers.ContentHandler.InlineStorageFilter`1.Removed(RemoveContentContext context, TPart instance) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 168
+   at Orchard.ContentManagement.Handlers.StorageFilterBase`1.Orchard.ContentManagement.Handlers.IContentStorageFilter.Removed(RemoveContentContext context) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\ContentManagement\Handlers\StorageFilterBase.cs:line 101
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.Removed(RemoveContentContext context) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 298
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass48.<Remove>b__47(IContentHandler handler) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\ContentManagement\DefaultContentManager.cs:line 409
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-19 18:02:14,427 [9] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-19 18:02:14,477 [5] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-19 18:51:40,864 [8] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-19 18:51:40,872 [5] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-19 19:22:55,280 [12] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-19 19:22:55,284 [5] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-19 19:22:57,444 [9] NHibernate.Util.ADOExceptionReporter - System.Data.SqlServerCe.SqlCeException (0x80004005): A parameter is missing. [ Parameter ordinal = 1 ]
+   at System.Data.SqlServerCe.SqlCeDataReader.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.IsEndOfRowset(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.Move(DIRECTION direction)
+   at System.Data.SqlServerCe.SqlCeDataReader.Read()
+   at NHibernate.Driver.NHybridDataReader.Read()
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2013-02-19 19:22:57,446 [9] NHibernate.Util.ADOExceptionReporter - A parameter is missing. [ Parameter ordinal = 1 ]
+2013-02-19 19:22:57,473 [9] NHibernate.Util.ADOExceptionReporter - System.Data.SqlServerCe.SqlCeException (0x80004005): A parameter is missing. [ Parameter ordinal = 1 ]
+   at System.Data.SqlServerCe.SqlCeDataReader.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.IsEndOfRowset(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.Move(DIRECTION direction)
+   at System.Data.SqlServerCe.SqlCeDataReader.Read()
+   at NHibernate.Driver.NHybridDataReader.Read()
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2013-02-19 19:22:57,473 [9] NHibernate.Util.ADOExceptionReporter - A parameter is missing. [ Parameter ordinal = 1 ]
+2013-02-19 19:22:57,474 [9] Orchard.ContentManagement.DefaultContentManager - GenericADOException thrown from IContentHandler by Contrib.Taxonomies.Handlers.TermPartHandler
+NHibernate.Exceptions.GenericADOException: could not execute query
+[ select termconten0_.Id as Id4_, termconten0_.Field as Field4_, termconten0_.TermRecord_id as TermRecord3_4_, termconten0_.TermsPartRecord_id as TermsPar4_4_ from Contrib_Taxonomies_TermContentItem termconten0_ inner join Contrib_Taxonomies_TermsPartRecord termspartr1_ on termconten0_.TermsPartRecord_id=termspartr1_.Id where termspartr1_.Id=@p0 ]
+  Name:p1 - Value:Orchard.ContentManagement.Records.ContentItemRecord
+[SQL: select termconten0_.Id as Id4_, termconten0_.Field as Field4_, termconten0_.TermRecord_id as TermRecord3_4_, termconten0_.TermsPartRecord_id as TermsPar4_4_ from Contrib_Taxonomies_TermContentItem termconten0_ inner join Contrib_Taxonomies_TermsPartRecord termspartr1_ on termconten0_.TermsPartRecord_id=termspartr1_.Id where termspartr1_.Id=@p0] ---> System.Data.SqlServerCe.SqlCeException: A parameter is missing. [ Parameter ordinal = 1 ]
+   at System.Data.SqlServerCe.SqlCeDataReader.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.IsEndOfRowset(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.Move(DIRECTION direction)
+   at System.Data.SqlServerCe.SqlCeDataReader.Read()
+   at NHibernate.Driver.NHybridDataReader.Read()
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Hql.Ast.ANTLR.Loader.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.ExpressionQueryImpl.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Orchard.Utility.Extensions.ReadOnlyCollectionExtensions.ToReadOnlyCollection[T](IEnumerable`1 enumerable) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\Utility\Extensions\ReadOnlyCollectionExtensions.cs:line 8
+   at Orchard.Data.Repository`1.Orchard.Data.IRepository<T>.Fetch(Expression`1 predicate) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\Data\Repository.cs:line 72
+   at Contrib.Taxonomies.Services.TaxonomyService.DeleteAssociatedTerms(ContentItem contentItem)
+   at Contrib.Taxonomies.Handlers.TermPartHandler.<>c__DisplayClass8.<.ctor>b__0(RemoveContentContext context, IContent tags)
+   at Orchard.ContentManagement.Handlers.ContentHandler.InlineStorageFilter`1.Removed(RemoveContentContext context, TPart instance) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 168
+   at Orchard.ContentManagement.Handlers.StorageFilterBase`1.Orchard.ContentManagement.Handlers.IContentStorageFilter.Removed(RemoveContentContext context) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\ContentManagement\Handlers\StorageFilterBase.cs:line 101
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.Removed(RemoveContentContext context) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 298
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass48.<Remove>b__47(IContentHandler handler) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\ContentManagement\DefaultContentManager.cs:line 409
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-19 19:43:21,105 [54] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-19 19:43:21,109 [98] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-19 21:38:38,491 [5] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-19 21:38:39,160 [8] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-19 22:06:30,981 [123] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-19 22:06:31,672 [121] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-19 22:28:15,264 [5] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-19 22:28:15,940 [15] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-19 22:43:20,923 [61] NHibernate.Util.ADOExceptionReporter - System.Data.SqlServerCe.SqlCeException (0x80004005): A parameter is missing. [ Parameter ordinal = 1 ]
+   at System.Data.SqlServerCe.SqlCeDataReader.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.IsEndOfRowset(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.Move(DIRECTION direction)
+   at System.Data.SqlServerCe.SqlCeDataReader.Read()
+   at NHibernate.Driver.NHybridDataReader.Read()
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2013-02-19 22:43:20,925 [61] NHibernate.Util.ADOExceptionReporter - A parameter is missing. [ Parameter ordinal = 1 ]
+2013-02-19 22:43:20,926 [61] NHibernate.Util.ADOExceptionReporter - System.Data.SqlServerCe.SqlCeException (0x80004005): A parameter is missing. [ Parameter ordinal = 1 ]
+   at System.Data.SqlServerCe.SqlCeDataReader.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.IsEndOfRowset(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.Move(DIRECTION direction)
+   at System.Data.SqlServerCe.SqlCeDataReader.Read()
+   at NHibernate.Driver.NHybridDataReader.Read()
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2013-02-19 22:43:20,926 [61] NHibernate.Util.ADOExceptionReporter - A parameter is missing. [ Parameter ordinal = 1 ]
+2013-02-19 22:43:20,927 [61] Orchard.ContentManagement.DefaultContentManager - GenericADOException thrown from IContentHandler by Contrib.Taxonomies.Handlers.TermPartHandler
+NHibernate.Exceptions.GenericADOException: could not execute query
+[ select termconten0_.Id as Id4_, termconten0_.Field as Field4_, termconten0_.TermRecord_id as TermRecord3_4_, termconten0_.TermsPartRecord_id as TermsPar4_4_ from Contrib_Taxonomies_TermContentItem termconten0_ inner join Contrib_Taxonomies_TermsPartRecord termspartr1_ on termconten0_.TermsPartRecord_id=termspartr1_.Id where termspartr1_.Id=@p0 ]
+  Name:p1 - Value:Orchard.ContentManagement.Records.ContentItemRecord
+[SQL: select termconten0_.Id as Id4_, termconten0_.Field as Field4_, termconten0_.TermRecord_id as TermRecord3_4_, termconten0_.TermsPartRecord_id as TermsPar4_4_ from Contrib_Taxonomies_TermContentItem termconten0_ inner join Contrib_Taxonomies_TermsPartRecord termspartr1_ on termconten0_.TermsPartRecord_id=termspartr1_.Id where termspartr1_.Id=@p0] ---> System.Data.SqlServerCe.SqlCeException: A parameter is missing. [ Parameter ordinal = 1 ]
+   at System.Data.SqlServerCe.SqlCeDataReader.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.IsEndOfRowset(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.Move(DIRECTION direction)
+   at System.Data.SqlServerCe.SqlCeDataReader.Read()
+   at NHibernate.Driver.NHybridDataReader.Read()
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Hql.Ast.ANTLR.Loader.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.ExpressionQueryImpl.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Orchard.Utility.Extensions.ReadOnlyCollectionExtensions.ToReadOnlyCollection[T](IEnumerable`1 enumerable) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\Utility\Extensions\ReadOnlyCollectionExtensions.cs:line 8
+   at Orchard.Data.Repository`1.Orchard.Data.IRepository<T>.Fetch(Expression`1 predicate) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\Data\Repository.cs:line 72
+   at Contrib.Taxonomies.Services.TaxonomyService.DeleteAssociatedTerms(ContentItem contentItem)
+   at Contrib.Taxonomies.Handlers.TermPartHandler.<>c__DisplayClass8.<.ctor>b__0(RemoveContentContext context, IContent tags)
+   at Orchard.ContentManagement.Handlers.ContentHandler.InlineStorageFilter`1.Removed(RemoveContentContext context, TPart instance) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 168
+   at Orchard.ContentManagement.Handlers.StorageFilterBase`1.Orchard.ContentManagement.Handlers.IContentStorageFilter.Removed(RemoveContentContext context) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\ContentManagement\Handlers\StorageFilterBase.cs:line 101
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.Removed(RemoveContentContext context) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 298
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass48.<Remove>b__47(IContentHandler handler) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\ContentManagement\DefaultContentManager.cs:line 409
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-19 23:03:24,799 [61] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-19 23:03:25,445 [56] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-19 23:03:28,220 [20] NHibernate.Util.ADOExceptionReporter - System.Data.SqlServerCe.SqlCeException (0x80004005): A parameter is missing. [ Parameter ordinal = 1 ]
+   at System.Data.SqlServerCe.SqlCeDataReader.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.IsEndOfRowset(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.Move(DIRECTION direction)
+   at System.Data.SqlServerCe.SqlCeDataReader.Read()
+   at NHibernate.Driver.NHybridDataReader.Read()
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2013-02-19 23:03:28,222 [20] NHibernate.Util.ADOExceptionReporter - A parameter is missing. [ Parameter ordinal = 1 ]
+2013-02-19 23:03:28,224 [20] NHibernate.Util.ADOExceptionReporter - System.Data.SqlServerCe.SqlCeException (0x80004005): A parameter is missing. [ Parameter ordinal = 1 ]
+   at System.Data.SqlServerCe.SqlCeDataReader.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.IsEndOfRowset(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.Move(DIRECTION direction)
+   at System.Data.SqlServerCe.SqlCeDataReader.Read()
+   at NHibernate.Driver.NHybridDataReader.Read()
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2013-02-19 23:03:28,224 [20] NHibernate.Util.ADOExceptionReporter - A parameter is missing. [ Parameter ordinal = 1 ]
+2013-02-19 23:03:28,225 [20] Orchard.ContentManagement.DefaultContentManager - GenericADOException thrown from IContentHandler by Contrib.Taxonomies.Handlers.TermPartHandler
+NHibernate.Exceptions.GenericADOException: could not execute query
+[ select termconten0_.Id as Id4_, termconten0_.Field as Field4_, termconten0_.TermRecord_id as TermRecord3_4_, termconten0_.TermsPartRecord_id as TermsPar4_4_ from Contrib_Taxonomies_TermContentItem termconten0_ inner join Contrib_Taxonomies_TermsPartRecord termspartr1_ on termconten0_.TermsPartRecord_id=termspartr1_.Id where termspartr1_.Id=@p0 ]
+  Name:p1 - Value:Orchard.ContentManagement.Records.ContentItemRecord
+[SQL: select termconten0_.Id as Id4_, termconten0_.Field as Field4_, termconten0_.TermRecord_id as TermRecord3_4_, termconten0_.TermsPartRecord_id as TermsPar4_4_ from Contrib_Taxonomies_TermContentItem termconten0_ inner join Contrib_Taxonomies_TermsPartRecord termspartr1_ on termconten0_.TermsPartRecord_id=termspartr1_.Id where termspartr1_.Id=@p0] ---> System.Data.SqlServerCe.SqlCeException: A parameter is missing. [ Parameter ordinal = 1 ]
+   at System.Data.SqlServerCe.SqlCeDataReader.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.IsEndOfRowset(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.Move(DIRECTION direction)
+   at System.Data.SqlServerCe.SqlCeDataReader.Read()
+   at NHibernate.Driver.NHybridDataReader.Read()
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Hql.Ast.ANTLR.Loader.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.ExpressionQueryImpl.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Orchard.Utility.Extensions.ReadOnlyCollectionExtensions.ToReadOnlyCollection[T](IEnumerable`1 enumerable) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\Utility\Extensions\ReadOnlyCollectionExtensions.cs:line 8
+   at Orchard.Data.Repository`1.Orchard.Data.IRepository<T>.Fetch(Expression`1 predicate) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\Data\Repository.cs:line 72
+   at Contrib.Taxonomies.Services.TaxonomyService.DeleteAssociatedTerms(ContentItem contentItem) in f:\AzureWeb\NewSciCentr\src\Orchard.Web\Modules\Contrib.Taxonomies\Services\TaxonomyService.cs:line 218
+   at Contrib.Taxonomies.Handlers.TermPartHandler.<>c__DisplayClass4.<.ctor>b__0(RemoveContentContext context, IContent tags) in f:\AzureWeb\NewSciCentr\src\Orchard.Web\Modules\Contrib.Taxonomies\Handlers\TermPartHandler.cs:line 16
+   at Orchard.ContentManagement.Handlers.ContentHandler.InlineStorageFilter`1.Removed(RemoveContentContext context, TPart instance) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 168
+   at Orchard.ContentManagement.Handlers.StorageFilterBase`1.Orchard.ContentManagement.Handlers.IContentStorageFilter.Removed(RemoveContentContext context) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\ContentManagement\Handlers\StorageFilterBase.cs:line 101
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.Removed(RemoveContentContext context) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 298
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass48.<Remove>b__47(IContentHandler handler) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\ContentManagement\DefaultContentManager.cs:line 409
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-19 23:24:59,219 [11] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-19 23:24:59,228 [5] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-19 23:27:02,699 [11] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-19 23:27:03,382 [46] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-19 23:46:03,181 [70] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-19 23:46:03,852 [92] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"

@@ -1,0 +1,377 @@
+# Orchard resource strings - ru-RU
+# Copyright (c) 2010 Outercurve Foundation
+# All rights reserved
+# This file is distributed under the BSD license
+
+#: ~/Modules/FeaturedItemSlider/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/FeaturedItemSlider/Module.txt"
+msgid "Featured Item Slider"
+msgstr "Движок рекламных элементов"
+
+#: ~/Modules/FeaturedItemSlider/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/FeaturedItemSlider/Module.txt"
+msgid "NimblePros"
+msgstr "NimblePros"
+
+#: ~/Modules/FeaturedItemSlider/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/FeaturedItemSlider/Module.txt"
+msgid "http://bitbucket.org/nimblepros/orchard-featureditemslider"
+msgstr "http://bitbucket.org/nimblepros/orchard-featureditemslider"
+
+#: ~/Modules/FeaturedItemSlider/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/FeaturedItemSlider/Module.txt"
+msgid "Adds a new content type called FeaturedItem, which includes an image and a headline, and optionally a sub-headline and link URL. Also includes a FeaturedItemsWidget for displaying the featured items using a jQuery slider. This module depends on the Contrib.MediaPickerField module."
+msgstr "Добавляет новый тип содержимого, называемый рекламный элемент, который включает картинку, заголовок, необязательные подзаголовок и URL адрес ссылки. Включает виджет рекламного элемента для показа рекламных элементов при помощи движка jQuery. Этот модуль зависим от модуля Contrib.MediaPickerField."
+
+#: ~/Modules/FeaturedItemSlider/Module.txt
+#| msgid "FeaturedItemSlider.Description"
+msgctxt "~/Modules/FeaturedItemSlider/Module.txt"
+msgid "Adds a new content type called FeaturedItem, which includes an image and a headline, and optionally a sub-headline and link URL. Also includes a FeaturedItemsWidget for displaying the featured items using the jQuery Cycle plugin."
+msgstr "Добавляет новый тип содержимого, называемый рекламный элемент, который включает картинку, заголовок, необязательные подзаголовок и URL адрес ссылки. Включает виджет рекламного элемента для показа рекламных элементов при помощи плагина jQuery Cycle."
+
+#: ~/Modules/FeaturedItemSlider/Module.txt
+#| msgid "FeaturedItemSlider.Category"
+msgctxt "~/Modules/FeaturedItemSlider/Module.txt"
+msgid "Widget"
+msgstr "Виджет"
+
+#: FeaturedItemSlider.AdminMenu
+#| msgid "Featured Items"
+msgctxt "FeaturedItemSlider.AdminMenu"
+msgid "Featured Items"
+msgstr "Рекламные элементы"
+
+#: FeaturedItemSlider.AdminMenu
+#| msgid "New Feature Group"
+msgctxt "FeaturedItemSlider.AdminMenu"
+msgid "New Feature Group"
+msgstr "Новая рекламная группа"
+
+#: FeaturedItemSlider.AdminMenu
+#| msgid "Manage Feature Groups"
+msgctxt "FeaturedItemSlider.AdminMenu"
+msgid "Manage Feature Groups"
+msgstr "Управление рекламными группами"
+
+#: FeaturedItemSlider.AdminMenu
+#| msgid "New Feature"
+msgctxt "FeaturedItemSlider.AdminMenu"
+msgid "New Feature"
+msgstr "Новая реклама"
+
+#: FeaturedItemSlider.AdminMenu
+#| msgid "Manage Features"
+msgctxt "FeaturedItemSlider.AdminMenu"
+msgid "Manage Features"
+msgstr "Управление рекламами"
+
+#: ~/Modules/FeaturedItemSlider/Views/Admin/Groups.cshtml
+#| msgid "You have not yet created any Groups. Create a"
+msgctxt "~/Modules/FeaturedItemSlider/Views/Admin/Groups.cshtml"
+msgid "You have not yet created any Groups. Create a"
+msgstr "Вы пока не создали ни одной группы. Создайте как минимум одну"
+
+#: ~/Modules/FeaturedItemSlider/Views/Admin/Groups.cshtml
+#| msgid "new group"
+msgctxt "~/Modules/FeaturedItemSlider/Views/Admin/Groups.cshtml"
+msgid "new group"
+msgstr "новую группу"
+
+#: ~/Modules/FeaturedItemSlider/Views/Admin/Groups.cshtml
+#| msgid "now."
+msgctxt "~/Modules/FeaturedItemSlider/Views/Admin/Groups.cshtml"
+msgid "now."
+msgstr "сейчас."
+
+#: ~/Modules/FeaturedItemSlider/Views/Admin/Items.cshtml
+#| msgid "Featured Items"
+msgctxt "~/Modules/FeaturedItemSlider/Views/Admin/Items.cshtml"
+msgid "Featured Items"
+msgstr "Рекламные элементы"
+
+#: ~/Modules/FeaturedItemSlider/Views/Admin/Items.cshtml
+#| msgid "You have not yet created any featured items. Create a"
+msgctxt "~/Modules/FeaturedItemSlider/Views/Admin/Items.cshtml"
+msgid "You have not yet created any featured items. Create a"
+msgstr "Вы пока не создали ни одного рекламного элемента. Создайте как минимум один"
+
+#: ~/Modules/FeaturedItemSlider/Views/Admin/Items.cshtml
+#| msgid "new featured item"
+msgctxt "~/Modules/FeaturedItemSlider/Views/Admin/Items.cshtml"
+msgid "new featured item"
+msgstr "новый рекламный элемент"
+
+#: ~/Modules/FeaturedItemSlider/Views/Admin/Items.cshtml
+#| msgid "now."
+msgctxt "~/Modules/FeaturedItemSlider/Views/Admin/Items.cshtml"
+msgid "now."
+msgstr "сейчас."
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItem.Edit.cshtml
+#| msgid "Can be an absolute or relative url. The Headline and Image (if any) will be linked, unless the 'Separate Link' option is checked below."
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItem.Edit.cshtml"
+msgid "Can be an absolute or relative url. The Headline and Image (if any) will be linked, unless the 'Separate Link' option is checked below."
+msgstr "Может быть абсолютным или относительным адресом url. Заголовок и картинка при наличии будут соединены вне зависимости от того, выбрана ли отдельная ссылка ниже."
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItem.Edit.cshtml
+#| msgid "Separate Link"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItem.Edit.cshtml"
+msgid "Separate Link"
+msgstr "Отдельная ссылка"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItem.Edit.cshtml
+#| msgid "Use the Slide Order to control the order in which the slides are loaded into the widget."
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItem.Edit.cshtml"
+msgid "Use the Slide Order to control the order in which the slides are loaded into the widget."
+msgstr "Используйте порядок движка для управления порядком загрузки слайдов в виджет."
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItem.Edit.cshtml
+#| msgid "For the group"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItem.Edit.cshtml"
+msgid "For the group"
+msgstr "Для группы"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItem.Edit.cshtml
+#| msgid "the picture should be"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItem.Edit.cshtml"
+msgid "the picture should be"
+msgstr "картинка должна быть"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "A Feature Group is a collection of Feature Items that may be placed in any zone of your site. The settings of your feature group define the width and height of each feature item. You may add as many feature items to a group. Only one feature item will display at a time and a new feature will slide into place every few seconds."
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "A Feature Group is a collection of Feature Items that may be placed in any zone of your site. The settings of your feature group define the width and height of each feature item. You may add as many feature items to a group. Only one feature item will display at a time and a new feature will slide into place every few seconds."
+msgstr "Рекламная группа - это коллекция рекламных элементов, которые могут быть помещены в одну зону вашего вебсайта. Установки вашей рекламной группы определяют ширину и высоту каждого рекламного элемента. Вы можете добавить несколько рекламных элементов в одну группу. Только один рекламный элемент будет показан и новая реклама будет слайдом по месту несколько секунд."
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Display Properties"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Display Properties"
+msgstr "Параметры отображения"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Name"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Name"
+msgstr "Имя"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Group Width"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Group Width"
+msgstr "Ширина группы"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "This is the overall width of one slide in the widget"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "This is the overall width of one slide in the widget"
+msgstr "Это полная ширина одного слайда в виджете"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Group Height"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Group Height"
+msgstr "Высота группы"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "This is the overall height of one slide in the widget"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "This is the overall height of one slide in the widget"
+msgstr "Это общая высота одного слайда в виджете"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Include images in the slider"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Include images in the slider"
+msgstr "Включить картинка в движок"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Example of a slider using Inline images"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Example of a slider using Inline images"
+msgstr "Пример движка с встроенными картинками"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Example"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Example"
+msgstr "Пример"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Example of a slider using Background images"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Example of a slider using Background images"
+msgstr "Пример движка с фоновыми картинками"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Image Width"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Image Width"
+msgstr "Ширина картинки"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "This is the width for the image portion of a slide (should not be greater than the Group Width)"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "This is the width for the image portion of a slide (should not be greater than the Group Width)"
+msgstr "Ширина для картинки является частью слайда и не должна превышать ширину группы"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Image Height"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Image Height"
+msgstr "Высота картинки"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "This is the height for the image portion of a slide (should not be greater than the Group Height)"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "This is the height for the image portion of a slide (should not be greater than the Group Height)"
+msgstr "Высота картинки является частью слайда и не должна превышать высоту группы"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Text Offset - Top"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Text Offset - Top"
+msgstr "Смещение текста сверху"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "This is the number of pixels of padding the text area (headline/subheadline) will have from the Top of the slide"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "This is the number of pixels of padding the text area (headline/subheadline) will have from the Top of the slide"
+msgstr "Количество точек отступа текстовой области (заголовка/подзаголовка) от верхней стороны слайда"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Text Offset - Left"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Text Offset - Left"
+msgstr "Смещение текста слева"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "This is the number of pixels of padding the text area (headline/subheadline) will have from the Left side of the slide"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "This is the number of pixels of padding the text area (headline/subheadline) will have from the Left side of the slide"
+msgstr "оличество точек отступа текстовой области (заголовка/подзаголовка) от левой стороны слайда"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Text Area Background Color"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Text Area Background Color"
+msgstr "Фоновый цвет текстовой области"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Enter a hex code or use the color picker. Leave empty for a transparent background."
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Enter a hex code or use the color picker. Leave empty for a transparent background."
+msgstr "Введите шестнадцаричный код или воспользуйтесь указкой цвета. Оставьте пустым для прозрачного фона."
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Text Foreground Color"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Text Foreground Color"
+msgstr "Цвет текста"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Enter a hex code or use the color picker."
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Enter a hex code or use the color picker."
+msgstr "Введите шестнадцаричный код или воспользуйтесь указкой цвета."
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Slide Behavior"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Slide Behavior"
+msgstr "Поведение слайда"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Transition Effect"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Transition Effect"
+msgstr "Эффект перехода"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "The effects are provided by the jQuery Cycle plugin. The available effects can be seen at"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "The effects are provided by the jQuery Cycle plugin. The available effects can be seen at"
+msgstr "Эффекты обеспечиваются плагином jQuery Cycle. Доступные эффекты можно посмотреть"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Slide Speed"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Slide Speed"
+msgstr "Скорость слайдов"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "This is the number of milliseconds it will take for one slide to transition to the next"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "This is the number of milliseconds it will take for one slide to transition to the next"
+msgstr "Количество миллисекунд для перехода одного слайда в другой"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Slide Pause"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Slide Pause"
+msgstr "Пауза слайда"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "This is the number of milliseconds a slide will be diplayed"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "This is the number of milliseconds a slide will be diplayed"
+msgstr "Количество миллисекунда показа слайда"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Show pager"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Show pager"
+msgstr "Показ указателя страниц"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "This option will display pager controls superimposed over the text area of the slides"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "This option will display pager controls superimposed over the text area of the slides"
+msgstr "Этот параметр показывает указатель страниц наложенным на текстовую область слайдов"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Show slide numbers"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Show slide numbers"
+msgstr "Показ номера слайда"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "This determines if the slide number and total slides are displayed on each slide (e.g. 1 of 5)"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "This determines if the slide number and total slides are displayed on each slide (e.g. 1 of 5)"
+msgstr "Определяет будут ли отображаться номер слайда и общее количество слайдов для каждого слайда (например, 1 из 5)"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "<strong>Note:</strong> This will result in a 25px gap from the top of the slide to the starting position of the text area. Adjust the Text Offset - Top setting accordingly."
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "<strong>Note:</strong> This will result in a 25px gap from the top of the slide to the starting position of the text area. Adjust the Text Offset - Top setting accordingly."
+msgstr "<strong>Примечание:</strong> Результат в 25-титочечных промежутках от вершины слайда до начальной позиции текстовой области. Выравнивание смещение текста - установка сверху соответственно."
+
+#: ~/Modules/FeaturedItemSlider/Views/Parts/FeaturedItem.SummaryAdmin.cshtml
+#| msgid "Group"
+msgctxt "~/Modules/FeaturedItemSlider/Views/Parts/FeaturedItem.SummaryAdmin.cshtml"
+msgid "Group"
+msgstr "Группа"
+
+#: ~/Modules/FeaturedItemSlider/Views/Parts/FeaturedItem.SummaryAdmin.cshtml
+#| msgid "Slide Order"
+msgctxt "~/Modules/FeaturedItemSlider/Views/Parts/FeaturedItem.SummaryAdmin.cshtml"
+msgid "Slide Order"
+msgstr "Порядок слайдов"
+
+#: ~/Modules/FeaturedItemSlider/Views/Parts/FeaturedItemGroup.SummaryAdmin.cshtml
+#| msgid "Item"
+msgctxt "~/Modules/FeaturedItemSlider/Views/Parts/FeaturedItemGroup.SummaryAdmin.cshtml"
+msgid "Item"
+msgstr "Элемент"
+
+#: ~/Modules/FeaturedItemSlider/Views/Parts/FeaturedItemGroup.SummaryAdmin.cshtml
+#| msgid "Items"
+msgctxt "~/Modules/FeaturedItemSlider/Views/Parts/FeaturedItemGroup.SummaryAdmin.cshtml"
+msgid "Items"
+msgstr "Элементы"
+

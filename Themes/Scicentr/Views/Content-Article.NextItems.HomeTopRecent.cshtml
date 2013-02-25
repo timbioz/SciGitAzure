@@ -1,0 +1,19 @@
+﻿@using Orchard.Utility.Extensions;
+@{
+    var contentTypeClassName = ((string)Model.ContentItem.ContentType).HtmlClassify();
+    Model.ContentItem.MainImagePart.Fields[0].Class = null;
+}
+<article class="type-summary post post-page content-item @contentTypeClassName">
+    <header>
+        <h2 class="homerecent-title"><a href="@Model.ContentItem.AutoroutePart.Path" title="Читать публикацию @Model.ContentItem.TitlePart.Title">@Model.ContentItem.TitlePart.Title</a></h2>
+    </header>
+    @if (Model.Meta != null) {
+        <div class="post-meta">
+            @Display(Model.Meta)
+        </div>
+    }
+    <a href="@Model.ContentItem.AutoroutePart.Path" title="Читать публикацию @Model.ContentItem.TitlePart.Title">
+        <img class="next-image" src="@Href(Model.ContentItem.MainImagePart.Fields[0].Url)" title="Перейти к статье @Model.ContentItem.TitlePart.Title" alt="@Model.ContentItem.MainImagePart.Fields[0].AlternateText"/>
+    </a>
+    <a href="@Model.ContentItem.AutoroutePart.Path" title="Читать публикацию @Model.ContentItem.TitlePart.Title">@Html.Raw(Model.ContentItem.PreviewText.Fields[0].Value)<span class="scobs">&#187;</span></a>
+</article>

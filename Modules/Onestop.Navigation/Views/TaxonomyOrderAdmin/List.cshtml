@@ -1,0 +1,40 @@
+﻿@{ 
+	Layout.Title = T(Model.Name);
+	Script.Require("jQueryUI_Sortable");
+	Script.Include("taxonomyList.js");
+	Style.Include("taxonomy-list.css");
+}
+<fieldset>
+	<table id="taxonomyItems" class="items" summary="@T("This is a table of the items currently available for a particular taxonomy term.")">
+		<thead>
+			<tr>
+				<th class="grip">↓</th>
+				<th>@T("Item")</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var item in Model.ContentItems)
+			{<text>
+				<tr class="itemRow" data-id="@item.Id">
+					<td>                        
+						<img src='@Href("~/Modules/Onestop.Navigation/Content/Images/grip.png")'  alt="grip" class="grip" />
+					</td>
+					<td>
+						@item.Name
+					</td>
+				</tr>
+			 </text>
+			}
+		</tbody>
+	</table>
+	@Html.AntiForgeryTokenOrchard()
+</fieldset>
+<p>&nbsp;</p>
+<p><img src='@Href("~/Modules/Onestop.Navigation/Content/Images/grip.png")'  alt="grip" /> Drag and drop the grip to sort items in a particular order.</p>
+
+@if (!string.IsNullOrWhiteSpace((string)Model.ReturnUrl)) {
+	<p>&nbsp;</p>
+	<fieldset>
+		@Html.Link(T("Close").Text, (string)Model.ReturnUrl, new { @class = "primaryAction button" })
+	</fieldset>
+}

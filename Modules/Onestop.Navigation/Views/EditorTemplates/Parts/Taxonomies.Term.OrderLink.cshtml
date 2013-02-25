@@ -1,0 +1,24 @@
+﻿@using Contrib.Taxonomies.Models
+@model TermPart
+<div class="taxonomyOrderLink">
+@Html.ActionLink(T("Manage the order of child terms").Text,
+				 "List",
+				 "TaxonomyOrderAdmin",
+				 new {
+					 area = "Onestop.Navigation",
+					 termId = Model.Id,
+					 returnUrl = Request.Path
+				 },
+				 null)
+</div>
+<div class="taxonomyOrderLink">
+@Html.ActionLink(T("Manage the order of this term and its peers").Text,
+				 "List",
+				 "TaxonomyOrderAdmin",
+				 new {
+					 area = "Onestop.Navigation",
+					 termId = Model.Container.Id,
+					 returnUrl = Request.Path
+				 },
+				 null)
+</div>

@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2CD62034-55AB-4E57-AC8E-4256586E086F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Onestop.Navigation</RootNamespace>
+    <AssemblyName>Onestop.Navigation</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkProfile />
+    <UseIISExpress>false</UseIISExpress>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FluentNHibernate, Version=1.3.0.733, Culture=neutral, PublicKeyToken=8aa435e3cb308880, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\lib\nhibernate\FluentNHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\..\lib\json\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\lib\nhibernate\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Helpers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\lib\aspnetmvc\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\lib\aspnetmvc\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Razor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\lib\aspnetmvc\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Web.WebPages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\lib\aspnetmvc\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\lib\aspnetmvc\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\lib\aspnetmvc\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\Images\arrows-ffffff.png" />
+    <Content Include="Content\Images\collapse-large-silver.png" />
+    <Content Include="Content\Images\collapse-small-silver.png" />
+    <Content Include="Content\Images\dot_black.png" />
+    <Content Include="Content\Images\dot_blue.png" />
+    <Content Include="Content\Images\dot_gray.png" />
+    <Content Include="Content\Images\dot_green.png" />
+    <Content Include="Content\Images\dot_orange.png" />
+    <Content Include="Content\Images\dot_pink.png" />
+    <Content Include="Content\Images\dot_red.png" />
+    <Content Include="Content\Images\dot_salmon.png" />
+    <Content Include="Content\Images\dot_white.png" />
+    <Content Include="Content\Images\dot_yellow.png" />
+    <Content Include="Content\Images\expand-large-silver.png" />
+    <Content Include="Content\Images\expand-small-silver.png" />
+    <Content Include="Content\Images\grip.png" />
+    <Content Include="Content\Images\not-popular.png" />
+    <Content Include="Content\Images\popular.png" />
+    <Content Include="Content\Images\shadow.png" />
+    <Content Include="erase_menus.sql" />
+    <Content Include="Img\glyphicons-halflings-white.png" />
+    <Content Include="Img\glyphicons-halflings.png" />
+    <Content Include="Scripts\confirm-dialog.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\hint.js" />
+    <Content Include="Scripts\jquery.stickyPanel.min.js" />
+    <Content Include="Scripts\onestop-menu-admin-preview.js" />
+    <Content Include="Scripts\onestop-menu-admin.js" />
+    <Content Include="Scripts\onestop-menu-admin.min.js" />
+    <Content Include="Scripts\sticky-panels.js" />
+    <Content Include="Scripts\taxonomyList.js" />
+    <Content Include="Scripts\jquery.mjs.nestedSortable.js" />
+    <Content Include="Styles\bootstrap.css" />
+    <Content Include="Styles\bootstrap.min.css" />
+    <Content Include="Styles\taxonomy-list.css" />
+    <Content Include="Styles\onestop-menu-admin.css" />
+    <Content Include="Views\MenuAdmin\EditItem.cshtml" />
+    <Content Include="Views\Web.config" />
+    <Content Include="Scripts\Web.config" />
+    <Content Include="Styles\Web.config" />
+    <Content Include="Properties\AssemblyInfo.cs" />
+    <Content Include="Module.txt" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Button.Save.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminMenuAdminMenu.cs" />
+    <Compile Include="Breadcrumbs\Models\RoutePattern.cs" />
+    <Compile Include="Breadcrumbs\Shapes.cs" />
+    <Compile Include="Breadcrumbs\Drivers\BreadcrumbablePartDriver.cs" />
+    <Compile Include="Breadcrumbs\Drivers\BreadcrumbsSiteSettingsPartDriver.cs" />
+    <Compile Include="Breadcrumbs\Handlers\BreadcrumbsSiteSettingsPartHandler.cs" />
+    <Compile Include="Breadcrumbs\Models\BreadcrumbablePart.cs" />
+    <Compile Include="Breadcrumbs\Models\BreadcrumbablePartRecord.cs" />
+    <Compile Include="Breadcrumbs\Models\BreadcrumbsSiteSettingsPart.cs" />
+    <Compile Include="Breadcrumbs\Models\BreadcrumbsSiteSettingsPartRecord.cs" />
+    <Compile Include="Breadcrumbs\Models\RoutePatternRecord.cs" />
+    <Compile Include="Breadcrumbs\AdminMenu.cs" />
+    <Compile Include="Breadcrumbs\Routes.cs" />
+    <Compile Include="Breadcrumbs\Services\Breadcrumbs.cs" />
+    <Compile Include="Breadcrumbs\Services\BreadcrumbsContext.cs" />
+    <Compile Include="Breadcrumbs\Services\BreadcrumbsProviderDescriptor.cs" />
+    <Compile Include="Breadcrumbs\Services\Implementations\DefaultBreadcrumbsProvider.cs" />
+    <Compile Include="Breadcrumbs\Services\Implementations\PatternBasedBreadcrumbsProvider.cs" />
+    <Compile Include="Breadcrumbs\Services\Implementations\DefaultBreadcrumbsService.cs" />
+    <Compile Include="Breadcrumbs\Services\Implementations\MenuBasedBreadcrumbsProvider.cs" />
+    <Compile Include="Breadcrumbs\Services\Implementations\HomeBreadcrumbsFilter.cs" />
+    <Compile Include="Breadcrumbs\Services\Implementations\ContainerBreadcrumbsProvider.cs" />
+    <Compile Include="Breadcrumbs\Services\IBreadcrumbsFilter.cs" />
+    <Compile Include="Breadcrumbs\Services\IBreadcrumbsProvider.cs" />
+    <Compile Include="Breadcrumbs\Services\IBreadcrumbsService.cs" />
+    <Compile Include="Breadcrumbs\Services\Segment.cs" />
+    <Compile Include="Breadcrumbs\Settings\BreadcrumbsSettings.cs" />
+    <Compile Include="Breadcrumbs\Settings\BreadcrumbsSettingsHooks.cs" />
+    <Compile Include="Breadcrumbs\ViewModels\BreadcrumbsSettingsViewModel.cs" />
+    <Compile Include="Breadcrumbs\ViewModels\BreadcrumbsIndexViewModel.cs" />
+    <Compile Include="Controllers\BreadcrumbsAdminController.cs" />
+    <Compile Include="CsvImportAdminMenu.cs" />
+    <Compile Include="Drivers\NavigationPartDriver.cs" />
+    <Compile Include="Services\VersionManagerExtensions.cs" />
+    <Compile Include="Utilities\QueryExtensions.cs" />
+    <Compile Include="Handlers\ImageMenuItemPartHandler.cs" />
+    <Compile Include="Handlers\MenuPartHandler.cs" />
+    <Compile Include="Breadcrumbs\Models\BreadcrumbsWidgetPart.cs" />
+    <Compile Include="Models\ImageMenuItemPart.cs" />
+    <Compile Include="Drivers\ImageMenuItemPartDriver.cs" />
+    <Compile Include="Models\ImageMenuItemPartRecord.cs" />
+    <Compile Include="NavigationAdminMenu.cs" />
+    <Compile Include="Breadcrumbs\Migrations.cs" />
+    <Compile Include="Breadcrumbs\Drivers\BreadcrumbsWidgetPartDriver.cs" />
+    <Compile Include="Breadcrumbs\Handlers\BreadcrumbablePartHandler.cs" />
+    <Compile Include="Controllers\AdminNavigationAdminController.cs" />
+    <Compile Include="Controllers\TaxonomyOrderAdminController.cs" />
+    <Compile Include="Drivers\VersionInfoPartDriver.cs" />
+    <Compile Include="Drivers\TermPartDriver.cs" />
+    <Compile Include="Handlers\VersionInfoPartHandler.cs" />
+    <Compile Include="Models\AdminMenuItemRecord.cs" />
+    <Compile Include="Models\DisplayMode.cs" />
+    <Compile Include="Models\IVersionAspect.cs" />
+    <Compile Include="Models\VersionInfoPart.cs" />
+    <Compile Include="Models\VersionInfoPartRecord.cs" />
+    <Compile Include="Patterns\Services\IPatternService.cs" />
+    <Compile Include="Patterns\Services\PatternMatch.cs" />
+    <Compile Include="Patterns\Services\PatternService.cs" />
+    <Compile Include="Services\OnestopMenuProvider.cs" />
+    <Compile Include="Scheduling\IPublishMenuTaskManager.cs" />
+    <Compile Include="Scheduling\PublishMenuTaskHandler.cs" />
+    <Compile Include="Scheduling\PublishMenuTaskManager.cs" />
+    <Compile Include="Services\CustomAdminMenuItemProvider.cs" />
+    <Compile Include="Services\DefaultVersionManager.cs" />
+    <Compile Include="Services\IVersionManager.cs" />
+    <Compile Include="ShapeTableProviders\CachedMenuShapeTableProvider.cs" />
+    <Compile Include="Controllers\MenuAdminController.cs" />
+    <Compile Include="Controllers\ImportAdminController.cs" />
+    <Compile Include="Security\AuthorizationEventHandler.cs" />
+    <Compile Include="Security\MenuPermissions.cs" />
+    <Compile Include="Security\Permissions.cs" />
+    <Compile Include="Drivers\ExtendedMenuItemPartDriver.cs" />
+    <Compile Include="Handlers\ExtendedMenuItemPartHandler.cs" />
+    <Compile Include="Routes.cs" />
+    <Compile Include="Services\DefaultMenuService.cs" />
+    <Compile Include="ShapeTableProviders\DefaultShapeTableProvider.cs" />
+    <Compile Include="Drivers\MenuWidgetPartDriver.cs" />
+    <Compile Include="Handlers\MenuWidgetPartHandler.cs" />
+    <Compile Include="Utilities\MenuItemsUtility.cs" />
+    <Compile Include="Utilities\UrlUtility.cs" />
+    <Compile Include="ViewModels\CsvImportIndexViewModel.cs" />
+    <Compile Include="ViewModels\ItemEditorViewModel.cs" />
+    <Compile Include="ViewModels\MenuAdminPreviewViewModel.cs" />
+    <Compile Include="ViewModels\MenuAdminIndexViewModel.cs" />
+    <Compile Include="ViewModels\MenuAdminRemovedViewModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ViewModels\MenuHistoryViewModel.cs" />
+    <Compile Include="ViewModels\MenuWidgetViewModel.cs" />
+    <Content Include="Views\Menu.cshtml" />
+    <Compile Include="Migrations.cs" />
+    <Compile Include="ResourceManifest.cs" />
+    <Compile Include="Models\ExtendedMenuItemPart.cs" />
+    <Compile Include="Models\ExtendedMenuItemPartRecord.cs" />
+    <Compile Include="Models\OnestopMenuWidgetPart.cs" />
+    <Compile Include="Models\OnestopMenuWidgetPartRecord.cs" />
+    <Compile Include="Services\IMenuService.cs" />
+    <Compile Include="Models\MenuWidgetMode.cs" />
+    <Content Include="Views\Widget.Wrapper.cshtml" />
+    <Compile Include="Services\CacheUtility.cs" />
+    <Compile Include="Services\ITokenHolder.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Placement.info">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\MenuItem.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\EditorTemplates\Parts\Menu.Widget.Edit.cshtml" />
+    <Content Include="Content\Web.config" />
+    <Content Include="Views\EditorTemplates\Parts\Menu.ExtendedMenuItem.Edit.cshtml" />
+    <Content Include="Views\MenuAdmin\Create.cshtml" />
+    <Content Include="Views\MenuAdmin\Index.cshtml" />
+    <Content Include="Views\MenuAdmin\CreateItem.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Button.SaveAndAdd.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Button.ManageMenu.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Orchard\Orchard.Framework.csproj">
+      <Project>{2D1D92BB-4555-4CBE-8D0E-63563D6CE4C6}</Project>
+      <Name>Orchard.Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Core\Orchard.Core.csproj">
+      <Project>{9916839C-39FC-4CEB-A5AF-89CA7E87119F}</Project>
+      <Name>Orchard.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Contrib.Cache\Contrib.Cache.csproj">
+      <Project>{6e444ff1-a47c-4cf6-bb3f-507c8ebd776d}</Project>
+      <Name>Contrib.Cache</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Contrib.Taxonomies\Contrib.Taxonomies.csproj">
+      <Project>{e649ea64-d213-461b-87f7-d67035801443}</Project>
+      <Name>Contrib.Taxonomies</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Orchard.Alias\Orchard.Alias.csproj">
+      <Project>{475B6C45-B27C-438B-8966-908B9D6D1077}</Project>
+      <Name>Orchard.Alias</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Orchard.Autoroute\Orchard.Autoroute.csproj">
+      <Project>{66FCCD76-2761-47E3-8D11-B45D0001DDAA}</Project>
+      <Name>Orchard.Autoroute</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Orchard.MediaPicker\Orchard.MediaPicker.csproj">
+      <Project>{43d0ec0b-1955-4566-8d31-7b9102da1703}</Project>
+      <Name>Orchard.MediaPicker</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Orchard.Tokens\Orchard.Tokens.csproj">
+      <Project>{6f759635-13d7-4e94-bcc9-80445d63f117}</Project>
+      <Name>Orchard.Tokens</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Orchard.Widgets\Orchard.Widgets.csproj">
+      <Project>{194D3CCC-1153-474D-8176-FDE8D7D0D0BD}</Project>
+      <Name>Orchard.Widgets</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SysCache\SysCache.csproj">
+      <Project>{3bd22132-d538-48c6-8854-f71333c798eb}</Project>
+      <Name>SysCache</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\MenuAdmin\History.cshtml" />
+    <Content Include="Views\MenuAdmin\Removed.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\EditorTemplates\Parts\Menu.BreadcrumbsWidget.Edit.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\ImportAdmin\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\EditorTemplates\Parts\Taxonomies.Term.OrderLink.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\TaxonomyOrderAdmin\List.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Parts\Menu.BreadcrumbsWidget.cshtml" />
+    <Content Include="Views\Parts\Menu.Widget.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\AdminMenu.Admin.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\AdminNavigationAdmin\Create.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\AdminNavigationAdmin\Edit.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\MenuItemLink-ImageMenuItem.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\MenuItemLink-HtmlMenuItem.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Img\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\DateTimePicker.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\MenuAdmin\Preview.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\MenuAdmin\PreviewHistory.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\MenuItemLink-MenuItem.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\EditorTemplates\Parts\Menu.ImageMenuItem.Edit.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\MenuItemLink-ContentMenuItem.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\MenuItemLink.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\MenuItem.Summary.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\MenuItem.SummaryList.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\MenuItem.List.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\EditorTemplates\Parts\Menu.Breadcrumbable.Edit.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\EditorTemplates\Parts\Menu.BreadcrumbsSiteSettings.Edit.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\DefinitionTemplates\BreadcrumbsSettings.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\BreadcrumbsAdmin\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Breadcrumbs.cshtml" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target> -->
+  <Target Name="AfterBuild" DependsOnTargets="AfterBuildCompiler">
+    <PropertyGroup>
+      <AreasManifestDir>$(ProjectDir)\..\Manifests</AreasManifestDir>
+    </PropertyGroup>
+    <!-- If this is an area child project, uncomment the following line:
+    <CreateAreaManifest AreaName="$(AssemblyName)" AreaType="Child" AreaPath="$(ProjectDir)" ManifestPath="$(AreasManifestDir)" ContentFiles="@(Content)" />
+    -->
+    <!-- If this is an area parent project, uncomment the following lines:
+    <CreateAreaManifest AreaName="$(AssemblyName)" AreaType="Parent" AreaPath="$(ProjectDir)" ManifestPath="$(AreasManifestDir)" ContentFiles="@(Content)" />
+    <CopyAreaManifests ManifestPath="$(AreasManifestDir)" CrossCopy="false" RenameViews="true" />
+    -->
+  </Target>
+  <Target Name="AfterBuildCompiler" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(ProjectDir)\..\$(ProjectName)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>45979</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://orchard.codeplex.com</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

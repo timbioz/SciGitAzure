@@ -1,0 +1,9 @@
+﻿Name: RussianSlug
+AntiForgery: enabled
+Author: Mike Eshva
+Website: http://mike.eshva.ru/projects/orchard/module/russian-slug
+Version: 1.5
+OrchardVersion: 1.5
+Description: Переводит кириллические заголовки элементов в английскую транслитерацию. Слова разделяются дефисами. (Translates Cyrillic content item title into English transliterate text. Words are separated with dashes.)
+Category: Localization
+Dependencies: Orchard.Autoroute

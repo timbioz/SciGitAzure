@@ -1,0 +1,173 @@
+﻿@using Onestop.Navigation.Models
+@using Onestop.Navigation.Security
+@using Onestop.Navigation.ViewModels
+@using Orchard.ContentManagement
+@using Orchard.ContentManagement.Aspects
+@model MenuAdminIndexViewModel
+@{
+    Layout.Title = T("Manage '{0}' menu - {1} view", Model.Menu.As<ITitleAspect>().Title, Model.Mode).ToString();
+    Script.Require("MenuAdminScripts");
+    Style.Require("MenuAdmin");
+
+    var currentItems = Model.CurrentItems.Select(i => i.As<ExtendedMenuItemPart>()).ToList();
+    var publishedFirstLevelItems = currentItems.Where(item => item.Position.IndexOf('.') == -1 || !currentItems.Any(i => item.Position.StartsWith(i.Position + "."))).ToList();
+}
+
+@using (Html.BeginFormAntiForgeryPost())
+{
+    <div class="row-fluid">
+        <div class="sticky">
+            <ul class="nav nav-pills">
+                <li class="dropdown"><a class="btn-small dropdown-toggle" data-toggle="dropdown"
+                    href="#"><i class="icon-plus"></i><span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        @foreach (var descriptor in Model.MenuItemDescriptors)
+                        {
+                            <li>
+                                <a href="@Url.Action("CreateItem", "MenuAdmin", new { type = descriptor.Type, menuId = Model.Menu.Id, Area = "Onestop.Navigation" })">
+                                    @T("{0}", descriptor.DisplayName).Text
+                                    <div class="hint">@descriptor.Description</div>
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                </li>
+                @if (Authorizer.Authorize(Permissions.EditAdvancedMenuItemOptions) || Authorizer.Authorize(Permissions.EditMenu))
+                {
+                    <li class="dropdown"><a class="btn-small" data-toggle="modal" href="#publishModal"><i class="icon-ok-sign"></i>&nbsp;<b>Publish</b></a> </li>
+                }
+                <li class="dropdown"><a class="btn-small dropdown-toggle" data-toggle="dropdown"
+                    href="#"><i class="icon-eye-open"></i>&nbsp;View version...<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li class="@(Model.Mode == Onestop.Navigation.Models.DisplayMode.Current ? "active" : "")">
+                            @Html.ActionLink(T("Current").Text, "Index", "MenuAdmin", new { menuId = Model.Menu.Id, mode = Onestop.Navigation.Models.DisplayMode.Current, area = "Onestop.Navigation" }, new { })
+                        </li>
+                        <li class="@(Model.Mode == Onestop.Navigation.Models.DisplayMode.Draft ? "active" : "")">
+                            @Html.ActionLink(T("Draft").Text, "Index", "MenuAdmin", new { menuId = Model.Menu.Id, mode = Onestop.Navigation.Models.DisplayMode.Draft, area = "Onestop.Navigation" }, new { })
+                        </li>
+                        @foreach (var task in Model.MenuVersions)
+                        {
+                            <li>
+                                @Html.ActionLink(
+                                    T("Preview version {0} scheduled for {1}",
+                                      task.ContentItem.Version,
+                                      (IHtmlString)Display.DateTime(DateTimeUtc: task.ScheduledUtc.Value)).Text,
+                                    "Preview",
+                                    "MenuAdmin",
+                                    new { menuId = Model.Menu.Id, area = "Onestop.Navigation", versionNumber = task.ContentItem.Version },
+                                    new { })
+                            </li>
+                        }
+                    </ul>
+                </li>
+                @if (Model.Mode == Onestop.Navigation.Models.DisplayMode.Draft)
+                {
+                    <li id="global-clear-drafts" class="dropdown">
+                        <a class="btn-small btn-warning" href="@Url.Action("ClearAllDrafts", "MenuAdmin", new { menuId = Model.Menu.Id, returnUrl = Request.RawUrl })" itemprop="UnsafeUrl">
+                            <i class="icon-remove-circle icon-white"></i>&nbsp;@T("Clear all draft items")</a>
+                    </li>
+                }
+
+                @if (Model.Mode == Onestop.Navigation.Models.DisplayMode.Current)
+                {
+                    <li class="dropdown">
+                        <a class="btn-small btn-info" href="@Url.Action("Index", "MenuAdmin", new { menuId = Model.Menu.Id, mode = Onestop.Navigation.Models.DisplayMode.Draft, area = "Onestop.Navigation" })" itemprop="UnsafeUrl">
+                            <i class="icon-pencil icon-white"></i>&nbsp;@T("Edit this menu")</a>
+                    </li>
+                }
+                <li class="dropdown pull-right"><a class="btn-small dropdown-toggle" data-toggle="dropdown"
+                    href="#"><i class="icon-cog"></i><span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            @Html.ActionLink(T("Create new menu").Text, "Create", "Admin", new { area = "Contents", id = "Menu", returnUrl = Url.Action("RedirectToLatestMenu") }, new { })
+                        </li>
+                        <li>
+                            @Html.ActionLink(T("Edit menu").Text, "Edit", "Admin", new { area = "Contents", id = Model.Menu.Id, returnUrl = Request.RawUrl }, new { })
+                        </li>
+                        <li><a href="@Url.ItemRemoveUrl(Model.Menu, new { Request.RawUrl })" itemprop="RemoveUrl UnsafeUrl">
+                            @T("Delete menu")
+                        </a></li>
+                    </ul>
+                </li>
+                <li class="pull-right">
+                    <div id="loading">
+                        <div class="progress progress-info progress-striped active">
+                            <div class="bar" style="width: 100%;">Work in progress...</div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="itemsheader" 
+           class="items" 
+           data-moveurl="@Url.Action("Move", "MenuAdmin", new { menuId = Model.Menu.Id, Area = "Onestop.Navigation" })" 
+           data-drafturl="@Url.Action("MakeDraft", "MenuAdmin", new { menuId = Model.Menu.Id, Area = "Onestop.Navigation" })"
+           data-draftviewurl="@Url.Action("Index", "MenuAdmin", new { menuId = Model.Menu.Id, mode = Onestop.Navigation.Models.DisplayMode.Draft, area = "Onestop.Navigation" })"
+           data-setpositionurl="@Url.Action("SetPosition", "MenuAdmin", new { menuId = Model.Menu.Id, Area = "Onestop.Navigation" })"
+           data-loadchildrenurl="@Url.Action("GetChildren", "MenuAdmin", new { menuId = Model.Menu.Id, mode = Model.Mode, Area = "Onestop.Navigation" })"
+           data-countchildrenurl="@Url.Action("CountChildren", "MenuAdmin", new { menuId = Model.Menu.Id, mode = Model.Mode, Area = "Onestop.Navigation" })"
+           data-mode="@(Model.Mode)">
+    </div>
+                if (Model.DraftItems.Any() && Model.Mode == Onestop.Navigation.Models.DisplayMode.Draft)
+                {
+    <fieldset id="draft-items-fieldset">
+        <legend>↓ @T("Unassociated/draft menu items")</legend>
+        <div id="draft-items">
+            @Display.MenuItem_SummaryList(
+                MenuItems: Model.DraftItems,
+                Parent: null,
+                Differentiator: "draft",
+                Classes: "no-nest gray",
+                ShowToggle: false,
+                UpdateAfterDrop: false,
+                AllowEdit: Model.Mode == Onestop.Navigation.Models.DisplayMode.Draft)
+        </div>
+    </fieldset>
+                }
+    <fieldset>
+        <legend>
+            <div>
+                ↓ @T("Menu items")<span id="global-trigger-all">&nbsp;(<button class="link" id="expand-all" onclick="return false;">@T("Expand all")</button>)</span>
+
+                <span id="global-trigger-changed" class="pull-right">
+                    <img src="@Href("~/Modules/Onestop.Navigation/Content/Images/dot_yellow.png")" rel="tooltip" title="@T("There are some modified and/or unpublished items.")"/>
+                    @T("Contains Modified or Unpublished Items")
+                    (
+                    <button class="link collapse-changed" id="expand-changed" onclick="return false;">@T("Collapse all")</button>)
+                </span>
+            </div>
+        </legend>
+        <div id="current-items" data-id="0" data-position="0">
+            @Display.MenuItem_SummaryList(
+                MenuItems: publishedFirstLevelItems,
+                Parent: null,
+                Differentiator: "published",
+                ShowToggle: true,
+                UpdateAfterDrop: true, 
+                AllowEdit: Model.Mode == Onestop.Navigation.Models.DisplayMode.Draft)
+        </div>
+    </fieldset>
+}
+
+@if (Authorizer.Authorize(Permissions.EditAdvancedMenuItemOptions) || Authorizer.Authorize(Permissions.EditMenu))
+{
+    <div class="modal fade" id="publishModal">
+        <div class="modal-header">
+            <button class="close" data-dismiss="modal">
+                ×</button>
+            <h3>Menu publishing options</h3>
+        </div>
+        <div class="modal-body">
+            @using (Html.BeginFormAntiForgeryPost(Url.Action("Save", "MenuAdmin", new { menuId = Model.Menu.Id, Area = "Onestop.Navigation" }), FormMethod.Post, new { @class = "well" }))
+            {
+                <button type="submit" class="btn btn-primary" name="submit.Publish" value="submit.Publish">@T("Publish now")</button>
+            }
+            @using (Html.BeginFormAntiForgeryPost(Url.Action("Save", "MenuAdmin", new { menuId = Model.Menu.Id, Area = "Onestop.Navigation" }), FormMethod.Post, new { @class = "well" }))
+            {
+                @Display.DateTimePicker(ScheduledDate: Model.ScheduledDate, ScheduledTime: Model.ScheduledTime)
+                <button type="submit" class="btn btn-primary" name="submit.SchedulePublish" value="submit.SchedulePublish">@T("Schedule publish")</button>
+            }
+        </div>
+    </div>
+}

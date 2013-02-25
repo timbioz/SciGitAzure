@@ -1,0 +1,37 @@
+@using Onestop.Navigation.Models
+@model AdminMenuItemRecord
+@{
+    Layout.Title = T("Edit Admin Menu Item - {0}", Model.Text).Text;
+
+    using (Html.BeginFormAntiForgeryPost()) {
+       @Html.ValidationSummary()
+       <fieldset>
+            <legend>@T("Edit Admin Menu Item - {0}", Model.Text)</legend>
+            @Html.HiddenFor(m => Model.Id)
+
+            @Html.LabelFor(m => Model.Text, T("Text"))
+            @Html.EditorFor(m => Model.Text)
+            @Html.ValidationMessageFor(m => Model.Text)
+
+            @Html.LabelFor(m => Model.Url, T("Url"))
+            @Html.EditorFor(m => Model.Url)
+            @Html.ValidationMessageFor(m => Model.Url)
+
+            @Html.LabelFor(m => Model.Position, T("Position"))
+            @Html.EditorFor(m => Model.Position)
+            @Html.ValidationMessageFor(m => Model.Position)
+
+            @Html.LabelFor(m => Model.ItemGroup, T("Group"))
+            @Html.EditorFor(m => Model.ItemGroup)
+            @Html.ValidationMessageFor(m => Model.ItemGroup)
+
+            @Html.LabelFor(m => Model.GroupPosition, T("Group Position"))
+            @Html.EditorFor(m => Model.GroupPosition)
+            @Html.ValidationMessageFor(m => Model.GroupPosition)
+        </fieldset>
+        <fieldset>
+            <button type="submit" name="submit.Save" class="button primaryAction" value="Save">@T("Save")</button>
+            <button type="submit" name="submit.Delete" class="button primaryAction" value="Delete">@T("Delete")</button>
+        </fieldset>
+    }
+}

@@ -1,0 +1,65 @@
+# Orchard resource strings - ru-RU
+# Copyright (c) 2010 Outercurve Foundation
+# All rights reserved
+# This file is distributed under the BSD license
+
+#: ~/Modules/Orchard.Messaging/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.Messaging/Module.txt"
+msgid "Messaging"
+msgstr "Обмен сообщениями"
+
+#: ~/Modules/Orchard.Messaging/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Orchard.Messaging/Module.txt"
+msgid "The Orchard Team"
+msgstr "Команда Orchard"
+
+#: ~/Modules/Orchard.Messaging/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Orchard.Messaging/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Modules/Orchard.Messaging/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Orchard.Messaging/Module.txt"
+msgid "The Messaging module adds messaging functionalities."
+msgstr "Модуль сообщений добавляет функционал обмена сообщениями"
+
+#: ~/Modules/Orchard.Messaging/Module.txt
+#| msgid "Orchard.Messaging.Name"
+msgctxt "~/Modules/Orchard.Messaging/Module.txt"
+msgid "Messaging"
+msgstr "Обмен сообщениями"
+
+#: ~/Modules/Orchard.Messaging/Module.txt
+#| msgid "Orchard.Messaging.Description"
+msgctxt "~/Modules/Orchard.Messaging/Module.txt"
+msgid "Messaging services."
+msgstr "Сервисы обмена сообщениями."
+
+#: ~/Modules/Orchard.Messaging/Module.txt
+#| msgid "Orchard.Messaging.Category"
+msgctxt "~/Modules/Orchard.Messaging/Module.txt"
+msgid "Messaging"
+msgstr "Обмен сообщениями"
+
+#: ~/Modules/Orchard.Messaging/Views/EditorTemplates/Parts/MessageSettings.cshtml
+#| msgid "Messaging"
+msgctxt "~/Modules/Orchard.Messaging/Views/EditorTemplates/Parts/MessageSettings.cshtml"
+msgid "Messaging"
+msgstr "Обмен сообщениями"
+
+#: ~/Modules/Orchard.Messaging/Views/EditorTemplates/Parts/MessageSettings.cshtml
+#| msgid "Default channel service for messages"
+msgctxt "~/Modules/Orchard.Messaging/Views/EditorTemplates/Parts/MessageSettings.cshtml"
+msgid "Default channel service for messages"
+msgstr "Канал службы сообщений по умолчанию"
+
+#: ~/Modules/Orchard.Messaging/Views/EditorTemplates/Parts/MessageSettings.cshtml
+#| msgid "You must enable a messaging channel (e.g., Orchard.Email) before being able to send messages."
+msgctxt "~/Modules/Orchard.Messaging/Views/EditorTemplates/Parts/MessageSettings.cshtml"
+msgid "You must enable a messaging channel (e.g., Orchard.Email) before being able to send messages."
+msgstr "Необходимо включить канал сообщений (напр., Orchard.Email), прежде чем он сможет отправлять сообщения."
+

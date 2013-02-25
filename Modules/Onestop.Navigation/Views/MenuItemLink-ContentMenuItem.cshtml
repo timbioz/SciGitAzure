@@ -1,0 +1,21 @@
+﻿@using Onestop.Navigation.Models
+@using Orchard.ContentManagement
+@{
+    ExtendedMenuItemPart item = Model.Content.ContentItem.ExtendedMenuItemPart;
+    ContentItem contentItem = Model.Content.ContentItem.ContentMenuItemPart.Content;
+}
+@if (contentItem != null)
+{
+    if (item.DisplayText) {
+        if (item.DisplayHref) {
+            <a href="@(Model.Href)" class="@(string.Join(" ", Model.Classes))" @(item.InNewWindow ? "target=\"_blank\"" : "")>@Model.Text</a>
+        }
+        else {
+            <div class="@(string.Join(" ", Model.Classes))">@Model.Text</div>
+        }
+
+        if (item.SubTitle != null) {
+            <div class="subtitle">@item.SubTitle</div>
+        }
+    }
+}

@@ -1,0 +1,16 @@
+Name: Onestop Disqus
+AntiForgery: enabled
+Author: Microsoft DPE / Onestop Internet
+Website: http://onestopdisqus.codeplex.com
+Version: 1.5
+OrchardVersion: 1.5.1
+Description: Integrates the Disqus commenting system into Orchard.
+FeatureDescription: Integrates the Disqus commenting system into Orchard.
+Category: Social
+Dependencies: Orchard.Autoroute, Title, Orchard.Comments
+Features:
+	Onestop.Disqus
+		Name: Onestop Disqus
+		Description: Integrates the Disqus commenting system into Orchard.
+		Category: Social
+		Dependencies: Orchard.Autoroute, Title, Orchard.Comments

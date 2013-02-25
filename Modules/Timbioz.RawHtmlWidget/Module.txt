@@ -1,0 +1,10 @@
+﻿Name: Timbioz.RawHtmlWidget
+AntiForgery: enabled
+Author: The Orchard Team
+Website: http://orchardproject.net
+Version: 1.0.1
+OrchardVersion: 1.0
+Description: Description for the module
+Features:
+    Timbioz.RawHtmlWidget:
+        Description: This module allows you to display Widgets or Content Part with custom Html and/or Js code in any zone of your theme.

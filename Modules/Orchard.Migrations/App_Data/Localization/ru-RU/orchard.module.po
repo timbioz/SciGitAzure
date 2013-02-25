@@ -1,0 +1,137 @@
+# Orchard resource strings - ru-RU
+# Copyright (c) 2010 Outercurve Foundation
+# All rights reserved
+# This file is distributed under the BSD license
+
+#: ~/Modules/Orchard.Migrations/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Orchard.Migrations/Module.txt"
+msgid "The Orchard Team"
+msgstr "Команда Orchard"
+
+#: ~/Modules/Orchard.Migrations/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Orchard.Migrations/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Modules/Orchard.Migrations/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Orchard.Migrations/Module.txt"
+msgid "Data migration commands."
+msgstr "Команды миграции данных."
+
+#: ~/Modules/Orchard.Migrations/Module.txt
+#| msgid "Orchard.Migrations.Name"
+msgctxt "~/Modules/Orchard.Migrations/Module.txt"
+msgid "Migrations"
+msgstr "Миграции"
+
+#: ~/Modules/Orchard.Migrations/Module.txt
+#| msgid "Orchard.Migrations.Description"
+msgctxt "~/Modules/Orchard.Migrations/Module.txt"
+msgid "Data migration commands."
+msgstr "Команды миграции данных."
+
+#: ~/Modules/Orchard.Migrations/Module.txt
+#| msgid "Orchard.Migrations.Category"
+msgctxt "~/Modules/Orchard.Migrations/Module.txt"
+msgid "Developer"
+msgstr "Разработчик"
+
+#: ~/Modules/Orchard.Migrations/Module.txt
+#| msgid "DatabaseUpdate.Name"
+msgctxt "~/Modules/Orchard.Migrations/Module.txt"
+msgid "Database Update"
+msgstr "Обновление базы данных"
+
+#: ~/Modules/Orchard.Migrations/Module.txt
+#| msgid "DatabaseUpdate.Description"
+msgctxt "~/Modules/Orchard.Migrations/Module.txt"
+msgid "Commands for updating the database schema according to the definition of the "Record" classes in code."
+msgstr "Команды для обновления схемы базы данных в соответствии с определением классов «Record» в коде."
+
+#: ~/Modules/Orchard.Migrations/Module.txt
+#| msgid "DatabaseUpdate.Category"
+msgctxt "~/Modules/Orchard.Migrations/Module.txt"
+msgid "Developer"
+msgstr "Разработчик"
+
+#: Orchard.Migrations.Commands.DatabaseUpdateCommands
+#| msgid "An error occured while updating the database: "
+msgctxt "Orchard.Migrations.Commands.DatabaseUpdateCommands"
+msgid "An error occured while updating the database: "
+msgstr "Произошла ошибка при обновлении базы данных:"
+
+#: Orchard.Migrations.Commands.DatabaseUpdateCommands
+#| msgid "An error occured while creating the tables: "
+msgctxt "Orchard.Migrations.Commands.DatabaseUpdateCommands"
+msgid "An error occured while creating the tables: "
+msgstr "Возникла ошибка при создании таблиц:"
+
+#: Orchard.Migrations.Commands.DataMigrationCommands
+#| msgid "An error occured while upgrading the database: "
+msgctxt "Orchard.Migrations.Commands.DataMigrationCommands"
+msgid "An error occured while upgrading the database: "
+msgstr "Возникла ошибка при обновлении базы данных:"
+
+#: Orchard.Migrations.Commands.DatabaseUpdateCommands
+#| msgid "An error occured while updating the database."
+msgctxt "Orchard.Migrations.Commands.DatabaseUpdateCommands"
+msgid "An error occured while updating the database."
+msgstr "Возникла ошибка при изменении базы данных:"
+
+#: Orchard.Migrations.Commands.DatabaseUpdateCommands
+#| msgid "Database updated"
+msgctxt "Orchard.Migrations.Commands.DatabaseUpdateCommands"
+msgid "Database updated"
+msgstr "База данных изменена"
+
+#: Orchard.Migrations.Commands.DatabaseUpdateCommands
+#| msgid "There are no tables to create for feature {0}."
+msgctxt "Orchard.Migrations.Commands.DatabaseUpdateCommands"
+msgid "There are no tables to create for feature {0}."
+msgstr "Отсутствуют таблицы для создания возможности {0}."
+
+#: Orchard.Migrations.Commands.DatabaseUpdateCommands
+#| msgid "An error occured while creating the tables."
+msgctxt "Orchard.Migrations.Commands.DatabaseUpdateCommands"
+msgid "An error occured while creating the tables."
+msgstr "Возникла ошибка при создании таблиц."
+
+#: Orchard.Migrations.Commands.DatabaseUpdateCommands
+#| msgid "Tables created"
+msgctxt "Orchard.Migrations.Commands.DatabaseUpdateCommands"
+msgid "Tables created"
+msgstr "Таблицы созданы"
+
+#: Orchard.Migrations.Commands.DataMigrationCommands
+#| msgid "An error occured while upgrading the database."
+msgctxt "Orchard.Migrations.Commands.DataMigrationCommands"
+msgid "An error occured while upgrading the database."
+msgstr "Возникла ошибка при обновлении базы данных"
+
+#: Orchard.Migrations.Commands.DataMigrationCommands
+#| msgid "Database upgraded"
+msgctxt "Orchard.Migrations.Commands.DataMigrationCommands"
+msgid "Database upgraded"
+msgstr "База данных обновлена"
+
+#: ~/Modules/Orchard.Migrations/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.Migrations/Module.txt"
+msgid "Migrations"
+msgstr "Миграции"
+
+#: ~/Modules/Orchard.Migrations/Module.txt
+#| msgid "Orchard.Migrations Category"
+msgctxt "~/Modules/Orchard.Migrations/Module.txt"
+msgid "Developer"
+msgstr "Разработчик"
+
+#: Orchard.Migrations.Commands.DataMigrationCommands
+#| msgid "An error occured while updating the database: "
+msgctxt "Orchard.Migrations.Commands.DataMigrationCommands"
+msgid "An error occured while updating the database: "
+msgstr "Возникла ошибка при изменении базы данных:"
+

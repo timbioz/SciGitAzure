@@ -1,0 +1,13 @@
+﻿@using Orchard.Utility.Extensions;
+@using Orchard.ContentManagement;
+
+@{
+    var terms = (IEnumerable<Contrib.Taxonomies.Models.TermPart>)Model.Terms;
+}
+
+@if (Model.Terms.Count > 0)
+{
+    <div class="smallthemehome-wrapper">
+        @(new HtmlString(string.Join(", ", terms.Select(t => Html.ItemDisplayLink(t.Name, t.ContentItem).ToString()).ToArray())))
+    </div>
+}

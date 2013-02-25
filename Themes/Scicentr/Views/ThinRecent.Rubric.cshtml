@@ -1,0 +1,30 @@
+﻿@using Orchard.Utility.Extensions;
+@using Orchard.ContentManagement;
+
+@{
+    var terms = (IEnumerable<Contrib.Taxonomies.Models.TermPart>)Model.Terms;
+    string name = @Model.ContentField.DisplayName;
+    ContentItem contentItem = Model.ContentItem;
+    string url = Url.ItemDisplayUrl(contentItem);
+}
+
+@if (Model.Terms.Count > 0)
+{
+    <div class="title-theme-wrapper">
+        @foreach (var term in terms)
+        {
+            string[] split = term.Name.Split(new Char[] { ' ' });
+            int index = 1;
+            <h2>
+                <a class="rtitle-rubric" href="@term.Slug" title="Перейти к рубрике @term.Name">
+                    @foreach (string s in split)
+                    {
+                        <span class="word-@index">@s</span>
+                            index++;
+                        }
+                </a>
+            </h2>
+                }
+    </div>
+    
+}

@@ -1,0 +1,16 @@
+@model Onestop.Navigation.Breadcrumbs.ViewModels.BreadcrumbsSettingsViewModel
+<fieldset>
+    <legend>@T("Breadcrumbs")</legend>
+    <div>
+        <div>
+            @Html.LabelFor(m => m.DefaultProvider, T("Default breadcrumb provider"))
+            <select id="@Html.FieldIdFor(m => m.DefaultProvider)" name="@Html.FieldNameFor(m => m.DefaultProvider)">
+                @foreach (var p in Model.Providers)
+                {
+                    @Html.SelectOption(Model.DefaultProvider, p.Name, p.DisplayText)
+                }
+            </select>
+            <span class="hint">@T("Select the default provider which will be used when there is none explicitly defined for given item, type and part.")</span>
+        </div>
+    </div>
+</fieldset>

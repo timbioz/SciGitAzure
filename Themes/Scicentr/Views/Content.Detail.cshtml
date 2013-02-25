@@ -1,0 +1,39 @@
+﻿@using Orchard.Utility.Extensions;
+@{
+    Style.Include("http://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&subset=latin,cyrillic");
+    if (Model.Title != null)
+    {
+        Layout.Title = Model.Title;
+    }
+
+    var contentTypeClassName = ((string)Model.ContentItem.ContentType).HtmlClassify();
+}
+<article class="post post-page content-item @contentTypeClassName">
+    <header class="article-title-detail">
+        @Display(Model.Header)
+    </header>
+    @if (Model.Image != null)
+    {
+        <div class="article-main-image">
+            @Display(Model.Image)
+        </div>
+    }
+    <div class="content-wrapper">
+        @Display(Model.Content)
+    </div>
+
+    @if (Model.Comments != null)
+    {
+        <div class="publication-comments">
+            @Display(Model.Comments)
+        </div>
+    }
+    @if (Model.Footer != null)
+    {
+        <footer>
+            @Display(Model.Footer)
+        </footer>
+    }
+</article>
+    
+    

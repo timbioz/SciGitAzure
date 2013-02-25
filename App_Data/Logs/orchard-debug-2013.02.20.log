@@ -1,0 +1,1096 @@
+2013-02-20 00:05:51,528 [172] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-20 00:05:52,219 [182] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-20 07:42:23,474 [5] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-20 07:42:24,167 [11] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-20 08:37:08,292 [5] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-20 08:37:09,012 [10] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-20 10:01:39,227 [5] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-20 10:01:39,888 [12] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-20 10:31:24,647 [5] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-20 10:31:25,325 [10] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-20 11:49:17,672 [5] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-20 11:49:18,528 [11] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-20 13:43:29,212 [7] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-20 13:43:29,216 [5] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-20 13:47:59,498 [59] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-20 13:48:00,140 [53] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-20 13:48:21,199 [7] NHibernate.Util.ADOExceptionReporter - System.Data.SqlServerCe.SqlCeException (0x80004005): A parameter is missing. [ Parameter ordinal = 1 ]
+   at System.Data.SqlServerCe.SqlCeDataReader.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.IsEndOfRowset(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.Move(DIRECTION direction)
+   at System.Data.SqlServerCe.SqlCeDataReader.Read()
+   at NHibernate.Driver.NHybridDataReader.Read()
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2013-02-20 13:48:21,201 [7] NHibernate.Util.ADOExceptionReporter - A parameter is missing. [ Parameter ordinal = 1 ]
+2013-02-20 13:48:21,202 [7] NHibernate.Util.ADOExceptionReporter - System.Data.SqlServerCe.SqlCeException (0x80004005): A parameter is missing. [ Parameter ordinal = 1 ]
+   at System.Data.SqlServerCe.SqlCeDataReader.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.IsEndOfRowset(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.Move(DIRECTION direction)
+   at System.Data.SqlServerCe.SqlCeDataReader.Read()
+   at NHibernate.Driver.NHybridDataReader.Read()
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2013-02-20 13:48:21,202 [7] NHibernate.Util.ADOExceptionReporter - A parameter is missing. [ Parameter ordinal = 1 ]
+2013-02-20 13:48:21,203 [7] Orchard.ContentManagement.DefaultContentManager - GenericADOException thrown from IContentHandler by Contrib.Taxonomies.Handlers.TermPartHandler
+NHibernate.Exceptions.GenericADOException: could not execute query
+[ select termconten0_.Id as Id4_, termconten0_.Field as Field4_, termconten0_.TermRecord_id as TermRecord3_4_, termconten0_.TermsPartRecord_id as TermsPar4_4_ from Contrib_Taxonomies_TermContentItem termconten0_ inner join Contrib_Taxonomies_TermsPartRecord termspartr1_ on termconten0_.TermsPartRecord_id=termspartr1_.Id where termspartr1_.Id=@p0 ]
+  Name:p1 - Value:Orchard.ContentManagement.Records.ContentItemRecord
+[SQL: select termconten0_.Id as Id4_, termconten0_.Field as Field4_, termconten0_.TermRecord_id as TermRecord3_4_, termconten0_.TermsPartRecord_id as TermsPar4_4_ from Contrib_Taxonomies_TermContentItem termconten0_ inner join Contrib_Taxonomies_TermsPartRecord termspartr1_ on termconten0_.TermsPartRecord_id=termspartr1_.Id where termspartr1_.Id=@p0] ---> System.Data.SqlServerCe.SqlCeException: A parameter is missing. [ Parameter ordinal = 1 ]
+   at System.Data.SqlServerCe.SqlCeDataReader.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.IsEndOfRowset(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.Move(DIRECTION direction)
+   at System.Data.SqlServerCe.SqlCeDataReader.Read()
+   at NHibernate.Driver.NHybridDataReader.Read()
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Hql.Ast.ANTLR.Loader.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.ExpressionQueryImpl.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Orchard.Utility.Extensions.ReadOnlyCollectionExtensions.ToReadOnlyCollection[T](IEnumerable`1 enumerable) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\Utility\Extensions\ReadOnlyCollectionExtensions.cs:line 8
+   at Orchard.Data.Repository`1.Orchard.Data.IRepository<T>.Fetch(Expression`1 predicate) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\Data\Repository.cs:line 72
+   at Contrib.Taxonomies.Services.TaxonomyService.DeleteAssociatedTerms(ContentItem contentItem)
+   at Contrib.Taxonomies.Handlers.TermPartHandler.<>c__DisplayClass4.<.ctor>b__0(RemoveContentContext context, IContent tags)
+   at Orchard.ContentManagement.Handlers.ContentHandler.InlineStorageFilter`1.Removed(RemoveContentContext context, TPart instance) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 168
+   at Orchard.ContentManagement.Handlers.StorageFilterBase`1.Orchard.ContentManagement.Handlers.IContentStorageFilter.Removed(RemoveContentContext context) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\ContentManagement\Handlers\StorageFilterBase.cs:line 101
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.Removed(RemoveContentContext context) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 298
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass48.<Remove>b__47(IContentHandler handler) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\ContentManagement\DefaultContentManager.cs:line 409
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:53:03,613 [52] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:53:03,636 [52] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:53:03,645 [52] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:53:03,658 [52] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:53:03,693 [52] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:53:03,702 [52] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:53:03,710 [52] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:53:03,719 [52] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:53:03,752 [52] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:53:03,761 [52] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:53:03,770 [52] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:53:03,778 [52] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:53:03,787 [52] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:53:10,834 [52] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:53:10,844 [52] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:53:10,852 [52] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:53:10,861 [52] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:53:10,870 [52] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:53:10,882 [52] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:53:10,891 [52] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:53:10,899 [52] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:53:10,908 [52] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:53:10,917 [52] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:53:10,926 [52] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:53:41,023 [52] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:53:41,033 [52] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:53:45,924 [52] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:53:52,405 [52] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:53:52,989 [52] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:53:52,998 [52] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:53:53,007 [52] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:53:54,052 [52] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:53:54,099 [52] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:04,104 [45] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:04,113 [45] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:04,122 [45] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:04,131 [45] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:04,168 [45] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:04,178 [45] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:04,186 [45] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:04,195 [45] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:04,228 [45] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:04,238 [45] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:04,247 [45] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:04,255 [45] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:04,264 [45] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:11,337 [45] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:11,347 [45] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:11,356 [45] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:11,364 [45] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:11,373 [45] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:11,381 [45] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:11,390 [45] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:11,398 [45] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:11,407 [45] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:11,415 [45] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:11,424 [45] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:41,892 [45] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:41,926 [45] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:47,085 [45] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:48,447 [35] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:48,464 [35] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:48,474 [35] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:48,483 [35] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:48,515 [35] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:48,524 [35] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:48,533 [35] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:48,542 [35] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:48,584 [35] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:48,594 [35] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:48,602 [35] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:48,611 [35] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:48,620 [35] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:54,160 [45] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:54,838 [45] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:54,847 [45] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:54,864 [45] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:56,012 [45] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:56,062 [45] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:56,461 [35] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:56,475 [35] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:56,484 [35] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:56,493 [35] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:56,503 [35] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:56,511 [35] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:56,520 [35] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:56,529 [35] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:56,538 [35] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:56,547 [35] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:54:56,556 [35] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:55:09,264 [56] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:55:09,273 [56] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:55:09,282 [56] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:55:09,291 [56] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:55:09,324 [56] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:55:09,343 [56] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:55:09,352 [56] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:55:09,362 [56] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:55:09,395 [56] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:55:09,404 [56] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:55:09,413 [56] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:55:09,422 [56] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:55:09,449 [56] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:55:16,924 [56] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:55:16,934 [56] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:55:16,943 [56] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:55:16,952 [56] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:55:16,965 [56] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:55:16,975 [56] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:55:16,984 [56] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:55:16,993 [56] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:55:17,002 [56] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:55:17,011 [56] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:55:17,020 [56] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:55:31,048 [35] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:55:31,058 [35] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:55:36,393 [35] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:55:43,583 [35] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:55:44,245 [35] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:55:44,254 [35] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:55:44,263 [35] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:55:45,374 [35] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:55:45,421 [35] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:55:50,323 [56] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:55:50,333 [56] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:55:55,146 [56] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:56:01,581 [56] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:56:02,178 [56] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:56:02,190 [56] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:56:02,199 [56] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:56:03,244 [56] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:56:03,289 [56] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RuntimeBinderException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Orchard.Core.Shapes.CoreShapes.EncodeAlternateElement(string)' has some invalid arguments
+   at CallSite.Target(Closure , CallSite , CoreShapes , Object )
+   at Orchard.Core.Shapes.CoreShapes.<Discover>b__8e(ShapeDisplayingContext displaying) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 95
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 68
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 13:57:09,396 [5] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-20 13:57:10,035 [11] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-20 14:22:58,487 [7] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-20 14:22:59,332 [13] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-20 14:26:15,317 [11] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-20 14:26:15,981 [80] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-20 14:31:41,523 [7] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-20 14:31:42,418 [16] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-20 14:48:18,758 [37] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-20 14:48:19,402 [77] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-20 14:57:06,483 [36] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-20 14:57:07,127 [99] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-20 14:59:23,085 [81] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-20 14:59:23,731 [33] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-20 18:41:52,056 [5] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-20 18:41:52,716 [9] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-20 18:43:12,202 [7] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-20 18:43:13,116 [13] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-20 18:57:05,026 [11] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-20 18:57:05,950 [5] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-20 19:12:34,160 [7] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-20 19:12:35,058 [16] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-20 19:19:55,439 [5] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-20 19:19:56,123 [10] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-20 19:48:44,064 [63] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-20 19:48:44,067 [6] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-20 19:51:25,224 [65] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-20 19:51:25,926 [36] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-20 19:52:59,522 [63] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-20 19:53:00,230 [76] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-20 19:53:28,676 [56] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-20 19:53:29,376 [36] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-20 19:55:07,302 [36] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-20 19:55:08,007 [45] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-20 20:30:58,198 [35] NHibernate.Util.ADOExceptionReporter - System.Data.SqlServerCe.SqlCeException (0x80004005): A parameter is missing. [ Parameter ordinal = 1 ]
+   at System.Data.SqlServerCe.SqlCeDataReader.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.IsEndOfRowset(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.Move(DIRECTION direction)
+   at System.Data.SqlServerCe.SqlCeDataReader.Read()
+   at NHibernate.Driver.NHybridDataReader.Read()
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2013-02-20 20:30:58,200 [35] NHibernate.Util.ADOExceptionReporter - A parameter is missing. [ Parameter ordinal = 1 ]
+2013-02-20 20:30:58,201 [35] NHibernate.Util.ADOExceptionReporter - System.Data.SqlServerCe.SqlCeException (0x80004005): A parameter is missing. [ Parameter ordinal = 1 ]
+   at System.Data.SqlServerCe.SqlCeDataReader.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.IsEndOfRowset(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.Move(DIRECTION direction)
+   at System.Data.SqlServerCe.SqlCeDataReader.Read()
+   at NHibernate.Driver.NHybridDataReader.Read()
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2013-02-20 20:30:58,201 [35] NHibernate.Util.ADOExceptionReporter - A parameter is missing. [ Parameter ordinal = 1 ]
+2013-02-20 20:30:58,203 [35] Orchard.ContentManagement.DefaultContentManager - GenericADOException thrown from IContentHandler by Contrib.Taxonomies.Handlers.TermPartHandler
+NHibernate.Exceptions.GenericADOException: could not execute query
+[ select termconten0_.Id as Id4_, termconten0_.Field as Field4_, termconten0_.TermRecord_id as TermRecord3_4_, termconten0_.TermsPartRecord_id as TermsPar4_4_ from Contrib_Taxonomies_TermContentItem termconten0_ inner join Contrib_Taxonomies_TermsPartRecord termspartr1_ on termconten0_.TermsPartRecord_id=termspartr1_.Id where termspartr1_.Id=@p0 ]
+  Name:p1 - Value:Orchard.ContentManagement.Records.ContentItemRecord
+[SQL: select termconten0_.Id as Id4_, termconten0_.Field as Field4_, termconten0_.TermRecord_id as TermRecord3_4_, termconten0_.TermsPartRecord_id as TermsPar4_4_ from Contrib_Taxonomies_TermContentItem termconten0_ inner join Contrib_Taxonomies_TermsPartRecord termspartr1_ on termconten0_.TermsPartRecord_id=termspartr1_.Id where termspartr1_.Id=@p0] ---> System.Data.SqlServerCe.SqlCeException: A parameter is missing. [ Parameter ordinal = 1 ]
+   at System.Data.SqlServerCe.SqlCeDataReader.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.IsEndOfRowset(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.Move(DIRECTION direction)
+   at System.Data.SqlServerCe.SqlCeDataReader.Read()
+   at NHibernate.Driver.NHybridDataReader.Read()
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Hql.Ast.ANTLR.Loader.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.ExpressionQueryImpl.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Orchard.Utility.Extensions.ReadOnlyCollectionExtensions.ToReadOnlyCollection[T](IEnumerable`1 enumerable) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\Utility\Extensions\ReadOnlyCollectionExtensions.cs:line 8
+   at Orchard.Data.Repository`1.Orchard.Data.IRepository<T>.Fetch(Expression`1 predicate) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\Data\Repository.cs:line 72
+   at Contrib.Taxonomies.Services.TaxonomyService.DeleteAssociatedTerms(ContentItem contentItem)
+   at Contrib.Taxonomies.Handlers.TermPartHandler.<>c__DisplayClass4.<.ctor>b__0(RemoveContentContext context, IContent tags)
+   at Orchard.ContentManagement.Handlers.ContentHandler.InlineStorageFilter`1.Removed(RemoveContentContext context, TPart instance) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 168
+   at Orchard.ContentManagement.Handlers.StorageFilterBase`1.Orchard.ContentManagement.Handlers.IContentStorageFilter.Removed(RemoveContentContext context) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\ContentManagement\Handlers\StorageFilterBase.cs:line 101
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.Removed(RemoveContentContext context) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 298
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass48.<Remove>b__47(IContentHandler handler) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\ContentManagement\DefaultContentManager.cs:line 409
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 20:33:24,835 [57] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-20 20:33:25,580 [10] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-20 22:05:04,920 [5] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Scicentr"
+2013-02-20 22:05:05,677 [8] Orchard.Environment.Extensions.ExtensionManager - No suitable loader found for extension "Onestop.Disqus"
+2013-02-20 22:05:21,058 [11] NHibernate.Util.ADOExceptionReporter - System.Data.SqlServerCe.SqlCeException (0x80004005): A parameter is missing. [ Parameter ordinal = 1 ]
+   at System.Data.SqlServerCe.SqlCeDataReader.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.IsEndOfRowset(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.Move(DIRECTION direction)
+   at System.Data.SqlServerCe.SqlCeDataReader.Read()
+   at NHibernate.Driver.NHybridDataReader.Read()
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2013-02-20 22:05:21,060 [11] NHibernate.Util.ADOExceptionReporter - A parameter is missing. [ Parameter ordinal = 1 ]
+2013-02-20 22:05:21,061 [11] NHibernate.Util.ADOExceptionReporter - System.Data.SqlServerCe.SqlCeException (0x80004005): A parameter is missing. [ Parameter ordinal = 1 ]
+   at System.Data.SqlServerCe.SqlCeDataReader.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.IsEndOfRowset(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.Move(DIRECTION direction)
+   at System.Data.SqlServerCe.SqlCeDataReader.Read()
+   at NHibernate.Driver.NHybridDataReader.Read()
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2013-02-20 22:05:21,061 [11] NHibernate.Util.ADOExceptionReporter - A parameter is missing. [ Parameter ordinal = 1 ]
+2013-02-20 22:05:21,063 [11] Orchard.ContentManagement.DefaultContentManager - GenericADOException thrown from IContentHandler by Contrib.Taxonomies.Handlers.TermPartHandler
+NHibernate.Exceptions.GenericADOException: could not execute query
+[ select termconten0_.Id as Id4_, termconten0_.Field as Field4_, termconten0_.TermRecord_id as TermRecord3_4_, termconten0_.TermsPartRecord_id as TermsPar4_4_ from Contrib_Taxonomies_TermContentItem termconten0_ inner join Contrib_Taxonomies_TermsPartRecord termspartr1_ on termconten0_.TermsPartRecord_id=termspartr1_.Id where termspartr1_.Id=@p0 ]
+  Name:p1 - Value:Orchard.ContentManagement.Records.ContentItemRecord
+[SQL: select termconten0_.Id as Id4_, termconten0_.Field as Field4_, termconten0_.TermRecord_id as TermRecord3_4_, termconten0_.TermsPartRecord_id as TermsPar4_4_ from Contrib_Taxonomies_TermContentItem termconten0_ inner join Contrib_Taxonomies_TermsPartRecord termspartr1_ on termconten0_.TermsPartRecord_id=termspartr1_.Id where termspartr1_.Id=@p0] ---> System.Data.SqlServerCe.SqlCeException: A parameter is missing. [ Parameter ordinal = 1 ]
+   at System.Data.SqlServerCe.SqlCeDataReader.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.IsEndOfRowset(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.Move(DIRECTION direction)
+   at System.Data.SqlServerCe.SqlCeDataReader.Read()
+   at NHibernate.Driver.NHybridDataReader.Read()
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Hql.Ast.ANTLR.Loader.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.ExpressionQueryImpl.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Orchard.Utility.Extensions.ReadOnlyCollectionExtensions.ToReadOnlyCollection[T](IEnumerable`1 enumerable) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\Utility\Extensions\ReadOnlyCollectionExtensions.cs:line 8
+   at Orchard.Data.Repository`1.Orchard.Data.IRepository<T>.Fetch(Expression`1 predicate) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\Data\Repository.cs:line 72
+   at Contrib.Taxonomies.Services.TaxonomyService.DeleteAssociatedTerms(ContentItem contentItem)
+   at Contrib.Taxonomies.Handlers.TermPartHandler.<>c__DisplayClass4.<.ctor>b__0(RemoveContentContext context, IContent tags)
+   at Orchard.ContentManagement.Handlers.ContentHandler.InlineStorageFilter`1.Removed(RemoveContentContext context, TPart instance) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 168
+   at Orchard.ContentManagement.Handlers.StorageFilterBase`1.Orchard.ContentManagement.Handlers.IContentStorageFilter.Removed(RemoveContentContext context) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\ContentManagement\Handlers\StorageFilterBase.cs:line 101
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.Removed(RemoveContentContext context) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 298
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass48.<Remove>b__47(IContentHandler handler) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\ContentManagement\DefaultContentManager.cs:line 409
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17
+2013-02-20 23:14:28,975 [62] NHibernate.Util.ADOExceptionReporter - System.Data.SqlServerCe.SqlCeException (0x80004005): A parameter is missing. [ Parameter ordinal = 1 ]
+   at System.Data.SqlServerCe.SqlCeDataReader.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.IsEndOfRowset(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.Move(DIRECTION direction)
+   at System.Data.SqlServerCe.SqlCeDataReader.Read()
+   at NHibernate.Driver.NHybridDataReader.Read()
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2013-02-20 23:14:28,976 [62] NHibernate.Util.ADOExceptionReporter - A parameter is missing. [ Parameter ordinal = 1 ]
+2013-02-20 23:14:28,977 [62] NHibernate.Util.ADOExceptionReporter - System.Data.SqlServerCe.SqlCeException (0x80004005): A parameter is missing. [ Parameter ordinal = 1 ]
+   at System.Data.SqlServerCe.SqlCeDataReader.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.IsEndOfRowset(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.Move(DIRECTION direction)
+   at System.Data.SqlServerCe.SqlCeDataReader.Read()
+   at NHibernate.Driver.NHybridDataReader.Read()
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2013-02-20 23:14:28,977 [62] NHibernate.Util.ADOExceptionReporter - A parameter is missing. [ Parameter ordinal = 1 ]
+2013-02-20 23:14:28,978 [62] Orchard.ContentManagement.DefaultContentManager - GenericADOException thrown from IContentHandler by Contrib.Taxonomies.Handlers.TermPartHandler
+NHibernate.Exceptions.GenericADOException: could not execute query
+[ select termconten0_.Id as Id4_, termconten0_.Field as Field4_, termconten0_.TermRecord_id as TermRecord3_4_, termconten0_.TermsPartRecord_id as TermsPar4_4_ from Contrib_Taxonomies_TermContentItem termconten0_ inner join Contrib_Taxonomies_TermsPartRecord termspartr1_ on termconten0_.TermsPartRecord_id=termspartr1_.Id where termspartr1_.Id=@p0 ]
+  Name:p1 - Value:Orchard.ContentManagement.Records.ContentItemRecord
+[SQL: select termconten0_.Id as Id4_, termconten0_.Field as Field4_, termconten0_.TermRecord_id as TermRecord3_4_, termconten0_.TermsPartRecord_id as TermsPar4_4_ from Contrib_Taxonomies_TermContentItem termconten0_ inner join Contrib_Taxonomies_TermsPartRecord termspartr1_ on termconten0_.TermsPartRecord_id=termspartr1_.Id where termspartr1_.Id=@p0] ---> System.Data.SqlServerCe.SqlCeException: A parameter is missing. [ Parameter ordinal = 1 ]
+   at System.Data.SqlServerCe.SqlCeDataReader.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.IsEndOfRowset(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeDataReader.Move(DIRECTION direction)
+   at System.Data.SqlServerCe.SqlCeDataReader.Read()
+   at NHibernate.Driver.NHybridDataReader.Read()
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   at NHibernate.Hql.Ast.ANTLR.Loader.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List(IQueryExpression queryExpression, QueryParameters parameters)
+   at NHibernate.Impl.ExpressionQueryImpl.List()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteQuery(NhLinqExpression nhLinqExpression, IQuery query, NhLinqExpression nhQuery)
+   at NHibernate.Linq.DefaultQueryProvider.Execute(Expression expression)
+   at NHibernate.Linq.DefaultQueryProvider.Execute[TResult](Expression expression)
+   at Remotion.Linq.QueryableBase`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Orchard.Utility.Extensions.ReadOnlyCollectionExtensions.ToReadOnlyCollection[T](IEnumerable`1 enumerable) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\Utility\Extensions\ReadOnlyCollectionExtensions.cs:line 8
+   at Orchard.Data.Repository`1.Orchard.Data.IRepository<T>.Fetch(Expression`1 predicate) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\Data\Repository.cs:line 72
+   at Contrib.Taxonomies.Services.TaxonomyService.DeleteAssociatedTerms(ContentItem contentItem)
+   at Contrib.Taxonomies.Handlers.TermPartHandler.<>c__DisplayClass4.<.ctor>b__0(RemoveContentContext context, IContent tags)
+   at Orchard.ContentManagement.Handlers.ContentHandler.InlineStorageFilter`1.Removed(RemoveContentContext context, TPart instance) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 168
+   at Orchard.ContentManagement.Handlers.StorageFilterBase`1.Orchard.ContentManagement.Handlers.IContentStorageFilter.Removed(RemoveContentContext context) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\ContentManagement\Handlers\StorageFilterBase.cs:line 101
+   at Orchard.ContentManagement.Handlers.ContentHandler.Orchard.ContentManagement.Handlers.IContentHandler.Removed(RemoveContentContext context) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\ContentManagement\Handlers\ContentHandler.cs:line 298
+   at Orchard.ContentManagement.DefaultContentManager.<>c__DisplayClass48.<Remove>b__47(IContentHandler handler) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\ContentManagement\DefaultContentManager.cs:line 409
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in f:\AzureWeb\BackUp 06.02.19.25\src\Orchard\InvokeExtensions.cs:line 17

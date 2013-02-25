@@ -1,0 +1,8 @@
+﻿@using Orchard.Utility.Extensions;
+
+@if (HasText(Model.Value))
+{
+    <div class="preview-text-wrapper">
+        @(new MvcHtmlString(Html.Encode((HtmlString)Model.Value).ReplaceNewLinesWith("<br />")))
+    </div>
+}

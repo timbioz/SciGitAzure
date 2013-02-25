@@ -1,0 +1,21 @@
+﻿@*@model Onestop.Navigation.Breadcrumbs.ViewModels.BreadcrumbsSettingsViewModel
+           @{
+               Model.UseDefault = string.IsNullOrWhiteSpace(Model.DefaultProvider);
+           }
+<fieldset>
+    <legend>@T("Breadcrumbs settings")</legend>
+    <div>
+        <div>
+            @Html.LabelFor(m => m.DefaultProvider, T("Default breadcrumb provider"))
+            <select id="@Html.FieldIdFor(m => m.DefaultProvider)" name="@Html.FieldNameFor(m => m.DefaultProvider)">
+                @foreach (var p in Model.Providers)
+                {
+                    @Html.SelectOption(Model.DefaultProvider, p.Name, p.DisplayText)
+                }
+            </select>
+            or
+            @Html.EditorFor(m => m.UseDefault)&nbsp;<label class="forcheckbox" for="@Html.FieldIdFor(m => m.UseDefault)">@T("Use default setting")</label>
+            <span class="hint">@T("Select the default provider which will be used by default for this type.")</span>
+        </div>
+    </div>
+</fieldset>*@

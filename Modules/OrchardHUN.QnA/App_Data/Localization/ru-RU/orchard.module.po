@@ -1,0 +1,131 @@
+# Orchard resource strings - ru-RU
+# Copyright (c) 2010 Outercurve Foundation
+# All rights reserved
+# This file is distributed under the BSD license
+
+#: ~/Modules/OrchardHUN.QnA/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/OrchardHUN.QnA/Module.txt"
+msgid "Questions & Answers"
+msgstr "Вопросы и ответы"
+
+#: ~/Modules/OrchardHUN.QnA/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/OrchardHUN.QnA/Module.txt"
+msgid "The Orchard Hungary Team"
+msgstr "Венгерская команда Orchard"
+
+#: ~/Modules/OrchardHUN.QnA/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/OrchardHUN.QnA/Module.txt"
+msgid "http://orchardqna.codeplex.com/"
+msgstr "http://orchardqna.codeplex.com/"
+
+#: ~/Modules/OrchardHUN.QnA/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/OrchardHUN.QnA/Module.txt"
+msgid "A lightweight discussions module with discussion pools and organizing through tags."
+msgstr "Легкий модуль дискуссий с пулом дискуссий, организованный через теги."
+
+#: ~/Modules/OrchardHUN.QnA/Module.txt
+#| msgid "OrchardHUN.QnA.Name"
+msgctxt "~/Modules/OrchardHUN.QnA/Module.txt"
+msgid "Questions & Answers"
+msgstr "Вопросы и ответы"
+
+#: ~/Modules/OrchardHUN.QnA/Module.txt
+#| msgid "OrchardHUN.QnA.Description"
+msgctxt "~/Modules/OrchardHUN.QnA/Module.txt"
+msgid "A lightweight discussions module with discussion pools"
+msgstr "Легкий модуль дискуссий с пулом дискуссий"
+
+#: ~/Modules/OrchardHUN.QnA/Module.txt
+#| msgid "OrchardHUN.QnA.Category"
+msgctxt "~/Modules/OrchardHUN.QnA/Module.txt"
+msgid "Community"
+msgstr "Сообщество"
+
+#: OrchardHUN.QnA.Migrations
+#| msgid "Questions & Answers"
+msgctxt "OrchardHUN.QnA.Migrations"
+msgid "Questions & Answers"
+msgstr "Вопросы и ответы"
+
+#: OrchardHUN.QnA.Migrations
+#| msgid "QnA Discussion Pool"
+msgctxt "OrchardHUN.QnA.Migrations"
+msgid "QnA Discussion Pool"
+msgstr "Пул дискуссий Вопросы и Ответы"
+
+#: OrchardHUN.QnA.Migrations
+#| msgid "Categories"
+msgctxt "OrchardHUN.QnA.Migrations"
+msgid "Categories"
+msgstr "Категории"
+
+#: OrchardHUN.QnA.Migrations
+#| msgid "QnA Discussion"
+msgctxt "OrchardHUN.QnA.Migrations"
+msgid "QnA Discussion"
+msgstr "Дискуссии Вопросы и ответы"
+
+#: .Routes
+#| msgid "NewDiscussion"
+msgctxt ".Routes"
+msgid "NewDiscussion"
+msgstr "Новая дискуссия"
+
+#: OrchardHUN.QnA.Controllers.QnADiscussionsController
+#| msgid "You haven't selected any categories."
+msgctxt "OrchardHUN.QnA.Controllers.QnADiscussionsController"
+msgid "You haven't selected any categories."
+msgstr "Вы не выбрали ни одной категории."
+
+#: OrchardHUN.QnA.Controllers.QnADiscussionsController
+#| msgid "Please log in to create a new discussion"
+msgctxt "OrchardHUN.QnA.Controllers.QnADiscussionsController"
+msgid "Please log in to create a new discussion"
+msgstr "Пожалуйста, войдите в систему для созхания новой дискуссии"
+
+#: ~/Modules/OrchardHUN.QnA/Views/NewDiscussion.cshtml
+#| msgid "Start new discussion"
+msgctxt "~/Modules/OrchardHUN.QnA/Views/NewDiscussion.cshtml"
+msgid "Start new discussion"
+msgstr "Начать новую дискуссию"
+
+#: ~/Modules/OrchardHUN.QnA/Views/NewDiscussion.cshtml
+#| msgid "The discussion could not be started. Please correct the errrors below."
+msgctxt "~/Modules/OrchardHUN.QnA/Views/NewDiscussion.cshtml"
+msgid "The discussion could not be started. Please correct the errrors below."
+msgstr "Дискуссия не может быть начата. Пожалуйста, исправьте нижеследующие ошибки."
+
+#: ~/Modules/OrchardHUN.QnA/Views/NewDiscussionTitlePart.cshtml
+#| msgid "Title"
+msgctxt "~/Modules/OrchardHUN.QnA/Views/NewDiscussionTitlePart.cshtml"
+msgid "Title"
+msgstr "Заголовок"
+
+#: ~/Modules/OrchardHUN.QnA/Views/Parts/DiscussionAdministrationLink.cshtml
+#| msgid "edit"
+msgctxt "~/Modules/OrchardHUN.QnA/Views/Parts/DiscussionAdministrationLink.cshtml"
+msgid "edit"
+msgstr "редактировать"
+
+#: ~/Modules/OrchardHUN.QnA/Views/Parts/DiscussionAdministrationLink.cshtml
+#| msgid "remove"
+msgctxt "~/Modules/OrchardHUN.QnA/Views/Parts/DiscussionAdministrationLink.cshtml"
+msgid "remove"
+msgstr "удалить"
+
+#: ~/Modules/OrchardHUN.QnA/Views/Parts/DiscussionAdministrationLink.cshtml
+#| msgid "Are you sure you want to remove this element?"
+msgctxt "~/Modules/OrchardHUN.QnA/Views/Parts/DiscussionAdministrationLink.cshtml"
+msgid "Are you sure you want to remove this element?"
+msgstr "Вы уверены, что хотите удалить этот элемент?"
+
+#: ~/Modules/OrchardHUN.QnA/Views/Parts/NewDiscussionLink.cshtml
+#| msgid "Start new discussion"
+msgctxt "~/Modules/OrchardHUN.QnA/Views/Parts/NewDiscussionLink.cshtml"
+msgid "Start new discussion"
+msgstr "Начать новую дискуссию"
+

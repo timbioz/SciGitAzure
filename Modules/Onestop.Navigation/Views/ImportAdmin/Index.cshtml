@@ -1,0 +1,23 @@
+﻿@using Orchard.ContentManagement
+@using Orchard.ContentManagement.Aspects
+@model Onestop.Navigation.ViewModels.CsvImportIndexViewModel
+@{ 
+    Layout.Title = T("Import menu items for menu '{0}'", Model.Menu.As<ITitleAspect>().Title);
+}
+<div>
+@T("Menu items, one per line, should be entered in the form [Text];[URL];[Position] (all values separated with a semicolon), eg. 'My Page;/mypage;1.2' etc.")
+</div>
+@using (Html.BeginFormAntiForgeryPost())
+{
+    <fieldset>
+        <legend>@T("MenuItems")</legend>
+        <div>
+        @Html.TextArea("MenuItems", Model.Text, 20, 20, new{})
+        @Html.Hidden("MenuName", Model.Menu.As<ITitleAspect>().Title)
+        </div>
+    </fieldset>
+    <fieldset>
+        <span class="hint">@T("Importing can take a while. Please be patient and do not refresh the page until the operation has finished.")</span>
+        <button class="primaryAction" type="submit">@T("Do import!")</button>
+    </fieldset>
+}

@@ -1,0 +1,37 @@
+﻿@using Orchard.Utility.Extensions;
+@{
+    if (Model.Title != null)
+    {
+        Layout.Title = Model.Title;
+    }
+
+    var contentTypeClassName = ((string)Model.ContentItem.ContentType).HtmlClassify();
+    var terms = (IEnumerable<Contrib.Taxonomies.Models.TermPart>)Model.ContentItem.SectionsPart.PublicationTheme.Terms;
+}
+<article class="homerecent-next type-summary post post-page content-item @contentTypeClassName">
+    @if (Model.Image != null)
+    {
+        <div class="home-firstpost-image">
+            <a href="@Model.ContentItem.AutoroutePart.Path" title="Читать публикацию: @Model.ContentItem.TitlePart.Title">@Display(Model.Image)</a>
+        </div>
+    }
+    
+    <div class="smallthemehome-wrapper">
+        <h2>
+            @(new HtmlString(string.Join(", ", terms.Select(t => Html.ItemDisplayLink(t.Name, t.ContentItem).ToString()).ToArray())))
+        </h2>
+    </div>
+    
+    <header class="home-firstpost-header">
+        <h3><a href="@Model.ContentItem.AutoroutePart.Path" title="Читать публикацию: @Model.ContentItem.TitlePart.Title">@Model.ContentItem.TitlePart.Title</a></h3>
+        @if (Model.Subtitle != null)
+        {
+            <p>
+                <a href="@Model.ContentItem.AutoroutePart.Path" title="Читать публикацию: @Model.ContentItem.TitlePart.Title">@Model.ContentItem.SubTitle.Fields[0].Value</a>
+            </p>
+        }
+    </header>
+    <div class="latest-news">
+        <h1 id="next-title-1"><img src="~/Themes/Scicentr/Content/arrow-down-right.png" />Последние Новости Науки и Техники</h1>
+    </div>
+</article>

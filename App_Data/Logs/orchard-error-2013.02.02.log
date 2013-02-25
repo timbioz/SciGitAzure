@@ -1,0 +1,40 @@
+2013-02-02 20:15:36,450 [9] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - NullReferenceException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в Scicentr.Code.ContentShapeProvider.<Discover>b__3(ShapeDisplayingContext displaying)
+   в Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:строка 68
+   в Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\InvokeExtensions.cs:строка 17
+2013-02-02 20:15:36,477 [9] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - RemotingException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+System.Runtime.Remoting.RemotingException: Объект "/d7fea7e1_0dac_4dd9_ada9_223bae61fda7/eknp7vfktzushdjezvg2fa5q_9.rem" был отсоединен или не существует на сервере.
+   в Microsoft.VisualStudio.WebHost.Connection.get_RemoteIP()
+   в Microsoft.VisualStudio.WebHost.Request.GetRemoteAddress()
+   в System.Web.HttpWorkerRequest.IsLocal()
+   в System.Web.HttpRequestWrapper.get_IsLocal()
+   в Orchard.DesignerTools.Services.ShapeTracingFactory.IsActivable()
+   в Orchard.DesignerTools.Services.ShapeTracingFactory.OnDisplaying(ShapeDisplayingContext context)
+   в Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__5(Action`1 action) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:строка 78
+   в Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\InvokeExtensions.cs:строка 17
+2013-02-02 22:00:10,052 [13] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - NullReferenceException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в Scicentr.Code.ContentShapeProvider.<Discover>b__3(ShapeDisplayingContext displaying)
+   в Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:строка 68
+   в Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\InvokeExtensions.cs:строка 17
+2013-02-02 22:03:16,375 [22] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - NullReferenceException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в Scicentr.Code.ContentShapeProvider.<Discover>b__3(ShapeDisplayingContext displaying) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard.Web\Themes\Scicentr\Code\ContentLayoutFilter.cs:строка 69
+   в Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:строка 68
+   в Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\InvokeExtensions.cs:строка 17
+2013-02-02 22:04:04,887 [50] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - NullReferenceException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в Scicentr.Code.ContentShapeProvider.<Discover>b__3(ShapeDisplayingContext displaying) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard.Web\Themes\Scicentr\Code\ContentLayoutFilter.cs:строка 69
+   в Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:строка 68
+   в Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\InvokeExtensions.cs:строка 17
+2013-02-02 22:04:31,183 [33] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - NullReferenceException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в Scicentr.Code.ContentShapeProvider.<Discover>b__3(ShapeDisplayingContext displaying) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard.Web\Themes\Scicentr\Code\ContentLayoutFilter.cs:строка 69
+   в Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:строка 68
+   в Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\InvokeExtensions.cs:строка 17
+2013-02-02 22:07:34,382 [7] Orchard.DisplayManagement.Implementation.DefaultDisplayManager - NullReferenceException thrown from Action`1 by System.Action`1[[Orchard.DisplayManagement.Implementation.ShapeDisplayingContext, Orchard.Framework, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null]]
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в Scicentr.Code.ContentShapeProvider.<Discover>b__3(ShapeDisplayingContext displaying) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard.Web\Themes\Scicentr\Code\ContentLayoutFilter.cs:строка 69
+   в Orchard.DisplayManagement.Implementation.DefaultDisplayManager.<>c__DisplayClassc.<Execute>b__3(Action`1 action) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:строка 68
+   в Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) в f:\AzureWeb\SciCenter-DevSource(3b2d1e68942d)\src\Orchard\InvokeExtensions.cs:строка 17

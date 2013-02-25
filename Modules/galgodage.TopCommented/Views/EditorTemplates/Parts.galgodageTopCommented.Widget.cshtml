@@ -1,0 +1,18 @@
+﻿@model galgodage.TopCommented.ViewModels.galgodageTopCommentedWidgetViewModel
+
+<fieldset>
+    <div>
+        @Html.LabelFor(m => m.Part.ForContentPart, T("For Content Part"))
+        <select id="@Html.FieldIdFor(m => m.Part.ForContentPart)" name="@Html.FieldNameFor(m => m.Part.ForContentPart)">
+        @foreach(var part in Model.ContentPartNames) {
+            @Html.SelectOption(Model.Part.ForContentPart, part, part)
+        }
+        </select>
+        <span class="hint">@T("Select which Content Part you want to display the recent posts for")</span>
+    </div>
+    <div>
+        @Html.LabelFor(m => m.Part.Count, T("Count"))
+        @Html.TextBoxFor(m => m.Part.Count)
+    </div>
+   
+</fieldset>

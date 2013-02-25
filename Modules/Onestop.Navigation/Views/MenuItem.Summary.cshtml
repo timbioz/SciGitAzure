@@ -1,0 +1,136 @@
+﻿@using Onestop.Navigation.Models
+@using Orchard.ContentManagement
+@using Orchard.Core.Common.Models
+@using Orchard.Core.Navigation.Models
+@using Orchard.Utility.Extensions
+@{
+    var item = Model.Item.ExtendedMenuItemPart as ExtendedMenuItemPart;
+    var published = item.PublishedVersion.As<ExtendedMenuItemPart>();
+
+    var removeConfirmTitle = T("Confirm item removal").Text;
+    var removeConfirmMessage = T("You are about to remove a line item from the navigation. This action will remove this and all other items listed beneath it (as shown below).<br/><br/><b>Do you want to continue?</b>").Text;
+    var allowEdit = Model.AllowEdit != null && (bool)Model.AllowEdit;
+}
+
+<div class="wrapper @(item.IsRemoved ? "removed" : (item.IsChanged) ? "changed" : "current") @(item.IsNew ? "new" : "") @(item.HasPublished ? "published" : "")">
+    <div class="header item-@item.ContentItem.ContentType.ToSafeName()">
+        <span class="description">
+            @if (item.IsChanged && published.Text != item.Text)
+            {
+                @Html.ItemDisplayText(published)
+                @:&rarr;
+                <b>@Html.ItemAdminLink(item)</b>
+            }
+            else
+            {
+                @Html.ItemAdminLink(item)
+            }
+            &nbsp;<i>(@item.ContentItem.TypeDefinition.DisplayName)</i>
+        </span>
+        @if (!string.IsNullOrWhiteSpace(item.SubTitle))
+        {
+            <h6><i>@item.SubTitle</i></h6>
+        }
+
+    </div>
+    <span class="position">
+        @if (!item.IsDraft)
+        {
+            if (item.IsChanged && published.Position != item.Position)
+            {
+                @published.Position 
+                @:&rarr;
+                <b>@(item.Position ?? "")</b>
+            }
+            else
+            {
+                @(item.Position ?? "")
+            }
+            
+        }
+        else
+        {
+            if (allowEdit)
+            {
+            <div class="enter-position">
+                Click to edit
+            </div>
+            }
+        }
+    </span><span class="url">
+        @if (item.Is<ContentMenuItemPart>())
+        {
+            if (item.As<ContentMenuItemPart>().Content != null)
+            {
+                @Html.ItemDisplayLink(item.As<ContentMenuItemPart>().Content)
+            }
+            else
+            {
+            <i>Content not set</i>
+            }
+        }
+        else if (item.Is<MenuItemPart>())
+        {
+            if (item.IsChanged && published.Url != item.Url)
+            {
+                @published.Url
+                @:&rarr;
+                <b>@item.Url</b>
+            }
+            else
+            {
+                @item.Url   
+            }
+        }
+        else
+        {
+            <i>Not applicable</i>
+        }
+    </span><span class="status">
+        <img data-forclass="published" src="@Href("~/Modules/Onestop.Navigation/Content/Images/dot_green.png")" rel="tooltip" title="@T("Published - one of the versions of this item is already published")"/>
+        <img data-forclass="new" src="@Href("~/Modules/Onestop.Navigation/Content/Images/dot_blue.png")" rel="tooltip" title="@T("New")"/>
+        <img data-forclass="changed" src="@Href("~/Modules/Onestop.Navigation/Content/Images/dot_yellow.png")" rel="tooltip" title="@T("Changed - item has a pending change")"/>
+        <img data-forclass="removed" src="@Href("~/Modules/Onestop.Navigation/Content/Images/dot_red.png")" rel="tooltip" title="@T("Removed - item is pending for removal")"/>
+
+        @if (item.IsChanged)
+        {
+            <a href="@(Url.Action("Index", "MenuAdmin", new { menuId = item.Menu.Id, mode = Onestop.Navigation.Models.DisplayMode.Draft, area = "Onestop.Navigation" }))">
+                @T("Modified: ") <i>@(item.As<CommonPart>().ModifiedUtc.HasValue ? (IHtmlString)Display.DateTimeRelative(dateTimeUtc: item.As<CommonPart>().ModifiedUtc) : T("never"))</i>
+            </a>
+        }
+        else
+        {
+            @T("Modified: ") <i>@(item.As<CommonPart>().VersionModifiedUtc.HasValue ? (IHtmlString)Display.DateTimeRelative(dateTimeUtc: item.As<CommonPart>().VersionModifiedUtc) : T("never"))</i>
+        }
+        @if (item.Is<IVersionAspect>() && item.As<IVersionAspect>().Author != null)
+        {
+            @T("by <i>{0}</i>", item.As<IVersionAspect>().Author.UserName)
+        }
+    </span>
+    <span class="actions">
+        @if (allowEdit)
+        {
+
+            @Html.Link(T("Edit").Text, Url.ItemEditUrl(item), new { @class = "btn btn-small" })
+
+            <span data-forclass="removed">
+                @Html.Link(T("Restore").Text, Url.Action("UndeleteItem", "MenuAdmin", new { area = "Onestop.Navigation", menuId = item.Menu.Id, versionId = item.ContentItem.VersionRecord.Id }), new { itemprop = "AjaxUrl", @class = "btn btn-small btn-success", onclick = "return false;" })
+            </span>
+            <span data-notforclass="removed">
+                @Html.Link(T("Remove").Text, Url.Action("DeleteItem", "MenuAdmin", new { area = "Onestop.Navigation", menuId = item.Menu.Id, itemId = item.Id }),
+                           new Dictionary<string, object>()
+                               {
+                                   {"data-type", "modal"},
+                                   {"data-title", removeConfirmTitle},
+                                   {"data-text", removeConfirmMessage},
+                                   {"data-preview", "#item-" + item.Id + " .header"},
+                                   {"itemprop", "RequiresConfirm AjaxUrl"},
+                                   {"class", "btn btn-small btn-danger"},
+                                   {"onclick", "return false;"}
+                               })
+
+            </span>
+
+        }
+    </span>
+</div>

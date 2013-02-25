@@ -1,0 +1,157 @@
+﻿@model Onestop.Navigation.Models.ImageMenuItemPart
+@{ 
+    Style.Require("MenuAdmin");
+    Script.Require("MenuAdminScripts");
+}
+
+<fieldset>
+    <legend>@T("Image settings")</legend>
+    <div>
+        @Html.LabelFor(m => m.Source, T("Image to display"))
+        @Html.TextBoxFor(m => m.Source, new { @class = "textMedium", @readonly = "readonly" })
+        <span id="btn-mediapicker" class="button">@T("Browse")</span> <span class="hint">
+            @T("Choose the image that will be displayed inside this menu item.")
+        </span>
+    </div>
+    <div>
+        <div id="media-largepreview" class="image-preview" style="width: 300px; height: 300px; display: block;">
+            @if (Model.Source != null) {
+                @Html.Image(Url.Content(Model.Source), 
+                            Model.AlternateText,
+                            new {
+                                    width = Model.Width,
+                                    height = Model.Height,
+                                    @class = Model.Class,
+                                    style = Model.Style,
+                                    id = "img-preview"
+                                })
+            }
+            else {
+                <img alt="@T("Preview of Image")" id="img-preview-empty" style="width: 300px; height: 300px; display:inline;" src="@Url.Content("~/modules/orchard.mediapicker/Styles/images/imagepreview.png")" />
+            }
+        </div>
+    </div>
+    @Html.HiddenFor(m => m.AlternateText)
+    @Html.HiddenFor(m => m.Class)
+    @Html.HiddenFor(m => m.Style)
+    @Html.HiddenFor(m => m.Alignment)
+    @Html.HiddenFor(m => m.Width)
+    @Html.HiddenFor(m => m.Height)
+</fieldset>
+@using (Script.Foot())
+{
+    <script type="text/javascript">
+        //<![CDATA[
+        $(document).ready(function () {
+            var image = $('#img-preview');
+            if (image) {
+                $('#img-preview').css({
+                    display: "inline",
+                    width: image.attr("width"),
+                    height: image.attr("height")
+                });
+
+                $('#media-largepreview').css({
+                    width: image.attr("width"),
+                    height: image.attr("height"),
+                    display: "block"
+                });
+            }
+
+
+        });
+
+        $('#btn-mediapicker').click(function () {
+            var image = $('#img-preview');
+            var editImg = null;
+            if (image) {
+                editImg = {
+                    src: image.attr("src"),
+                    "class": image.attr("class"),
+                    style: image.css("cssText"),
+                    alt: image.attr("alt"),
+                    width: image.attr("width"),
+                    height: image.attr("height"),
+                    align: image.attr("align")
+                };
+            }
+            $('#btn-mediapicker').trigger("orchard-admin-pickimage-open", {
+                img: editImg,
+                uploadMediaPath: 'images',
+                callback: function (data) {
+                    var applicationPath = '@Url.RequestContext.HttpContext.Request.ApplicationPath.ToLower()';
+                    if (!/\/$/.test(applicationPath)) {
+                        applicationPath += '/';
+                    }
+
+                    var url = data.img.src;
+
+                    if (url.substr(0, 4) != "http") {
+                        url = '~/' + url.substr(applicationPath.length);
+                    }
+                    $('#@Html.FieldIdFor(m => m.Source)').val(url);
+
+                    var alternateText = data.img.alt;
+                    $('#@Html.FieldIdFor(m => m.AlternateText)').val(alternateText);
+
+                    var _class = data.img['class'];
+                    $('#@Html.FieldIdFor(m => m.Class)').val(_class);
+
+                    var style = data.img.style;
+                    $('#@Html.FieldIdFor(m => m.Style)').val(style);
+
+                    var align = data.img.align;
+                    $('#@Html.FieldIdFor(m => m.Alignment)').val(align);
+
+                    var defaults = getImgDefaultSize(data.img.src);
+                    var width = data.img.width ? data.img.width : defaults.width;
+                    $('#@Html.FieldIdFor(m => m.Width)').val(width);
+
+                    var height = data.img.height ? data.img.height : defaults.height;
+                    $('#@Html.FieldIdFor(m => m.Height)').val(height);
+
+                    setPreview(data.img.src, alternateText, _class, style, align, width, height);
+
+                }
+            });
+        });
+
+        function setPreview(src, alt, _class, style, align, width, height) {
+            var html = '<img id="img-preview" src="' + src + '"' + getAttr("alt", alt || "")
+            + getAttr("class", _class)
+            + getAttr("style", style)
+            + getAttr("align", align)
+            + getAttr("width", width)
+            + getAttr("height", height)
+            + "/>";
+
+            $('#media-largepreview').html(html);
+            $('#img-preview').css({
+                width: width,
+                height: height,
+                display: "inline"
+            });
+
+            $('#media-largepreview').css({
+                width: width,
+                height: height,
+                display: "block"
+            });
+        }
+
+        function getImgDefaultSize(src) {
+            var newImg = new Image();
+            newImg.src = src;
+            return {
+                height: newImg.height,
+                width: newImg.width
+            };
+        }
+
+        function getAttr(name, value) {
+            if (!value && name !== "alt") return "";
+            return ' ' + name + '="' + value + '"';
+        }
+        //]]>
+    </script>
+}

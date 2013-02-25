@@ -1,0 +1,17 @@
+﻿@using Onestop.Navigation.Models
+@{
+    ExtendedMenuItemPart item = Model.Content.ExtendedMenuItemPart;
+}
+
+@if (item.DisplayText){
+     if (item.DisplayHref) {
+         <a href="@(Model.Href)" class="@(string.Join(" ", Model.Classes))" @(item.InNewWindow ? "target=\"_blank\"" : "")>@Model.Text</a>
+     }
+     else {
+         <div class="@(string.Join(" ", Model.Classes))">@Model.Href</div>
+     }
+
+     if (item.SubTitle != null) {
+         <div class="subtitle">@item.SubTitle</div>
+     }
+ }

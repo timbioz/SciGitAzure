@@ -1,0 +1,15 @@
+﻿@* 
+    ContentPart: galgodageTopCommentedWidgetPart
+    ContentItems: List
+*@
+
+@{
+    IEnumerable<object> contentItems = Model.ContentItems;
+    Model.ContentItems.Classes.Add("content-items");
+    Model.ContentItems.Classes.Add("recent-widget");
+}
+
+@Display(Model.ContentItems)
+@if (contentItems == null || contentItems.Count() == 0) {
+<p>@T("There are no recent content.")</p>
+}

@@ -1,0 +1,46 @@
+﻿@using Orchard.ContentManagement;
+@{
+    IEnumerable<object> contentItems = Model.ContentItems;
+    int iterator = 0;
+}
+
+<div class="title-theme-wrapper">
+    <h4>ПОПУЛЯРНЫЕ СТАТЬИ</h4>
+</div>
+
+<ul class="content-items">
+    @foreach (dynamic items in contentItems)
+    {
+        ContentItem item = items.ContentItem;
+        string title = items.ContentItem.TitlePart.Title;
+        string subTitle = items.ContentItem.SubTitle.Fields[0].Value;
+        string url = Url.ItemDisplayUrl(item);
+        string imageUrl = Href(items.ContentItem.MainImagePart.PublicationImage.Url);
+        string imageAlt = items.ContentItem.MainImagePart.PublicationImage.AlternateText;
+
+        if (iterator == 0)
+        {
+        <li class="fpmp-sidebar">
+            <h3><a title="Перейти к новости: @title" href="@url">@title</a></h3>
+            <a title="Перейти к новости: @title" href="@url">
+                <img src="@imageUrl" title="Просмотреть: @subTitle" alt="@imageAlt"/>
+            </a>
+            <a class="slofp" title="Перейти к новости: @title" href="@url">@subTitle <span class="scobs">&#187;</span></a>
+            <hr />
+        </li>
+        }
+        else
+        {
+        <li>
+            <a title="Перейти к новости: @title" href="@url">@title</a>
+            <hr />
+        </li>
+        }
+
+        iterator++;
+    }
+
+</ul>
+<div class="read-more-block">
+    <a title="Просмотреть все статьи" class="btn" href="articles">Еще Cтатьи <span>&#187;</span></a>
+</div>

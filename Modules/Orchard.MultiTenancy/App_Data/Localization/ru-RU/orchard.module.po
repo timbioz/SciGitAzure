@@ -1,0 +1,461 @@
+# Orchard resource strings - ru-RU
+# Copyright (c) 2010 Outercurve Foundation
+# All rights reserved
+# This file is distributed under the BSD license
+
+#: ~/Modules/Orchard.MultiTenancy/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Orchard.MultiTenancy/Module.txt"
+msgid "The Orchard Team"
+msgstr "Команда Orchard"
+
+#: ~/Modules/Orchard.MultiTenancy/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Orchard.MultiTenancy/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Modules/Orchard.MultiTenancy/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Orchard.MultiTenancy/Module.txt"
+msgid "The multi-tenancy module enables multiple Orchard sites to run in isolation inside of a single web application, improving site density on a single server or hosted account."
+msgstr "Модуль Multi Tenancy позволяет нескольким сайтов Orchard изолированно работать внутри одного веб-приложения, улучшая плотность сайта на одиночном сервере или учетной записи хостинга."
+
+#: ~/Modules/Orchard.MultiTenancy/Module.txt
+#| msgid "Orchard.MultiTenancy.Name"
+msgctxt "~/Modules/Orchard.MultiTenancy/Module.txt"
+msgid "Multi Tenancy"
+msgstr "Мульти-арендаторы"
+
+#: ~/Modules/Orchard.MultiTenancy/Module.txt
+#| msgid "Orchard.MultiTenancy.Description"
+msgctxt "~/Modules/Orchard.MultiTenancy/Module.txt"
+msgid "Configure multiple site tenants."
+msgstr "Конфигурирование сайта с мульти-арендаторами."
+
+#: ~/Modules/Orchard.MultiTenancy/Module.txt
+#| msgid "Orchard.MultiTenancy.Category"
+msgctxt "~/Modules/Orchard.MultiTenancy/Module.txt"
+msgid "Hosting"
+msgstr "Хостинг"
+
+#: Orchard.MultiTenancy.AdminMenu
+#| msgid "Tenants"
+msgctxt "Orchard.MultiTenancy.AdminMenu"
+msgid "Tenants"
+msgstr "Арендаторы"
+
+#: Orchard.MultiTenancy.AdminMenu
+#| msgid "List"
+msgctxt "Orchard.MultiTenancy.AdminMenu"
+msgid "List"
+msgstr "Список"
+
+#: Orchard.MultiTenancy.Commands.TenantCommand
+#| msgid "List of tenants"
+msgctxt "Orchard.MultiTenancy.Commands.TenantCommand"
+msgid "List of tenants"
+msgstr "Список арендаторов"
+
+#: Orchard.MultiTenancy.Commands.TenantCommand
+#| msgid "---------------------------"
+msgctxt "Orchard.MultiTenancy.Commands.TenantCommand"
+msgid "---------------------------"
+msgstr "---------------------------"
+
+#: Orchard.MultiTenancy.Commands.TenantCommand
+#| msgid "Name: "
+msgctxt "Orchard.MultiTenancy.Commands.TenantCommand"
+msgid "Name: "
+msgstr "Имя: "
+
+#: Orchard.MultiTenancy.Commands.TenantCommand
+#| msgid "Provider: "
+msgctxt "Orchard.MultiTenancy.Commands.TenantCommand"
+msgid "Provider: "
+msgstr "Провайдер:"
+
+#: Orchard.MultiTenancy.Commands.TenantCommand
+#| msgid "ConnectionString: "
+msgctxt "Orchard.MultiTenancy.Commands.TenantCommand"
+msgid "ConnectionString: "
+msgstr "Строка подключения: "
+
+#: Orchard.MultiTenancy.Commands.TenantCommand
+#| msgid "Data Table Prefix: "
+msgctxt "Orchard.MultiTenancy.Commands.TenantCommand"
+msgid "Data Table Prefix: "
+msgstr "Таблица префиксов"
+
+#: Orchard.MultiTenancy.Commands.TenantCommand
+#| msgid "Request Url Host: "
+msgctxt "Orchard.MultiTenancy.Commands.TenantCommand"
+msgid "Request Url Host: "
+msgstr "Хост URL запроса: "
+
+#: Orchard.MultiTenancy.Commands.TenantCommand
+#| msgid "Request Url Prefix: "
+msgctxt "Orchard.MultiTenancy.Commands.TenantCommand"
+msgid "Request Url Prefix: "
+msgstr "Префикс URL запроса: "
+
+#: Orchard.MultiTenancy.Commands.TenantCommand
+#| msgid "State: "
+msgctxt "Orchard.MultiTenancy.Commands.TenantCommand"
+msgid "State: "
+msgstr "Состояние:"
+
+#: Orchard.MultiTenancy.Commands.TenantCommand
+#| msgid "Creating tenant"
+msgctxt "Orchard.MultiTenancy.Commands.TenantCommand"
+msgid "Creating tenant"
+msgstr "Создать арендатора"
+
+#: Orchard.MultiTenancy.Commands.TenantCommand
+#| msgid "Tenant: "
+msgctxt "Orchard.MultiTenancy.Commands.TenantCommand"
+msgid "Tenant: "
+msgstr "Арендатор:"
+
+#: Orchard.MultiTenancy.Commands.TenantCommand
+#| msgid " was not found"
+msgctxt "Orchard.MultiTenancy.Commands.TenantCommand"
+msgid " was not found"
+msgstr " не найден"
+
+#: Orchard.MultiTenancy.Commands.TenantCommand
+#| msgid "Tenant Settings:"
+msgctxt "Orchard.MultiTenancy.Commands.TenantCommand"
+msgid "Tenant Settings:"
+msgstr "Настройки арендатора:"
+
+#: Orchard.MultiTenancy.Controllers.AdminController
+#| msgid "Cannot create tenant"
+msgctxt "Orchard.MultiTenancy.Controllers.AdminController"
+msgid "Cannot create tenant"
+msgstr "Невозможно создать арендатора"
+
+#: Orchard.MultiTenancy.Controllers.AdminController
+#| msgid "Couldn't create tenant"
+msgctxt "Orchard.MultiTenancy.Controllers.AdminController"
+msgid "Couldn't create tenant"
+msgstr "Не удалось создать арендатора"
+
+#: Orchard.MultiTenancy.Controllers.AdminController
+#| msgid "Creating Tenant failed: {0}"
+msgctxt "Orchard.MultiTenancy.Controllers.AdminController"
+msgid "Creating Tenant failed: {0}"
+msgstr "Создание арендатор не удалось: {0}"
+
+#: Orchard.MultiTenancy.Controllers.AdminController
+#| msgid "Cannot edit tenant"
+msgctxt "Orchard.MultiTenancy.Controllers.AdminController"
+msgid "Cannot edit tenant"
+msgstr "Невозможно править арендатора"
+
+#: Orchard.MultiTenancy.Controllers.AdminController
+#| msgid "Couldn't edit tenant"
+msgctxt "Orchard.MultiTenancy.Controllers.AdminController"
+msgid "Couldn't edit tenant"
+msgstr "Не удалось править арендатора"
+
+#: Orchard.MultiTenancy.Controllers.AdminController
+#| msgid "Failed to edit tenant: {0} "
+msgctxt "Orchard.MultiTenancy.Controllers.AdminController"
+msgid "Failed to edit tenant: {0} "
+msgstr "Не удалось править арендатора: {0}"
+
+#: Orchard.MultiTenancy.Controllers.AdminController
+#| msgid "Couldn't disable tenant"
+msgctxt "Orchard.MultiTenancy.Controllers.AdminController"
+msgid "Couldn't disable tenant"
+msgstr "Не удалось отключить арендатора"
+
+#: Orchard.MultiTenancy.Controllers.AdminController
+#| msgid "Couldn't enable tenant"
+msgctxt "Orchard.MultiTenancy.Controllers.AdminController"
+msgid "Couldn't enable tenant"
+msgstr "Не удалось включить арендатора"
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml
+#| msgid "Add New Tenant"
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml"
+msgid "Add New Tenant"
+msgstr "Добавить нового арендатора"
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml"
+msgid "Name"
+msgstr "Имя"
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml
+#| msgid "Host"
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml"
+msgid "Host"
+msgstr "Хост"
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml
+#| msgid "Example: If host is 'orchardproject.net', the tenant site URL is 'http://orchardproject.net/'"
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml"
+msgid "Example: If host is 'orchardproject.net', the tenant site URL is 'http://orchardproject.net/'"
+msgstr "Пример: если хост 'orchardproject.net', адрес url страницы арендатора 'http://orchardproject.net/'"
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml
+#| msgid "Database Setup"
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml"
+msgid "Database Setup"
+msgstr "Настройка Базы Данных"
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml
+#| msgid "Allow the tenant to set up the database"
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml"
+msgid "Allow the tenant to set up the database"
+msgstr "Разрешить арендатору настройку базы данных"
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml
+#| msgid "Use built-in data storage (SQL Server Compact)"
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml"
+msgid "Use built-in data storage (SQL Server Compact)"
+msgstr "Использовать встроенное хранилище данных (SQL Server Compact)"
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml
+#| msgid "Use an existing SQL Server (or SQL Express) database"
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml"
+msgid "Use an existing SQL Server (or SQL Express) database"
+msgstr "Использовать существующую базу данных SQL сервера (или SQL Express)"
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml
+#| msgid "Connection string"
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml"
+msgid "Connection string"
+msgstr "Строка подключения"
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml
+#| msgid "Example:"
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml"
+msgid "Example:"
+msgstr "Пример: "
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml
+#| msgid "Data Source=sqlServerName;Initial Catalog=dbName;Persist Security Info=True;User ID=userName;Password=password"
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml"
+msgid "Data Source=sqlServerName;Initial Catalog=dbName;Persist Security Info=True;User ID=userName;Password=password"
+msgstr "Data Source=sqlServerName;Initial Catalog=dbName;Persist Security Info=True;User ID=userName;Password=password"
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml
+#| msgid "Database Table Prefix"
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml"
+msgid "Database Table Prefix"
+msgstr "Префикс таблиц базы банных"
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml
+#| msgid "Save"
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml"
+msgid "Save"
+msgstr "Сохранить"
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Edit.cshtml
+#| msgid "Edit Tenant"
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Edit.cshtml"
+msgid "Edit Tenant"
+msgstr "Править арендатора"
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Edit.cshtml
+#| msgid "Host"
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Edit.cshtml"
+msgid "Host"
+msgstr "Хост"
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Edit.cshtml
+#| msgid "Example: If host is \"orchardproject.net\", the tenant site URL is \"http://orchardproject.net/\""
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Edit.cshtml"
+msgid "Example: If host is \"orchardproject.net\", the tenant site URL is \"http://orchardproject.net/\""
+msgstr "Пример: Если хост «orchardproject.net», то URL арендуемого сайта «http://orchardproject.net»"
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Edit.cshtml
+#| msgid "Database Setup"
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Edit.cshtml"
+msgid "Database Setup"
+msgstr "Настройка Базы Данных"
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Edit.cshtml
+#| msgid "Warning: If you don't know what you're doing you *will* (likely) send this tenant into a downward spiral of irrecoverable disrepair. Have a nice day."
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Edit.cshtml"
+msgid "Warning: If you don't know what you're doing you *will* (likely) send this tenant into a downward spiral of irrecoverable disrepair. Have a nice day."
+msgstr "Внимание: Если вы не знаете что делаете, вы (вероятно) отправите этого арендатора спускаться вниз по спирали необратимых поломок. Счастливого дня."
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Edit.cshtml
+#| msgid "Allow the tenant to set up the database"
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Edit.cshtml"
+msgid "Allow the tenant to set up the database"
+msgstr "Разрешить арендатору настройку базы данных"
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Edit.cshtml
+#| msgid "Use built-in data storage (SQL Server Compact)"
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Edit.cshtml"
+msgid "Use built-in data storage (SQL Server Compact)"
+msgstr "Использовать встроенное хранилище данных (SQL Server Compact)"
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Edit.cshtml
+#| msgid "Use an existing SQL Server (or SQL Express) database"
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Edit.cshtml"
+msgid "Use an existing SQL Server (or SQL Express) database"
+msgstr "Использовать существующую базу данных SQL сервера (или SQL Express)"
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Edit.cshtml
+#| msgid "Connection string"
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Edit.cshtml"
+msgid "Connection string"
+msgstr "Строка подключения"
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Edit.cshtml
+#| msgid "Example:"
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Edit.cshtml"
+msgid "Example:"
+msgstr "Пример: "
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Edit.cshtml
+#| msgid "Data Source=sqlServerName;Initial Catalog=dbName;Persist Security Info=True;User ID=userName;Password=password"
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Edit.cshtml"
+msgid "Data Source=sqlServerName;Initial Catalog=dbName;Persist Security Info=True;User ID=userName;Password=password"
+msgstr "Data Source=sqlServerName;Initial Catalog=dbName;Persist Security Info=True;User ID=userName;Password=password"
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Edit.cshtml
+#| msgid "Database Table Prefix"
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Edit.cshtml"
+msgid "Database Table Prefix"
+msgstr "Префикс таблиц базы банных"
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Edit.cshtml
+#| msgid "Save"
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Edit.cshtml"
+msgid "Save"
+msgstr "Сохранить"
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Index.cshtml
+#| msgid "List of Site's Tenants"
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Index.cshtml"
+msgid "List of Site's Tenants"
+msgstr "Список арендаторов сайта"
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Index.cshtml
+#| msgid "Add a Tenant"
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Index.cshtml"
+msgid "Add a Tenant"
+msgstr "Добавить арендатора"
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Index.cshtml
+#| msgid " | "
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Index.cshtml"
+msgid " | "
+msgstr " | "
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Index.cshtml
+#| msgid "Edit"
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Index.cshtml"
+msgid "Edit"
+msgstr "Править"
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/DisplayTemplates/ActionsForDisabled.cshtml
+#| msgid "Resume"
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/DisplayTemplates/ActionsForDisabled.cshtml"
+msgid "Resume"
+msgstr "Возобновить"
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/DisplayTemplates/ActionsForInvalid.cshtml
+#| msgid "Make Valid*"
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/DisplayTemplates/ActionsForInvalid.cshtml"
+msgid "Make Valid*"
+msgstr "Сделать действительным*"
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/DisplayTemplates/ActionsForRunning.cshtml
+#| msgid "Suspend"
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/DisplayTemplates/ActionsForRunning.cshtml"
+msgid "Suspend"
+msgstr "Приостановить"
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/DisplayTemplates/ActionsForUninitialized.cshtml
+#| msgid "Set Up"
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/DisplayTemplates/ActionsForUninitialized.cshtml"
+msgid "Set Up"
+msgstr "Настройка"
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml
+#| msgid "The name of the tenant as it will be displayed in the admin."
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml"
+msgid "The name of the tenant as it will be displayed in the admin."
+msgstr "Имя арендатора, как оно будет показываться в администрировании."
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml
+#| msgid "Available Themes"
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml"
+msgid "Available Themes"
+msgstr "Доступные темы"
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml
+#| msgid "Select the Themes which should be available for this tenant. If none is selected, they will all be available."
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml"
+msgid "Select the Themes which should be available for this tenant. If none is selected, they will all be available."
+msgstr "Выберите темы, которые должны быть доступны арендатору. Если ничего не выбрано, то будут доступны все темы."
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Edit.cshtml
+#| msgid "Available Themes"
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Edit.cshtml"
+msgid "Available Themes"
+msgstr "Доступные темы"
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Edit.cshtml
+#| msgid "Select the Themes which should be available for this tenant. If none is selected, they will all be available."
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Edit.cshtml"
+msgid "Select the Themes which should be available for this tenant. If none is selected, they will all be available."
+msgstr "Выберите темы, которые должны быть доступны арендатору. Если ничего не выбрано, то будут доступны все темы."
+
+#: Orchard.MultiTenancy.Controllers.AdminController
+#| msgid "Invalid tenant name. Must contain characters only and no spaces."
+msgctxt "Orchard.MultiTenancy.Controllers.AdminController"
+msgid "Invalid tenant name. Must contain characters only and no spaces."
+msgstr "Неверное имя арендатора. Должно содержать только буквы без пробелов."
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml
+#| msgid "Example: If host is \"orchardproject.net\", the tenant site URL is \"http://orchardproject.net/\""
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml"
+msgid "Example: If host is \"orchardproject.net\", the tenant site URL is \"http://orchardproject.net/\""
+msgstr "Пример: Если хост «orchardproject.net», то URL арендуемого сайта «http://orchardproject.net»"
+
+#: ~/Modules/Orchard.MultiTenancy/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.MultiTenancy/Module.txt"
+msgid "MultiTenancy"
+msgstr "Мульти-аренда"
+
+#: ~/Modules/Orchard.MultiTenancy/Module.txt
+#| msgid "Orchard.MultiTenancy Description"
+msgctxt "~/Modules/Orchard.MultiTenancy/Module.txt"
+msgid "Configure multiple site tenants."
+msgstr "Конфигурирование страницы мульти-арендаторов."
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml
+#| msgid "URL prefix"
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml"
+msgid "URL prefix"
+msgstr "Префикс URL"
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml
+#| msgid "(Optional) Example: If prefix is \"site1\", the tenant URL prefix is \"http://orchardproject.net/site1\""
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Add.cshtml"
+msgid "(Optional) Example: If prefix is \"site1\", the tenant URL prefix is \"http://orchardproject.net/site1\""
+msgstr "(Необязательно) Пример: Если префикс \"site1\", префикс адреса url арендатора \"http://orchardproject.net/site1\""
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Edit.cshtml
+#| msgid "URL prefix"
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Edit.cshtml"
+msgid "URL prefix"
+msgstr "Префикс URL"
+
+#: ~/Modules/Orchard.MultiTenancy/Views/Admin/Edit.cshtml
+#| msgid "(Optional) Example: If prefix is \"site1\", the tenant URL prefix is \"http://orchardproject.net/site1\""
+msgctxt "~/Modules/Orchard.MultiTenancy/Views/Admin/Edit.cshtml"
+msgid "(Optional) Example: If prefix is \"site1\", the tenant URL prefix is \"http://orchardproject.net/site1\""
+msgstr "(Необязательно) Пример: Если префикс \"site1\", префикс адреса url арендатора \"http://orchardproject.net/site1\""
+

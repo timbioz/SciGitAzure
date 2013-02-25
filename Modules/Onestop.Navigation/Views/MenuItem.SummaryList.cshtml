@@ -1,0 +1,18 @@
+﻿@using Onestop.Navigation.Models
+@{
+    var parent = Model.Parent as ExtendedMenuItemPart;
+    var differentiator = Model.Differentiator as string;
+    var classes = Model.Classes != null ? string.Join(" ", (IEnumerable<string>)Model.Classes) : "";
+    var allowEdit = Model.AllowEdit != null && (bool)Model.AllowEdit;
+}
+
+<ol class="itemlist @(parent == null ? "sortable" : "") @(allowEdit ? "enabled" : "disabled") @(classes)" 
+    id="list-@(differentiator)-@(parent != null ? parent.Id : 0)" 
+    data-parentid="@(parent != null ? parent.Id : 0)" 
+    data-updatesource="@((bool)Model.UpdateAfterDrop)">
+            @{
+                Model.Metadata.Alternates.Clear();
+                Model.Metadata.Type = "MenuItem_List";
+            }
+            @Display(Model)
+</ol> 

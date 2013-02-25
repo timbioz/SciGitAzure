@@ -1,0 +1,126 @@
+﻿@model Onestop.Navigation.Breadcrumbs.ViewModels.BreadcrumbsIndexViewModel
+@{
+    Layout.Title = T("Manage route patterns for breadcrumbs").ToString();
+    Script.Require("MenuAdminScripts");
+    Style.Require("MenuAdmin");
+}
+
+<div class="row-fluid">
+    <div class="sticky">
+        <ul class="nav nav-pills">
+            <li class="dropdown"><a class="btn-small dropdown-toggle" data-toggle="dropdown"
+                href="#"><i class="icon-plus"></i>&nbsp;<b>@T("Add new pattern")</b></a>
+                <div class="dropdown-menu dropdown-large">
+                    @using (Html.BeginFormAntiForgeryPost(Url.Action("Add", "BreadcrumbsAdmin", new { area = "Onestop.Navigation", returnUrl = Request.RawUrl }), FormMethod.Post, new { @class = "form-horizontal" }))
+                    {
+                        <div class="control-group">
+                            @Html.Label("Pattern", T("Pattern to add").Text, new { @class = "control-label" })
+                            <div class="controls">
+                                
+                                @Html.TextBox("Pattern", "", new { @class = "input-xxlarge", placeholder = T("Type pattern here, eg. {slug}/{category}/{this|that}/{id}").Text  })
+                                @Html.ValidationMessage("Pattern")
+                                <span class="help-block">@T("Pattern to match page URLs against.")</span>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            @Html.Label("Provider", T("Choose provider").Text, new { @class = "control-label" })
+                            <div class="controls">
+                                
+                                <select id="Provider" name="Provider" class="input-xlarge">
+                                    @foreach (var p in Model.Providers)
+                                    {
+                                        @Html.SelectOption(null, p.Name, p.DisplayText)
+                                    }
+                                </select>
+                                <span class="help-block">@T("Select a provider used to build breadcrumbs on all pages with URL matching a given pattern.")</span>
+                            </div>
+                        </div>
+                        <div class="form-actions">
+                            <input type="submit" class="btn button primaryAction pull-right" value="@T("Add")"/>
+                        </div>
+                    }
+                </div>
+            </li>
+            <li class="dropdown pull-right"><a class="btn-small dropdown-toggle" data-toggle="dropdown"
+                href="#"><i class="icon-question-sign"></i>&nbsp;<b>@T("Test pattern matching")</b></a>
+                <div class="dropdown-menu dropdown-large">
+                    @using (Html.BeginFormAntiForgeryPost(Url.Action("Index", "BreadcrumbsAdmin", new { area = "Onestop.Navigation" }), FormMethod.Post, new { @class = "form-inline" }))
+                    {
+                        <div class="pull-right">
+                            @Html.TextBoxFor(m => m.TestString, new { @class = "input-xlarge", placeholder = T("Type string to test here...").Text })
+                            <button type="submit" name="submit.Test" class="btn button primaryAction" value="yes">@T("Test!")</button>
+                        </div> 
+                    }
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<fieldset>
+    <legend>@T("Current patterns")</legend>
+    <table class="items">
+        <thead>
+            <th>@T("Pattern")</th>
+            <th>@T("Provider")</th>
+            <th></th>
+            <th></th>
+        </thead>
+        @foreach (var pattern in Model.Patterns)
+        {
+            var provider = Model.Providers.FirstOrDefault(p => p.Name.Equals(pattern.Provider, StringComparison.OrdinalIgnoreCase));
+            <tr>
+                <td>
+                    <b>@pattern.Pattern</b>
+
+                </td>
+                <td>
+                    @if (provider != null)
+                    {
+                        @provider.DisplayText
+                    }
+                    else
+                    {
+                        <i>Non-existent provider</i>
+                    }
+                </td>
+                <td>
+                    @if (Model.Matches.ContainsKey(pattern.Pattern))
+                    {
+                        var match = Model.Matches[pattern.Pattern];
+                        if (match.IsMatch)
+                        {
+                        <b>@T("Match!")</b>
+                            if (match.Groups.Any())
+                            {
+                        <span class="hint">@T("Found groups:")
+                            <ul>
+                                @foreach (var group in match.Groups)
+                                {
+                                    <li><b>@group.Key</b>: @group.Value</li>
+                                }
+                            </ul>
+                        </span>
+                            }
+                        }
+                        else
+                        {
+                        @T("No match")
+                        }
+                    }
+                </td>
+                <td class="actions">
+                    @if (pattern.Editable)
+                    {
+                        @Html.ActionLink(T("Delete").Text, "Delete", new {id = pattern.Id, returnUrl = Request.RawUrl}, new {itemprop = "RemoveUrl UnsafeUrl"})
+                    }
+                    @if (pattern.Global)
+                    {
+                        @Html.ActionLink(T("Go to global settings").Text, "Index", "Admin", new{ area = "Settings", groupInfoId = "Navigation", returnUrl = Request.RawUrl}, new {})
+                    }
+                </td>
+            </tr>
+        }
+    </table>
+</fieldset>
+
+

@@ -1,0 +1,20 @@
+﻿@model Timbioz.RawHtmlWidget.Models.RawcodePart
+
+<fieldset>
+  <legend>Raw HTML/Js Code Fields</legend>
+
+  <div class="editor-label">
+    Raw HTML Code
+  </div>
+  <div class="editor-field">
+    @Html.TextAreaFor(model => model.Html, new{ cols = 25, @rows = 18})
+  </div>
+
+  <div class="editor-label">
+    Raw Js Code
+  </div>
+  <div class="editor-field">
+    @Html.TextAreaFor(model => model.Js, new{ cols = 25, @rows = 15})
+  </div>
+
+</fieldset>

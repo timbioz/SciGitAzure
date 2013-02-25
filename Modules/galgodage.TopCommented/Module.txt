@@ -1,0 +1,15 @@
+Name: galgodage Top Commented
+AntiForgery: enabled
+Author: Galgodage Suresha Lakmal
+Email: galgodage@gmail.com
+Skype: galgodage
+Website: http://orchardrecentcontent.codeplex.com
+Version: 1.0
+OrchardVersion: 1.0
+Description: Provides services to handle recently created contents.
+Dependencies: Orchard.Comments
+Features:
+    galgodage.TopCommented:
+        Name: galgodage.TopCommented Widget
+        Description: Adds a galgodage Top Commented widget to display top commented  content lists.
+        Category: Widget

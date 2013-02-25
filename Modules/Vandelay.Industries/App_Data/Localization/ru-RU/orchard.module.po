@@ -1,0 +1,611 @@
+# Orchard resource strings - ru-RU
+# Copyright (c) 2010 Outercurve Foundation
+# All rights reserved
+# This file is distributed under the BSD license
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Vandelay.UserStorage.Name"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "Vandelay User Storage"
+msgstr "Пользовательское хранилище Vandelay"
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Vandelay.UserStorage.Description"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "Provides a user-specific key value data store."
+msgstr "Обеспечивает хранение данных с специфичными для пользователя значением ключа."
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Vandelay.UserStorage.Category"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "Developer"
+msgstr "Программист"
+
+#: Vandelay.Industries.Controllers.UserStorageController
+#| msgid "Not allowed to manage user storage"
+msgctxt "Vandelay.Industries.Controllers.UserStorageController"
+msgid "Not allowed to manage user storage"
+msgstr "Не допущен к управлению пользовательскими хранилищами"
+
+#: Vandelay.Industries.Menus.UserStorageAdminMenu
+#| msgid "Users"
+msgctxt "Vandelay.Industries.Menus.UserStorageAdminMenu"
+msgid "Users"
+msgstr "Пользователи"
+
+#: Vandelay.Industries.Menus.UserStorageAdminMenu
+#| msgid "Storage"
+msgctxt "Vandelay.Industries.Menus.UserStorageAdminMenu"
+msgid "Storage"
+msgstr "Хранилище"
+
+#: Vandelay.Industries.Test.ExtractLocalizedStringsTest
+#| msgid ""
+msgctxt "Vandelay.Industries.Test.ExtractLocalizedStringsTest"
+msgid ""
+msgstr ""
+
+#: Vandelay.Industries.Test.ExtractLocalizedStringsTest
+#| msgid ", true)"
+msgctxt "Vandelay.Industries.Test.ExtractLocalizedStringsTest"
+msgid ", true)"
+msgstr ", истина)"
+
+#: Vandelay.Industries.Test.ExtractLocalizedStringsTest
+#| msgid ", "
+msgctxt "Vandelay.Industries.Test.ExtractLocalizedStringsTest"
+msgid ", "
+msgstr ", "
+
+#: ~/Modules/Vandelay.Industries/Views/UserStorage/Index.cshtml
+#| msgid "Manage user storage"
+msgctxt "~/Modules/Vandelay.Industries/Views/UserStorage/Index.cshtml"
+msgid "Manage user storage"
+msgstr "Управление пользовательским хранилищем"
+
+#: ~/Modules/Vandelay.Industries/Views/UserStorage/Index.cshtml
+#| msgid "User name"
+msgctxt "~/Modules/Vandelay.Industries/Views/UserStorage/Index.cshtml"
+msgid "User name"
+msgstr "Имя пользователя"
+
+#: ~/Modules/Vandelay.Industries/Views/UserStorage/Index.cshtml
+#| msgid "Folder"
+msgctxt "~/Modules/Vandelay.Industries/Views/UserStorage/Index.cshtml"
+msgid "Folder"
+msgstr "Папка"
+
+#: ~/Modules/Vandelay.Industries/Views/UserStorage/Index.cshtml
+#| msgid "File name"
+msgctxt "~/Modules/Vandelay.Industries/Views/UserStorage/Index.cshtml"
+msgid "File name"
+msgstr "Имя файла"
+
+#: ~/Modules/Vandelay.Industries/Views/UserStorage/Index.cshtml
+#| msgid "Contents"
+msgctxt "~/Modules/Vandelay.Industries/Views/UserStorage/Index.cshtml"
+msgid "Contents"
+msgstr "Содержимое"
+
+#: ~/Modules/Vandelay.Industries/Views/UserStorage/Index.cshtml
+#| msgid "Save"
+msgctxt "~/Modules/Vandelay.Industries/Views/UserStorage/Index.cshtml"
+msgid "Save"
+msgstr "Сохранить"
+
+#: ~/Modules/Vandelay.Industries/Views/UserStorage/Index.cshtml
+#| msgid "Delete"
+msgctxt "~/Modules/Vandelay.Industries/Views/UserStorage/Index.cshtml"
+msgid "Delete"
+msgstr "Удалить"
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "Vandelay Industries"
+msgstr "Vandelay Industries"
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "Bertrand Le Roy"
+msgstr "Bertrand Le Roy"
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "http://weblogs.asp.net/bleroy"
+msgstr "http://weblogs.asp.net/bleroy"
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "A collection of useful Orchard modules"
+msgstr "Коллекция полезных модулей Orchard"
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Vandelay.Classy.Name"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "Vandelay Classy"
+msgstr "Классный Vandelay"
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Vandelay.Classy.Description"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "Add ids, classes and scripts to the rendering of your content items through this part that can be added to any content type."
+msgstr "Добавить идентификаторы, классы и скрипты для отображения вашего содержимого через эту часть, которая может быть добавлена к любому типу содержимого."
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Vandelay.Classy.Category"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "Designer"
+msgstr "Дизайнер"
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Vandelay.Fail.Name"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "Vandelay Fail"
+msgstr "Сбой Vandelay"
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Vandelay.Fail.Description"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "Simulates an exception on the /fail route. Useful to test your error pages. It also exposes a /notfound route that can be used to have themed and multi-tenant-aware custom not found pages, by pointing custom errors in web.config to it."
+msgstr "Имитирует ислючения / сбои на маршруте. Полезно для тестирования страниц ошибок. Предоставляет один / несушествующий маршрут, который может использоваться для тематизированного или мульти-арендаторных пользовательских "не найдено" страниц, указанных в пользовательских ошибках web.config."
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Vandelay.Fail.Category"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "Debug"
+msgstr "Отладка"
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Vandelay.Favicon.Name"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "Vandelay Favicon"
+msgstr "Икона фаворита Vandelay"
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Vandelay.Favicon.Description"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "Adds a favicon setting to site settings"
+msgstr "Добавить настройку иконки фаворита к настройкам страницы"
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Vandelay.Favicon.Category"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "Content"
+msgstr "Содержимое"
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Vandelay.Feedburner.Name"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "Vandelay Feedburner"
+msgstr "Записыватель канала Vandelay"
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Vandelay.Feedburner.Description"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "Enables Feedburner RSS feeds"
+msgstr "Включает запись RSS канала"
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Vandelay.Feedburner.Category"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "Syndication"
+msgstr "Синдикация"
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Vandelay.RelativeUrlFilter.Name"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "Vandelay Relative URL Filter"
+msgstr "Фильтр относительных адресов Url Vandelay"
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Vandelay.RelativeUrlFilter.Description"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "Transforms image source and link hrefs into absolute URLs, for example to avoid broken images in Feedburner."
+msgstr "Преобразует исходные изображения и адреса ссылок в абсолютные адреса URL, например, для исключения разрушения изображений в записывателе каналов."
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Vandelay.RelativeUrlFilter.Category"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "Content"
+msgstr "Содержимое"
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Vandelay.RemoteRss.Name"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "Vandelay Remote RSS"
+msgstr "Удаленный RSS Vandelay"
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Vandelay.RemoteRss.Description"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "Include remote RSS feeds into your Orchard sites"
+msgstr "Включает удаленный RSS канал в страницы Orchard"
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Vandelay.RemoteRss.Category"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "Syndication"
+msgstr "Синдикация"
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Vandelay.TagCloud.Name"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "Vandelay Tag Cloud"
+msgstr "Тег облака Vandelay"
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Vandelay.TagCloud.Description"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "A simple tag cloud widget and result pages for your Orchard sites."
+msgstr "Простой виджет тега облака и результирующие страницы для страниц Orchard."
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Vandelay.TagCloud.Category"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "Navigation"
+msgstr "Навигация"
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Vandelay.TagRss.Name"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "Vandelay Tag RSS"
+msgstr "Rss тег Vandelay"
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Vandelay.TagRss.Description"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "Adds RSS feeds to tags."
+msgstr "Добавляет к тегам RSS канал."
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Vandelay.TagRss.Category"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "Syndication"
+msgstr "Синдикация"
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Vandelay.ThemePicker.Name"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "Vandelay Theme Picker"
+msgstr "Указка тем Vandelay"
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Vandelay.ThemePicker.Description"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "Pick a different theme based on the user agent."
+msgstr "Выбирает различные темы на основании агента пользователя."
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Vandelay.ThemePicker.Category"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "Design"
+msgstr "Дизайн"
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Vandelay.TranslationManager.Name"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "Vandelay Translation Manager"
+msgstr "Руководитель переводов Vandelay"
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Vandelay.TranslationManager.Description"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "Translation management tools"
+msgstr "Инструменты руководителя переводом"
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Vandelay.TranslationManager.Category"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "Localization"
+msgstr "Локализация"
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Vandelay.ContentAdminMenu.Name"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "Vandelay Content Admin Menu"
+msgstr "Меню администратора содержимого Vandelay"
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Vandelay.ContentAdminMenu.Description"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "Adds an admin menu entry per content type under the "Content" header."
+msgstr "Добавляет к административному меню запись для каждого типа содержимого под заголовком 'Содержимое'"
+
+#: ~/Modules/Vandelay.Industries/Module.txt
+#| msgid "Vandelay.ContentAdminMenu.Category"
+msgctxt "~/Modules/Vandelay.Industries/Module.txt"
+msgid "Content"
+msgstr "Содержимое"
+
+#: Vandelay.Industries.Controllers.AdminController
+#| msgid "Cannot manage themes"
+msgctxt "Vandelay.Industries.Controllers.AdminController"
+msgid "Cannot manage themes"
+msgstr "Невозможно управление темами"
+
+#: Vandelay.Industries.Drivers.CustomCssDriver
+#| msgid "Error during CustomCss update."
+msgctxt "Vandelay.Industries.Drivers.CustomCssDriver"
+msgid "Error during CustomCss update."
+msgstr "Ошибка изменения CustomCss."
+
+#: Vandelay.Industries.Handlers.FaviconSettingsPartHandler
+#| msgid "Favicon"
+msgctxt "Vandelay.Industries.Handlers.FaviconSettingsPartHandler"
+msgid "Favicon"
+msgstr "Иконка фаворита"
+
+#: Vandelay.Industries.Menus.ContentAdminMenu
+#| msgid "Content"
+msgctxt "Vandelay.Industries.Menus.ContentAdminMenu"
+msgid "Content"
+msgstr "Содержимое"
+
+#: Vandelay.Industries.Menus.ThemePickerAdminMenu
+#| msgid "Themes"
+msgctxt "Vandelay.Industries.Menus.ThemePickerAdminMenu"
+msgid "Themes"
+msgstr "Темы"
+
+#: Vandelay.Industries.Menus.ThemePickerAdminMenu
+#| msgid "Picker"
+msgctxt "Vandelay.Industries.Menus.ThemePickerAdminMenu"
+msgid "Picker"
+msgstr "Указка"
+
+#: Vandelay.Industries.Services.LocalizationManagementService
+#| msgid ", bool fetchTwoStrings = false) "
+msgctxt "Vandelay.Industries.Services.LocalizationManagementService"
+msgid ", bool fetchTwoStrings = false) "
+msgstr ", bool fetchTwoStrings = ложь) "
+
+#: Vandelay.Industries.Services.LocalizationManagementService
+#| msgid ", true)) "
+msgctxt "Vandelay.Industries.Services.LocalizationManagementService"
+msgid ", true)) "
+msgstr ", истина)) "
+
+#: Vandelay.Industries.Services.LocalizationManagementService
+#| msgid "')"
+msgctxt "Vandelay.Industries.Services.LocalizationManagementService"
+msgid "')"
+msgstr "')"
+
+#: ~/Modules/Vandelay.Industries/Views/ErrorPage.cshtml
+#| msgid "Server Error"
+msgctxt "~/Modules/Vandelay.Industries/Views/ErrorPage.cshtml"
+msgid "Server Error"
+msgstr "Ошибка на сервере"
+
+#: ~/Modules/Vandelay.Industries/Views/NotFound.cshtml
+#| msgid "The resource was not found"
+msgctxt "~/Modules/Vandelay.Industries/Views/NotFound.cshtml"
+msgid "The resource was not found"
+msgstr "Ресурс не найден"
+
+#: ~/Modules/Vandelay.Industries/Views/Vandelay.ThemePicker.LinkToDefault.cshtml
+#| msgid "Click here to switch to the default theme."
+msgctxt "~/Modules/Vandelay.Industries/Views/Vandelay.ThemePicker.LinkToDefault.cshtml"
+msgid "Click here to switch to the default theme."
+msgstr "Нажмите здесь для переключения темы по-умолчанию."
+
+#: ~/Modules/Vandelay.Industries/Views/Admin/Index.cshtml
+#| msgid "Pick Themes for User Agents"
+msgctxt "~/Modules/Vandelay.Industries/Views/Admin/Index.cshtml"
+msgid "Pick Themes for User Agents"
+msgstr "Укажите темы для агентов пользователя"
+
+#: ~/Modules/Vandelay.Industries/Views/Admin/Index.cshtml
+#| msgid "Remove"
+msgctxt "~/Modules/Vandelay.Industries/Views/Admin/Index.cshtml"
+msgid "Remove"
+msgstr "Удалить"
+
+#: ~/Modules/Vandelay.Industries/Views/Admin/Index.cshtml
+#| msgid "Add new theme selection criterion"
+msgctxt "~/Modules/Vandelay.Industries/Views/Admin/Index.cshtml"
+msgid "Add new theme selection criterion"
+msgstr "Добавить критерий выбора новой темы"
+
+#: ~/Modules/Vandelay.Industries/Views/Admin/Index.cshtml
+#| msgid "Name:"
+msgctxt "~/Modules/Vandelay.Industries/Views/Admin/Index.cshtml"
+msgid "Name:"
+msgstr "Название:"
+
+#: ~/Modules/Vandelay.Industries/Views/Admin/Index.cshtml
+#| msgid "A name for the criterion (e.g. IE6 or Mobile)."
+msgctxt "~/Modules/Vandelay.Industries/Views/Admin/Index.cshtml"
+msgid "A name for the criterion (e.g. IE6 or Mobile)."
+msgstr "Название критерия (например, IE6 или Mobile)."
+
+#: ~/Modules/Vandelay.Industries/Views/Admin/Index.cshtml
+#| msgid "Rule:"
+msgctxt "~/Modules/Vandelay.Industries/Views/Admin/Index.cshtml"
+msgid "Rule:"
+msgstr "Правило:"
+
+#: ~/Modules/Vandelay.Industries/Views/Admin/Index.cshtml
+#| msgid "The rule that will be used to evaluate the criterion."
+msgctxt "~/Modules/Vandelay.Industries/Views/Admin/Index.cshtml"
+msgid "The rule that will be used to evaluate the criterion."
+msgstr "Правило будет использоваться для проверки критерия."
+
+#: ~/Modules/Vandelay.Industries/Views/Admin/Index.cshtml
+#| msgid "Criterion:"
+msgctxt "~/Modules/Vandelay.Industries/Views/Admin/Index.cshtml"
+msgid "Criterion:"
+msgstr "Критерий:"
+
+#: ~/Modules/Vandelay.Industries/Views/Admin/Index.cshtml
+#| msgid "The criterion to evaluate (e.g. ""^Mozilla\/4\.0 \(compatible; MSIE 6\.0; Windows NT \d\.\d(.*)\)$"" or ""phone"")."
+msgctxt "~/Modules/Vandelay.Industries/Views/Admin/Index.cshtml"
+msgid "The criterion to evaluate (e.g. ""^Mozilla\/4\.0 \(compatible; MSIE 6\.0; Windows NT \d\.\d(.*)\)$"" or ""phone"")."
+msgstr "Критерий для оценки (например ""^Mozilla\/4\.0 \(compatible; MSIE 6\.0; Windows NT \d\.\d(.*)\)$"" or ""phone"")."
+
+#: ~/Modules/Vandelay.Industries/Views/Admin/Index.cshtml
+#| msgid "Theme:"
+msgctxt "~/Modules/Vandelay.Industries/Views/Admin/Index.cshtml"
+msgid "Theme:"
+msgstr "Тема:"
+
+#: ~/Modules/Vandelay.Industries/Views/Admin/Index.cshtml
+#| msgid "The theme that must be selected if the criterion matches according to the rule. Only enabled themes appear here. Please enable more than one theme in order to be able to use this feature."
+msgctxt "~/Modules/Vandelay.Industries/Views/Admin/Index.cshtml"
+msgid "The theme that must be selected if the criterion matches according to the rule. Only enabled themes appear here. Please enable more than one theme in order to be able to use this feature."
+msgstr "Тема, которая должна быть выбрана, если критерий соответствует правилу. Только включенные темы появляются здесь. Пожалуйста, включите более одной темы для использования этой возможности."
+
+#: ~/Modules/Vandelay.Industries/Views/Admin/Index.cshtml
+#| msgid "Priority:"
+msgctxt "~/Modules/Vandelay.Industries/Views/Admin/Index.cshtml"
+msgid "Priority:"
+msgstr "Приоритет:"
+
+#: ~/Modules/Vandelay.Industries/Views/Admin/Index.cshtml
+#| msgid "Setting the priority for this rule enables other theme providers to cohabitate with this one. You can leave the default value of 10 in other cases."
+msgctxt "~/Modules/Vandelay.Industries/Views/Admin/Index.cshtml"
+msgid "Setting the priority for this rule enables other theme providers to cohabitate with this one. You can leave the default value of 10 in other cases."
+msgstr "Установка приоритета для этого правила позволяет комбинировать данный провейдер с другими провайдерами тем. Вы можете оставить значение по-умолчанию 10 в других случаях."
+
+#: ~/Modules/Vandelay.Industries/Views/Admin/Index.cshtml
+#| msgid "Zone:"
+msgctxt "~/Modules/Vandelay.Industries/Views/Admin/Index.cshtml"
+msgid "Zone:"
+msgstr "Зона:"
+
+#: ~/Modules/Vandelay.Industries/Views/Admin/Index.cshtml
+#| msgid "Position:"
+msgctxt "~/Modules/Vandelay.Industries/Views/Admin/Index.cshtml"
+msgid "Position:"
+msgstr "Позиция:"
+
+#: ~/Modules/Vandelay.Industries/Views/Admin/Index.cshtml
+#| msgid "Optionally specify a zone name and a position within that zone for a link that enables the user to switch back to the default theme. This link is rendered by the Vandelay_ThemePicker_LinkToDefault shape, using the Vandelay.ThemePicker.LinkToDefault.cshtml template of the theme."
+msgctxt "~/Modules/Vandelay.Industries/Views/Admin/Index.cshtml"
+msgid "Optionally specify a zone name and a position within that zone for a link that enables the user to switch back to the default theme. This link is rendered by the Vandelay_ThemePicker_LinkToDefault shape, using the Vandelay.ThemePicker.LinkToDefault.cshtml template of the theme."
+msgstr "Дополнительно можно указать имя зоны и положение в этой зоне, что позволяет пользователю вернуться к теме по умолчанию. Эта ссылка показывается формой Vandelay_ThemePicker_LinkToDefault, использующей шаблон темы Vandelay.ThemePicker.LinkToDefault.cshtml."
+
+#: ~/Modules/Vandelay.Industries/Views/Admin/Index.cshtml
+#| msgid "Add"
+msgctxt "~/Modules/Vandelay.Industries/Views/Admin/Index.cshtml"
+msgid "Add"
+msgstr "Добавить"
+
+#: ~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/CustomCss.cshtml
+#| msgid "Custom id"
+msgctxt "~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/CustomCss.cshtml"
+msgid "Custom id"
+msgstr "Пользовательский идентификатор"
+
+#: ~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/CustomCss.cshtml
+#| msgid "You may specify here the id of the outer tag for this content item."
+msgctxt "~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/CustomCss.cshtml"
+msgid "You may specify here the id of the outer tag for this content item."
+msgstr "Вы можете задать здесь идентификатор внешнего тега для элемента содержимого."
+
+#: ~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/CustomCss.cshtml
+#| msgid "Css Class"
+msgctxt "~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/CustomCss.cshtml"
+msgid "Css Class"
+msgstr "Класс Css"
+
+#: ~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/CustomCss.cshtml
+#| msgid "You may specify here a list of CSS classes separated by spaces that will be added to the outer tag for this content item."
+msgctxt "~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/CustomCss.cshtml"
+msgid "You may specify here a list of CSS classes separated by spaces that will be added to the outer tag for this content item."
+msgstr "Вы можете задать здесь список классов CSS, разделенных пробелами, которые могут быть добавлены к внешнему тегу для этого элемента содержимого."
+
+#: ~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/CustomCss.cshtml
+#| msgid "Script URLs"
+msgctxt "~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/CustomCss.cshtml"
+msgid "Script URLs"
+msgstr "Адреса скриптов"
+
+#: ~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/CustomCss.cshtml
+#| msgid "You may specify here a list of scripts to include when this content item is displayed. Each script will be included only once even if more than one item requires it. Enter one script per line. A script can be the name of a registered script such as \"jQuery\" or the URL of any script, such as \"~/Themes/MyTheme/scripts/foo.js\"."
+msgctxt "~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/CustomCss.cshtml"
+msgid "You may specify here a list of scripts to include when this content item is displayed. Each script will be included only once even if more than one item requires it. Enter one script per line. A script can be the name of a registered script such as \"jQuery\" or the URL of any script, such as \"~/Themes/MyTheme/scripts/foo.js\"."
+msgstr "Вы можете задать здесь список скриптов для включения в показываемый элемент содержимого. Каждый скрипт будет включен только один раз, даже если он будет запрошен многократно. Вводите кжадый скрипт в отдельной строке. Скрипт может быть названием зарегистрированных скриптов, такой как \"jQuery\" или адресом Url любого скрипта, такого как \"~/Themes/MyTheme/scripts/foo.js\"."
+
+#: ~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/Favicon.FaviconSettings.cshtml
+#| msgid "Favicon"
+msgctxt "~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/Favicon.FaviconSettings.cshtml"
+msgid "Favicon"
+msgstr "Иконка фаворита"
+
+#: ~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/Favicon.FaviconSettings.cshtml
+#| msgid "Favicon URL"
+msgctxt "~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/Favicon.FaviconSettings.cshtml"
+msgid "Favicon URL"
+msgstr "Адрес Url иконки фаворита"
+
+#: ~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/Favicon.FaviconSettings.cshtml
+#| msgid "Upload favicon files into a favicon folder in the Media module."
+msgctxt "~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/Favicon.FaviconSettings.cshtml"
+msgid "Upload favicon files into a favicon folder in the Media module."
+msgstr "Загрузить фалйы иконок фаворитов в папку иконок в медиа-модуле."
+
+#: ~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/Feedburner.cshtml
+#| msgid "Get a feedburner feed from <a href=\"http://feedburner.google.com\">http://feedburner.google.com</a>. You will need the URL of your current feed, that you can find by viewing the source of the front-end view of this content item in your browser. You should be looking for a tag looking like this:  &lt;link rel=\"alternate\" type=\"application/rss+xml title=\"my content item\" href=\"/rss?containerid=13\" /&gt;. The URL you want to give on the Feedburner site is the value of the href attribute. This href value is unfortunately relative so we need to add the absolute URL of the site in front of it (e.g. \"http://contoso.com/rss?containerid=13\"). Once you have set-up your Feedburner feed with that absolute URL, you will be provided a feedburner URL for your feed, which is what you want to paste into the text field above."
+msgctxt "~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/Feedburner.cshtml"
+msgid "Get a feedburner feed from <a href=\"http://feedburner.google.com\">http://feedburner.google.com</a>. You will need the URL of your current feed, that you can find by viewing the source of the front-end view of this content item in your browser. You should be looking for a tag looking like this:  &lt;link rel=\"alternate\" type=\"application/rss+xml title=\"my content item\" href=\"/rss?containerid=13\" /&gt;. The URL you want to give on the Feedburner site is the value of the href attribute. This href value is unfortunately relative so we need to add the absolute URL of the site in front of it (e.g. \"http://contoso.com/rss?containerid=13\"). Once you have set-up your Feedburner feed with that absolute URL, you will be provided a feedburner URL for your feed, which is what you want to paste into the text field above."
+msgstr "Получить канал из <a href=\"http://feedburner.google.com\">http://feedburner.google.com</a>. Вам будет нужен Url адрес вашего текущего канала, который вы можете найти в исходном тексте при просмотре элемента содержимого в браузере. Вы должны найти тег, похожий на: &lt;link rel=\"alternate\" type=\"application/rss+xml title=\"my content item\" href=\"/rss?containerid=13\" /&gt;. Адрес, который вы получите на странице Записывальщика канала - значение href аттрибута. Это значение href, к сожалению, относительно, а мы должны добавить абсолютный адрес Url страницы (например, \"http://contoso.com/rss?containerid=13\"). Когда если вы установили ваш канал записывальщика каналов с абсолютным адресом URL, вы обеспечите адрес URL записывальщика каналов для вашего канала, который вы вставите в текстовое поле, упомянутое выше."
+
+#: ~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/RemoteRss.cshtml
+#| msgid "Remote RSS Url"
+msgctxt "~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/RemoteRss.cshtml"
+msgid "Remote RSS Url"
+msgstr "Удаленный адрес RSS"
+
+#: ~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/RemoteRss.cshtml
+#| msgid "The URL of a remote RSS or Atom feed. You may need to override Views/Parts/RemoteRss.cshtml, depending on the form of the particular feed you are displaying."
+msgctxt "~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/RemoteRss.cshtml"
+msgid "The URL of a remote RSS or Atom feed. You may need to override Views/Parts/RemoteRss.cshtml, depending on the form of the particular feed you are displaying."
+msgstr "Адрес URL удаленного RSS или Atom канала. Вам может понадобиться переписать Views/Parts/RemoteRss.cshtml в зависимости от вида определенного канала, который отображается."
+
+#: ~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/RemoteRss.cshtml
+#| msgid "Number of Items"
+msgctxt "~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/RemoteRss.cshtml"
+msgid "Number of Items"
+msgstr "Количество элементов"
+
+#: ~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/RemoteRss.cshtml
+#| msgid "The number of feed items to display. If this is set to more than what the feed returns, then less than that number will be displayed."
+msgctxt "~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/RemoteRss.cshtml"
+msgid "The number of feed items to display. If this is set to more than what the feed returns, then less than that number will be displayed."
+msgstr "Количество отображаемых элементов канала. Если устанавленное количество превышает количество имеющихся каналов, тогда будет отображаться меньшее количество."
+
+#: ~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/RemoteRss.cshtml
+#| msgid "Cache Duration"
+msgctxt "~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/RemoteRss.cshtml"
+msgid "Cache Duration"
+msgstr "Длительность кеширования"
+
+#: ~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/RemoteRss.cshtml
+#| msgid "The number of minutes the site waits before attempting to refresh the feed from live data."
+msgctxt "~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/RemoteRss.cshtml"
+msgid "The number of minutes the site waits before attempting to refresh the feed from live data."
+msgstr "Количество минут ожидания до попытки обновления реальных данных канала."
+
+#: ~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/TagCloud.cshtml
+#| msgid "Enter the slug of the container for which you want the tag cloud (leave empty for the cloud to be scoped to the whole site). "
+msgctxt "~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/TagCloud.cshtml"
+msgid "Enter the slug of the container for which you want the tag cloud (leave empty for the cloud to be scoped to the whole site). "
+msgstr "Введите метку контейнера, для которого вы хотите утсановить тег облака (оставьте пустым для облака, охватывающего весь сайт)."
+
+#: ~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/TagCloud.cshtml
+#| msgid "The number of buckets determines how many different sizes of tags will get rendered in the cloud."
+msgctxt "~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/TagCloud.cshtml"
+msgid "The number of buckets determines how many different sizes of tags will get rendered in the cloud."
+msgstr "Число блоков определяет, сколько различных размеров тегов будет представлено в облаке."
+
+#: ~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/TagCloud.cshtml
+#| msgid "The tag cloud will be rendered as an unordered list with different CSS classes for each size of tag. In order to properly render, the cloud requires CSS similar to the followinf in the theme's stylesheet:<br/>ul.tagCloud { list-style: none; }<br/>li.tagCloud-tag { display: inline; }<br/>.tagCloud-1 { font-size: 1em; }<br/>.tagCloud-2 { font-size: 1.1em; }<br/>.tagCloud-3 { font-size: 1.2em; }<br/>.tagCloud-4 { font-size: 1.3em; }<br/>.tagCloud-5 { font-size: 1.4em; }"
+msgctxt "~/Modules/Vandelay.Industries/Views/EditorTemplates/Parts/TagCloud.cshtml"
+msgid "The tag cloud will be rendered as an unordered list with different CSS classes for each size of tag. In order to properly render, the cloud requires CSS similar to the followinf in the theme's stylesheet:<br/>ul.tagCloud { list-style: none; }<br/>li.tagCloud-tag { display: inline; }<br/>.tagCloud-1 { font-size: 1em; }<br/>.tagCloud-2 { font-size: 1.1em; }<br/>.tagCloud-3 { font-size: 1.2em; }<br/>.tagCloud-4 { font-size: 1.3em; }<br/>.tagCloud-5 { font-size: 1.4em; }"
+msgstr "Тег облака будет представлен как неупорядоченный список различных классов CSS для каждого размера тега. Чтобы должным образом представить, облако требует CSS, подобного followinf в таблице стилей темы: <br/>ul.tagCloud { list-style: none; }<br/>li.tagCloud-tag { display: inline; }<br/>.tagCloud-1 { font-size: 1em; }<br/>.tagCloud-2 { font-size: 1.1em; }<br/>.tagCloud-3 { font-size: 1.2em; }<br/>.tagCloud-4 { font-size: 1.3em; }<br/>.tagCloud-5 { font-size: 1.4em; }"
+

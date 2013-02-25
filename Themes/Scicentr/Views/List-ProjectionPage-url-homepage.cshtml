@@ -1,0 +1,47 @@
+@using Orchard.DisplayManagement.Shapes;
+@{
+    var list = Model;
+    var items = list.Items;
+    var count = items.Count;
+    var listTag = Tag(list, "ul");
+    listTag.AddCssClass("content-items");
+    listTag.AddCssClass("blog-posts");
+    var index = 0;
+}
+@listTag.StartElement
+    @foreach (var item in items) {
+        var itemTag = Tag(item, "li");
+        if (index == 0) {
+            ShapeMetadata metadata = item.Metadata;
+            string alternate = metadata.Type + "_" +
+                    metadata.DisplayType + "__" +
+                    item.ContentItem.ContentType +
+                    "_First";
+            metadata.OnDisplaying(ctx => {
+                metadata.Alternates.Add(alternate);
+            });
+            itemTag.AddCssClass("first");
+        }
+        else if (index == count - 1)
+        {
+            itemTag.AddCssClass("last");
+        }
+        if (index > 0)
+        {
+            ShapeMetadata metadata = item.Metadata;
+            string alternate = metadata.Type + "_" +
+                    metadata.DisplayType + "__" +
+                    item.ContentItem.ContentType +
+                    "_NextItems";
+            metadata.OnDisplaying(ctx => {
+                metadata.Alternates.Add(alternate);
+            });
+            itemTag.AddCssClass("homerecentnext");
+        }
+        
+        @itemTag.StartElement
+        @Display(item)
+        @itemTag.EndElement
+        ++index;
+    }
+@listTag.EndElement

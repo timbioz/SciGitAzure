@@ -1,0 +1,131 @@
+# Orchard resource strings - ru-RU
+# Copyright (c) 2010 Outercurve Foundation
+# All rights reserved
+# This file is distributed under the BSD license
+
+#: ~/Modules/Orchard.ArchiveLater/Views/Parts/ArchiveLater.Metadata.SummaryAdmin.cshtm
+#| msgid "Scheduled"
+msgctxt "~/Modules/Orchard.ArchiveLater/Views/Parts/ArchiveLater.Metadata.SummaryAdmin.cshtm"
+msgid "Scheduled"
+msgstr "Планировщик"
+
+#: ~/Modules/Orchard.ArchiveLater/Views/Parts/ArchiveLater.Metadata.SummaryAdmin.cshtm
+#| msgid "The page is scheduled for archiving"
+msgctxt "~/Modules/Orchard.ArchiveLater/Views/Parts/ArchiveLater.Metadata.SummaryAdmin.cshtm"
+msgid "The page is scheduled for archiving"
+msgstr "Страница запланирована для архивирования"
+
+#: ~/Modules/Orchard.ArchiveLater/Views/Parts/ArchiveLater.Metadata.SummaryAdmin.cshtm
+#| msgid "Unpublish on"
+msgctxt "~/Modules/Orchard.ArchiveLater/Views/Parts/ArchiveLater.Metadata.SummaryAdmin.cshtm"
+msgid "Unpublish on"
+msgstr "Отменить публикацию"
+
+#: ~/Modules/Orchard.ArchiveLater/Views/Parts/ArchiveLater.Metadata.SummaryAdmin.cshtm
+#| msgid "M/d/yyyy h:mm tt"
+msgctxt "~/Modules/Orchard.ArchiveLater/Views/Parts/ArchiveLater.Metadata.SummaryAdmin.cshtm"
+msgid "M/d/yyyy h:mm tt"
+msgstr "M/d/yyyy h:mm tt"
+
+#: ~/Modules/Orchard.ArchiveLater/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.ArchiveLater/Module.txt"
+msgid "ArchiveLater"
+msgstr "Архивировать позже"
+
+#: ~/Modules/Orchard.ArchiveLater/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Orchard.ArchiveLater/Module.txt"
+msgid "The Orchard Team"
+msgstr "Команда Orchard"
+
+#: ~/Modules/Orchard.ArchiveLater/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Orchard.ArchiveLater/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Modules/Orchard.ArchiveLater/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Orchard.ArchiveLater/Module.txt"
+msgid "The ArchiveLater module introduces scheduled archiving functionality."
+msgstr "Модуль ArchiveLater предоставляет архивирование по расписанию."
+
+#: ~/Modules/Orchard.ArchiveLater/Module.txt
+#| msgid "Orchard.ArchiveLater.Name"
+msgctxt "~/Modules/Orchard.ArchiveLater/Module.txt"
+msgid "Archive Later"
+msgstr "Архивировать позже"
+
+#: ~/Modules/Orchard.ArchiveLater/Module.txt
+#| msgid "Orchard.ArchiveLater.Description"
+msgctxt "~/Modules/Orchard.ArchiveLater/Module.txt"
+msgid "Scheduled archiving."
+msgstr "Планировщик архивирования."
+
+#: ~/Modules/Orchard.ArchiveLater/Module.txt
+#| msgid "Orchard.ArchiveLater.Category"
+msgctxt "~/Modules/Orchard.ArchiveLater/Module.txt"
+msgid "Content"
+msgstr "Содержание"
+
+#: Orchard.ArchiveLater.Drivers.ArchiveLaterPartDriver
+#| msgid "{0} is an invalid date and time"
+msgctxt "Orchard.ArchiveLater.Drivers.ArchiveLaterPartDriver"
+msgid "{0} is an invalid date and time"
+msgstr "{0} недопустимая дата и время"
+
+#: Orchard.ArchiveLater.Services.ArchiveLaterService
+#| msgid "Couldn't archive selected content."
+msgctxt "Orchard.ArchiveLater.Services.ArchiveLaterService"
+msgid "Couldn't archive selected content."
+msgstr "Невозможно архивировать выбранный контент."
+
+#: ~/Modules/Orchard.ArchiveLater/Views/EditorTemplates/Parts/ArchiveLater.cshtml
+#| msgid "Archive Settings"
+msgctxt "~/Modules/Orchard.ArchiveLater/Views/EditorTemplates/Parts/ArchiveLater.cshtml"
+msgid "Archive Settings"
+msgstr "Настройки архивирования"
+
+#: ~/Modules/Orchard.ArchiveLater/Views/EditorTemplates/Parts/ArchiveLater.cshtml
+#| msgid "Archive Later"
+msgctxt "~/Modules/Orchard.ArchiveLater/Views/EditorTemplates/Parts/ArchiveLater.cshtml"
+msgid "Archive Later"
+msgstr "Архивировать позже"
+
+#: ~/Modules/Orchard.ArchiveLater/Views/EditorTemplates/Parts/ArchiveLater.cshtml
+#| msgid "Date"
+msgctxt "~/Modules/Orchard.ArchiveLater/Views/EditorTemplates/Parts/ArchiveLater.cshtml"
+msgid "Date"
+msgstr "Дата"
+
+#: ~/Modules/Orchard.ArchiveLater/Views/EditorTemplates/Parts/ArchiveLater.cshtml
+#| msgid "Time"
+msgctxt "~/Modules/Orchard.ArchiveLater/Views/EditorTemplates/Parts/ArchiveLater.cshtml"
+msgid "Time"
+msgstr "Время"
+
+#: ~/Modules/Orchard.ArchiveLater/Views/Parts/ArchiveLater.Metadata.SummaryAdmin.cshtml
+#| msgid "Scheduled"
+msgctxt "~/Modules/Orchard.ArchiveLater/Views/Parts/ArchiveLater.Metadata.SummaryAdmin.cshtml"
+msgid "Scheduled"
+msgstr "Запланировано"
+
+#: ~/Modules/Orchard.ArchiveLater/Views/Parts/ArchiveLater.Metadata.SummaryAdmin.cshtml
+#| msgid "The page is scheduled for archiving"
+msgctxt "~/Modules/Orchard.ArchiveLater/Views/Parts/ArchiveLater.Metadata.SummaryAdmin.cshtml"
+msgid "The page is scheduled for archiving"
+msgstr "Для страницы запланировано для архивирования"
+
+#: ~/Modules/Orchard.ArchiveLater/Views/Parts/ArchiveLater.Metadata.SummaryAdmin.cshtml
+#| msgid "Unpublish on"
+msgctxt "~/Modules/Orchard.ArchiveLater/Views/Parts/ArchiveLater.Metadata.SummaryAdmin.cshtml"
+msgid "Unpublish on"
+msgstr "Отменить публикацию"
+
+#: ~/Modules/Orchard.ArchiveLater/Views/Parts/ArchiveLater.Metadata.SummaryAdmin.cshtml
+#| msgid "M/d/yyyy h:mm tt"
+msgctxt "~/Modules/Orchard.ArchiveLater/Views/Parts/ArchiveLater.Metadata.SummaryAdmin.cshtml"
+msgid "M/d/yyyy h:mm tt"
+msgstr "d.M.yyyy h:mm tt"
+

@@ -1,0 +1,149 @@
+﻿@using Onestop.Navigation.Models
+@using Onestop.Navigation.ViewModels
+@using Orchard.ContentManagement
+@using Orchard.ContentManagement.Aspects
+@using Orchard.Core.Common.Models
+@using Onestop.Navigation.Security
+@model MenuHistoryViewModel
+@{
+    Layout.Title = T("Change history - '{0}' menu", Model.Menu.As<ITitleAspect>().Title).ToString();
+    Script.Require("MenuAdminScripts");
+    Style.Require("MenuAdmin");
+}
+<fieldset>
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th scope="col">@T("#")
+                </th>
+                <th scope="col">@T("Date modified")
+                </th>
+                <th scope="col">@T("Date published")
+                </th>
+                <th scope="col">@T("Author")
+                </th>
+                <th scope="col">@T("Details")
+                </th>
+                <th scope="col">
+                </th>
+            </tr>
+        </thead>
+        @if (Model.DisplayDraftRow)
+        {
+            <tr>
+                <td>@(Model.Versions.Max(i => i.ContentItem.VersionRecord.Number) + 1)
+                </td>
+                <td>
+                    -
+                </td>
+                <td>
+                    -
+                </td>
+                <td>
+                </td>
+                <td>
+                    <b>@T("Latest (draft version)")</b>
+                </td>
+                <td>
+                    <a class="btn btn-primary btn-small" href="@Url.Action("Index", "MenuAdmin", new { menuId = Model.Menu.Id, mode = Onestop.Navigation.Models.DisplayMode.Draft, area = "Onestop.Navigation" })" title="@T("Edit '{0}' menu", Model.Menu.As<ITitleAspect>().Title)" alt="@T("Edit")" rel="tooltip">
+                        <i class="icon-pencil icon-white"></i></a>
+                </td>
+            </tr>
+        }
+        @foreach (var entry in Model.Versions)
+        {
+            var task = Model.Tasks.FirstOrDefault(t => t.ContentItem.VersionRecord.Id == entry.ContentItem.VersionRecord.Id);
+            <tr class="@(task == null && !entry.As<CommonPart>().VersionPublishedUtc.HasValue ? "removed" : entry.ContentItem.VersionRecord.Published ? "published" : "")">
+                <td>@entry.ContentItem.Version
+                </td>
+                <td>@Display.DateTime(DateTimeUtc: entry.As<CommonPart>().VersionModifiedUtc)
+                </td>
+                <td>
+                    @if (entry.As<CommonPart>().VersionPublishedUtc.HasValue)
+                    {
+                        @Display.DateTime(DateTimeUtc: entry.As<CommonPart>().VersionPublishedUtc)
+                    }
+                    else
+                    {
+<text>-</text>
+                    }
+                </td>
+                <td>
+                    @if (entry.As<IVersionAspect>().Author != null)
+                    {
+                        @(entry.As<IVersionAspect>().Author.UserName)
+                    }
+                </td>
+                <td>
+                    @if (entry.ContentItem.VersionRecord.Published)
+                    {
+                        <b>@T("Published (current version)")</b>
+                    }
+                    @if (task != null)
+                    {
+                        @T("Scheduled to publish <b>{0}</b> (<i>{1}</i>)", (IHtmlString)Display.DateTimeRelative(dateTimeUtc: task.ScheduledUtc), (IHtmlString)Display.DateTime(DateTimeUtc: task.ScheduledUtc))
+                    }
+                    else
+                    {
+                        if (!entry.As<CommonPart>().VersionPublishedUtc.HasValue)
+                        {
+                        @T("<i>Cancelled</i>")
+                        }
+                    }
+                </td>
+                <td>
+                    <div class="btn-group">
+                        @if (entry.ContentItem.VersionRecord.Published)
+                        {
+                            <a class="btn btn-success btn-small" href="@Url.Action("Index", "MenuAdmin", new { menuId = Model.Menu.Id, mode = Onestop.Navigation.Models.DisplayMode.Current })" title="@T("View current version")" alt="@T("View current")" rel="tooltip" >
+                                <i class="icon-eye-open icon-white"></i></a>
+                        }
+                        else if (task != null)
+                        {
+                            <a class="btn btn-small btn-info" href="@Url.Action("Preview", "MenuAdmin", new { menuId = Model.Menu.Id, versionNumber = entry.ContentItem.Version })" title="@T("View / modify this version")" alt="@T("View / modify")" rel="tooltip" >
+                                <i class="icon-eye-open icon-white"></i>/<i class="icon-pencil icon-white"></i></a>
+                        }
+                        else
+                        {
+                            //if (entry.As<CommonPart>().VersionPublishedUtc.HasValue)
+                            //{
+                            <a class="btn btn-small" href="@Url.Action("Preview", "MenuAdmin", new { menuId = Model.Menu.Id, versionNumber = entry.ContentItem.Version })" title="@T("View this version read-only")" alt="@T("View read-only")" rel="tooltip" >
+                                <i class="icon-eye-open"></i></a>
+                            <a class="btn btn-small btn-warning" data-toggle="modal" href="#revertModal-@(entry.ContentItem.Version)" title="@T("Revert to this particular version")" alt="@T("Revert")" rel="tooltip">
+                                <i class="icon-repeat icon-white"></i>&nbsp;@T("Revert")</a>
+                            //}
+                        }
+                    </div>
+                </td>
+            </tr>
+        }
+    </table>
+    @Display(Model.Pager)
+</fieldset>
+@Html.AntiForgeryTokenOrchard()
+@if (Authorizer.Authorize(Permissions.EditAdvancedMenuItemOptions) || Authorizer.Authorize(Permissions.EditMenu))
+{
+    foreach (var entry in Model.Versions)
+    {
+    <div class="modal fade" id="revertModal-@(entry.ContentItem.Version)">
+        <div class="modal-header">
+            <button class="close" data-dismiss="modal">
+                ×</button>
+            <h3>@T("Decide when the menu should be reverted to version '{0}'", entry.ContentItem.Version)</h3>
+        </div>
+        <div class="modal-body">
+            @using (Html.BeginFormAntiForgeryPost(Url.Action("RevertToVersion", "MenuAdmin", new { menuId = Model.Menu.Id, returnUrl = WorkContext.HttpContext.Request.RawUrl }), FormMethod.Post, new { @class = "well" }))
+            {
+                @Html.Hidden("versionNumber", entry.ContentItem.Version)
+                <button type="submit" class="btn btn-primary" name="submit.Publish" value="submit.Publish">@T("Revert now")</button>
+            }
+            @using (Html.BeginFormAntiForgeryPost(Url.Action("RevertToVersion", "MenuAdmin", new { menuId = Model.Menu.Id, returnUrl = WorkContext.HttpContext.Request.RawUrl }), FormMethod.Post, new { @class = "well" }))
+            {
+                @Display.DateTimePicker(ScheduledDate: Model.CurrentDate, Id: string.Format("ScheduledDate-{0}", entry.ContentItem.Version))
+                @Html.Hidden("versionNumber", entry.ContentItem.Version)
+                <button type="submit" class="btn btn-primary" name="submit.SchedulePublish" value="submit.SchedulePublish">@T("Schedule the revert operation")</button>
+            }
+        </div>
+    </div>
+    }
+}

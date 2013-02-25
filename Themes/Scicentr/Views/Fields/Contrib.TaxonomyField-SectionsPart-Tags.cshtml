@@ -1,0 +1,19 @@
+﻿@using Orchard.Utility.Extensions;
+@using Orchard.ContentManagement;
+
+@{
+    var terms = (IEnumerable<Contrib.Taxonomies.Models.TermPart>)Model.Terms;
+}
+
+@if (Model.Terms.Count > 0)
+{
+    <div class="taxonomy-tags">
+        <ul class="tags-list">
+            @foreach (var term in terms)
+            {
+                <li>@Html.ItemDisplayLink(term.Name, term.ContentItem)</li>
+            }
+        </ul>
+    </div>
+    <div class="clear"></div>
+}

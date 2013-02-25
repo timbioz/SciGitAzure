@@ -1,0 +1,16 @@
+﻿@{
+    Script.Require("jQuery");
+}
+
+@if (Model.Html != null)
+{
+    @Html.Raw(Model.Html)
+}
+
+@if (Model.Js != null)
+{
+    using (Script.Foot())
+    {
+        @Html.Raw(Model.Js)
+    }
+}

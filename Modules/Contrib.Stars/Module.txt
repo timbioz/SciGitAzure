@@ -1,0 +1,13 @@
+Name: Stars
+AntiForgery: enabled
+Author: Nathan Heskew
+Website: http://orchardstars.codeplex.com
+Version: 1.3
+OrchardVersion: 1.0
+Description: A (really) simple five-star rating module. Requires the Voting module to be installed. To enable stars on any content type add the Stars part to the content type via the Content Types management page in the admin (~/Admin/ContentTypes).
+Features:
+    Contrib.Stars:
+        Name: Stars
+        Category: Voting and Rating
+        Description: A simple five-star rating module.
+        Dependencies: Contrib.Voting, Orchard.jQuery

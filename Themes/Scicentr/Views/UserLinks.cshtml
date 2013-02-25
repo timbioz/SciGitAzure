@@ -1,0 +1,30 @@
+﻿@{
+    //Script.Require("Tim-jQueryUI-Dialog").AtFoot();
+    //Script.Require("Tim-jQueryUI-Tabs").AtFoot();
+    //Style.Require("Tim-jQueryUI_Vader").AtHead();
+}
+
+@if (WorkContext.CurrentUser != null)
+{
+    <ul id="user-links-block" class="pull-right nav">
+        <li class="dropdown">
+            <a href="#" id="userDropdown" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-user icon-white"></i>&nbsp;@Html.ItemDisplayText(WorkContext.CurrentUser)<b class="caret"></b></a>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="userDropdown">
+                <li>@Html.ActionLink(T("Change Password").ToString(), "ChangePassword", new { Controller = "Account", Area = "Orchard.Users" })</li>
+                <li>@Html.ActionLink(T("Sign Out").ToString(), "LogOff", new { Controller = "Account", Area = "Orchard.Users", ReturnUrl = Context.Request.RawUrl }, new { rel = "nofollow" })</li>
+                @if (AuthorizedFor(Orchard.Security.StandardPermissions.AccessAdminPanel))
+                {
+                    <li class="divider"></li>
+                    <li>@Html.ActionLink(T("Dashboard").ToString(), "Index", new { Area = "Dashboard", Controller = "Admin" })</li>
+                }
+            </ul>
+        </li>
+    </ul>
+}
+else
+{
+    <div id="user-links-block" class="pull-right">
+        <a id="login-dialog-buton" class="btn c1" role="button" data-toggle="modal" href="#login-dialog"><i class="icon-share"></i>&nbsp;вход</a>
+    </div> 
+}
+
